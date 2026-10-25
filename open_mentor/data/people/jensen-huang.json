@@ -1,0 +1,811 @@
+{
+  "schema_version": 1,
+  "person": {
+    "id": "jensen-huang",
+    "name": "黄仁勋",
+    "aliases": [
+      "Jensen Huang",
+      "黃仁勳"
+    ],
+    "description": "依据Stanford GSB原发布访谈文字整理问题定位、技术与市场、重新设计、学习、授权、管理、信息与安全；保留机辅轻编文字和公司自述的限制。"
+  },
+  "sources": [
+    {
+      "id": "huang-gsb-2024",
+      "title": "Jensen Huang on How to Use First-Principles Thinking to Drive Decisions | Stanford Graduate School of Business",
+      "url": "https://www.gsb.stanford.edu/insights/jensen-huang-how-use-first-principles-thinking-drive-decisions",
+      "publisher": "Stanford GSB / View From The Top原发布访谈文字",
+      "kind": "interview",
+      "authority": "publisher",
+      "published_at": "2024-04-25",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "原发布方明确文字稿由机器生成并经人工轻度编辑，仍可能有错误。逐项核对可辨的黄仁勋回答、说话人和上下文；不引用unintelligible等不明片段，不声称逐句听辨或全文核准。未将公司数字、主持人概括或AI预测当独立事实。刊载日不是推测的现场日期。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "037522f478b571696b48215817684062dd46910244d0f1e04a2f03209acefad5",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "huang-e-problem-led-mission",
+      "source_id": "huang-gsb-2024",
+      "speaker": "黄仁勋",
+      "excerpt": "problems",
+      "summary": "他回顾以常规计算难以解决的问题作为公司使命。",
+      "locator": {
+        "type": "heading",
+        "value": "开头；创业动机与公司使命"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "方向",
+        "问题定位",
+        "技术能力",
+        "使命"
+      ],
+      "context": "核对的是原发布、机辅轻编的文字版本中可辨的本人回答。经验与倡议不是通用管理定律；应用为编辑推演。"
+    },
+    {
+      "id": "huang-e-technology-and-market",
+      "source_id": "huang-gsb-2024",
+      "speaker": "黄仁勋",
+      "excerpt": "sustainable",
+      "summary": "他把技术能够解决问题与是否有可持续市场分开考虑。",
+      "locator": {
+        "type": "heading",
+        "value": "关于核心信念与尚不存在的市场"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "技术商业化",
+        "市场形成",
+        "可持续性",
+        "应用"
+      ],
+      "context": "核对的是原发布、机辅轻编的文字版本中可辨的本人回答。经验与倡议不是通用管理定律；应用为编辑推演。"
+    },
+    {
+      "id": "huang-e-reset-invalid-assumptions",
+      "source_id": "huang-gsb-2024",
+      "speaker": "黄仁勋",
+      "excerpt": "incompatible",
+      "summary": "他回顾技术与新标准不兼容后重新设计的经历。",
+      "locator": {
+        "type": "heading",
+        "value": "关于Direct 3D标准变化的回答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "前提变化",
+        "重新设计",
+        "技术标准",
+        "转向"
+      ],
+      "context": "核对的是原发布、机辅轻编的文字版本中可辨的本人回答。经验与倡议不是通用管理定律；应用为编辑推演。"
+    },
+    {
+      "id": "huang-e-learn-from-primary-material",
+      "source_id": "huang-gsb-2024",
+      "speaker": "黄仁勋",
+      "excerpt": "manual",
+      "summary": "他回忆通过OpenGL手册帮助团队理解此前不懂的路径。",
+      "locator": {
+        "type": "heading",
+        "value": "关于查找OpenGL手册的回忆"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "学习",
+        "技术资料",
+        "基础理解",
+        "陌生领域"
+      ],
+      "context": "核对的是原发布、机辅轻编的文字版本中可辨的本人回答。经验与倡议不是通用管理定律；应用为编辑推演。"
+    },
+    {
+      "id": "huang-e-redesign-from-current-conditions",
+      "source_id": "huang-gsb-2024",
+      "speaker": "黄仁勋",
+      "excerpt": "conditions",
+      "summary": "他建议回到目标、工具和已变化的条件，重新思考怎样实现。",
+      "locator": {
+        "type": "heading",
+        "value": "关于first principles的回答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "第一性原理",
+        "重新设计",
+        "当前条件",
+        "推导"
+      ],
+      "context": "核对的是原发布、机辅轻编的文字版本中可辨的本人回答。经验与倡议不是通用管理定律；应用为编辑推演。"
+    },
+    {
+      "id": "huang-e-unexpected-uses-as-evidence",
+      "source_id": "huang-gsb-2024",
+      "speaker": "黄仁勋",
+      "excerpt": "evidence",
+      "summary": "他回顾研究者把处理器用于新领域的观察，逐步增加对方向的信心。",
+      "locator": {
+        "type": "heading",
+        "value": "关于研究者使用处理器的回答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "用户观察",
+        "新用法",
+        "应用证据",
+        "技术转化"
+      ],
+      "context": "核对的是原发布、机辅轻编的文字版本中可辨的本人回答。经验与倡议不是通用管理定律；应用为编辑推演。"
+    },
+    {
+      "id": "huang-e-price-versus-fundamentals",
+      "source_id": "huang-gsb-2024",
+      "speaker": "黄仁勋",
+      "excerpt": "assumed",
+      "summary": "他谈到股价大跌时回到业务与技术的核心假设。",
+      "locator": {
+        "type": "heading",
+        "value": "关于股价大跌后是否继续的回答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "基本前提",
+        "价格变化",
+        "经营判断",
+        "复查"
+      ],
+      "context": "核对的是原发布、机辅轻编的文字版本中可辨的本人回答。经验与倡议不是通用管理定律；应用为编辑推演。"
+    },
+    {
+      "id": "huang-e-visible-leadership",
+      "source_id": "huang-gsb-2024",
+      "speaker": "黄仁勋",
+      "excerpt": "seen",
+      "summary": "他承认面对压力时不想露面，但认为领导需要出现。",
+      "locator": {
+        "type": "heading",
+        "value": "股价回忆之后；leaders have to be seen"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "领导责任",
+        "困难时期",
+        "沟通",
+        "团队"
+      ],
+      "context": "核对的是原发布、机辅轻编的文字版本中可辨的本人回答。经验与倡议不是通用管理定律；应用为编辑推演。"
+    },
+    {
+      "id": "huang-e-show-reasoning",
+      "source_id": "huang-gsb-2024",
+      "speaker": "黄仁勋",
+      "excerpt": "reasoning",
+      "summary": "他认为解释怎样推理，能帮助团队以后面对类似模糊问题。",
+      "locator": {
+        "type": "heading",
+        "value": "关于通过推理帮助团队的回答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "判断过程",
+        "授权",
+        "教学",
+        "复杂问题"
+      ],
+      "context": "核对的是原发布、机辅轻编的文字版本中可辨的本人回答。经验与倡议不是通用管理定律；应用为编辑推演。"
+    },
+    {
+      "id": "huang-e-respect-real-work",
+      "source_id": "huang-gsb-2024",
+      "speaker": "黄仁勋",
+      "excerpt": "beneath",
+      "summary": "他用自己做过清洁工作的经历解释没有任务低于自己。",
+      "locator": {
+        "type": "heading",
+        "value": "关于no task is beneath me"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "工作尊重",
+        "协作",
+        "职位",
+        "实际问题"
+      ],
+      "context": "核对的是原发布、机辅轻编的文字版本中可辨的本人回答。经验与倡议不是通用管理定律；应用为编辑推演。"
+    },
+    {
+      "id": "huang-e-management-serves-work",
+      "source_id": "huang-gsb-2024",
+      "speaker": "黄仁勋",
+      "excerpt": "service",
+      "summary": "他将管理职责解释为创造让团队发挥能力的条件。",
+      "locator": {
+        "type": "heading",
+        "value": "关于管理团队为何存在的回答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "管理职责",
+        "赋能",
+        "团队条件",
+        "支持"
+      ],
+      "context": "核对的是原发布、机辅轻编的文字版本中可辨的本人回答。经验与倡议不是通用管理定律；应用为编辑推演。"
+    },
+    {
+      "id": "huang-e-information-not-status",
+      "source_id": "huang-gsb-2024",
+      "speaker": "黄仁勋",
+      "excerpt": "power",
+      "summary": "他反对职位权力只来自持有别人不知道的信息。",
+      "locator": {
+        "type": "heading",
+        "value": "关于信息与职位权力的回答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "信息共享",
+        "管理权力",
+        "透明",
+        "协作"
+      ],
+      "context": "核对的是原发布、机辅轻编的文字版本中可辨的本人回答。经验与倡议不是通用管理定律；应用为编辑推演。"
+    },
+    {
+      "id": "huang-e-context-for-autonomy",
+      "source_id": "huang-gsb-2024",
+      "speaker": "黄仁勋",
+      "excerpt": "context",
+      "summary": "他把团队自主判断与获得背景和假设联系起来。",
+      "locator": {
+        "type": "heading",
+        "value": "关于empowerment和context的回答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "授权",
+        "背景信息",
+        "已知未知",
+        "组织层级"
+      ],
+      "context": "核对的是原发布、机辅轻编的文字版本中可辨的本人回答。经验与倡议不是通用管理定律；应用为编辑推演。"
+    },
+    {
+      "id": "huang-e-safety-engineering",
+      "source_id": "huang-gsb-2024",
+      "speaker": "黄仁勋",
+      "excerpt": "Safety",
+      "summary": "他认为防护、校准等技术能力需要实际建设。",
+      "locator": {
+        "type": "heading",
+        "value": "末段；关于AI安全和工程工具的回答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "安全工程",
+        "人工智能",
+        "验证",
+        "防护"
+      ],
+      "context": "核对的是原发布、机辅轻编的文字版本中可辨的本人回答。经验与倡议不是通用管理定律；应用为编辑推演。"
+    },
+    {
+      "id": "huang-e-domain-appropriate-standards",
+      "source_id": "huang-gsb-2024",
+      "speaker": "黄仁勋",
+      "excerpt": "accountants",
+      "summary": "他用会计和医生的差别说明领域资格不能互相替代。",
+      "locator": {
+        "type": "heading",
+        "value": "末段；不同产品服务领域的标准"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "专业范围",
+        "使用场景",
+        "能力标准",
+        "评价"
+      ],
+      "context": "核对的是原发布、机辅轻编的文字版本中可辨的本人回答。经验与倡议不是通用管理定律；应用为编辑推演。"
+    }
+  ],
+  "principles": [
+    {
+      "id": "huang-p-problem-led-mission",
+      "title": "从现有能力难以解决的问题定义方向",
+      "summary": "他回顾以常规计算难以解决的问题作为公司使命。",
+      "topics": [
+        "方向",
+        "问题定位",
+        "技术能力",
+        "使命"
+      ],
+      "evidence_ids": [
+        "huang-e-problem-led-mission"
+      ],
+      "application": {
+        "questions": [
+          "你的方向具体解决了什么现有方法难以解决的问题？"
+        ],
+        "steps": [
+          "描述当前能力的限制。",
+          "核对是否存在真实任务和使用需求。"
+        ],
+        "limits": [
+          "公司后来的结果不证明这一使命必然成功，也不应由技术难度代替需求判断。"
+        ]
+      }
+    },
+    {
+      "id": "huang-p-technology-and-market",
+      "title": "同时检查技术能力与应用市场的形成",
+      "summary": "他把技术能够解决问题与是否有可持续市场分开考虑。",
+      "topics": [
+        "技术商业化",
+        "市场形成",
+        "可持续性",
+        "应用"
+      ],
+      "evidence_ids": [
+        "huang-e-technology-and-market"
+      ],
+      "application": {
+        "questions": [
+          "技术有用的证据，是否已经转化成可持续使用和支付？"
+        ],
+        "steps": [
+          "分别列出技术、使用和商业前提。",
+          "用小范围交付验证最不确定的一项。"
+        ],
+        "limits": [
+          "不把长期亏损自动当远见，也不保证新市场最终出现。"
+        ]
+      }
+    },
+    {
+      "id": "huang-p-reset-invalid-assumptions",
+      "title": "关键前提变化时允许重做方案",
+      "summary": "他回顾技术与新标准不兼容后重新设计的经历。",
+      "topics": [
+        "前提变化",
+        "重新设计",
+        "技术标准",
+        "转向"
+      ],
+      "evidence_ids": [
+        "huang-e-reset-invalid-assumptions"
+      ],
+      "application": {
+        "questions": [
+          "旧方案依赖的关键条件是否已经不成立？"
+        ],
+        "steps": [
+          "列出受变化影响的前提。",
+          "比较修补、重做或停止的实际成本。"
+        ],
+        "limits": [
+          "不是每次外部变化都应推倒重来，需核对具体影响。"
+        ]
+      }
+    },
+    {
+      "id": "huang-p-learn-from-primary-material",
+      "title": "进入陌生问题时先查清基础资料",
+      "summary": "他回忆通过OpenGL手册帮助团队理解此前不懂的路径。",
+      "topics": [
+        "学习",
+        "技术资料",
+        "基础理解",
+        "陌生领域"
+      ],
+      "evidence_ids": [
+        "huang-e-learn-from-primary-material"
+      ],
+      "application": {
+        "questions": [
+          "是否存在能澄清基本机制的原始文档或教材？"
+        ],
+        "steps": [
+          "找到可靠的一手材料。",
+          "用小实现或实例验证自己的理解。"
+        ],
+        "limits": [
+          "自述故事不是一本书即可掌握复杂领域的保证。"
+        ]
+      }
+    },
+    {
+      "id": "huang-p-redesign-from-current-conditions",
+      "title": "按当前条件重新推导设计",
+      "summary": "他建议回到目标、工具和已变化的条件，重新思考怎样实现。",
+      "topics": [
+        "第一性原理",
+        "重新设计",
+        "当前条件",
+        "推导"
+      ],
+      "evidence_ids": [
+        "huang-e-redesign-from-current-conditions"
+      ],
+      "application": {
+        "questions": [
+          "如果今天从头设计，哪些历史安排仍然必要？"
+        ],
+        "steps": [
+          "写清目标、事实和约束。",
+          "比较基于当前条件的替代方案。"
+        ],
+        "limits": [
+          "重新推导不能省略领域知识、历史经验和实际验证。"
+        ]
+      }
+    },
+    {
+      "id": "huang-p-unexpected-uses-as-evidence",
+      "title": "从实际使用者的新用法里学习",
+      "summary": "他回顾研究者把处理器用于新领域的观察，逐步增加对方向的信心。",
+      "topics": [
+        "用户观察",
+        "新用法",
+        "应用证据",
+        "技术转化"
+      ],
+      "evidence_ids": [
+        "huang-e-unexpected-uses-as-evidence"
+      ],
+      "application": {
+        "questions": [
+          "是否有人已经用现有能力解决了你没预想到的问题？"
+        ],
+        "steps": [
+          "了解真实使用过程和限制。",
+          "验证能否支持更多相似任务。"
+        ],
+        "limits": [
+          "少数研究者使用不等于成熟市场，不能由案例直接推导普遍需求。"
+        ]
+      }
+    },
+    {
+      "id": "huang-p-price-versus-fundamentals",
+      "title": "面对价格变化时重新检查基本前提",
+      "summary": "他谈到股价大跌时回到业务与技术的核心假设。",
+      "topics": [
+        "基本前提",
+        "价格变化",
+        "经营判断",
+        "复查"
+      ],
+      "evidence_ids": [
+        "huang-e-price-versus-fundamentals"
+      ],
+      "application": {
+        "questions": [
+          "除了外部价格，你作决定依赖的真实条件改变了吗？"
+        ],
+        "steps": [
+          "分别记录价格信号与经营事实。",
+          "当前提改变时调整，否则继续验证原判断。"
+        ],
+        "limits": [
+          "不是持有或买入任何股票的建议；价格也可能包含值得核对的新信息。"
+        ]
+      }
+    },
+    {
+      "id": "huang-p-visible-leadership",
+      "title": "困难时让团队看到负责人仍在承担职责",
+      "summary": "他承认面对压力时不想露面，但认为领导需要出现。",
+      "topics": [
+        "领导责任",
+        "困难时期",
+        "沟通",
+        "团队"
+      ],
+      "evidence_ids": [
+        "huang-e-visible-leadership"
+      ],
+      "application": {
+        "questions": [
+          "团队能否及时了解负责人正在处理什么问题？"
+        ],
+        "steps": [
+          "清楚说明事实、当前动作和未知。",
+          "保持必要的沟通与责任承接。"
+        ],
+        "limits": [
+          "出现不是表演，也不要求在所有情况下公开私人困难。"
+        ]
+      }
+    },
+    {
+      "id": "huang-p-show-reasoning",
+      "title": "帮助别人理解判断过程",
+      "summary": "他认为解释怎样推理，能帮助团队以后面对类似模糊问题。",
+      "topics": [
+        "判断过程",
+        "授权",
+        "教学",
+        "复杂问题"
+      ],
+      "evidence_ids": [
+        "huang-e-show-reasoning"
+      ],
+      "application": {
+        "questions": [
+          "别人能否知道你用了什么事实、假设和取舍？"
+        ],
+        "steps": [
+          "展示关键推理及不确定处。",
+          "邀请执行者核对，并形成可复用原则。"
+        ],
+        "limits": [
+          "展示推理不代表推理正确，需要反例和实际结果检验。"
+        ]
+      }
+    },
+    {
+      "id": "huang-p-respect-real-work",
+      "title": "不因职位高低轻视必要工作",
+      "summary": "他用自己做过清洁工作的经历解释没有任务低于自己。",
+      "topics": [
+        "工作尊重",
+        "协作",
+        "职位",
+        "实际问题"
+      ],
+      "evidence_ids": [
+        "huang-e-respect-real-work"
+      ],
+      "application": {
+        "questions": [
+          "当前问题是否因为被视为琐事而无人认真处理？"
+        ],
+        "steps": [
+          "确认影响实际交付的必要工作。",
+          "明确负责人并提供适当支持。"
+        ],
+        "limits": [
+          "尊重工作不等于负责人包办所有事，也不能美化不公平劳动条件。"
+        ]
+      }
+    },
+    {
+      "id": "huang-p-management-serves-work",
+      "title": "把管理的价值放在支持他人完成工作上",
+      "summary": "他将管理职责解释为创造让团队发挥能力的条件。",
+      "topics": [
+        "管理职责",
+        "赋能",
+        "团队条件",
+        "支持"
+      ],
+      "evidence_ids": [
+        "huang-e-management-serves-work"
+      ],
+      "application": {
+        "questions": [
+          "管理行为具体减少了什么阻碍、增加了什么必要条件？"
+        ],
+        "steps": [
+          "了解团队最重要的实际障碍。",
+          "补足权限、资源或协作，再观察效果。"
+        ],
+        "limits": [
+          "这是他的管理主张，不证明某家公司实际工作条件必然如此。"
+        ]
+      }
+    },
+    {
+      "id": "huang-p-information-not-status",
+      "title": "不把信息垄断当作管理价值",
+      "summary": "他反对职位权力只来自持有别人不知道的信息。",
+      "topics": [
+        "信息共享",
+        "管理权力",
+        "透明",
+        "协作"
+      ],
+      "evidence_ids": [
+        "huang-e-information-not-status"
+      ],
+      "application": {
+        "questions": [
+          "哪些信息需要相关执行者了解，哪些确有必要限制？"
+        ],
+        "steps": [
+          "按工作需要共享事实和背景。",
+          "说明不能共享的真实理由。"
+        ],
+        "limits": [
+          "保密、隐私和安全边界仍然必要，不要求所有信息对所有人公开。"
+        ]
+      }
+    },
+    {
+      "id": "huang-p-context-for-autonomy",
+      "title": "授权需要让人理解所处情境",
+      "summary": "他把团队自主判断与获得背景和假设联系起来。",
+      "topics": [
+        "授权",
+        "背景信息",
+        "已知未知",
+        "组织层级"
+      ],
+      "evidence_ids": [
+        "huang-e-context-for-autonomy"
+      ],
+      "application": {
+        "questions": [
+          "执行者是否知道目标、事实、限制和例外？"
+        ],
+        "steps": [
+          "同时说明已知事实、假设和未知。",
+          "减少不必要的信息损耗，并约定升级条件。"
+        ],
+        "limits": [
+          "不照搬其汇报人数、组织规模或汇报层级作为统一标准。"
+        ]
+      }
+    },
+    {
+      "id": "huang-p-safety-engineering",
+      "title": "把安全落实为具体工程和持续验证",
+      "summary": "他认为防护、校准等技术能力需要实际建设。",
+      "topics": [
+        "安全工程",
+        "人工智能",
+        "验证",
+        "防护"
+      ],
+      "evidence_ids": [
+        "huang-e-safety-engineering"
+      ],
+      "application": {
+        "questions": [
+          "声称安全之外，具体有哪些防护、测试和失效处理？"
+        ],
+        "steps": [
+          "列出任务中的实际风险。",
+          "检查防护和验证是否覆盖这些风险。"
+        ],
+        "limits": [
+          "不把其技术乐观或航空类比当AI已安全的证明，也不提供专业认证。"
+        ]
+      }
+    },
+    {
+      "id": "huang-p-domain-appropriate-standards",
+      "title": "按实际用途核对需要的专业能力与标准",
+      "summary": "他用会计和医生的差别说明领域资格不能互相替代。",
+      "topics": [
+        "专业范围",
+        "使用场景",
+        "能力标准",
+        "评价"
+      ],
+      "evidence_ids": [
+        "huang-e-domain-appropriate-standards"
+      ],
+      "application": {
+        "questions": [
+          "这个任务的风险是否需要相应领域知识和专业验证？"
+        ],
+        "steps": [
+          "明确具体用途和后果。",
+          "核对对应专业能力和适当标准。"
+        ],
+        "limits": [
+          "这是适用范围提醒，不是对当下法律法规的解读或否定跨领域监管。"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,537 @@
+{
+  "schema_version": 1,
+  "person": {
+    "id": "elon-musk",
+    "name": "埃隆·马斯克",
+    "aliases": [
+      "马斯克",
+      "Musk",
+      "Elon Musk"
+    ],
+    "description": "从原播客发布者的时间戳文字稿和本人 X 原帖提炼工程决策方法；不预设其预测正确。"
+  },
+  "sources": [
+    {
+      "id": "musk-lex438",
+      "title": "Lex Fridman Podcast #438：Elon Musk 访谈",
+      "url": "https://lexfridman.com/elon-musk-and-neuralink-team-transcript",
+      "publisher": "Lex Fridman",
+      "kind": "interview",
+      "authority": "publisher",
+      "published_at": "2024-08-02",
+      "language": "en",
+      "origin_url": "https://youtube.com/watch?v=Kbk9BiPhm7o",
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "仅分发来源元数据、短摘录与原创归纳，不再分发完整采访或帖子。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "method": "original_publisher_text_check",
+        "note": "核对原播客发布者的人工作成文字稿；发布者提示可能有错。只提取 Elon Musk 段落，未把团队其他成员发言归给他。"
+      },
+      "content_sha256": "1690500e173711141f062595dd442a74bba16f55c16c88cf80866d0f12bbca0e",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "musk-lex400",
+      "title": "Lex Fridman Podcast #400：Elon Musk 访谈",
+      "url": "https://lexfridman.com/elon-musk-4-transcript",
+      "publisher": "Lex Fridman",
+      "kind": "interview",
+      "authority": "publisher",
+      "published_at": "2023-11-10",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "仅分发来源元数据、短摘录与原创归纳，不再分发完整采访或帖子。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "method": "original_publisher_text_check",
+        "note": "时间戳来自原发布者文字稿；2023 年的技术预测保留历史语境，不声称预测后来已兑现。"
+      },
+      "content_sha256": "abea6c6e744345896902c6c097403ce6a986bb067885f1ac8c86be4524f871c1",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "musk-x-automation",
+      "title": "Tesla 过度自动化的反思",
+      "url": "https://x.com/elonmusk/status/984882630947753984",
+      "publisher": "Elon Musk / X",
+      "kind": "x_post",
+      "authority": "first_party",
+      "published_at": "2018-04-13",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "仅分发来源元数据、短摘录与原创归纳，不再分发完整采访或帖子。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "method": "official_x_embed_api",
+        "note": "X 官方公开嵌入接口核对帖子 ID、作者 elonmusk 和全文；回复语境为当时的 Tesla 生产自动化。"
+      },
+      "content_sha256": "1d67d53ae868ce9f6d157b6cc99ab825843f32c2e22cafd1a5b66ec32625a7dd",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "musk-e-requirements",
+      "source_id": "musk-lex438",
+      "speaker": "Elon Musk",
+      "excerpt": "question the requirements",
+      "summary": "先检验需求是否成立。",
+      "locator": {
+        "type": "timestamp",
+        "value": "00:44:08"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与实际读取的原发布文字一致；保留说话人/记者归纳及历史语境。"
+      },
+      "tags": [
+        "需求",
+        "问题定义",
+        "requirements"
+      ],
+      "context": "原文针对工程问题；没有授权绕过法律、安全或合同要求。"
+    },
+    {
+      "id": "musk-e-delete",
+      "source_id": "musk-lex438",
+      "speaker": "Elon Musk",
+      "excerpt": "try to delete",
+      "summary": "先尝试删除不必要的部分。",
+      "locator": {
+        "type": "timestamp",
+        "value": "00:44:53"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与实际读取的原发布文字一致；保留说话人/记者归纳及历史语境。"
+      },
+      "tags": [
+        "删除",
+        "简化",
+        "成本",
+        "delete"
+      ],
+      "context": "删掉后可能需恢复；源文的比例是个人经验规则，不是普遍最优阈值。"
+    },
+    {
+      "id": "musk-e-automate-last",
+      "source_id": "musk-lex438",
+      "speaker": "Elon Musk",
+      "excerpt": "the fifth thing is to automate it",
+      "summary": "自动化放在需求、删减、简化和加速之后。",
+      "locator": {
+        "type": "timestamp",
+        "value": "00:48:09"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与实际读取的原发布文字一致；保留说话人/记者归纳及历史语境。"
+      },
+      "tags": [
+        "自动化",
+        "流程",
+        "顺序",
+        "automation"
+      ],
+      "context": "工程流程的顺序原则；保留其承认曾倒着做、浪费工作量的语境。"
+    },
+    {
+      "id": "musk-e-first-principles",
+      "source_id": "musk-lex400",
+      "speaker": "Elon Musk",
+      "excerpt": "first principles",
+      "summary": "从基础约束和极限检验问题。",
+      "locator": {
+        "type": "timestamp",
+        "value": "01:10:59"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与实际读取的原发布文字一致；保留说话人/记者归纳及历史语境。"
+      },
+      "tags": [
+        "第一性原理",
+        "成本",
+        "约束",
+        "first principles"
+      ],
+      "context": "讨论计算与能源约束；跨领域应用需要核实该领域的基本事实。"
+    },
+    {
+      "id": "musk-e-bottleneck",
+      "source_id": "musk-lex400",
+      "speaker": "Elon Musk",
+      "excerpt": "limiting factor",
+      "summary": "进展的限制因素会随阶段改变。",
+      "locator": {
+        "type": "timestamp",
+        "value": "01:15:29"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与实际读取的原发布文字一致；保留说话人/记者归纳及历史语境。"
+      },
+      "tags": [
+        "瓶颈",
+        "约束",
+        "系统",
+        "bottleneck"
+      ],
+      "context": "当时以芯片、电力设备等作预测性例子；不把其预测当成已核实的产业现状。"
+    },
+    {
+      "id": "musk-e-uncertainty",
+      "source_id": "musk-lex400",
+      "speaker": "Elon Musk",
+      "excerpt": "acknowledged error",
+      "summary": "回答应承认误差，减少自信地出错。",
+      "locator": {
+        "type": "timestamp",
+        "value": "00:37:02"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与实际读取的原发布文字一致；保留说话人/记者归纳及历史语境。"
+      },
+      "tags": [
+        "不确定",
+        "验证",
+        "AI",
+        "误差",
+        "uncertainty"
+      ],
+      "context": "讨论 AI 答案可靠性，是其目标表达，不是某产品准确性的证据。"
+    },
+    {
+      "id": "musk-e-x-automation",
+      "source_id": "musk-x-automation",
+      "speaker": "Elon Musk",
+      "excerpt": "Humans are underrated.",
+      "summary": "他公开承认当时自动化过度。",
+      "locator": {
+        "type": "post",
+        "value": "984882630947753984"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与实际读取的原发布文字一致；保留说话人/记者归纳及历史语境。"
+      },
+      "tags": [
+        "X",
+        "自动化",
+        "纠错",
+        "automation"
+      ],
+      "context": "单个生产阶段的自我纠错，不支持永远不用自动化的结论。"
+    },
+    {
+      "id": "musk-e-useful-work",
+      "source_id": "musk-lex438",
+      "speaker": "埃隆·马斯克",
+      "excerpt": "how many useful things",
+      "summary": "他用完成了多少有用的事来描述个人成功标准。",
+      "locator": {
+        "type": "timestamp",
+        "value": "01:17:58"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与原发布文字一致；定位和说话人已检查。原话核对与事实正确性、适用性分别判断。"
+      },
+      "tags": [
+        "时间",
+        "目标",
+        "价值",
+        "产出"
+      ],
+      "context": "个人成功观，未采信其后续关于每小时经济影响的自估数字。"
+    },
+    {
+      "id": "musk-e-recovery-decisions",
+      "source_id": "musk-lex438",
+      "speaker": "埃隆·马斯克",
+      "excerpt": "zero recreational time",
+      "summary": "他承认完全没有休闲时间会让自己做出更差决定。",
+      "locator": {
+        "type": "timestamp",
+        "value": "01:20:22"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与原发布文字一致；定位和说话人已检查。原话核对与事实正确性、适用性分别判断。"
+      },
+      "tags": [
+        "休息",
+        "决策",
+        "节奏",
+        "时间"
+      ],
+      "context": "这是他的自我描述，并非医学因果证据或适用于他人的最优休息配比。"
+    }
+  ],
+  "principles": [
+    {
+      "id": "musk-p-requirements",
+      "title": "先确认需求和问题定义",
+      "summary": "动手优化前说明需求由何事实支持。",
+      "topics": [
+        "需求",
+        "产品",
+        "优化",
+        "requirements"
+      ],
+      "evidence_ids": [
+        "musk-e-requirements"
+      ],
+      "application": {
+        "questions": [
+          "这个需求解决谁的什么问题，有何证据？"
+        ],
+        "steps": [
+          "把事实、习惯与假设分开，先验证关键假设。"
+        ],
+        "limits": [
+          "必要的安全、法律和合同要求需作为真实约束处理。"
+        ]
+      }
+    },
+    {
+      "id": "musk-p-delete",
+      "title": "先做可逆的删减试验",
+      "summary": "减少不必要部分，再优化剩余流程。",
+      "topics": [
+        "删除",
+        "简化",
+        "成本",
+        "复杂度",
+        "delete"
+      ],
+      "evidence_ids": [
+        "musk-e-delete"
+      ],
+      "application": {
+        "questions": [
+          "删掉这个环节，哪些实际结果会变差？"
+        ],
+        "steps": [
+          "限定试验范围，保留恢复方式并观察影响。"
+        ],
+        "limits": [
+          "不机械执行某个删减比例；关键依赖与安全控制须单独评估。"
+        ]
+      }
+    },
+    {
+      "id": "musk-p-automation",
+      "title": "稳定流程后再自动化",
+      "summary": "先理清流程的必要性，再投入自动化。",
+      "topics": [
+        "自动化",
+        "流程",
+        "效率",
+        "automation"
+      ],
+      "evidence_ids": [
+        "musk-e-automate-last",
+        "musk-e-x-automation"
+      ],
+      "application": {
+        "questions": [
+          "流程是否稳定，人工执行暴露了什么问题？"
+        ],
+        "steps": [
+          "先完成一次手工交付并记录变化。",
+          "对稳定、重复的环节再验证自动化收益。"
+        ],
+        "limits": [
+          "X 原帖是历史反思，不是对所有自动化的否定。"
+        ]
+      }
+    },
+    {
+      "id": "musk-p-first-principles",
+      "title": "从可核实的基础约束重新计算",
+      "summary": "拆解真正限制结果的因素。",
+      "topics": [
+        "第一性原理",
+        "成本",
+        "约束",
+        "first principles"
+      ],
+      "evidence_ids": [
+        "musk-e-first-principles"
+      ],
+      "application": {
+        "questions": [
+          "哪些限制可测量，哪些只是沿袭的报价或惯例？"
+        ],
+        "steps": [
+          "列出基本投入与边界，分别寻找数据核实。"
+        ],
+        "limits": [
+          "基础事实也可能判断错；跨领域先补专业知识。"
+        ]
+      }
+    },
+    {
+      "id": "musk-p-bottleneck",
+      "title": "解决当前瓶颈后重新测量",
+      "summary": "约束会变化，不把旧瓶颈永久当重点。",
+      "topics": [
+        "瓶颈",
+        "系统",
+        "资源",
+        "扩容",
+        "bottleneck"
+      ],
+      "evidence_ids": [
+        "musk-e-bottleneck"
+      ],
+      "application": {
+        "questions": [
+          "当前哪一项约束实际限制了整体结果？"
+        ],
+        "steps": [
+          "记录约束证据，改进后重新测量。"
+        ],
+        "limits": [
+          "这里借用分析方法，未引用历史预测作当前事实。"
+        ]
+      }
+    },
+    {
+      "id": "musk-p-uncertainty",
+      "title": "把误差与验证条件写进结论",
+      "summary": "区分可靠事实、预测和待核实部分。",
+      "topics": [
+        "不确定",
+        "验证",
+        "AI",
+        "判断",
+        "uncertainty"
+      ],
+      "evidence_ids": [
+        "musk-e-uncertainty"
+      ],
+      "application": {
+        "questions": [
+          "哪些结论尚无证据，什么结果会推翻它？"
+        ],
+        "steps": [
+          "先核实会改变决定的关键事实，再做可逆动作。"
+        ],
+        "limits": [
+          "承认不确定性不等于将所有方案都视为同样可靠。"
+        ]
+      }
+    },
+    {
+      "id": "musk-p-useful-work",
+      "title": "用实际用途检查时间投入",
+      "summary": "他用完成了多少有用的事来描述个人成功标准。",
+      "topics": [
+        "时间",
+        "目标",
+        "价值",
+        "产出"
+      ],
+      "evidence_ids": [
+        "musk-e-useful-work"
+      ],
+      "application": {
+        "questions": [
+          "这一项工作会为谁解决什么问题？"
+        ],
+        "steps": [
+          "为本周最重要的交付写一句可验证的用途。",
+          "检查投入最大的任务是否服务这项用途。"
+        ],
+        "limits": [
+          "用途有多种形式，不把人的价值等同于工作产出。",
+          "问题和步骤是编辑应用推演，并非本人对当前用户的直接建议。"
+        ]
+      }
+    },
+    {
+      "id": "musk-p-recovery-decisions",
+      "title": "检查工作节奏对判断质量的影响",
+      "summary": "他承认完全没有休闲时间会让自己做出更差决定。",
+      "topics": [
+        "休息",
+        "决策",
+        "节奏",
+        "时间"
+      ],
+      "evidence_ids": [
+        "musk-e-recovery-decisions"
+      ],
+      "application": {
+        "questions": [
+          "疲劳或情绪是否正在影响你对证据的判断？"
+        ],
+        "steps": [
+          "把高影响决定放在状态较稳定的时段。",
+          "留出可持续的恢复空间，回看是否减少了明显失误。"
+        ],
+        "limits": [
+          "不从名人作息推导健康建议或极端工时。",
+          "问题和步骤是编辑应用推演，并非本人对当前用户的直接建议。"
+        ]
+      }
+    }
+  ]
+}

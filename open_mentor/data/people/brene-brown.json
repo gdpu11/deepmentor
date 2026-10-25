@@ -1,0 +1,994 @@
+{
+  "schema_version": 1,
+  "person": {
+    "id": "brene-brown",
+    "name": "布琳·布朗",
+    "aliases": [
+      "Brené Brown",
+      "Brene Brown",
+      "布蕾妮·布朗",
+      "布琳布朗"
+    ],
+    "description": "依据作者官网的BRAVING工具与Dare to Lead术语表，整理信任、边界、责任、反馈、团队讨论、价值行动与有分寸的开放；不作为心理诊断或治疗。"
+  },
+  "sources": [
+    {
+      "id": "brown-braving",
+      "title": "The BRAVING Inventory",
+      "url": "https://brenebrown.com/wp-content/uploads/2021/10/DTL_BRAVING_102221.pdf",
+      "publisher": "Brené Brown / 本人官网公开工具",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_pdf_text_check",
+        "note": "作者官网直接发布的信任练习定义，核对所引PDF页。框架不是给个人打分、诊断人格或保证关系安全的量表。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。"
+      },
+      "content_sha256": "023532fb1a78d0640ec85cb8f6483709899255c7acbe1041f64521d88e8d2c3c",
+      "refresh": {
+        "mode": "manual",
+        "interval_days": 90
+      }
+    },
+    {
+      "id": "brown-glossary",
+      "title": "The Dare to Lead Glossary — Key Language, Skills, Tools, and Practices",
+      "url": "https://brenebrown.com/wp-content/uploads/2021/09/Glossary-of-Key-Language-Skills-and-Tools-from-DTL_092221.pdf",
+      "publisher": "Brené Brown / 本人官网公开术语表",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_pdf_text_check",
+        "note": "核对作者官网工具中的所引条目与文件页序。区分她自己的框架表达和引用他人研究；不将所有术语认定为本人发明，也不采用未经回查的发生率或脑机制断言。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。"
+      },
+      "content_sha256": "14f609b2d8e9e67df1d592b294b9a27b278b211aea95ff4aa06ce0cc697949b7",
+      "refresh": {
+        "mode": "manual",
+        "interval_days": 90
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "brown-e-clear-boundaries",
+      "source_id": "brown-braving",
+      "speaker": "布琳·布朗",
+      "excerpt": "BOUNDARIES",
+      "summary": "她把边界解释为清楚说明什么可以、什么不可以以及原因。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第1页（文件页序）；BRAVING定义"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "人际边界",
+        "信任",
+        "明确约定",
+        "沟通"
+      ],
+      "context": "作者的沟通与领导练习框架；应用步骤为编辑推演，不是临床建议或关系效果保证。"
+    },
+    {
+      "id": "brown-e-reliable-promises",
+      "source_id": "brown-braving",
+      "speaker": "布琳·布朗",
+      "excerpt": "RELIABILITY",
+      "summary": "她把可靠性与了解自身能力、限制及竞争任务联系起来。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第1页（文件页序）；BRAVING定义"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "承诺",
+        "可靠性",
+        "工作负荷",
+        "信任"
+      ],
+      "context": "作者的沟通与领导练习框架；应用步骤为编辑推演，不是临床建议或关系效果保证。"
+    },
+    {
+      "id": "brown-e-repair-mistakes",
+      "source_id": "brown-braving",
+      "speaker": "布琳·布朗",
+      "excerpt": "ACCOUNTABILITY",
+      "summary": "她把承担责任、道歉和修补列为问责的组成。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第1页（文件页序）；BRAVING定义"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "责任",
+        "失误修补",
+        "道歉",
+        "信任"
+      ],
+      "context": "作者的沟通与领导练习框架；应用步骤为编辑推演，不是临床建议或关系效果保证。"
+    },
+    {
+      "id": "brown-e-protect-confidences",
+      "source_id": "brown-braving",
+      "speaker": "布琳·布朗",
+      "excerpt": "VAULT",
+      "summary": "她把守住不属于自己分享的信息列为信任边界。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第1页（文件页序）；BRAVING定义"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "隐私",
+        "保密",
+        "信任",
+        "沟通"
+      ],
+      "context": "作者的沟通与领导练习框架；应用步骤为编辑推演，不是临床建议或关系效果保证。"
+    },
+    {
+      "id": "brown-e-values-in-action",
+      "source_id": "brown-braving",
+      "speaker": "布琳·布朗",
+      "excerpt": "INTEGRITY",
+      "summary": "她把正直与实际践行原则联系，而不只口头宣称。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第1页（文件页序）；BRAVING定义"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "价值原则",
+        "困难选择",
+        "正直",
+        "行动"
+      ],
+      "context": "作者的沟通与领导练习框架；应用步骤为编辑推演，不是临床建议或关系效果保证。"
+    },
+    {
+      "id": "brown-e-ask-without-labels",
+      "source_id": "brown-braving",
+      "speaker": "布琳·布朗",
+      "excerpt": "NONJUDGMENT",
+      "summary": "她把能够询问需要、谈论感受而不受评判列为信任要素。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第1页（文件页序）；BRAVING定义"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "表达需要",
+        "非评判",
+        "支持",
+        "信任"
+      ],
+      "context": "作者的沟通与领导练习框架；应用步骤为编辑推演，不是临床建议或关系效果保证。"
+    },
+    {
+      "id": "brown-e-generous-interpretation",
+      "source_id": "brown-braving",
+      "speaker": "布琳·布朗",
+      "excerpt": "GENEROSITY",
+      "summary": "她建议以有善意的方式理解他人的意图和行为。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第1页（文件页序）；BRAVING定义"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "善意解释",
+        "事实核对",
+        "人际关系",
+        "信任"
+      ],
+      "context": "作者的沟通与领导练习框架；应用步骤为编辑推演，不是临床建议或关系效果保证。"
+    },
+    {
+      "id": "brown-e-clear-kind-feedback",
+      "source_id": "brown-glossary",
+      "speaker": "布琳·布朗",
+      "excerpt": "Clear is kind",
+      "summary": "她区分让自己暂时舒服的含糊，与让对方真正理解的信息。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第4页（文件页序）；Clear is kind"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "反馈",
+        "清晰沟通",
+        "困难谈话",
+        "善意"
+      ],
+      "context": "作者的沟通与领导练习框架；应用步骤为编辑推演，不是临床建议或关系效果保证。"
+    },
+    {
+      "id": "brown-e-team-ground-rules",
+      "source_id": "brown-glossary",
+      "speaker": "布琳·布朗",
+      "excerpt": "Container",
+      "summary": "她建议团队明确怎样交流才有助于表达疑虑和想法。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第5页（文件页序）；Container Building"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "团队规则",
+        "讨论",
+        "表达安全",
+        "协作"
+      ],
+      "context": "作者的沟通与领导练习框架；应用步骤为编辑推演，不是临床建议或关系效果保证。"
+    },
+    {
+      "id": "brown-e-listen-before-fixing",
+      "source_id": "brown-glossary",
+      "speaker": "布琳·布朗",
+      "excerpt": "Empathy",
+      "summary": "她将同理心与理解、传达理解及暂缓评判联系起来。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第6页（文件页序）；Empathy"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "倾听",
+        "同理心",
+        "支持",
+        "沟通"
+      ],
+      "context": "作者的沟通与领导练习框架；应用步骤为编辑推演，不是临床建议或关系效果保证。"
+    },
+    {
+      "id": "brown-e-facts-and-stories",
+      "source_id": "brown-glossary",
+      "speaker": "布琳·布朗",
+      "excerpt": "story",
+      "summary": "她用承认自己正在作某种解释的说法，开启澄清而非指责。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第19页（文件页序）；The story I’m telling myself"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "事实与解释",
+        "冲突",
+        "澄清",
+        "反思"
+      ],
+      "context": "作者的沟通与领导练习框架；应用步骤为编辑推演，不是临床建议或关系效果保证。"
+    },
+    {
+      "id": "brown-e-task-authority-resources",
+      "source_id": "brown-glossary",
+      "speaker": "布琳·布朗",
+      "excerpt": "TASC",
+      "summary": "她用TASC检查任务归属、授权、完成条件和核对项。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第19页（文件页序）；TASC"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "任务分配",
+        "权限",
+        "资源",
+        "完成标准"
+      ],
+      "context": "作者的沟通与领导练习框架；应用步骤为编辑推演，不是临床建议或关系效果保证。"
+    },
+    {
+      "id": "brown-e-independent-input",
+      "source_id": "brown-glossary",
+      "speaker": "布琳·布朗",
+      "excerpt": "Turn & Learn",
+      "summary": "她用同时展示意见的练习减少身份和先发观点对他人的影响。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第20页（文件页序）；Turn & Learn"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "独立意见",
+        "团队讨论",
+        "估时",
+        "从众"
+      ],
+      "context": "作者的沟通与领导练习框架；应用步骤为编辑推演，不是临床建议或关系效果保证。"
+    },
+    {
+      "id": "brown-e-pause-and-return",
+      "source_id": "brown-glossary",
+      "speaker": "布琳·布朗",
+      "excerpt": "Circle back",
+      "summary": "她把暂停与明确回访时间结合，避免仓促回应或直接逃避。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第4页（文件页序）；Circle back"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "冲突沟通",
+        "暂停",
+        "重新约定",
+        "讨论"
+      ],
+      "context": "作者的沟通与领导练习框架；应用步骤为编辑推演，不是临床建议或关系效果保证。"
+    },
+    {
+      "id": "brown-e-bounded-vulnerability",
+      "source_id": "brown-glossary",
+      "speaker": "布琳·布朗",
+      "excerpt": "Vulnerability",
+      "summary": "她区分有分寸的开放与不加选择地暴露私人信息。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第21页（文件页序）；Vulnerability"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "自我表达",
+        "边界",
+        "角色",
+        "脆弱性"
+      ],
+      "context": "作者的沟通与领导练习框架；应用步骤为编辑推演，不是临床建议或关系效果保证。"
+    },
+    {
+      "id": "brown-e-own-real-part",
+      "source_id": "brown-glossary",
+      "speaker": "布琳·布朗",
+      "excerpt": "Owning",
+      "summary": "她把检查自身在问题中的行为作为复盘的一部分。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第22页（文件页序）；What’s my part"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "责任边界",
+        "复盘",
+        "具体行为",
+        "冲突"
+      ],
+      "context": "作者的沟通与领导练习框架；应用步骤为编辑推演，不是临床建议或关系效果保证。"
+    },
+    {
+      "id": "brown-e-multiple-horizons",
+      "source_id": "brown-glossary",
+      "speaker": "布琳·布朗",
+      "excerpt": "Horizon",
+      "summary": "她用不同工作时间跨度解释一部分组织规划冲突。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第9页（文件页序）；Horizon conflict"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "时间尺度",
+        "组织分歧",
+        "规划",
+        "协作"
+      ],
+      "context": "作者的沟通与领导练习框架；应用步骤为编辑推演，不是临床建议或关系效果保证。"
+    },
+    {
+      "id": "brown-e-worth-beyond-output",
+      "source_id": "brown-glossary",
+      "speaker": "布琳·布朗",
+      "excerpt": "Wholeheartedness",
+      "summary": "她用wholeheartedness说明未完成和不完美不等于失去被尊重的价值。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第22页（文件页序）；Wholeheartedness"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "自我价值",
+        "产出",
+        "接纳",
+        "生活选择"
+      ],
+      "context": "作者的沟通与领导练习框架；应用步骤为编辑推演，不是临床建议或关系效果保证。"
+    }
+  ],
+  "principles": [
+    {
+      "id": "brown-p-clear-boundaries",
+      "title": "说明边界的具体内容和理由",
+      "summary": "她把边界解释为清楚说明什么可以、什么不可以以及原因。",
+      "topics": [
+        "人际边界",
+        "信任",
+        "明确约定",
+        "沟通"
+      ],
+      "evidence_ids": [
+        "brown-e-clear-boundaries"
+      ],
+      "application": {
+        "questions": [
+          "对方是否知道你能承担什么、不能承担什么？"
+        ],
+        "steps": [
+          "用具体行为与范围描述边界。",
+          "同时询问并尊重对方的边界。"
+        ],
+        "limits": [
+          "边界不是强迫别人服从；涉及侵害时不要求靠沟通独自解决。"
+        ]
+      }
+    },
+    {
+      "id": "brown-p-reliable-promises",
+      "title": "按能力和负荷作出可以兑现的承诺",
+      "summary": "她把可靠性与了解自身能力、限制及竞争任务联系起来。",
+      "topics": [
+        "承诺",
+        "可靠性",
+        "工作负荷",
+        "信任"
+      ],
+      "evidence_ids": [
+        "brown-e-reliable-promises"
+      ],
+      "application": {
+        "questions": [
+          "答应之前，是否检查了能力、资源和已有承诺？"
+        ],
+        "steps": [
+          "先核对可承担范围。",
+          "无法兑现时及时说明并重新约定。"
+        ],
+        "limits": [
+          "无法满足每个要求不等于不可靠，也不要求超负荷证明价值。"
+        ]
+      }
+    },
+    {
+      "id": "brown-p-repair-mistakes",
+      "title": "承认失误并落实修补",
+      "summary": "她把承担责任、道歉和修补列为问责的组成。",
+      "topics": [
+        "责任",
+        "失误修补",
+        "道歉",
+        "信任"
+      ],
+      "evidence_ids": [
+        "brown-e-repair-mistakes"
+      ],
+      "application": {
+        "questions": [
+          "道歉以后，有什么具体变化或补救？"
+        ],
+        "steps": [
+          "说明已确认的行为及影响。",
+          "提出可实现的修补并检查完成。"
+        ],
+        "limits": [
+          "不替他人承担责任，也不把道歉当要求别人立即原谅的权利。"
+        ]
+      }
+    },
+    {
+      "id": "brown-p-protect-confidences",
+      "title": "不把别人的隐私当作拉近关系的工具",
+      "summary": "她把守住不属于自己分享的信息列为信任边界。",
+      "topics": [
+        "隐私",
+        "保密",
+        "信任",
+        "沟通"
+      ],
+      "evidence_ids": [
+        "brown-e-protect-confidences"
+      ],
+      "application": {
+        "questions": [
+          "这段信息是否由你决定公开，是否取得相关人的同意？"
+        ],
+        "steps": [
+          "区分自己的经历与他人的私密信息。",
+          "只在适当授权和必要范围内分享。"
+        ],
+        "limits": [
+          "必要的求助、举报或法律义务另有判断，不能用保密阻止求助。"
+        ]
+      }
+    },
+    {
+      "id": "brown-p-values-in-action",
+      "title": "让价值原则进入困难时的选择",
+      "summary": "她把正直与实际践行原则联系，而不只口头宣称。",
+      "topics": [
+        "价值原则",
+        "困难选择",
+        "正直",
+        "行动"
+      ],
+      "evidence_ids": [
+        "brown-e-values-in-action"
+      ],
+      "application": {
+        "questions": [
+          "选择变得不舒服时，哪些行为仍符合你认可的原则？"
+        ],
+        "steps": [
+          "明确一项需要坚持的行为。",
+          "检查自己是否用方便替代了原则。"
+        ],
+        "limits": [
+          "不同价值可能冲突，需要说明取舍，不以单一口号评价整个人。"
+        ]
+      }
+    },
+    {
+      "id": "brown-p-ask-without-labels",
+      "title": "允许表达需要而不急着给人贴标签",
+      "summary": "她把能够询问需要、谈论感受而不受评判列为信任要素。",
+      "topics": [
+        "表达需要",
+        "非评判",
+        "支持",
+        "信任"
+      ],
+      "evidence_ids": [
+        "brown-e-ask-without-labels"
+      ],
+      "application": {
+        "questions": [
+          "对方能否说出困难，而不用先证明自己值得被帮助？"
+        ],
+        "steps": [
+          "询问实际需要并认真听。",
+          "把具体行为评价与人格标签分开。"
+        ],
+        "limits": [
+          "非评判不等于放弃事实判断或接受伤害行为。"
+        ]
+      }
+    },
+    {
+      "id": "brown-p-generous-interpretation",
+      "title": "在事实不足时给解释留出余地",
+      "summary": "她建议以有善意的方式理解他人的意图和行为。",
+      "topics": [
+        "善意解释",
+        "事实核对",
+        "人际关系",
+        "信任"
+      ],
+      "evidence_ids": [
+        "brown-e-generous-interpretation"
+      ],
+      "application": {
+        "questions": [
+          "现在有哪些事实，哪些只是对他人意图的猜测？"
+        ],
+        "steps": [
+          "先询问和核对具体情况。",
+          "在保留边界的前提下考虑其他解释。"
+        ],
+        "limits": [
+          "不能据此忽略反复失信、威胁或已经确认的伤害。"
+        ]
+      }
+    },
+    {
+      "id": "brown-p-clear-kind-feedback",
+      "title": "反馈说清楚，比含糊回避更有帮助",
+      "summary": "她区分让自己暂时舒服的含糊，与让对方真正理解的信息。",
+      "topics": [
+        "反馈",
+        "清晰沟通",
+        "困难谈话",
+        "善意"
+      ],
+      "evidence_ids": [
+        "brown-e-clear-kind-feedback"
+      ],
+      "application": {
+        "questions": [
+          "你是否把对方需要知道的事实和期待说清楚？"
+        ],
+        "steps": [
+          "用具体观察说明问题。",
+          "说清期望并留出回应和澄清空间。"
+        ],
+        "limits": [
+          "清晰不等于粗暴、羞辱或把推断说成事实。"
+        ]
+      }
+    },
+    {
+      "id": "brown-p-team-ground-rules",
+      "title": "共同约定讨论中的具体支持和边界",
+      "summary": "她建议团队明确怎样交流才有助于表达疑虑和想法。",
+      "topics": [
+        "团队规则",
+        "讨论",
+        "表达安全",
+        "协作"
+      ],
+      "evidence_ids": [
+        "brown-e-team-ground-rules"
+      ],
+      "application": {
+        "questions": [
+          "团队是否共同约定怎样表达不同意见？"
+        ],
+        "steps": [
+          "询问成员需要哪些具体支持。",
+          "形成可检查约定并在变化时重访。"
+        ],
+        "limits": [
+          "写下规则不证明实际环境已经安全，也不能压制合理异议。"
+        ]
+      }
+    },
+    {
+      "id": "brown-p-listen-before-fixing",
+      "title": "先理解感受，再决定提供什么支持",
+      "summary": "她将同理心与理解、传达理解及暂缓评判联系起来。",
+      "topics": [
+        "倾听",
+        "同理心",
+        "支持",
+        "沟通"
+      ],
+      "evidence_ids": [
+        "brown-e-listen-before-fixing"
+      ],
+      "application": {
+        "questions": [
+          "对方现在希望被听见、获得信息，还是一起解决问题？"
+        ],
+        "steps": [
+          "先听并核对自己的理解。",
+          "询问希望得到哪种帮助。"
+        ],
+        "limits": [
+          "不假定自己完全懂对方，也不把此练习当心理治疗或她独创的全部研究。"
+        ]
+      }
+    },
+    {
+      "id": "brown-p-facts-and-stories",
+      "title": "把观察事实与脑中编出的解释分开",
+      "summary": "她用承认自己正在作某种解释的说法，开启澄清而非指责。",
+      "topics": [
+        "事实与解释",
+        "冲突",
+        "澄清",
+        "反思"
+      ],
+      "evidence_ids": [
+        "brown-e-facts-and-stories"
+      ],
+      "application": {
+        "questions": [
+          "这段解释中，什么是亲眼知道的，什么还待核对？"
+        ],
+        "steps": [
+          "分别写出事实、解释和需要澄清的问题。",
+          "用开放问题向相关人核对。"
+        ],
+        "limits": [
+          "表达方式不保证对方回应积极，也不能用来否认已经发生的行为。"
+        ]
+      }
+    },
+    {
+      "id": "brown-p-task-authority-resources",
+      "title": "分配任务时同时明确负责人、权限和资源",
+      "summary": "她用TASC检查任务归属、授权、完成条件和核对项。",
+      "topics": [
+        "任务分配",
+        "权限",
+        "资源",
+        "完成标准"
+      ],
+      "evidence_ids": [
+        "brown-e-task-authority-resources"
+      ],
+      "application": {
+        "questions": [
+          "对方被要求负责的结果，是否也拥有相应权限和条件？"
+        ],
+        "steps": [
+          "说明负责人、权限与所需资源。",
+          "约定完成标准及检查方式。"
+        ],
+        "limits": [
+          "清单不能代替真实授权，不能把系统性资源不足只归责执行者。"
+        ]
+      }
+    },
+    {
+      "id": "brown-p-independent-input",
+      "title": "先独立写下意见，再一起讨论",
+      "summary": "她用同时展示意见的练习减少身份和先发观点对他人的影响。",
+      "topics": [
+        "独立意见",
+        "团队讨论",
+        "估时",
+        "从众"
+      ],
+      "evidence_ids": [
+        "brown-e-independent-input"
+      ],
+      "application": {
+        "questions": [
+          "讨论前能否先收集每个人未受他人引导的判断？"
+        ],
+        "steps": [
+          "先让成员独立记录理由或估计。",
+          "同时呈现，再核对差异与依据。"
+        ],
+        "limits": [
+          "不能完全消除权力差异，也不把共识视为事实正确。"
+        ]
+      }
+    },
+    {
+      "id": "brown-p-pause-and-return",
+      "title": "困难谈话可以暂停，并约定回来继续",
+      "summary": "她把暂停与明确回访时间结合，避免仓促回应或直接逃避。",
+      "topics": [
+        "冲突沟通",
+        "暂停",
+        "重新约定",
+        "讨论"
+      ],
+      "evidence_ids": [
+        "brown-e-pause-and-return"
+      ],
+      "application": {
+        "questions": [
+          "当前是否需要时间处理信息，再有条件地继续谈？"
+        ],
+        "steps": [
+          "说明暂停原因。",
+          "约定合理的继续时间与待澄清内容。"
+        ],
+        "limits": [
+          "不是所有冲突都适合继续接触；需要保护自己时优先考虑现实边界。"
+        ]
+      }
+    },
+    {
+      "id": "brown-p-bounded-vulnerability",
+      "title": "开放表达也要考虑角色、目的和边界",
+      "summary": "她区分有分寸的开放与不加选择地暴露私人信息。",
+      "topics": [
+        "自我表达",
+        "边界",
+        "角色",
+        "脆弱性"
+      ],
+      "evidence_ids": [
+        "brown-e-bounded-vulnerability"
+      ],
+      "application": {
+        "questions": [
+          "为什么向这个人在这个场合分享，这与各方角色是否合适？"
+        ],
+        "steps": [
+          "明确分享目的与范围。",
+          "尊重自己和对方选择不分享的权利。"
+        ],
+        "limits": [
+          "不强迫成员暴露经历，也不以分享多少评价勇气或忠诚。"
+        ]
+      }
+    },
+    {
+      "id": "brown-p-own-real-part",
+      "title": "复盘时只承担有依据属于自己的部分",
+      "summary": "她把检查自身在问题中的行为作为复盘的一部分。",
+      "topics": [
+        "责任边界",
+        "复盘",
+        "具体行为",
+        "冲突"
+      ],
+      "evidence_ids": [
+        "brown-e-own-real-part"
+      ],
+      "application": {
+        "questions": [
+          "自己的哪些具体行为参与了结果，哪些不由自己负责？"
+        ],
+        "steps": [
+          "核对可观察行为及实际权限。",
+          "改进可负责的部分，不包揽他人的行为。"
+        ],
+        "limits": [
+          "受到侵害不意味着受害者有责任；不沿用原文未经核验的99%说法。"
+        ]
+      }
+    },
+    {
+      "id": "brown-p-multiple-horizons",
+      "title": "发现分歧是否来自不同时间尺度",
+      "summary": "她用不同工作时间跨度解释一部分组织规划冲突。",
+      "topics": [
+        "时间尺度",
+        "组织分歧",
+        "规划",
+        "协作"
+      ],
+      "evidence_ids": [
+        "brown-e-multiple-horizons"
+      ],
+      "application": {
+        "questions": [
+          "各方在优化今天、下一阶段还是更长远的目标？"
+        ],
+        "steps": [
+          "把不同时间尺度的目标写清楚。",
+          "检查短期动作对其他尺度的代价。"
+        ],
+        "limits": [
+          "时间尺度只是解释线索，不能替代对资源、权责与事实的核对。"
+        ]
+      }
+    },
+    {
+      "id": "brown-p-worth-beyond-output",
+      "title": "把人的价值与当天产出分开",
+      "summary": "她用wholeheartedness说明未完成和不完美不等于失去被尊重的价值。",
+      "topics": [
+        "自我价值",
+        "产出",
+        "接纳",
+        "生活选择"
+      ],
+      "evidence_ids": [
+        "brown-e-worth-beyond-output"
+      ],
+      "application": {
+        "questions": [
+          "你是否把一次表现或一张任务清单，当成对整个人的评价？"
+        ],
+        "steps": [
+          "把具体结果与对人的评价分开。",
+          "承认限制，同时选择下一项现实行动。"
+        ],
+        "limits": [
+          "这是价值和自我反思框架，不是心理状态评估或治疗方案。"
+        ]
+      }
+    }
+  ]
+}

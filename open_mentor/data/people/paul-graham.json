@@ -1,0 +1,1484 @@
+{
+  "schema_version": 1,
+  "person": {
+    "id": "paul-graham",
+    "name": "保罗·格雷厄姆",
+    "aliases": [
+      "Paul Graham",
+      "保罗格雷厄姆"
+    ],
+    "description": "依据本人 2009—2023 年文章整理问题发现、早期获客、增长与现金约束、创始人协作、专注和学习；硅谷创业样本不当成普适成功规律。"
+  },
+  "sources": [
+    {
+      "id": "pg-startupideas",
+      "title": "How to Get Startup Ideas",
+      "url": "https://www.paulgraham.com/startupideas.html",
+      "publisher": "Paul Graham / paulgraham.com",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "作者官网原文；页面仅标年月，不补造具体日期。文中其他人的引语与作者自己的归纳分开。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。原文标示的时期：2012-11。"
+      },
+      "content_sha256": "1b856320f04db1bcb04270048a9de106a3931d23b4720223d490ff9762778722",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "pg-ds",
+      "title": "Do Things that Don't Scale",
+      "url": "https://www.paulgraham.com/ds.html",
+      "publisher": "Paul Graham / paulgraham.com",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "作者官网原文；页面仅标年月，不补造具体日期。文中其他人的引语与作者自己的归纳分开。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。原文标示的时期：2013-07。"
+      },
+      "content_sha256": "759346846c917390994557a68d3d24c2dfc27740a445158162717742a89c9658",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "pg-growth",
+      "title": "Startup = Growth",
+      "url": "https://www.paulgraham.com/growth.html",
+      "publisher": "Paul Graham / paulgraham.com",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "作者官网原文；页面仅标年月，不补造具体日期。文中其他人的引语与作者自己的归纳分开。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。原文标示的时期：2012-09。"
+      },
+      "content_sha256": "fd4ef8e82146efd962f38b88c22e8c51a2e883a4861c205022df17db3e27547b",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "pg-makersschedule",
+      "title": "Maker's Schedule, Manager's Schedule ",
+      "url": "https://www.paulgraham.com/makersschedule.html",
+      "publisher": "Paul Graham / paulgraham.com",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "作者官网原文；页面仅标年月，不补造具体日期。文中其他人的引语与作者自己的归纳分开。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。原文标示的时期：2009-07。"
+      },
+      "content_sha256": "eaeda0923801c6a51fa64b6ca404135e52eebd83d3ebd8cd08717ef3f5d0058e",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "pg-relres",
+      "title": "Relentlessly Resourceful",
+      "url": "https://www.paulgraham.com/relres.html",
+      "publisher": "Paul Graham / paulgraham.com",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "作者官网原文；页面仅标年月，不补造具体日期。文中其他人的引语与作者自己的归纳分开。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。原文标示的时期：2009-03。"
+      },
+      "content_sha256": "648dbb5ef127cd620fdff5e5938844c5ca30a9f7a97c07a7d6ecf615ca538c3b",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "pg-founders",
+      "title": "What We Look for in Founders",
+      "url": "https://www.paulgraham.com/founders.html",
+      "publisher": "Paul Graham / paulgraham.com",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "作者官网原文；页面仅标年月，不补造具体日期。文中其他人的引语与作者自己的归纳分开。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。原文标示的时期：2010-10。"
+      },
+      "content_sha256": "438dd10628b0acd995d416592e434ed5b7f2ab1364f28c9ee6162580cd9c5ae8",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "pg-schlep",
+      "title": "Schlep Blindness",
+      "url": "https://www.paulgraham.com/schlep.html",
+      "publisher": "Paul Graham / paulgraham.com",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "作者官网原文；页面仅标年月，不补造具体日期。文中其他人的引语与作者自己的归纳分开。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。原文标示的时期：2012-01。"
+      },
+      "content_sha256": "eea2dea849fa226096fc7919ba738ac0d86646fc7b98c9ebae403de7cffc7e25",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "pg-mean",
+      "title": "Mean People Fail",
+      "url": "https://www.paulgraham.com/mean.html",
+      "publisher": "Paul Graham / paulgraham.com",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "作者官网原文；页面仅标年月，不补造具体日期。文中其他人的引语与作者自己的归纳分开。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。原文标示的时期：2014-11。"
+      },
+      "content_sha256": "3b86bbe9c8e767d697df51ec921e71b814dd3b1715fc9eae0590d4f2ecdd661c",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "pg-greatwork",
+      "title": "How to Do Great Work",
+      "url": "https://www.paulgraham.com/greatwork.html",
+      "publisher": "Paul Graham / paulgraham.com",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "作者官网原文；页面仅标年月，不补造具体日期。文中其他人的引语与作者自己的归纳分开。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。原文标示的时期：2023-07。"
+      },
+      "content_sha256": "86c814f71dd585a86298a4d97f130cb8ba70044deb857e085958355b573bd0c9",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "pg-determination",
+      "title": "The Anatomy of Determination ",
+      "url": "https://www.paulgraham.com/determination.html",
+      "publisher": "Paul Graham / paulgraham.com",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "作者官网原文；页面仅标年月，不补造具体日期。文中其他人的引语与作者自己的归纳分开。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。原文标示的时期：2009-09。"
+      },
+      "content_sha256": "28dc6100dc115dab7d603a81b16df0eae576bbc54d20217ce7239224753c5ff8",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "pg-aord",
+      "title": "Default Alive or Default Dead?",
+      "url": "https://www.paulgraham.com/aord.html",
+      "publisher": "Paul Graham / paulgraham.com",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "作者官网原文；页面仅标年月，不补造具体日期。文中其他人的引语与作者自己的归纳分开。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。原文标示的时期：2015-10。"
+      },
+      "content_sha256": "0e0d9e9fa5ddb4b604c46224264e6ccc796e0868b1a3d87592639df357dd9ca2",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "pg-founder-mode",
+      "title": "Founder Mode",
+      "url": "https://www.paulgraham.com/foundermode.html",
+      "publisher": "保罗·格雷厄姆",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "本人署名文章，将创始人管理方式作为待理解的经验框架；不是Brian Chesky演讲的原始转写，也不是所有高管特征或方法效果的独立证明。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。原文标示的时期：2024年9月。"
+      },
+      "content_sha256": "a1f3a2fdf9418561ef42849b29ed44b345f520fdaf2155fc5a4f75558f13a339",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "pg-e-own-problem",
+      "source_id": "pg-startupideas",
+      "speaker": "保罗·格雷厄姆",
+      "excerpt": "problems you have yourself",
+      "summary": "他建议从自己实际遇到的问题寻找创业线索，而不是先编造产品点子。",
+      "locator": {
+        "type": "heading",
+        "value": "Problems；开头的问题发现段落"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "需求",
+        "问题发现",
+        "创业",
+        "用户"
+      ],
+      "context": "原文讨论发现真实问题；不把作者列举的成功公司作为该方法必然成功的证据。"
+    },
+    {
+      "id": "pg-e-urgent-niche",
+      "source_id": "pg-startupideas",
+      "speaker": "保罗·格雷厄姆",
+      "excerpt": "who want it urgently",
+      "summary": "他强调早期应找到真正迫切需要产品的人，而不只收集泛泛的喜欢。",
+      "locator": {
+        "type": "heading",
+        "value": "Well；迫切需求与小规模初始用户"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "早期用户",
+        "需求",
+        "细分市场",
+        "验证"
+      ],
+      "context": "文章用深而窄的初始需求解释创业切入，不等于所有产品都应永久局限于小群体。"
+    },
+    {
+      "id": "pg-e-competition-check",
+      "source_id": "pg-startupideas",
+      "speaker": "保罗·格雷厄姆",
+      "excerpt": "ask users",
+      "summary": "他建议遇到已有竞争者时继续核对用户需求与锁定条件，而不立即放弃点子。",
+      "locator": {
+        "type": "heading",
+        "value": "Competition"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "竞争",
+        "差异化",
+        "用户需求",
+        "产品判断"
+      ],
+      "context": "原段落同时讨论竞争者锁定，不截取成只要有竞品就值得进入。"
+    },
+    {
+      "id": "pg-e-manual-recruiting",
+      "source_id": "pg-ds",
+      "speaker": "保罗·格雷厄姆",
+      "excerpt": "recruit users manually",
+      "summary": "他把逐个招募用户视为早期创业者需要承担的工作。",
+      "locator": {
+        "type": "heading",
+        "value": "Recruit"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "获客",
+        "第一批用户",
+        "创业",
+        "销售",
+        "产品"
+      ],
+      "context": "原文举 Stripe 与 Airbnb 的早期例子，讨论启动阶段，不要求长期靠人工扩张。"
+    },
+    {
+      "id": "pg-e-early-user-care",
+      "source_id": "pg-ds",
+      "speaker": "保罗·格雷厄姆",
+      "excerpt": "make them happy",
+      "summary": "他建议早期团队投入额外精力理解并服务初始用户。",
+      "locator": {
+        "type": "heading",
+        "value": "Delight"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "用户体验",
+        "早期用户",
+        "反馈",
+        "服务"
+      ],
+      "context": "文章讨论早期小团队的服务优势；手写感谢信等例子不是固定操作模板。"
+    },
+    {
+      "id": "pg-e-manual-before-automation",
+      "source_id": "pg-ds",
+      "speaker": "保罗·格雷厄姆",
+      "excerpt": "gradually automate the bottlenecks",
+      "summary": "他提出先亲自完成部分交付，以便知道自动化真正需要解决什么。",
+      "locator": {
+        "type": "heading",
+        "value": "Manual"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "人工交付",
+        "自动化",
+        "瓶颈",
+        "流程验证"
+      ],
+      "context": "原文描述早期手工替代软件的案例；这里只提炼学习流程与逐步自动化，不照搬其隐瞒人工的叙事。"
+    },
+    {
+      "id": "pg-e-meaningful-growth",
+      "source_id": "pg-growth",
+      "speaker": "保罗·格雷厄姆",
+      "excerpt": "The best thing to measure the growth rate",
+      "summary": "他优先用收入衡量增长，尚未收费时才讨论活跃用户等替代指标。",
+      "locator": {
+        "type": "heading",
+        "value": "Rate；衡量增长的收入与活跃用户段落"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "增长",
+        "指标",
+        "收入",
+        "活跃用户",
+        "验证"
+      ],
+      "context": "保留尚未收费产品使用替代指标的条件，不能把任何流量都当收入。"
+    },
+    {
+      "id": "pg-e-growth-model-fit",
+      "source_id": "pg-growth",
+      "speaker": "保罗·格雷厄姆",
+      "excerpt": "designed to grow fast",
+      "summary": "他用能否快速增长区分创业公司与一般新生意。",
+      "locator": {
+        "type": "heading",
+        "value": "文章开头；startup 的定义"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "商业模式",
+        "经营目标",
+        "创业",
+        "增长边界"
+      ],
+      "context": "原文同时说明新成立、技术和融资不是其定义的必要条件。"
+    },
+    {
+      "id": "pg-e-maker-time",
+      "source_id": "pg-makersschedule",
+      "speaker": "保罗·格雷厄姆",
+      "excerpt": "half a day at least",
+      "summary": "他区分制作与管理两种时间安排，指出零散会议会切断深度工作。",
+      "locator": {
+        "type": "heading",
+        "value": "制作型时间表；programmers and writers 段落"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "专注",
+        "时间管理",
+        "编程",
+        "写作",
+        "会议"
+      ],
+      "context": "作者用程序员和写作者说明安排差异，不把半天规定为人人通用的生理阈值。"
+    },
+    {
+      "id": "pg-e-cluster-meetings",
+      "source_id": "pg-makersschedule",
+      "speaker": "保罗·格雷厄姆",
+      "excerpt": "clustered at the end",
+      "summary": "他用 office hours 把多次会面集中到固定时间段。",
+      "locator": {
+        "type": "heading",
+        "value": "office hours；作者安排会面的例子"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "会议",
+        "协作",
+        "时间安排",
+        "沟通窗口"
+      ],
+      "context": "这是作者个人实践，不是关于会议数量越少越好的绝对结论。"
+    },
+    {
+      "id": "pg-e-resourceful-adaptation",
+      "source_id": "pg-relres",
+      "speaker": "保罗·格雷厄姆",
+      "excerpt": "adapt their plans on the fly",
+      "summary": "他把持续寻找办法与根据障碍调整计划放在一起讨论。",
+      "locator": {
+        "type": "heading",
+        "value": "running back 比喻；持续与灵活的结合"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "应变",
+        "解决问题",
+        "执行",
+        "创业"
+      ],
+      "context": "原文提醒该创业者特质不等同于大型组织中的所有成功路径。"
+    },
+    {
+      "id": "pg-e-cofounder-relationship",
+      "source_id": "pg-founders",
+      "speaker": "保罗·格雷厄姆",
+      "excerpt": "must genuinely like one another",
+      "summary": "他把联合创始人之间稳固的关系和共同工作的能力视为重要条件。",
+      "locator": {
+        "type": "heading",
+        "value": "5. Friendship"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "合伙人",
+        "创始人",
+        "合作",
+        "团队"
+      ],
+      "context": "原文讨论两三位创始人的协作压力，不从结果推导固定人格。"
+    },
+    {
+      "id": "pg-e-unpleasant-work",
+      "source_id": "pg-schlep",
+      "speaker": "保罗·格雷厄姆",
+      "excerpt": "a tedious, unpleasant task",
+      "summary": "他提醒创业者可能因为不愿处理繁琐工作而忽略真实机会。",
+      "locator": {
+        "type": "heading",
+        "value": "schlep blindness 的定义与支付流程例子"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "需求发现",
+        "流程",
+        "运营",
+        "执行成本"
+      ],
+      "context": "Stripe 只是原文的案例，不把支付行业经验直接套到所有领域。"
+    },
+    {
+      "id": "pg-e-cooperative-motive",
+      "source_id": "pg-mean",
+      "speaker": "保罗·格雷厄姆",
+      "excerpt": "a spirit of benevolence",
+      "summary": "他从个人观察讨论善意与创造有益事物对长期合作的作用。",
+      "locator": {
+        "type": "heading",
+        "value": "创造有益事物与合作的段落"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "合作",
+        "信任",
+        "动机",
+        "长期经营"
+      ],
+      "context": "Mean People Fail 是经验随笔，保留例外，不将财富当成道德证明。"
+    },
+    {
+      "id": "pg-e-aptitude-interest",
+      "source_id": "pg-greatwork",
+      "speaker": "保罗·格雷厄姆",
+      "excerpt": "an aptitude for and great interest in",
+      "summary": "他把擅长、深度兴趣和可探索的空间作为选择工作的线索。",
+      "locator": {
+        "type": "heading",
+        "value": "文章开头；选择工作方向"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "职业方向",
+        "兴趣",
+        "能力",
+        "选择"
+      ],
+      "context": "文章面向有较高抱负的创造性工作，不声称覆盖所有职业选择。"
+    },
+    {
+      "id": "pg-e-learn-to-frontier",
+      "source_id": "pg-greatwork",
+      "speaker": "保罗·格雷厄姆",
+      "excerpt": "notice gaps, explore promising ones",
+      "summary": "他建议先学习领域，再观察已有知识尚未解释的缺口。",
+      "locator": {
+        "type": "heading",
+        "value": "Four steps；领域、前沿与缺口"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "学习",
+        "研究",
+        "问题发现",
+        "创新"
+      ],
+      "context": "这里的前沿由具体领域知识支持，不把新奇感觉当创新证明。"
+    },
+    {
+      "id": "pg-e-sustainable-effort",
+      "source_id": "pg-greatwork",
+      "speaker": "保罗·格雷厄姆",
+      "excerpt": "fatigue will make you stupid",
+      "summary": "他指出过度工作存在收益递减，疲劳会影响判断。",
+      "locator": {
+        "type": "heading",
+        "value": "工作强度与 diminishing returns 段落"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "工作节奏",
+        "疲劳",
+        "专注",
+        "产出"
+      ],
+      "context": "原文同时强调努力与连续时间，不将休息与高投入简单对立。"
+    },
+    {
+      "id": "pg-e-will-and-discipline",
+      "source_id": "pg-determination",
+      "speaker": "保罗·格雷厄姆",
+      "excerpt": "willfulness is balanced by discipline",
+      "summary": "他认为意志需要纪律平衡，否则可能只会强化错误冲动。",
+      "locator": {
+        "type": "heading",
+        "value": "意志与纪律的平衡段落"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "自律",
+        "执行",
+        "判断",
+        "复盘"
+      ],
+      "context": "作者明确承认对 determination 的理解有限，保留其探索性语气。"
+    },
+    {
+      "id": "pg-e-peer-reference",
+      "source_id": "pg-determination",
+      "speaker": "保罗·格雷厄姆",
+      "excerpt": "few peers",
+      "summary": "他讨论同伴环境会影响年轻人对目标难度和自身能力的想象。",
+      "locator": {
+        "type": "heading",
+        "value": "ambition；同伴与抱负的讨论"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "同伴",
+        "学习环境",
+        "目标",
+        "成长"
+      ],
+      "context": "这是作者对抱负可塑性的观察，不把社群身份当个人能力证明。"
+    },
+    {
+      "id": "pg-e-default-alive",
+      "source_id": "pg-aord",
+      "speaker": "保罗·格雷厄姆",
+      "excerpt": "profitability on the money they have left",
+      "summary": "他要求创始人在收入与费用假设下判断现有现金是否足以走到盈利。",
+      "locator": {
+        "type": "heading",
+        "value": "文章开头；default alive / default dead"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "现金流",
+        "盈利",
+        "融资",
+        "成本",
+        "创业风险"
+      ],
+      "context": "原文特别提醒融资不能是唯一生存方案，不把高增长当必然能融到钱。"
+    },
+    {
+      "id": "pg-e-direct-operating-context",
+      "source_id": "pg-founder-mode",
+      "speaker": "保罗·格雷厄姆",
+      "excerpt": "Skip-level",
+      "summary": "他质疑把组织层级完全当黑箱，讨论创始人直接了解关键工作的可能性。",
+      "locator": {
+        "type": "heading",
+        "value": "关于跨层级了解工作与组织结构的段落"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "创始人管理",
+        "组织信息",
+        "关键工作",
+        "管理"
+      ],
+      "context": "文章包含鲜明推论与预测，不将其写作已验证的通用管理定律。"
+    },
+    {
+      "id": "pg-e-delegation-boundaries",
+      "source_id": "pg-founder-mode",
+      "speaker": "保罗·格雷厄姆",
+      "excerpt": "some amount of delegation",
+      "summary": "他明确说大公司不能照搬小团队管理，并预警创始人可能用新概念为拒绝授权辩护。",
+      "locator": {
+        "type": "heading",
+        "value": "关于规模、自治边界及注释3的误用警告"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "授权",
+        "组织规模",
+        "管理边界",
+        "创始人"
+      ],
+      "context": "保留主文与注释中的自我限制，不只截取赞成创始人直接参与的句子。"
+    }
+  ],
+  "principles": [
+    {
+      "id": "pg-p-own-problem",
+      "title": "先确认问题真实存在",
+      "summary": "他建议从自己实际遇到的问题寻找创业线索，而不是先编造产品点子。",
+      "topics": [
+        "需求",
+        "问题发现",
+        "创业",
+        "用户"
+      ],
+      "evidence_ids": [
+        "pg-e-own-problem"
+      ],
+      "application": {
+        "questions": [
+          "你或目标用户最近一次遇到这个问题是什么时候？"
+        ],
+        "steps": [
+          "记录一次具体受阻过程及当前替代做法。",
+          "找另一位同类用户核对问题是否重复出现。"
+        ],
+        "limits": [
+          "个人痛点不自动代表足够大的市场，也不证明付费意愿。"
+        ]
+      }
+    },
+    {
+      "id": "pg-p-urgent-niche",
+      "title": "先服务少数需求强烈的用户",
+      "summary": "他强调早期应找到真正迫切需要产品的人，而不只收集泛泛的喜欢。",
+      "topics": [
+        "早期用户",
+        "需求",
+        "细分市场",
+        "验证"
+      ],
+      "evidence_ids": [
+        "pg-e-urgent-niche"
+      ],
+      "application": {
+        "questions": [
+          "谁现在就需要解决这个问题，而不是以后可能想用？"
+        ],
+        "steps": [
+          "用最近的真实行为筛选目标用户。",
+          "比较试用、实际使用与愿意付费之间的差别。"
+        ],
+        "limits": [
+          "少量强需求仍需要验证留存和交付成本。"
+        ]
+      }
+    },
+    {
+      "id": "pg-p-competition-check",
+      "title": "用用户未满足的需要判断竞争空间",
+      "summary": "他建议遇到已有竞争者时继续核对用户需求与锁定条件，而不立即放弃点子。",
+      "topics": [
+        "竞争",
+        "差异化",
+        "用户需求",
+        "产品判断"
+      ],
+      "evidence_ids": [
+        "pg-e-competition-check"
+      ],
+      "application": {
+        "questions": [
+          "已有方案是否仍留下用户在意且能够改善的缺口？"
+        ],
+        "steps": [
+          "访谈现有方案的实际用户。",
+          "写出迁移阻力与可验证的改进点。"
+        ],
+        "limits": [
+          "作者对竞争的经验判断不是竞争无害的普遍定律；强锁定和成本优势仍要调查。"
+        ]
+      }
+    },
+    {
+      "id": "pg-p-manual-recruiting",
+      "title": "主动找到并帮助第一批用户",
+      "summary": "他把逐个招募用户视为早期创业者需要承担的工作。",
+      "topics": [
+        "获客",
+        "第一批用户",
+        "创业",
+        "销售",
+        "产品"
+      ],
+      "evidence_ids": [
+        "pg-e-manual-recruiting"
+      ],
+      "application": {
+        "questions": [
+          "你能直接接触哪一小群最可能需要产品的人？"
+        ],
+        "steps": [
+          "列出可直接接触的目标用户。",
+          "陪对方完成首次使用，记录实际障碍。"
+        ],
+        "limits": [
+          "主动联系需要尊重对方意愿；招募数量不能代替持续使用。"
+        ]
+      }
+    },
+    {
+      "id": "pg-p-early-user-care",
+      "title": "把早期用户体验做细",
+      "summary": "他建议早期团队投入额外精力理解并服务初始用户。",
+      "topics": [
+        "用户体验",
+        "早期用户",
+        "反馈",
+        "服务"
+      ],
+      "evidence_ids": [
+        "pg-e-early-user-care"
+      ],
+      "application": {
+        "questions": [
+          "第一批用户在哪一步感到困惑、失望或额外负担？"
+        ],
+        "steps": [
+          "跟进一次完整使用过程。",
+          "修复一个影响用户获得结果的具体细节。"
+        ],
+        "limits": [
+          "高投入服务必须逐步检验成本；单个用户的所有要求未必应成为产品功能。"
+        ]
+      }
+    },
+    {
+      "id": "pg-p-manual-before-automation",
+      "title": "先理解人工流程再自动化瓶颈",
+      "summary": "他提出先亲自完成部分交付，以便知道自动化真正需要解决什么。",
+      "topics": [
+        "人工交付",
+        "自动化",
+        "瓶颈",
+        "流程验证"
+      ],
+      "evidence_ids": [
+        "pg-e-manual-before-automation"
+      ],
+      "application": {
+        "questions": [
+          "哪些步骤你亲自完成过，瓶颈是否已经被观察到？"
+        ],
+        "steps": [
+          "先完成一次受控的人工交付。",
+          "记录重复步骤、时间和错误，再挑选一个瓶颈自动化。"
+        ],
+        "limits": [
+          "涉及隐私、准确性或服务承诺时应如实说明人工处理，不能用人工伪装欺骗用户。"
+        ]
+      }
+    },
+    {
+      "id": "pg-p-meaningful-growth",
+      "title": "选择接近实际价值的增长指标",
+      "summary": "他优先用收入衡量增长，尚未收费时才讨论活跃用户等替代指标。",
+      "topics": [
+        "增长",
+        "指标",
+        "收入",
+        "活跃用户",
+        "验证"
+      ],
+      "evidence_ids": [
+        "pg-e-meaningful-growth"
+      ],
+      "application": {
+        "questions": [
+          "你追踪的增长是否连接真实使用、收入或客户结果？"
+        ],
+        "steps": [
+          "选一个能反映实际价值的主指标。",
+          "同时记录留存和成本，检查增长是否依赖一次性补贴。"
+        ],
+        "limits": [
+          "文中的 YC 周增长数字是特定创业样本经验，不作为用户必须达到的目标或收入预测。"
+        ]
+      }
+    },
+    {
+      "id": "pg-p-growth-model-fit",
+      "title": "先分清自己选择的经营模式",
+      "summary": "他用能否快速增长区分创业公司与一般新生意。",
+      "topics": [
+        "商业模式",
+        "经营目标",
+        "创业",
+        "增长边界"
+      ],
+      "evidence_ids": [
+        "pg-e-growth-model-fit"
+      ],
+      "application": {
+        "questions": [
+          "你追求稳定现金流、独立经营，还是需要快速扩张的公司？"
+        ],
+        "steps": [
+          "明确规模、控制权和现金流的优先顺序。",
+          "按所选模式决定是否融资、招聘和扩大成本。"
+        ],
+        "limits": [
+          "这是作者使用 startup 一词的定义，不贬低小生意，也不要求所有项目追求风险投资。"
+        ]
+      }
+    },
+    {
+      "id": "pg-p-maker-time",
+      "title": "为创造性工作保留连续时间",
+      "summary": "他区分制作与管理两种时间安排，指出零散会议会切断深度工作。",
+      "topics": [
+        "专注",
+        "时间管理",
+        "编程",
+        "写作",
+        "会议"
+      ],
+      "evidence_ids": [
+        "pg-e-maker-time"
+      ],
+      "application": {
+        "questions": [
+          "最需要连续思考的工作被哪些预约切碎了？"
+        ],
+        "steps": [
+          "找出一段可保护的连续工作时间。",
+          "把非紧急沟通放到不会反复打断工作的窗口。"
+        ],
+        "limits": [
+          "连续时长取决于任务和个人条件；不能以此拒绝必要的协作和应急响应。"
+        ]
+      }
+    },
+    {
+      "id": "pg-p-cluster-meetings",
+      "title": "集中安排沟通窗口",
+      "summary": "他用 office hours 把多次会面集中到固定时间段。",
+      "topics": [
+        "会议",
+        "协作",
+        "时间安排",
+        "沟通窗口"
+      ],
+      "evidence_ids": [
+        "pg-e-cluster-meetings"
+      ],
+      "application": {
+        "questions": [
+          "哪些会议可以合并到同一窗口而不影响协作？"
+        ],
+        "steps": [
+          "与协作者约定固定沟通时段。",
+          "试行后检查等待是否造成新的阻塞。"
+        ],
+        "limits": [
+          "按团队实际依赖调整，不要求所有人照搬作者的日程。"
+        ]
+      }
+    },
+    {
+      "id": "pg-p-resourceful-adaptation",
+      "title": "保留目标并调整实现路径",
+      "summary": "他把持续寻找办法与根据障碍调整计划放在一起讨论。",
+      "topics": [
+        "应变",
+        "解决问题",
+        "执行",
+        "创业"
+      ],
+      "evidence_ids": [
+        "pg-e-resourceful-adaptation"
+      ],
+      "application": {
+        "questions": [
+          "当前障碍是否需要换方法，而不是继续重复同一动作？"
+        ],
+        "steps": [
+          "列出目标、已失败的方法和新的可测试路径。",
+          "做一次小范围调整并观察结果。"
+        ],
+        "limits": [
+          "坚持不等于忽略证据、透支资源或越过规则；必要时需要改变目标。"
+        ]
+      }
+    },
+    {
+      "id": "pg-p-cofounder-relationship",
+      "title": "在合作前检验相处与工作方式",
+      "summary": "他把联合创始人之间稳固的关系和共同工作的能力视为重要条件。",
+      "topics": [
+        "合伙人",
+        "创始人",
+        "合作",
+        "团队"
+      ],
+      "evidence_ids": [
+        "pg-e-cofounder-relationship"
+      ],
+      "application": {
+        "questions": [
+          "你们是否共同处理过压力、分歧和实际交付？"
+        ],
+        "steps": [
+          "先合作完成一个有明确责任的小项目。",
+          "讨论分工、冲突处理和退出安排。"
+        ],
+        "limits": [
+          "这是 YC 样本经验，不证明单人创业不可行；关系好也不能替代明确约定。"
+        ]
+      }
+    },
+    {
+      "id": "pg-p-unpleasant-work",
+      "title": "把麻烦环节纳入问题评估",
+      "summary": "他提醒创业者可能因为不愿处理繁琐工作而忽略真实机会。",
+      "topics": [
+        "需求发现",
+        "流程",
+        "运营",
+        "执行成本"
+      ],
+      "evidence_ids": [
+        "pg-e-unpleasant-work"
+      ],
+      "application": {
+        "questions": [
+          "你排除这个需求，是因为没有价值，还是因为交付麻烦？"
+        ],
+        "steps": [
+          "画出完成交付需要的非编码工作。",
+          "估算合规、沟通、运营与维护成本后再决定。"
+        ],
+        "limits": [
+          "麻烦并不自动意味着好机会，成本和可行性仍可能使项目不成立。"
+        ]
+      }
+    },
+    {
+      "id": "pg-p-cooperative-motive",
+      "title": "检查动机是否支持长期合作",
+      "summary": "他从个人观察讨论善意与创造有益事物对长期合作的作用。",
+      "topics": [
+        "合作",
+        "信任",
+        "动机",
+        "长期经营"
+      ],
+      "evidence_ids": [
+        "pg-e-cooperative-motive"
+      ],
+      "application": {
+        "questions": [
+          "你的选择是否同时考虑用户和合作者的实际利益？"
+        ],
+        "steps": [
+          "写出各方获得什么、承担什么。",
+          "检查短期获利是否损害长期信任。"
+        ],
+        "limits": [
+          "作者的个人样本观察不能证明某种性格必然导致成功或失败。"
+        ]
+      }
+    },
+    {
+      "id": "pg-p-aptitude-interest",
+      "title": "通过实际尝试寻找能力与兴趣交集",
+      "summary": "他把擅长、深度兴趣和可探索的空间作为选择工作的线索。",
+      "topics": [
+        "职业方向",
+        "兴趣",
+        "能力",
+        "选择"
+      ],
+      "evidence_ids": [
+        "pg-e-aptitude-interest"
+      ],
+      "application": {
+        "questions": [
+          "什么问题能让你持续主动投入，又有机会做出实际进展？"
+        ],
+        "steps": [
+          "选择一个小项目亲自尝试。",
+          "比较投入后的学习速度、兴趣与交付结果。"
+        ],
+        "limits": [
+          "不能只凭兴趣忽略收入、家庭责任和进入门槛；交集需要观察而非自我标签。"
+        ]
+      }
+    },
+    {
+      "id": "pg-p-learn-to-frontier",
+      "title": "学到能提出具体未知问题",
+      "summary": "他建议先学习领域，再观察已有知识尚未解释的缺口。",
+      "topics": [
+        "学习",
+        "研究",
+        "问题发现",
+        "创新"
+      ],
+      "evidence_ids": [
+        "pg-e-learn-to-frontier"
+      ],
+      "application": {
+        "questions": [
+          "你能具体说出哪个问题尚未解决，以及已有方案做到哪里吗？"
+        ],
+        "steps": [
+          "整理已有方法和限制。",
+          "挑选一个小缺口，设计能区分不同解释的验证。"
+        ],
+        "limits": [
+          "把不懂误当空白会重复已有工作，需先核对现有资料。"
+        ]
+      }
+    },
+    {
+      "id": "pg-p-sustainable-effort",
+      "title": "根据有效产出调整工作强度",
+      "summary": "他指出过度工作存在收益递减，疲劳会影响判断。",
+      "topics": [
+        "工作节奏",
+        "疲劳",
+        "专注",
+        "产出"
+      ],
+      "evidence_ids": [
+        "pg-e-sustainable-effort"
+      ],
+      "application": {
+        "questions": [
+          "增加工作时间后，有效产出和判断质量是否仍在改善？"
+        ],
+        "steps": [
+          "记录高质量工作时段与错误情况。",
+          "调整工作和休息安排，再比较交付质量。"
+        ],
+        "limits": [
+          "原文所举工作小时数不是医疗建议或人人适用的工时标准。"
+        ]
+      }
+    },
+    {
+      "id": "pg-p-will-and-discipline",
+      "title": "用自我约束校正强烈意志",
+      "summary": "他认为意志需要纪律平衡，否则可能只会强化错误冲动。",
+      "topics": [
+        "自律",
+        "执行",
+        "判断",
+        "复盘"
+      ],
+      "evidence_ids": [
+        "pg-e-will-and-discipline"
+      ],
+      "application": {
+        "questions": [
+          "你是否允许证据和预先约定的边界纠正自己的坚持？"
+        ],
+        "steps": [
+          "事先写下投入边界和复盘时间。",
+          "找一个可能推翻当前判断的信号。"
+        ],
+        "limits": [
+          "这是作者的概念分析，不用来诊断个人性格或心理问题。"
+        ]
+      }
+    },
+    {
+      "id": "pg-p-peer-reference",
+      "title": "用合适同伴扩大对可能性的认识",
+      "summary": "他讨论同伴环境会影响年轻人对目标难度和自身能力的想象。",
+      "topics": [
+        "同伴",
+        "学习环境",
+        "目标",
+        "成长"
+      ],
+      "evidence_ids": [
+        "pg-e-peer-reference"
+      ],
+      "application": {
+        "questions": [
+          "你对可达到目标的判断，是否只来自过窄的参照群体？"
+        ],
+        "steps": [
+          "接触一位能展示具体工作过程的同行。",
+          "把启发转成适合自身资源的小试验。"
+        ],
+        "limits": [
+          "接触优秀同伴不保证结果，也不需要照搬他人的目标或冒险水平。"
+        ]
+      }
+    },
+    {
+      "id": "pg-p-default-alive",
+      "title": "在扩大成本前算清现金能否撑到盈利",
+      "summary": "他要求创始人在收入与费用假设下判断现有现金是否足以走到盈利。",
+      "topics": [
+        "现金流",
+        "盈利",
+        "融资",
+        "成本",
+        "创业风险"
+      ],
+      "evidence_ids": [
+        "pg-e-default-alive"
+      ],
+      "application": {
+        "questions": [
+          "如果没有下一轮融资，现有现金在什么条件下耗尽？"
+        ],
+        "steps": [
+          "列出现金、固定支出与收入假设。",
+          "做保守情景，并预先约定削减成本或改变计划的时间。"
+        ],
+        "limits": [
+          "预测依赖假设；公司盈利、融资到账与个人净积累不是同一口径。"
+        ]
+      }
+    },
+    {
+      "id": "pg-p-direct-operating-context",
+      "title": "管理扩大后仍要接触关键工作事实",
+      "summary": "他质疑把组织层级完全当黑箱，讨论创始人直接了解关键工作的可能性。",
+      "topics": [
+        "创始人管理",
+        "组织信息",
+        "关键工作",
+        "管理"
+      ],
+      "evidence_ids": [
+        "pg-e-direct-operating-context"
+      ],
+      "application": {
+        "questions": [
+          "层级是否隔断了决定所需的一线信息？"
+        ],
+        "steps": [
+          "选择一个关键交付直接了解实际问题。",
+          "把信息沟通与原有职责、决策权说清楚。"
+        ],
+        "limits": [
+          "框架主要来自创业者经验；不能据此认定职业经理人普遍不可靠，或绕过所有负责人。"
+        ]
+      }
+    },
+    {
+      "id": "pg-p-delegation-boundaries",
+      "title": "直接参与管理也需要明确授权边界",
+      "summary": "他明确说大公司不能照搬小团队管理，并预警创始人可能用新概念为拒绝授权辩护。",
+      "topics": [
+        "授权",
+        "组织规模",
+        "管理边界",
+        "创始人"
+      ],
+      "evidence_ids": [
+        "pg-e-delegation-boundaries"
+      ],
+      "application": {
+        "questions": [
+          "哪些决定必须自己负责，哪些可以在清楚边界内交给团队？"
+        ],
+        "steps": [
+          "按风险、能力与信息条件划定权限。",
+          "定期检查授权效果，避免以参与为理由接管所有细节。"
+        ],
+        "limits": [
+          "文章承认这一框架尚未充分理解，不能把创始人模式当作独断和微观管理的许可。"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,843 @@
+{
+  "schema_version": 1,
+  "person": {
+    "id": "angela-duckworth",
+    "name": "安吉拉·达克沃思",
+    "aliases": [
+      "Angela Duckworth",
+      "Duckworth",
+      "安吉拉达克沃思",
+      "达克沃思",
+      "达克沃斯",
+      "安吉拉·达克沃斯"
+    ],
+    "description": "从原发布采访整理兴趣、持续投入、灵活坚持、求助、教育支持与测量边界；保留机会和环境条件，不把grit当作解释一切的个人标签。"
+  },
+  "sources": [
+    {
+      "id": "duckworth-grit",
+      "title": "'Grit': Why Talent Needs Drive to Succeed - Knowledge at WhartonKnowledge at Wharton logoKnowledge at Wharton logoWharton Business Daily logoThe Wharton School logo",
+      "url": "https://knowledge.wharton.upenn.edu/podcast/knowledge-at-wharton-podcast/why-talent-needs-drive-to-succeed/",
+      "publisher": "Knowledge at Wharton / 原发布Angela Duckworth采访",
+      "kind": "interview",
+      "authority": "publisher",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "出版方标注edited transcript；只取Duckworth回答，区分采访问题和插入引语。核对表达，未逐句听辨；对人才、成功和企业表现的概括保留经验性，不当独立因果证明。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。"
+      },
+      "content_sha256": "b37fb5e0996e24285b97fd0dc5654a4c0e8d8032f6c92fc37d19a39559743d18",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "duckworth-advice",
+      "title": "A Q&A with Character Lab's Dr. Angela DuckworthFacebookTwitterYouTubeMail ToLinkedInInstagramGoogle",
+      "url": "https://www.waltonfamilyfoundation.org/stories/k-12-education/a-q-a-with-character-labs-dr-angela-duckworth",
+      "publisher": "Walton Family Foundation / 自采Angela Duckworth问答",
+      "kind": "interview",
+      "authority": "publisher",
+      "published_at": "2015-09-17",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "原发布问答，取明确标为Angela的回答。基金会对教育工作的资助背景不等于独立效果验证；保留她对测量、推广和品格单一化的谨慎。未将棉花糖测验等例子当对个人的可靠预测工具。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "69337b87e9f5731dc62b05860320d8912c9f5534d02c3a93b395a306719920e0",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "duckworth-e-interests-develop",
+      "source_id": "duckworth-grit",
+      "speaker": "安吉拉·达克沃思",
+      "excerpt": "develops",
+      "summary": "她提醒年轻人不必因为尚未找到热情而恐慌，兴趣会发展。",
+      "locator": {
+        "type": "heading",
+        "value": "关于尚未找到passion的回答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "兴趣探索",
+        "职业方向",
+        "实践",
+        "时间"
+      ],
+      "context": "所引为作者公开问答，应用为编辑推演。未以名气或她叙述的研究代替独立核验。"
+    },
+    {
+      "id": "duckworth-e-talent-and-engagement",
+      "source_id": "duckworth-grit",
+      "speaker": "安吉拉·达克沃思",
+      "excerpt": "engagement",
+      "summary": "她区分自己对talent的定义与长期投入的质量和数量。",
+      "locator": {
+        "type": "heading",
+        "value": "关于talent和effort的回答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "技能学习",
+        "投入质量",
+        "能力",
+        "练习"
+      ],
+      "context": "所引为作者公开问答，应用为编辑推演。未以名气或她叙述的研究代替独立核验。"
+    },
+    {
+      "id": "duckworth-e-meaningful-work",
+      "source_id": "duckworth-grit",
+      "speaker": "安吉拉·达克沃思",
+      "excerpt": "meaningful",
+      "summary": "她回顾从公司工作转向教学时，将变化理解为接近在意的工作。",
+      "locator": {
+        "type": "heading",
+        "value": "开头；转向教学的回顾"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "职业选择",
+        "意义",
+        "个人价值",
+        "实际体验"
+      ],
+      "context": "所引为作者公开问答，应用为编辑推演。未以名气或她叙述的研究代替独立核验。"
+    },
+    {
+      "id": "duckworth-e-teaching-adjustment",
+      "source_id": "duckworth-grit",
+      "speaker": "安吉拉·达克沃思",
+      "excerpt": "teacher",
+      "summary": "她反思曾把困难归因于学生天赋，后来更关注自己能调整什么。",
+      "locator": {
+        "type": "heading",
+        "value": "关于教学反思的回答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "教学",
+        "学习支持",
+        "反馈",
+        "责任"
+      ],
+      "context": "所引为作者公开问答，应用为编辑推演。未以名气或她叙述的研究代替独立核验。"
+    },
+    {
+      "id": "duckworth-e-opportunity-context",
+      "source_id": "duckworth-grit",
+      "speaker": "安吉拉·达克沃思",
+      "excerpt": "opportunities",
+      "summary": "她提醒学习会受机会、经验与现实环境影响。",
+      "locator": {
+        "type": "heading",
+        "value": "关于教育变化与学习条件的回答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "学习条件",
+        "机会",
+        "环境",
+        "支持"
+      ],
+      "context": "所引为作者公开问答，应用为编辑推演。未以名气或她叙述的研究代替独立核验。"
+    },
+    {
+      "id": "duckworth-e-flexible-perseverance",
+      "source_id": "duckworth-grit",
+      "speaker": "安吉拉·达克沃思",
+      "excerpt": "brick wall",
+      "summary": "她明确说坚持可以包含反思、暂停、换方向甚至退出一个项目。",
+      "locator": {
+        "type": "heading",
+        "value": "关于撞墙与坚持的回答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "坚持",
+        "策略调整",
+        "退出",
+        "长期目标"
+      ],
+      "context": "所引为作者公开问答，应用为编辑推演。未以名气或她叙述的研究代替独立核验。"
+    },
+    {
+      "id": "duckworth-e-trusted-advisers",
+      "source_id": "duckworth-grit",
+      "speaker": "安吉拉·达克沃思",
+      "excerpt": "advisers",
+      "summary": "她提到身处其中时难以看清，建议向了解自己的人求证。",
+      "locator": {
+        "type": "heading",
+        "value": "关于向朋友和顾问求助"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "求助",
+        "可信同伴",
+        "决策复查",
+        "支持"
+      ],
+      "context": "所引为作者公开问答，应用为编辑推演。未以名气或她叙述的研究代替独立核验。"
+    },
+    {
+      "id": "duckworth-e-honest-workplace",
+      "source_id": "duckworth-grit",
+      "speaker": "安吉拉·达克沃思",
+      "excerpt": "high-trust",
+      "summary": "她把可说出错误并修正的环境列为值得寻找的工作条件。",
+      "locator": {
+        "type": "heading",
+        "value": "关于企业文化的回答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "团队信任",
+        "承认错误",
+        "求助",
+        "工作环境"
+      ],
+      "context": "所引为作者公开问答，应用为编辑推演。未以名气或她叙述的研究代替独立核验。"
+    },
+    {
+      "id": "duckworth-e-grit-not-everything",
+      "source_id": "duckworth-grit",
+      "speaker": "安吉拉·达克沃思",
+      "excerpt": "everything",
+      "summary": "她提醒不要从强调天赋摇摆到认为grit能解释一切。",
+      "locator": {
+        "type": "heading",
+        "value": "关于不要把grit作为一切答案"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "综合判断",
+        "毅力边界",
+        "学习条件",
+        "证据"
+      ],
+      "context": "所引为作者公开问答，应用为编辑推演。未以名气或她叙述的研究代替独立核验。"
+    },
+    {
+      "id": "duckworth-e-broader-development",
+      "source_id": "duckworth-advice",
+      "speaker": "安吉拉·达克沃思",
+      "excerpt": "plural",
+      "summary": "她把品格讨论分为个人目标、与人相处和求知等不同方面。",
+      "locator": {
+        "type": "heading",
+        "value": "关于character不同维度的回答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "全面成长",
+        "合作",
+        "好奇心",
+        "目标管理"
+      ],
+      "context": "所引为作者公开问答，应用为编辑推演。未以名气或她叙述的研究代替独立核验。"
+    },
+    {
+      "id": "duckworth-e-measurement-triangulation",
+      "source_id": "duckworth-advice",
+      "speaker": "安吉拉·达克沃思",
+      "excerpt": "triangulate",
+      "summary": "她提醒自评和外部观察各有盲点，建议多种测量相互补充。",
+      "locator": {
+        "type": "heading",
+        "value": "关于学生自评准确性的回答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "自我评价",
+        "多方反馈",
+        "测量限制",
+        "行为观察"
+      ],
+      "context": "所引为作者公开问答，应用为编辑推演。未以名气或她叙述的研究代替独立核验。"
+    },
+    {
+      "id": "duckworth-e-no-premature-accountability",
+      "source_id": "duckworth-advice",
+      "speaker": "安吉拉·达克沃思",
+      "excerpt": "premature",
+      "summary": "她认为当时的测量不足以承担跨学校比较或教师绩效奖惩。",
+      "locator": {
+        "type": "heading",
+        "value": "关于measurement and accountability的回答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "测量有效性",
+        "问责",
+        "激励",
+        "教育评估"
+      ],
+      "context": "所引为作者公开问答，应用为编辑推演。未以名气或她叙述的研究代替独立核验。"
+    },
+    {
+      "id": "duckworth-e-test-practical-ideas",
+      "source_id": "duckworth-advice",
+      "speaker": "安吉拉·达克沃思",
+      "excerpt": "systematic",
+      "summary": "她希望教师的经验与研究者的测量、设计和分析能力共同检验方法。",
+      "locator": {
+        "type": "heading",
+        "value": "关于教师创新与研究合作的回答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "实践验证",
+        "教育创新",
+        "合作",
+        "实验"
+      ],
+      "context": "所引为作者公开问答，应用为编辑推演。未以名气或她叙述的研究代替独立核验。"
+    },
+    {
+      "id": "duckworth-e-evidence-before-scale",
+      "source_id": "duckworth-advice",
+      "speaker": "安吉拉·达克沃思",
+      "excerpt": "scale",
+      "summary": "她把怎样改进、怎样准确衡量和怎样规模化列为依次要解决的问题。",
+      "locator": {
+        "type": "heading",
+        "value": "关于三类研究问题的回答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "推广",
+        "效果验证",
+        "测量",
+        "资源"
+      ],
+      "context": "所引为作者公开问答，应用为编辑推演。未以名气或她叙述的研究代替独立核验。"
+    },
+    {
+      "id": "duckworth-e-adult-modeling",
+      "source_id": "duckworth-advice",
+      "speaker": "安吉拉·达克沃思",
+      "excerpt": "role model",
+      "summary": "她把家长和教师自己的行为示范置于教育讨论的重要位置。",
+      "locator": {
+        "type": "heading",
+        "value": "关于给家长建议的回答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "家庭教育",
+        "示范",
+        "日常行为",
+        "责任"
+      ],
+      "context": "所引为作者公开问答，应用为编辑推演。未以名气或她叙述的研究代替独立核验。"
+    }
+  ],
+  "principles": [
+    {
+      "id": "duckworth-p-interests-develop",
+      "title": "通过实际接触逐步发现持续兴趣",
+      "summary": "她提醒年轻人不必因为尚未找到热情而恐慌，兴趣会发展。",
+      "topics": [
+        "兴趣探索",
+        "职业方向",
+        "实践",
+        "时间"
+      ],
+      "evidence_ids": [
+        "duckworth-e-interests-develop"
+      ],
+      "application": {
+        "questions": [
+          "你愿意继续了解和尝试的具体任务是什么？"
+        ],
+        "steps": [
+          "尝试有明确范围的真实任务。",
+          "记录哪些部分愿意继续投入，再调整方向。"
+        ],
+        "limits": [
+          "不能保证兴趣必然成为收入，也不要求离开稳定工作。"
+        ]
+      }
+    },
+    {
+      "id": "duckworth-p-talent-and-engagement",
+      "title": "把学习速度与持续参与分开观察",
+      "summary": "她区分自己对talent的定义与长期投入的质量和数量。",
+      "topics": [
+        "技能学习",
+        "投入质量",
+        "能力",
+        "练习"
+      ],
+      "evidence_ids": [
+        "duckworth-e-talent-and-engagement"
+      ],
+      "application": {
+        "questions": [
+          "当前困难来自练习方式、投入条件，还是尚未掌握的技能？"
+        ],
+        "steps": [
+          "比较练习的质量、频率和反馈。",
+          "用任务表现核对进步。"
+        ],
+        "limits": [
+          "定义和乘法说法是其解释框架，不是可直接测算人的固定公式。"
+        ]
+      }
+    },
+    {
+      "id": "duckworth-p-meaningful-work",
+      "title": "把职业选择联系到兴趣和价值",
+      "summary": "她回顾从公司工作转向教学时，将变化理解为接近在意的工作。",
+      "topics": [
+        "职业选择",
+        "意义",
+        "个人价值",
+        "实际体验"
+      ],
+      "evidence_ids": [
+        "duckworth-e-meaningful-work"
+      ],
+      "application": {
+        "questions": [
+          "新方向吸引你的是日常任务，还是外部光环？"
+        ],
+        "steps": [
+          "了解工作真实内容与限制。",
+          "比较兴趣、价值和现实责任。"
+        ],
+        "limits": [
+          "个人经历不证明同样的转行适合别人；收入和照护责任仍需考虑。"
+        ]
+      }
+    },
+    {
+      "id": "duckworth-p-teaching-adjustment",
+      "title": "学生学得慢时也检查教学方式",
+      "summary": "她反思曾把困难归因于学生天赋，后来更关注自己能调整什么。",
+      "topics": [
+        "教学",
+        "学习支持",
+        "反馈",
+        "责任"
+      ],
+      "evidence_ids": [
+        "duckworth-e-teaching-adjustment"
+      ],
+      "application": {
+        "questions": [
+          "解释、练习、材料或反馈是否还可以改变？"
+        ],
+        "steps": [
+          "先确认学生具体卡点。",
+          "试一种不同支持方式并观察结果。"
+        ],
+        "limits": [
+          "不把全部困难都归责教师，也不从学习速度判断永久能力。"
+        ]
+      }
+    },
+    {
+      "id": "duckworth-p-opportunity-context",
+      "title": "把学习条件和机会纳入进步解释",
+      "summary": "她提醒学习会受机会、经验与现实环境影响。",
+      "topics": [
+        "学习条件",
+        "机会",
+        "环境",
+        "支持"
+      ],
+      "evidence_ids": [
+        "duckworth-e-opportunity-context"
+      ],
+      "application": {
+        "questions": [
+          "个人努力之外，缺少了哪些必要资源或支持？"
+        ],
+        "steps": [
+          "分别列出可控行为与外部条件。",
+          "优先补足关键障碍并重新评估目标。"
+        ],
+        "limits": [
+          "不能用毅力标签掩盖贫困、资源差异或不合理要求。"
+        ]
+      }
+    },
+    {
+      "id": "duckworth-p-flexible-perseverance",
+      "title": "保留重要目标，同时允许调整具体路径",
+      "summary": "她明确说坚持可以包含反思、暂停、换方向甚至退出一个项目。",
+      "topics": [
+        "坚持",
+        "策略调整",
+        "退出",
+        "长期目标"
+      ],
+      "evidence_ids": [
+        "duckworth-e-flexible-perseverance"
+      ],
+      "application": {
+        "questions": [
+          "需要坚持的是重要价值，还是已经失效的一种做法？"
+        ],
+        "steps": [
+          "检查当前方法失败的证据。",
+          "比较暂停、换方法或退出项目的代价。"
+        ],
+        "limits": [
+          "不鼓励无边界死磕，也不把退出自动解释为缺乏品格。"
+        ]
+      }
+    },
+    {
+      "id": "duckworth-p-trusted-advisers",
+      "title": "卡在局部处境时请可信的人帮助复查",
+      "summary": "她提到身处其中时难以看清，建议向了解自己的人求证。",
+      "topics": [
+        "求助",
+        "可信同伴",
+        "决策复查",
+        "支持"
+      ],
+      "evidence_ids": [
+        "duckworth-e-trusted-advisers"
+      ],
+      "application": {
+        "questions": [
+          "谁既了解情况，又愿意给具体而诚实的反馈？"
+        ],
+        "steps": [
+          "提供事实和正在权衡的选择。",
+          "听取不同理由，再自行承担决定。"
+        ],
+        "limits": [
+          "信任不等于对方必然正确，重大事项需要相应专业能力。"
+        ]
+      }
+    },
+    {
+      "id": "duckworth-p-honest-workplace",
+      "title": "让团队能够承认失误和请求帮助",
+      "summary": "她把可说出错误并修正的环境列为值得寻找的工作条件。",
+      "topics": [
+        "团队信任",
+        "承认错误",
+        "求助",
+        "工作环境"
+      ],
+      "evidence_ids": [
+        "duckworth-e-honest-workplace"
+      ],
+      "application": {
+        "questions": [
+          "成员能否说清问题，而不必先掩饰或撒谎？"
+        ],
+        "steps": [
+          "核对真实的反馈和问责方式。",
+          "支持具体修正，并分清职责。"
+        ],
+        "limits": [
+          "原文对优秀企业的概括是个人判断，不证明某种文化必然带来业绩。"
+        ]
+      }
+    },
+    {
+      "id": "duckworth-p-grit-not-everything",
+      "title": "用多种因素理解表现，而不只看毅力",
+      "summary": "她提醒不要从强调天赋摇摆到认为grit能解释一切。",
+      "topics": [
+        "综合判断",
+        "毅力边界",
+        "学习条件",
+        "证据"
+      ],
+      "evidence_ids": [
+        "duckworth-e-grit-not-everything"
+      ],
+      "application": {
+        "questions": [
+          "除了坚持，技能、方法、机会和健康条件各起什么作用？"
+        ],
+        "steps": [
+          "列出相互作用的具体因素。",
+          "寻找最有证据且可改善的一项。"
+        ],
+        "limits": [
+          "不据此判断个人是否值得成功，也不把访谈自述当完整科学结论。"
+        ]
+      }
+    },
+    {
+      "id": "duckworth-p-broader-development",
+      "title": "看学习成长时同时关心目标、相处和求知",
+      "summary": "她把品格讨论分为个人目标、与人相处和求知等不同方面。",
+      "topics": [
+        "全面成长",
+        "合作",
+        "好奇心",
+        "目标管理"
+      ],
+      "evidence_ids": [
+        "duckworth-e-broader-development"
+      ],
+      "application": {
+        "questions": [
+          "除了成绩或完成目标，是否也关注合作和好奇心？"
+        ],
+        "steps": [
+          "从具体任务中分别观察这些方面。",
+          "选择一项需要支持的能力共同练习。"
+        ],
+        "limits": [
+          "这是发展框架，不是给儿童或成人打统一人格分数。"
+        ]
+      }
+    },
+    {
+      "id": "duckworth-p-measurement-triangulation",
+      "title": "用不同视角核对自我评价",
+      "summary": "她提醒自评和外部观察各有盲点，建议多种测量相互补充。",
+      "topics": [
+        "自我评价",
+        "多方反馈",
+        "测量限制",
+        "行为观察"
+      ],
+      "evidence_ids": [
+        "duckworth-e-measurement-triangulation"
+      ],
+      "application": {
+        "questions": [
+          "自己的评价与实际行为和他人观察有哪些差异？"
+        ],
+        "steps": [
+          "收集与任务有关的具体例子。",
+          "比较多个视角，说明各自局限。"
+        ],
+        "limits": [
+          "多方一致也不自动是真相，不将自评或教师评价当永久标签。"
+        ]
+      }
+    },
+    {
+      "id": "duckworth-p-no-premature-accountability",
+      "title": "不要把尚不成熟的品格指标用于高风险问责",
+      "summary": "她认为当时的测量不足以承担跨学校比较或教师绩效奖惩。",
+      "topics": [
+        "测量有效性",
+        "问责",
+        "激励",
+        "教育评估"
+      ],
+      "evidence_ids": [
+        "duckworth-e-no-premature-accountability"
+      ],
+      "application": {
+        "questions": [
+          "测量是否已适合这个比较和奖惩目的？"
+        ],
+        "steps": [
+          "区分发展反馈与高风险评价。",
+          "核对可比性、失真激励和证据范围。"
+        ],
+        "limits": [
+          "这是对当时工具的限制说明，不能外推所有测量永远无用。"
+        ]
+      }
+    },
+    {
+      "id": "duckworth-p-test-practical-ideas",
+      "title": "把一线实践与系统验证结合",
+      "summary": "她希望教师的经验与研究者的测量、设计和分析能力共同检验方法。",
+      "topics": [
+        "实践验证",
+        "教育创新",
+        "合作",
+        "实验"
+      ],
+      "evidence_ids": [
+        "duckworth-e-test-practical-ideas"
+      ],
+      "application": {
+        "questions": [
+          "一种看起来有用的做法，怎样区分印象与实际改善？"
+        ],
+        "steps": [
+          "请一线人员说清做法和目标。",
+          "用适当比较、观察和记录检查结果。"
+        ],
+        "limits": [
+          "不能把未经验证的创新直接推广，也不替代涉及参与者权益的审查。"
+        ]
+      }
+    },
+    {
+      "id": "duckworth-p-evidence-before-scale",
+      "title": "扩大推广前先检查有效性与测量",
+      "summary": "她把怎样改进、怎样准确衡量和怎样规模化列为依次要解决的问题。",
+      "topics": [
+        "推广",
+        "效果验证",
+        "测量",
+        "资源"
+      ],
+      "evidence_ids": [
+        "duckworth-e-evidence-before-scale"
+      ],
+      "application": {
+        "questions": [
+          "你是已证明有效但难推广，还是尚未确认是否有效？"
+        ],
+        "steps": [
+          "分别确认作用、测量和实施前提。",
+          "通过小范围验证，再考虑扩大投入。"
+        ],
+        "limits": [
+          "研究问题的顺序是判断框架，不是所有项目固定遵循的阶段门。"
+        ]
+      }
+    },
+    {
+      "id": "duckworth-p-adult-modeling",
+      "title": "成人用日常行为示范所期待的做法",
+      "summary": "她把家长和教师自己的行为示范置于教育讨论的重要位置。",
+      "topics": [
+        "家庭教育",
+        "示范",
+        "日常行为",
+        "责任"
+      ],
+      "evidence_ids": [
+        "duckworth-e-adult-modeling"
+      ],
+      "application": {
+        "questions": [
+          "你希望别人做到的事情，自己怎样在真实情境里实践？"
+        ],
+        "steps": [
+          "选一项具体行为持续示范。",
+          "出现失误时说明如何承认和修正。"
+        ],
+        "limits": [
+          "不把儿童行为完全归因家长；原文引用的他人实验不冒称她的原创或这里独立核验的结论。"
+        ]
+      }
+    }
+  ]
+}

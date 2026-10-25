@@ -1,0 +1,1049 @@
+{
+  "schema_version": 1,
+  "person": {
+    "id": "morgan-housel",
+    "name": "摩根·豪泽尔",
+    "aliases": [
+      "Morgan Housel",
+      "摩根豪泽尔",
+      "豪泽尔"
+    ],
+    "description": "从本人署名文章整理金钱与行为、风险承受、目标变化、财富表象、预期与不确定性；保留历史语境和经验随笔属性，不预测市场或承诺收益。"
+  },
+  "sources": [
+    {
+      "id": "housel-money-rules",
+      "title": "\n      Short Money Rules · Collaborative Fund\n    ",
+      "url": "https://collabfund.com/blog/short-money-rules/",
+      "publisher": "Collaborative Fund / Morgan Housel署名原文",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2019-02-13",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "原发页明确作者Morgan Housel，日期取正文刊载。经验随笔包含修辞性比例、历史故事与他人引语；未独立核查这些数据，不把夸张表述、预期回报或过去市场例子当当前投资指令。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "10c4972281d3009ea3f1b73c5bb2e44c7cc2e3a9627a7ba0ae13ab0b7acafc2a",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "housel-uncertainty",
+      "title": "\n      When You Have No Idea What Happens Next · Collaborative Fund\n    ",
+      "url": "https://collabfund.com/blog/when-you-have-no-idea-what-happens-next/",
+      "publisher": "Collaborative Fund / Morgan Housel署名原文",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2020-04-29",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "原发页明确作者Morgan Housel，日期取正文刊载。经验随笔包含修辞性比例、历史故事与他人引语；未独立核查这些数据，不把夸张表述、预期回报或过去市场例子当当前投资指令。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "2f93b061cf2d092cd9548208a3752aa026f2a7533e8e09431169b2ef9347cd7f",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "housel-psychology-money",
+      "title": "\n      The Psychology of Money · Collaborative Fund\n    ",
+      "url": "https://collabfund.com/blog/the-psychology-of-money/",
+      "publisher": "Collaborative Fund / Morgan Housel署名原文",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2018-06-01",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "原发页明确作者Morgan Housel，日期取正文刊载。经验随笔包含修辞性比例、历史故事与他人引语；未独立核查这些数据，不把夸张表述、预期回报或过去市场例子当当前投资指令。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "512c9d88b3b47068f36091585e541bec8b043ea0c28cb8d29f4798b00d2e4c7f",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "housel-big-things",
+      "title": "\n      Little Rules About Big Things · Collaborative Fund\n    ",
+      "url": "https://collabfund.com/blog/little-rules-about-big-things/",
+      "publisher": "Collaborative Fund / Morgan Housel署名原文",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2025-08-13",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "原发页明确作者Morgan Housel，日期取正文刊载。经验随笔包含修辞性比例、历史故事与他人引语；未独立核查这些数据，不把夸张表述、预期回报或过去市场例子当当前投资指令。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "e95170af454a538201d00275b847d35a2c369ca8a029418f2c183f71b6b64139",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "housel-e-visible-spending",
+      "source_id": "housel-money-rules",
+      "speaker": "摩根·豪泽尔",
+      "excerpt": "don’t see",
+      "summary": "他提醒别人看见的消费，并不等于持有人剩余的财务能力。",
+      "locator": {
+        "type": "heading",
+        "value": "Wealth is what you don’t see"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "消费",
+        "财富表象",
+        "社会比较",
+        "判断"
+      ],
+      "context": "本人原文表达已定位；步骤为编辑反思框架，不是为具体资产或个人制定的财务方案。"
+    },
+    {
+      "id": "housel-e-opinion-incentives",
+      "source_id": "housel-money-rules",
+      "speaker": "摩根·豪泽尔",
+      "excerpt": "opinions",
+      "summary": "他提醒读者注意付费发表意见的利益关系。",
+      "locator": {
+        "type": "heading",
+        "value": "关于被付费发表意见的段落"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "观点核对",
+        "利益关系",
+        "专家",
+        "判断"
+      ],
+      "context": "本人原文表达已定位；步骤为编辑反思框架，不是为具体资产或个人制定的财务方案。"
+    },
+    {
+      "id": "housel-e-time-autonomy",
+      "source_id": "housel-money-rules",
+      "speaker": "摩根·豪泽尔",
+      "excerpt": "weekends",
+      "summary": "他用周末受欢迎的例子，提醒财务目标也应考虑时间控制。",
+      "locator": {
+        "type": "heading",
+        "value": "周末与financial goals的段落"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "金钱目标",
+        "时间自主",
+        "生活选择",
+        "取舍"
+      ],
+      "context": "本人原文表达已定位；步骤为编辑反思框架，不是为具体资产或个人制定的财务方案。"
+    },
+    {
+      "id": "housel-e-contextual-reserves",
+      "source_id": "housel-money-rules",
+      "speaker": "摩根·豪泽尔",
+      "excerpt": "emergency",
+      "summary": "他提醒固定月数的备用资源可能与真实中断时间不匹配。",
+      "locator": {
+        "type": "heading",
+        "value": "关于应急资源与失业时长的例子"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "应急准备",
+        "风险持续时间",
+        "资源缓冲",
+        "生活责任"
+      ],
+      "context": "本人原文表达已定位；步骤为编辑反思框架，不是为具体资产或个人制定的财务方案。"
+    },
+    {
+      "id": "housel-e-expectations-not-dates",
+      "source_id": "housel-uncertainty",
+      "speaker": "摩根·豪泽尔",
+      "excerpt": "expectations",
+      "summary": "他区分接受某类事件可能发生，与声称知道它何时发生。",
+      "locator": {
+        "type": "heading",
+        "value": "第二部分；expectations与forecasts"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "不确定性",
+        "风险准备",
+        "预测边界",
+        "情景"
+      ],
+      "context": "本人原文表达已定位；步骤为编辑反思框架，不是为具体资产或个人制定的财务方案。"
+    },
+    {
+      "id": "housel-e-history-with-limits",
+      "source_id": "housel-uncertainty",
+      "speaker": "摩根·豪泽尔",
+      "excerpt": "history",
+      "summary": "他建议关注历史中的反应方式，而非依赖短期精确预测。",
+      "locator": {
+        "type": "heading",
+        "value": "第一部分；history与forecasts"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "历史学习",
+        "行为模式",
+        "预测限制",
+        "变化"
+      ],
+      "context": "本人原文表达已定位；步骤为编辑反思框架，不是为具体资产或个人制定的财务方案。"
+    },
+    {
+      "id": "housel-e-fragile-assumptions",
+      "source_id": "housel-uncertainty",
+      "speaker": "摩根·豪泽尔",
+      "excerpt": "cushions",
+      "summary": "他借疫情前后的变化讨论未来假设可能迅速失效。",
+      "locator": {
+        "type": "heading",
+        "value": "末尾；cushions与room for error"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "假设复查",
+        "不确定性",
+        "调整空间",
+        "准备"
+      ],
+      "context": "本人原文表达已定位；步骤为编辑反思框架，不是为具体资产或个人制定的财务方案。"
+    },
+    {
+      "id": "housel-e-luck-and-risk",
+      "source_id": "housel-psychology-money",
+      "speaker": "摩根·豪泽尔",
+      "excerpt": "luck",
+      "summary": "他提醒不能只把成功归给能力、失败归给个人不足。",
+      "locator": {
+        "type": "heading",
+        "value": "第1项；earned success与deserved failure"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "运气",
+        "风险",
+        "结果解释",
+        "能力判断"
+      ],
+      "context": "本人原文表达已定位；步骤为编辑反思框架，不是为具体资产或个人制定的财务方案。"
+    },
+    {
+      "id": "housel-e-emotional-costs",
+      "source_id": "housel-psychology-money",
+      "speaker": "摩根·豪泽尔",
+      "excerpt": "emotional",
+      "summary": "他提醒一些回报需要承担不确定性等非金钱代价。",
+      "locator": {
+        "type": "heading",
+        "value": "第2项；Cost avoidance syndrome"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "承受能力",
+        "情绪成本",
+        "取舍",
+        "风险"
+      ],
+      "context": "本人原文表达已定位；步骤为编辑反思框架，不是为具体资产或个人制定的财务方案。"
+    },
+    {
+      "id": "housel-e-changing-goals",
+      "source_id": "housel-psychology-money",
+      "speaker": "摩根·豪泽尔",
+      "excerpt": "desires",
+      "summary": "他用人生阶段变化提醒人很难准确预测将来的需要。",
+      "locator": {
+        "type": "heading",
+        "value": "第4项；未来偏好与行动"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "长期计划",
+        "偏好变化",
+        "人生阶段",
+        "灵活性"
+      ],
+      "context": "本人原文表达已定位；步骤为编辑反思框架，不是为具体资产或个人制定的财务方案。"
+    },
+    {
+      "id": "housel-e-personal-history-bias",
+      "source_id": "housel-psychology-money",
+      "speaker": "摩根·豪泽尔",
+      "excerpt": "experiences",
+      "summary": "他提醒个人成长经历会深刻影响对风险和经济的理解。",
+      "locator": {
+        "type": "heading",
+        "value": "第5项；Anchored-to-your-own-history bias"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "个人经历",
+        "样本偏差",
+        "风险认知",
+        "判断"
+      ],
+      "context": "本人原文表达已定位；步骤为编辑反思框架，不是为具体资产或个人制定的财务方案。"
+    },
+    {
+      "id": "housel-e-room-for-error",
+      "source_id": "housel-psychology-money",
+      "speaker": "摩根·豪泽尔",
+      "excerpt": "room for error",
+      "summary": "他讨论财务、心理和实际资源上的余量，减少对预测准确的依赖。",
+      "locator": {
+        "type": "heading",
+        "value": "第13项；room for error"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "容错",
+        "缓冲",
+        "资源",
+        "风险管理"
+      ],
+      "context": "本人原文表达已定位；步骤为编辑反思框架，不是为具体资产或个人制定的财务方案。"
+    },
+    {
+      "id": "housel-e-different-games",
+      "source_id": "housel-psychology-money",
+      "speaker": "摩根·豪泽尔",
+      "excerpt": "different financial game",
+      "summary": "他提醒市场里的人可能在进行不同的财务游戏。",
+      "locator": {
+        "type": "heading",
+        "value": "第14项；不同的财务游戏"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "目标差异",
+        "时间尺度",
+        "跟随",
+        "比较"
+      ],
+      "context": "本人原文表达已定位；步骤为编辑反思框架，不是为具体资产或个人制定的财务方案。"
+    },
+    {
+      "id": "housel-e-avoid-ruin",
+      "source_id": "housel-psychology-money",
+      "speaker": "摩根·豪泽尔",
+      "excerpt": "ruin",
+      "summary": "他强调即便多数情景有利，无法承受的失败也需要单独考虑。",
+      "locator": {
+        "type": "heading",
+        "value": "第16项；risk-taking与ruin"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "不可承受损失",
+        "生存",
+        "尾部风险",
+        "决策"
+      ],
+      "context": "本人原文表达已定位；步骤为编辑反思框架，不是为具体资产或个人制定的财务方案。"
+    },
+    {
+      "id": "housel-e-narratives-and-evidence",
+      "source_id": "housel-psychology-money",
+      "speaker": "摩根·豪泽尔",
+      "excerpt": "narrative",
+      "summary": "他提醒为了形成清楚故事，人可能过滤不符合期待的信息。",
+      "locator": {
+        "type": "heading",
+        "value": "第18项；期望世界与真实世界"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "叙事偏差",
+        "反证",
+        "事实核对",
+        "复杂性"
+      ],
+      "context": "本人原文表达已定位；步骤为编辑反思框架，不是为具体资产或个人制定的财务方案。"
+    },
+    {
+      "id": "housel-e-expectations-and-enough",
+      "source_id": "housel-big-things",
+      "speaker": "摩根·豪泽尔",
+      "excerpt": "expectations",
+      "summary": "他提醒收入增长未必带来满足，如果标准不断上移。",
+      "locator": {
+        "type": "heading",
+        "value": "开头；收入和expectations"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "预期",
+        "满足感",
+        "社会比较",
+        "生活目标"
+      ],
+      "context": "本人原文表达已定位；步骤为编辑反思框架，不是为具体资产或个人制定的财务方案。"
+    },
+    {
+      "id": "housel-e-fomo-and-own-choices",
+      "source_id": "housel-big-things",
+      "speaker": "摩根·豪泽尔",
+      "excerpt": "FOMO",
+      "summary": "他把减少FOMO列为重要行为能力。",
+      "locator": {
+        "type": "heading",
+        "value": "关于FOMO的短则"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "错失恐惧",
+        "跟风",
+        "判断",
+        "目标"
+      ],
+      "context": "本人原文表达已定位；步骤为编辑反思框架，不是为具体资产或个人制定的财务方案。"
+    },
+    {
+      "id": "housel-e-conviction-revisable",
+      "source_id": "housel-big-things",
+      "speaker": "摩根·豪泽尔",
+      "excerpt": "new information",
+      "summary": "他提醒信念可能变成故意忽视会改变主意的信息。",
+      "locator": {
+        "type": "heading",
+        "value": "关于conviction的短则"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "信念",
+        "修正判断",
+        "新证据",
+        "反思"
+      ],
+      "context": "本人原文表达已定位；步骤为编辑反思框架，不是为具体资产或个人制定的财务方案。"
+    }
+  ],
+  "principles": [
+    {
+      "id": "housel-p-visible-spending",
+      "title": "区分可见消费与仍可使用的财富",
+      "summary": "他提醒别人看见的消费，并不等于持有人剩余的财务能力。",
+      "topics": [
+        "消费",
+        "财富表象",
+        "社会比较",
+        "判断"
+      ],
+      "evidence_ids": [
+        "housel-e-visible-spending"
+      ],
+      "application": {
+        "questions": [
+          "你在比较的是消费展示，还是实际资源与责任？"
+        ],
+        "steps": [
+          "区分支出、负债和可支配资源。",
+          "避免只按外部展示推断自己或他人的财务状况。"
+        ],
+        "limits": [
+          "不能反向认定消费高的人都没有财富，也不据此评价人的价值。"
+        ]
+      }
+    },
+    {
+      "id": "housel-p-opinion-incentives",
+      "title": "听取观点时检查说话人的收益方式",
+      "summary": "他提醒读者注意付费发表意见的利益关系。",
+      "topics": [
+        "观点核对",
+        "利益关系",
+        "专家",
+        "判断"
+      ],
+      "evidence_ids": [
+        "housel-e-opinion-incentives"
+      ],
+      "application": {
+        "questions": [
+          "对方靠怎样的结果或关注获利，论据是否独立成立？"
+        ],
+        "steps": [
+          "看清利益关系和专业范围。",
+          "核对论据，不只看头衔或收费。"
+        ],
+        "limits": [
+          "收费不自动证明意见错误；免费意见同样可能有偏差。"
+        ]
+      }
+    },
+    {
+      "id": "housel-p-time-autonomy",
+      "title": "把对时间的自主权放入金钱目标",
+      "summary": "他用周末受欢迎的例子，提醒财务目标也应考虑时间控制。",
+      "topics": [
+        "金钱目标",
+        "时间自主",
+        "生活选择",
+        "取舍"
+      ],
+      "evidence_ids": [
+        "housel-e-time-autonomy"
+      ],
+      "application": {
+        "questions": [
+          "增加收入之后，你希望生活中的什么选择变得更自由？"
+        ],
+        "steps": [
+          "写清目标金额服务的具体生活目标。",
+          "比较收入、时间、责任与代价。"
+        ],
+        "limits": [
+          "金钱不是自主权的唯一条件，也不保证收入提高就更自由。"
+        ]
+      }
+    },
+    {
+      "id": "housel-p-contextual-reserves",
+      "title": "缓冲资源应对应实际风险持续时间",
+      "summary": "他提醒固定月数的备用资源可能与真实中断时间不匹配。",
+      "topics": [
+        "应急准备",
+        "风险持续时间",
+        "资源缓冲",
+        "生活责任"
+      ],
+      "evidence_ids": [
+        "housel-e-contextual-reserves"
+      ],
+      "application": {
+        "questions": [
+          "如果收入或关键资源中断，基本责任需要支撑多久？"
+        ],
+        "steps": [
+          "按自己的责任和可能中断情景计算需求。",
+          "明确哪些资源可及时使用。"
+        ],
+        "limits": [
+          "不沿用文中历史失业数据或固定月数作为个人标准。"
+        ]
+      }
+    },
+    {
+      "id": "housel-p-expectations-not-dates",
+      "title": "把为风险作准备与猜中发生日期分开",
+      "summary": "他区分接受某类事件可能发生，与声称知道它何时发生。",
+      "topics": [
+        "不确定性",
+        "风险准备",
+        "预测边界",
+        "情景"
+      ],
+      "evidence_ids": [
+        "housel-e-expectations-not-dates"
+      ],
+      "application": {
+        "questions": [
+          "你需要知道确切日期，还是需要能承受事情发生？"
+        ],
+        "steps": [
+          "列出相关的不利情景。",
+          "优先做不依赖精确时间预测的准备。"
+        ],
+        "limits": [
+          "文中的衰退频率只是历史讨论，不是未来时间表。"
+        ]
+      }
+    },
+    {
+      "id": "housel-p-history-with-limits",
+      "title": "从历史学习应对模式，并保留时代差异",
+      "summary": "他建议关注历史中的反应方式，而非依赖短期精确预测。",
+      "topics": [
+        "历史学习",
+        "行为模式",
+        "预测限制",
+        "变化"
+      ],
+      "evidence_ids": [
+        "housel-e-history-with-limits"
+      ],
+      "application": {
+        "questions": [
+          "历史案例哪些条件可比较，哪些已经改变？"
+        ],
+        "steps": [
+          "比较行为与约束，而不只看结果。",
+          "把案例无法回答的部分列为未知。"
+        ],
+        "limits": [
+          "不把历史当确定剧本；与2018文章关于过度依赖历史的提醒一起理解。"
+        ]
+      }
+    },
+    {
+      "id": "housel-p-fragile-assumptions",
+      "title": "给关键假设失效保留调整空间",
+      "summary": "他借疫情前后的变化讨论未来假设可能迅速失效。",
+      "topics": [
+        "假设复查",
+        "不确定性",
+        "调整空间",
+        "准备"
+      ],
+      "evidence_ids": [
+        "housel-e-fragile-assumptions"
+      ],
+      "application": {
+        "questions": [
+          "如果最重要的假设突然不成立，哪些承诺会让你无法调整？"
+        ],
+        "steps": [
+          "列出关键假设及失败影响。",
+          "保留合理资源和可撤回的选择。"
+        ],
+        "limits": [
+          "不是对下一次事件的预测，也不要求因未知停止所有行动。"
+        ]
+      }
+    },
+    {
+      "id": "housel-p-luck-and-risk",
+      "title": "解释结果时同时考虑运气与风险",
+      "summary": "他提醒不能只把成功归给能力、失败归给个人不足。",
+      "topics": [
+        "运气",
+        "风险",
+        "结果解释",
+        "能力判断"
+      ],
+      "evidence_ids": [
+        "housel-e-luck-and-risk"
+      ],
+      "application": {
+        "questions": [
+          "哪些结果来自自己的决定，哪些受不可控条件影响？"
+        ],
+        "steps": [
+          "比较多个案例与实际过程。",
+          "避免用单一结果推断永久能力或品格。"
+        ],
+        "limits": [
+          "无法精确分解运气和能力，不虚构概率或消除个人责任。"
+        ]
+      }
+    },
+    {
+      "id": "housel-p-emotional-costs",
+      "title": "评估选择时计入情绪和承受成本",
+      "summary": "他提醒一些回报需要承担不确定性等非金钱代价。",
+      "topics": [
+        "承受能力",
+        "情绪成本",
+        "取舍",
+        "风险"
+      ],
+      "evidence_ids": [
+        "housel-e-emotional-costs"
+      ],
+      "application": {
+        "questions": [
+          "除了账面成本，你是否能承受过程中的不确定性与负担？"
+        ],
+        "steps": [
+          "列出时间、关系和心理负荷。",
+          "检查这些代价是否仍与目标匹配。"
+        ],
+        "limits": [
+          "不把任何折磨当值得付出的必要成本，也不沿用文中假设收益率。"
+        ]
+      }
+    },
+    {
+      "id": "housel-p-changing-goals",
+      "title": "长期计划给未来偏好变化留余地",
+      "summary": "他用人生阶段变化提醒人很难准确预测将来的需要。",
+      "topics": [
+        "长期计划",
+        "偏好变化",
+        "人生阶段",
+        "灵活性"
+      ],
+      "evidence_ids": [
+        "housel-e-changing-goals"
+      ],
+      "application": {
+        "questions": [
+          "如果未来的生活责任或愿望变化，这项决定还能调整吗？"
+        ],
+        "steps": [
+          "区分可长期坚持的原则与当前偏好。",
+          "谨慎承担难以撤回的长期约束。"
+        ],
+        "limits": [
+          "不能因未来会变就放弃必要规划。"
+        ]
+      }
+    },
+    {
+      "id": "housel-p-personal-history-bias",
+      "title": "不要把自己经历过的世界当全部样本",
+      "summary": "他提醒个人成长经历会深刻影响对风险和经济的理解。",
+      "topics": [
+        "个人经历",
+        "样本偏差",
+        "风险认知",
+        "判断"
+      ],
+      "evidence_ids": [
+        "housel-e-personal-history-bias"
+      ],
+      "application": {
+        "questions": [
+          "你认为理所当然的规律，是否只在有限时期成立？"
+        ],
+        "steps": [
+          "找不同年代与处境的反例。",
+          "说清自己的样本和认识限制。"
+        ],
+        "limits": [
+          "不使用文中的修辞比例作为科学测量，也不轻视真实个人经验。"
+        ]
+      }
+    },
+    {
+      "id": "housel-p-room-for-error",
+      "title": "让计划容得下误差和意外",
+      "summary": "他讨论财务、心理和实际资源上的余量，减少对预测准确的依赖。",
+      "topics": [
+        "容错",
+        "缓冲",
+        "资源",
+        "风险管理"
+      ],
+      "evidence_ids": [
+        "housel-e-room-for-error"
+      ],
+      "application": {
+        "questions": [
+          "计划是否只有在每个估计都准确时才能成立？"
+        ],
+        "steps": [
+          "检查关键估计的不利变化。",
+          "为最影响生存与责任的部分留出余量。"
+        ],
+        "limits": [
+          "原文引述Ben Graham，不把概念归为他独创；具体余量需结合个人情况。"
+        ]
+      }
+    },
+    {
+      "id": "housel-p-different-games",
+      "title": "借鉴别人行为前先比较目标和时间尺度",
+      "summary": "他提醒市场里的人可能在进行不同的财务游戏。",
+      "topics": [
+        "目标差异",
+        "时间尺度",
+        "跟随",
+        "比较"
+      ],
+      "evidence_ids": [
+        "housel-e-different-games"
+      ],
+      "application": {
+        "questions": [
+          "对方的期限、资源和承受能力与你相同吗？"
+        ],
+        "steps": [
+          "写清自己的用途和约束。",
+          "先比较前提，再判断别人做法是否可迁移。"
+        ],
+        "limits": [
+          "不据此推荐任何证券、交易时点或统一持有期限。"
+        ]
+      }
+    },
+    {
+      "id": "housel-p-avoid-ruin",
+      "title": "有利概率不能替代对毁灭性后果的判断",
+      "summary": "他强调即便多数情景有利，无法承受的失败也需要单独考虑。",
+      "topics": [
+        "不可承受损失",
+        "生存",
+        "尾部风险",
+        "决策"
+      ],
+      "evidence_ids": [
+        "housel-e-avoid-ruin"
+      ],
+      "application": {
+        "questions": [
+          "失败会带来可恢复损失，还是使基本责任无法维持？"
+        ],
+        "steps": [
+          "先界定无法承担的结果。",
+          "在追求收益前排除相应风险暴露。"
+        ],
+        "limits": [
+          "不能凭感觉假定极端结果概率，也不承诺任何方案绝对安全。"
+        ]
+      }
+    },
+    {
+      "id": "housel-p-narratives-and-evidence",
+      "title": "检查漂亮解释是否删掉了不一致事实",
+      "summary": "他提醒为了形成清楚故事，人可能过滤不符合期待的信息。",
+      "topics": [
+        "叙事偏差",
+        "反证",
+        "事实核对",
+        "复杂性"
+      ],
+      "evidence_ids": [
+        "housel-e-narratives-and-evidence"
+      ],
+      "application": {
+        "questions": [
+          "你的解释遗漏了哪些不符合它的观察？"
+        ],
+        "steps": [
+          "列出最重要的反例与替代解释。",
+          "允许结论不够完整或暂时不确定。"
+        ],
+        "limits": [
+          "复杂不意味着无法判断；仍应比较不同解释的证据质量。"
+        ]
+      }
+    },
+    {
+      "id": "housel-p-expectations-and-enough",
+      "title": "检查期待是否跑得比实际生活改善更快",
+      "summary": "他提醒收入增长未必带来满足，如果标准不断上移。",
+      "topics": [
+        "预期",
+        "满足感",
+        "社会比较",
+        "生活目标"
+      ],
+      "evidence_ids": [
+        "housel-e-expectations-and-enough"
+      ],
+      "application": {
+        "questions": [
+          "你追求的改善是什么，标准是否一直随别人变化？"
+        ],
+        "steps": [
+          "明确当前真正需要的生活条件。",
+          "定期比较期待、资源与实际体验。"
+        ],
+        "limits": [
+          "这是反思框架，不是用知足否定合理需要或贫困中的资源困难。"
+        ]
+      }
+    },
+    {
+      "id": "housel-p-fomo-and-own-choices",
+      "title": "别让错失恐惧代替自己的判断",
+      "summary": "他把减少FOMO列为重要行为能力。",
+      "topics": [
+        "错失恐惧",
+        "跟风",
+        "判断",
+        "目标"
+      ],
+      "evidence_ids": [
+        "housel-e-fomo-and-own-choices"
+      ],
+      "application": {
+        "questions": [
+          "如果没有看到别人获利，你还会选择这件事吗？"
+        ],
+        "steps": [
+          "回到自己的目标和可承受条件。",
+          "核对依据后再决定，不因展示结果仓促行动。"
+        ],
+        "limits": [
+          "不是要求错过所有机会，也不把逆向选择自动当正确。"
+        ]
+      }
+    },
+    {
+      "id": "housel-p-conviction-revisable",
+      "title": "坚定判断仍要允许新信息进入",
+      "summary": "他提醒信念可能变成故意忽视会改变主意的信息。",
+      "topics": [
+        "信念",
+        "修正判断",
+        "新证据",
+        "反思"
+      ],
+      "evidence_ids": [
+        "housel-e-conviction-revisable"
+      ],
+      "application": {
+        "questions": [
+          "什么新信息会使你重新考虑当前选择？"
+        ],
+        "steps": [
+          "事先写下会推翻判断的条件。",
+          "定期主动寻找并检查相关证据。"
+        ],
+        "limits": [
+          "不能因为坚持就认定判断错误，也不因一条噪声频繁改变长期选择。"
+        ]
+      }
+    }
+  ]
+}

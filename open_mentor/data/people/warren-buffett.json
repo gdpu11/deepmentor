@@ -1,0 +1,1473 @@
+{
+  "schema_version": 1,
+  "person": {
+    "id": "warren-buffett",
+    "name": "沃伦·巴菲特",
+    "aliases": [
+      "Warren Buffett",
+      "巴菲特",
+      "Buffett",
+      "沃倫·巴菲特"
+    ],
+    "description": "从本人署名的 1996—2024 年度股东信整理能力边界、经营价值、风险、资本配置、管理责任与纠错；区分信件年度和发表日期，不提供当前资产买卖或收益预测。"
+  },
+  "sources": [
+    {
+      "id": "buffett-1996",
+      "title": "Warren Buffett — 1996 Letter to Shareholders",
+      "url": "https://www.berkshirehathaway.com/letters/1996.html",
+      "publisher": "Berkshire Hathaway / Warren E. Buffett 署名股东信",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "1997-02-28",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "1996 为信件对应年度，published_at 取正文署名日期。只核对本包引用的巴菲特正文；2014 文件还包含芒格独立署名文章，本包不把该部分归于巴菲特。公司经营数字和效果为管理者自述，不是独立事实审计。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "6df0e8290624d26a5fda6a7b82d98045f9bd56bb013e4e742f4a7bac05f35569",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "buffett-1999",
+      "title": "Warren Buffett — 1999 Letter to Shareholders",
+      "url": "https://www.berkshirehathaway.com/letters/1999htm.html",
+      "publisher": "Berkshire Hathaway / Warren E. Buffett 署名股东信",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2000-03-01",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "1999 为信件对应年度，published_at 取正文署名日期。只核对本包引用的巴菲特正文；2014 文件还包含芒格独立署名文章，本包不把该部分归于巴菲特。公司经营数字和效果为管理者自述，不是独立事实审计。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "a58988fc41ff66fcf5f651c361344ce6003f4ea4c5da86ba82c060b409bd6d09",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "buffett-2001",
+      "title": "Warren Buffett — 2001 Letter to Shareholders",
+      "url": "https://www.berkshirehathaway.com/letters/2001pdf.pdf",
+      "publisher": "Berkshire Hathaway / Warren E. Buffett 署名股东信",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2002-02-28",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_pdf_text_check",
+        "note": "2001 为信件对应年度，published_at 取正文署名日期。只核对本包引用的巴菲特正文；2014 文件还包含芒格独立署名文章，本包不把该部分归于巴菲特。公司经营数字和效果为管理者自述，不是独立事实审计。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "4f4f00170ea35b9fe51682bf98110471852c39f6a2646aad4a0dcb575af090d3",
+      "refresh": {
+        "mode": "manual",
+        "interval_days": 90
+      }
+    },
+    {
+      "id": "buffett-2004",
+      "title": "Warren Buffett — 2004 Letter to Shareholders",
+      "url": "https://www.berkshirehathaway.com/letters/2004ltr.pdf",
+      "publisher": "Berkshire Hathaway / Warren E. Buffett 署名股东信",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2005-02-28",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_pdf_text_check",
+        "note": "2004 为信件对应年度，published_at 取正文署名日期。只核对本包引用的巴菲特正文；2014 文件还包含芒格独立署名文章，本包不把该部分归于巴菲特。公司经营数字和效果为管理者自述，不是独立事实审计。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "9b92d8ac664db91a1042b5ea92a4fb91ea74aa63f05bf17c7207e33b14c607b1",
+      "refresh": {
+        "mode": "manual",
+        "interval_days": 90
+      }
+    },
+    {
+      "id": "buffett-2011",
+      "title": "Warren Buffett — 2011 Letter to Shareholders",
+      "url": "https://www.berkshirehathaway.com/letters/2011ltr.pdf",
+      "publisher": "Berkshire Hathaway / Warren E. Buffett 署名股东信",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2012-02-25",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_pdf_text_check",
+        "note": "2011 为信件对应年度，published_at 取正文署名日期。只核对本包引用的巴菲特正文；2014 文件还包含芒格独立署名文章，本包不把该部分归于巴菲特。公司经营数字和效果为管理者自述，不是独立事实审计。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "03b52a83fc53a20ef3dfa0128346171b3bbed7e3d1b1c0ac60f2e9699f08996d",
+      "refresh": {
+        "mode": "manual",
+        "interval_days": 90
+      }
+    },
+    {
+      "id": "buffett-2013",
+      "title": "Warren Buffett — 2013 Letter to Shareholders",
+      "url": "https://www.berkshirehathaway.com/letters/2013ltr.pdf",
+      "publisher": "Berkshire Hathaway / Warren E. Buffett 署名股东信",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2014-02-28",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_pdf_text_check",
+        "note": "2013 为信件对应年度，published_at 取正文署名日期。只核对本包引用的巴菲特正文；2014 文件还包含芒格独立署名文章，本包不把该部分归于巴菲特。公司经营数字和效果为管理者自述，不是独立事实审计。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "9aa3ca1175f768e89c0dfca67334cf12deebb6ad7ddfa84c007c5efa21f2d8c8",
+      "refresh": {
+        "mode": "manual",
+        "interval_days": 90
+      }
+    },
+    {
+      "id": "buffett-2014",
+      "title": "Warren Buffett — 2014 Letter to Shareholders",
+      "url": "https://www.berkshirehathaway.com/letters/2014ltr.pdf",
+      "publisher": "Berkshire Hathaway / Warren E. Buffett 署名股东信",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2015-02-27",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_pdf_text_check",
+        "note": "2014 为信件对应年度，published_at 取正文署名日期。只核对本包引用的巴菲特正文；2014 文件还包含芒格独立署名文章，本包不把该部分归于巴菲特。公司经营数字和效果为管理者自述，不是独立事实审计。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "ffae760ec53d6fa239bb60ff43de6859384e36548372ee0dce8397554c83904b",
+      "refresh": {
+        "mode": "manual",
+        "interval_days": 90
+      }
+    },
+    {
+      "id": "buffett-2017",
+      "title": "Warren Buffett — 2017 Letter to Shareholders",
+      "url": "https://www.berkshirehathaway.com/letters/2017ltr.pdf",
+      "publisher": "Berkshire Hathaway / Warren E. Buffett 署名股东信",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2018-02-24",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_pdf_text_check",
+        "note": "2017 为信件对应年度，published_at 取正文署名日期。只核对本包引用的巴菲特正文；2014 文件还包含芒格独立署名文章，本包不把该部分归于巴菲特。公司经营数字和效果为管理者自述，不是独立事实审计。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "e77b68776e70fbd33d81cf035383ea42814bca6de2c57df95589f0be18d1ee71",
+      "refresh": {
+        "mode": "manual",
+        "interval_days": 90
+      }
+    },
+    {
+      "id": "buffett-2024",
+      "title": "Warren Buffett — 2024 Letter to Shareholders",
+      "url": "https://www.berkshirehathaway.com/letters/2024ltr.pdf",
+      "publisher": "Berkshire Hathaway / Warren E. Buffett 署名股东信",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2025-02-22",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_pdf_text_check",
+        "note": "2024 为信件对应年度，published_at 取正文署名日期。只核对本包引用的巴菲特正文；2014 文件还包含芒格独立署名文章，本包不把该部分归于巴菲特。公司经营数字和效果为管理者自述，不是独立事实审计。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "ea98c5e9ce353981ca7fbc7e403d93094868062dd164e034a682b2aa8ed55730",
+      "refresh": {
+        "mode": "manual",
+        "interval_days": 90
+      }
+    },
+    {
+      "id": "buffett-thanksgiving-2025",
+      "title": "Warren Buffett: Thanksgiving Message to Fellow Shareholders",
+      "url": "https://berkshirehathaway.com/news/nov1025.pdf",
+      "publisher": "伯克希尔哈撒韦 / 巴菲特本人致股东文字",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2025-11-10",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_pdf_text_check",
+        "note": "公司原发新闻稿内明确标为Buffett comments的致股东文字，只提取本人部分。与Greg Abel后来署名的年度信分开，不把后任观点并入巴菲特。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "7968bbfae80a1ce7866c30d044f9415d80472933595a8cfbbe20ef9e225cd84b",
+      "refresh": {
+        "mode": "manual",
+        "interval_days": 90
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "buffett-e-circle-of-competence",
+      "source_id": "buffett-1996",
+      "speaker": "沃伦·巴菲特",
+      "excerpt": "circle of competence",
+      "summary": "他强调投资不必理解所有公司，但必须知道自身能力边界。",
+      "locator": {
+        "type": "heading",
+        "value": "投资原则；能力圈与边界"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "能力圈",
+        "理解生意",
+        "判断边界",
+        "投资"
+      ],
+      "context": "原文反对把理解所有公司作为前提，不等于鼓励无视专业知识。"
+    },
+    {
+      "id": "buffett-e-durable-economics",
+      "source_id": "buffett-1996",
+      "speaker": "沃伦·巴菲特",
+      "excerpt": "sustainable cost advantage",
+      "summary": "他用 GEICO 的成本结构解释自己看重的长期优势。",
+      "locator": {
+        "type": "heading",
+        "value": "GEICO 的规模、成本与经营优势"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "商业模式",
+        "竞争优势",
+        "成本",
+        "长期经营"
+      ],
+      "context": "这是其当时对 GEICO 的解释，不把护城河标签本身当验证。"
+    },
+    {
+      "id": "buffett-e-own-capital-decisions",
+      "source_id": "buffett-1999",
+      "speaker": "沃伦·巴菲特",
+      "excerpt": "responsibility for that portfolio",
+      "summary": "他在业绩不佳时明确说明自己对主要投资组合负责。",
+      "locator": {
+        "type": "heading",
+        "value": "开头；资本配置与 1999 年表现"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "责任",
+        "资本配置",
+        "复盘",
+        "诚实沟通"
+      ],
+      "context": "原信同时承认未来恢复并非确定，保留判断失败的可能。"
+    },
+    {
+      "id": "buffett-e-relative-benchmark",
+      "source_id": "buffett-2001",
+      "speaker": "沃伦·巴菲特",
+      "excerpt": "relative results",
+      "summary": "他解释为什么长期使用可比基准评估自己的投资表现。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第2页（文件页序）；开头；1956 Ground Rules 与比较基准"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "绩效",
+        "基准",
+        "衡量",
+        "长期判断"
+      ],
+      "context": "原文讨论伯克希尔投资评价，不把某个指数指定为所有人的基准。"
+    },
+    {
+      "id": "buffett-e-owner-aligned-incentives",
+      "source_id": "buffett-2001",
+      "speaker": "沃伦·巴菲特",
+      "excerpt": "shareholders as patsies, not partners",
+      "summary": "他批评股东承受损失而管理者通过报酬机制获利的安排。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第2页（文件页序）；开头；管理报酬、所有者与合伙人"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "激励",
+        "管理者",
+        "合作",
+        "风险分担"
+      ],
+      "context": "这里只提炼对齐激励的问题，不照搬其个人集中持股比例。"
+    },
+    {
+      "id": "buffett-e-known-safeguards",
+      "source_id": "buffett-2001",
+      "speaker": "沃伦·巴菲特",
+      "excerpt": "a safeguard I knew was important",
+      "summary": "他承认允许业务在缺少已知重要保障的情况下开展，并说明后果。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第2页（文件页序）；开头；General Re 与 2001 年错误"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "风险控制",
+        "保障",
+        "复盘",
+        "决策错误"
+      ],
+      "context": "原信承认的错误与外部事件分开，不把其管理地位当风险控制已充分的证明。"
+    },
+    {
+      "id": "buffett-e-debt-conditions",
+      "source_id": "buffett-2004",
+      "speaker": "沃伦·巴菲特",
+      "excerpt": "we will use debt",
+      "summary": "他表示通常回避负债，并专门解释少数业务使用债务的条件。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第3页（文件页序）；业务分类介绍及 Regulated Utility Businesses"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "债务",
+        "现金流",
+        "业务结构",
+        "风险"
+      ],
+      "context": "不是一律禁止所有债务，也不证明低利率使借款安全。"
+    },
+    {
+      "id": "buffett-e-material-disclosure",
+      "source_id": "buffett-2004",
+      "speaker": "沃伦·巴菲特",
+      "excerpt": "facts that count",
+      "summary": "他解释按业务特性披露数据，以免无关信息遮蔽重要事实。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第3页（文件页序）；四类业务的披露方式说明"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "沟通",
+        "信息质量",
+        "经营分析",
+        "财务口径"
+      ],
+      "context": "原文是其披露原则，不代表所有报告都应使用同一模板。"
+    },
+    {
+      "id": "buffett-e-purchasing-power-risk",
+      "source_id": "buffett-2011",
+      "speaker": "沃伦·巴菲特",
+      "excerpt": "loss of purchasing-power",
+      "summary": "他更关注持有期内购买力受损的可能，而不只用波动描述风险。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第16页（文件页序）；投资定义及三类资产的风险讨论"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "风险",
+        "购买力",
+        "持有期",
+        "波动"
+      ],
+      "context": "保留 reasoned probability 和持有期条件，不保证某类资产一定保值。"
+    },
+    {
+      "id": "buffett-e-productive-asset-logic",
+      "source_id": "buffett-2011",
+      "speaker": "沃伦·巴菲特",
+      "excerpt": "investment in productive assets",
+      "summary": "他比较能产生经营产出的资产与依赖后来买家出价的资产。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第18页（文件页序）；第三类资产：经营性资产"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "资产理解",
+        "现金流",
+        "经营产出",
+        "投机"
+      ],
+      "context": "这是作者偏好的投资逻辑，不能简化为任何实业或房产都安全。"
+    },
+    {
+      "id": "buffett-e-repurchase-conditions",
+      "source_id": "buffett-2011",
+      "speaker": "沃伦·巴菲特",
+      "excerpt": "when two conditions are met",
+      "summary": "他为支持回购同时提出经营流动性充足和价格低于保守估值的条件。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第5页（文件页序）；Share Repurchases"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "回购",
+        "资本配置",
+        "价格",
+        "流动性"
+      ],
+      "context": "原文明确批评只用抵消稀释或现金充裕作为回购理由。"
+    },
+    {
+      "id": "buffett-e-business-production",
+      "source_id": "buffett-2013",
+      "speaker": "沃伦·巴菲特",
+      "excerpt": "future productivity of the asset",
+      "summary": "他用农场和商业物业的历史经历说明自己关注经营能力。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第17页（文件页序）；Some Thoughts About Investing"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "理解生意",
+        "经营收益",
+        "估计",
+        "投资判断"
+      ],
+      "context": "只提取判断方法，不承袭原信对某个历史项目没有下行风险的乐观自述。"
+    },
+    {
+      "id": "buffett-e-prediction-noise",
+      "source_id": "buffett-2013",
+      "speaker": "沃伦·巴菲特",
+      "excerpt": "macro or market predictions",
+      "summary": "他提醒宏观或市场预测可能转移对具体资产事实的注意。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第17页（文件页序）；Some Thoughts About Investing；一般原则"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "信息筛选",
+        "市场评论",
+        "经营事实",
+        "判断"
+      ],
+      "context": "这是作者自己的决策方式，不是证明所有预测都无价值或无法发生。"
+    },
+    {
+      "id": "buffett-e-acquisition-culture",
+      "source_id": "buffett-2014",
+      "speaker": "沃伦·巴菲特",
+      "excerpt": "permanent home",
+      "summary": "他把长期归属、保留经营文化等列为伯克希尔吸引卖方的条件。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第31页（文件页序）；巴菲特正文；收购方对企业卖方的安排"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "收购",
+        "组织文化",
+        "长期承诺",
+        "管理"
+      ],
+      "context": "引用位置属于巴菲特正文；同文件中的芒格独立文章另行建源。"
+    },
+    {
+      "id": "buffett-e-price-discipline",
+      "source_id": "buffett-2017",
+      "speaker": "沃伦·巴菲特",
+      "excerpt": "sensible purchase price",
+      "summary": "他把合理购买价格与业务优势、管理和增长条件并列。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第3页（文件页序）；Acquisitions"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "估值",
+        "价格纪律",
+        "资本配置",
+        "商业判断"
+      ],
+      "context": "原信描述 2017 年没有合适交易的情况，不把当年判断当成当前市场观点。"
+    },
+    {
+      "id": "buffett-e-leverage-and-judgment",
+      "source_id": "buffett-2017",
+      "speaker": "沃伦·巴菲特",
+      "excerpt": "borrowed money",
+      "summary": "他用历史回撤说明借钱持有股票可能带来资金及情绪压力。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第9页（文件页序）；Investments；历史回撤后的讨论"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "杠杆",
+        "风险承受",
+        "流动性",
+        "决策"
+      ],
+      "context": "原文讨论股票持仓借款，与受监管业务的结构性融资分开记录。"
+    },
+    {
+      "id": "buffett-e-funding-independence",
+      "source_id": "buffett-2017",
+      "speaker": "沃伦·巴菲特",
+      "excerpt": "kindness of strangers",
+      "summary": "他强调极端条件下仍需保有独立的资金与经营余力。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第6页（文件页序）；Investments；危机中的流动性准备"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "现金储备",
+        "融资",
+        "生存",
+        "压力情景"
+      ],
+      "context": "这里只提炼避免被外部融资条件支配的原则，不推荐某种具体现金资产。"
+    },
+    {
+      "id": "buffett-e-correct-errors",
+      "source_id": "buffett-2024",
+      "speaker": "沃伦·巴菲特",
+      "excerpt": "delaying the correction of mistakes",
+      "summary": "他认为延迟纠错比承认判断会出错更危险。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第1页（文件页序）；Mistakes – Yes, We Make Them at Berkshire"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "纠错",
+        "复盘",
+        "决策",
+        "执行"
+      ],
+      "context": "原文在此引用芒格的提醒；该条是巴菲特自己在股东信中的纠错主张。"
+    },
+    {
+      "id": "buffett-e-owner-communication",
+      "source_id": "buffett-2024",
+      "speaker": "沃伦·巴菲特",
+      "excerpt": "if our positions were reversed",
+      "summary": "他要求向所有者提供自己在角色互换时希望得到的说明。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第1页（文件页序）；开头；报告义务与沟通方式"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "诚实沟通",
+        "所有者",
+        "责任",
+        "信息披露"
+      ],
+      "context": "原文包含管理者对年度报告的责任，不把坦率文字当内容已被独立核验的证明。"
+    },
+    {
+      "id": "buffett-e-people-and-business-judgment",
+      "source_id": "buffett-2024",
+      "speaker": "沃伦·巴菲特",
+      "excerpt": "evaluating the sort of person",
+      "summary": "他承认会误判业务前景，也会误判管理者的能力和可靠性。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第3页（文件页序）；Mistakes；业务与人员判断"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "用人",
+        "商业判断",
+        "可靠性",
+        "复核"
+      ],
+      "context": "原信同时提到正面意外，不把承认错误解释成一概不信任他人。"
+    },
+    {
+      "id": "buffett-e-learn-and-move-on",
+      "source_id": "buffett-thanksgiving-2025",
+      "speaker": "沃伦·巴菲特",
+      "excerpt": "learn at least a little",
+      "summary": "他在晚年回顾中鼓励从错误学习，而不是持续惩罚自己。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第7页（文件页序）；A Few Final Thoughts；过去的错误与继续改善"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "失误复盘",
+        "改进",
+        "自我评价",
+        "行动"
+      ],
+      "context": "保留其承认自身多次犯错的语境，不用晚年结果证明每种选择正确。"
+    },
+    {
+      "id": "buffett-e-choose-role-models",
+      "source_id": "buffett-thanksgiving-2025",
+      "speaker": "沃伦·巴菲特",
+      "excerpt": "right heroes",
+      "summary": "他建议认真选择值得效仿的人，并把希望留下的评价与日常行为联系起来。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第7页（文件页序）；A Few Final Thoughts；榜样、希望留下的评价与行为"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "榜样",
+        "价值选择",
+        "日常行为",
+        "长期目标"
+      ],
+      "context": "编辑应用强调行为而非偶像身份，不虚构他为当前用户选过导师。"
+    },
+    {
+      "id": "buffett-e-kindness-beyond-status",
+      "source_id": "buffett-thanksgiving-2025",
+      "speaker": "沃伦·巴菲特",
+      "excerpt": "Kindness is costless but also priceless",
+      "summary": "他把帮助他人、善意与平等看待不同职业的人放在金钱和名气之外。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第7页（文件页序）；A Few Final Thoughts；帮助、善意与清洁工和董事长"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "善意",
+        "帮助他人",
+        "成就标准",
+        "尊重"
+      ],
+      "context": "其自述包含运气与朋友的帮助，不把财富当品格的证明。"
+    }
+  ],
+  "principles": [
+    {
+      "id": "buffett-p-circle-of-competence",
+      "title": "先确认自己能判断什么",
+      "summary": "他强调投资不必理解所有公司，但必须知道自身能力边界。",
+      "topics": [
+        "能力圈",
+        "理解生意",
+        "判断边界",
+        "投资"
+      ],
+      "evidence_ids": [
+        "buffett-e-circle-of-competence"
+      ],
+      "application": {
+        "questions": [
+          "你能解释这个生意如何赚钱、主要风险是什么，以及哪些部分仍不懂吗？"
+        ],
+        "steps": [
+          "分别列出已理解、待验证和无法判断的部分。",
+          "对关键未知先补资料，必要时放弃当前选择。"
+        ],
+        "limits": [
+          "自信不是能力证据；这不能替代个人财务约束和具体标的研究。"
+        ]
+      }
+    },
+    {
+      "id": "buffett-p-durable-economics",
+      "title": "把竞争优势还原成可持续的经营条件",
+      "summary": "他用 GEICO 的成本结构解释自己看重的长期优势。",
+      "topics": [
+        "商业模式",
+        "竞争优势",
+        "成本",
+        "长期经营"
+      ],
+      "evidence_ids": [
+        "buffett-e-durable-economics"
+      ],
+      "application": {
+        "questions": [
+          "所谓优势究竟来自成本、效率、客户关系还是其他可检验条件？"
+        ],
+        "steps": [
+          "拆出优势如何影响每次交付的经济性。",
+          "寻找能削弱优势的情景和反例。"
+        ],
+        "limits": [
+          "对历史公司的判断不能证明当前公司的优势真实或永续。"
+        ]
+      }
+    },
+    {
+      "id": "buffett-p-own-capital-decisions",
+      "title": "对自己负责的配置决策承担责任",
+      "summary": "他在业绩不佳时明确说明自己对主要投资组合负责。",
+      "topics": [
+        "责任",
+        "资本配置",
+        "复盘",
+        "诚实沟通"
+      ],
+      "evidence_ids": [
+        "buffett-e-own-capital-decisions"
+      ],
+      "application": {
+        "questions": [
+          "结果不佳时，你能区分外部条件、他人职责和自己的决定吗？"
+        ],
+        "steps": [
+          "记录当时由谁决定、依据是什么。",
+          "对可控制的错误提出修正，而不只归因于环境。"
+        ],
+        "limits": [
+          "承担责任不等于所有坏结果都由个人造成；仍需分析不确定性。"
+        ]
+      }
+    },
+    {
+      "id": "buffett-p-relative-benchmark",
+      "title": "事先确定衡量表现的合理参照",
+      "summary": "他解释为什么长期使用可比基准评估自己的投资表现。",
+      "topics": [
+        "绩效",
+        "基准",
+        "衡量",
+        "长期判断"
+      ],
+      "evidence_ids": [
+        "buffett-e-relative-benchmark"
+      ],
+      "application": {
+        "questions": [
+          "你用什么同风险、同时期或同任务的参照评估结果？"
+        ],
+        "steps": [
+          "在行动前约定比较口径。",
+          "同时报告绝对结果与相对结果，解释差异。"
+        ],
+        "limits": [
+          "市场基准不适用于所有目标，个人现金需求也不能只用相对成绩满足。"
+        ]
+      }
+    },
+    {
+      "id": "buffett-p-owner-aligned-incentives",
+      "title": "检查管理者与承担风险的人是否同向",
+      "summary": "他批评股东承受损失而管理者通过报酬机制获利的安排。",
+      "topics": [
+        "激励",
+        "管理者",
+        "合作",
+        "风险分担"
+      ],
+      "evidence_ids": [
+        "buffett-e-owner-aligned-incentives"
+      ],
+      "application": {
+        "questions": [
+          "作决定的人会承担什么后果，收益与风险是否对称？"
+        ],
+        "steps": [
+          "列出各方收益、损失与决策权。",
+          "检查激励是否奖励短期数字而把成本留给别人。"
+        ],
+        "limits": [
+          "共同持有权益并不能自动消除所有利益冲突。"
+        ]
+      }
+    },
+    {
+      "id": "buffett-p-known-safeguards",
+      "title": "不能因为熟悉业务就省掉关键保障",
+      "summary": "他承认允许业务在缺少已知重要保障的情况下开展，并说明后果。",
+      "topics": [
+        "风险控制",
+        "保障",
+        "复盘",
+        "决策错误"
+      ],
+      "evidence_ids": [
+        "buffett-e-known-safeguards"
+      ],
+      "application": {
+        "questions": [
+          "你已经知道重要、却尚未落实的保护措施是什么？"
+        ],
+        "steps": [
+          "把关键保障列为开始前的检查项。",
+          "缺少保障时调整范围、延后或停止。"
+        ],
+        "limits": [
+          "特定保险损失案例不能推导所有风险可预先消除。"
+        ]
+      }
+    },
+    {
+      "id": "buffett-p-debt-conditions",
+      "title": "使用债务前说明业务和负债结构",
+      "summary": "他表示通常回避负债，并专门解释少数业务使用债务的条件。",
+      "topics": [
+        "债务",
+        "现金流",
+        "业务结构",
+        "风险"
+      ],
+      "evidence_ids": [
+        "buffett-e-debt-conditions"
+      ],
+      "application": {
+        "questions": [
+          "还款来源、期限、担保和最坏情景是否清楚？"
+        ],
+        "steps": [
+          "分开列出业务现金流与债务义务。",
+          "检查收入下降或融资中断时能否履约。"
+        ],
+        "limits": [
+          "其特定受监管业务的融资安排不适用于普通个人；与股票加杠杆的警示保持语境区别。"
+        ]
+      }
+    },
+    {
+      "id": "buffett-p-material-disclosure",
+      "title": "围绕真正影响判断的信息沟通",
+      "summary": "他解释按业务特性披露数据，以免无关信息遮蔽重要事实。",
+      "topics": [
+        "沟通",
+        "信息质量",
+        "经营分析",
+        "财务口径"
+      ],
+      "evidence_ids": [
+        "buffett-e-material-disclosure"
+      ],
+      "application": {
+        "questions": [
+          "读者需要哪些信息才能判断，哪些细节只是在增加噪声？"
+        ],
+        "steps": [
+          "说明信息服务的具体决策。",
+          "按可比较的业务单元呈现事实，并保留重要限制。"
+        ],
+        "limits": [
+          "精简不能成为隐瞒不利信息、风险或必须披露事项的理由。"
+        ]
+      }
+    },
+    {
+      "id": "buffett-p-purchasing-power-risk",
+      "title": "把价格波动与购买力损失分开判断",
+      "summary": "他更关注持有期内购买力受损的可能，而不只用波动描述风险。",
+      "topics": [
+        "风险",
+        "购买力",
+        "持有期",
+        "波动"
+      ],
+      "evidence_ids": [
+        "buffett-e-purchasing-power-risk"
+      ],
+      "application": {
+        "questions": [
+          "你担心的是短期价格变化，还是无法实现未来所需的购买力？"
+        ],
+        "steps": [
+          "写出实际使用资金的时间与用途。",
+          "分别检查流动性、永久损失和通胀等风险。"
+        ],
+        "limits": [
+          "原文是其投资风险框架，不意味着价格波动对有负债或近期现金需求的人无关紧要。"
+        ]
+      }
+    },
+    {
+      "id": "buffett-p-productive-asset-logic",
+      "title": "区分经营产出与依赖转售的收益逻辑",
+      "summary": "他比较能产生经营产出的资产与依赖后来买家出价的资产。",
+      "topics": [
+        "资产理解",
+        "现金流",
+        "经营产出",
+        "投机"
+      ],
+      "evidence_ids": [
+        "buffett-e-productive-asset-logic"
+      ],
+      "application": {
+        "questions": [
+          "回报来自持续产出，还是主要依赖未来有人以更高价格买走？"
+        ],
+        "steps": [
+          "写出回报形成机制和所需新增投入。",
+          "检查价格、成本与需求变化会怎样影响产出。"
+        ],
+        "limits": [
+          "经营性资产也可能亏损，原文中的历史公司不是当前买入推荐。"
+        ]
+      }
+    },
+    {
+      "id": "buffett-p-repurchase-conditions",
+      "title": "把回购价格与经营余力一起评估",
+      "summary": "他为支持回购同时提出经营流动性充足和价格低于保守估值的条件。",
+      "topics": [
+        "回购",
+        "资本配置",
+        "价格",
+        "流动性"
+      ],
+      "evidence_ids": [
+        "buffett-e-repurchase-conditions"
+      ],
+      "application": {
+        "questions": [
+          "回购是否挤占必要经营资金，价格依据又是什么？"
+        ],
+        "steps": [
+          "先确认经营与偿债所需资金。",
+          "独立核对估值假设及回购对持续持有者的影响。"
+        ],
+        "limits": [
+          "估值存在误差；不能把出现回购当成股票被低估的证明。"
+        ]
+      }
+    },
+    {
+      "id": "buffett-p-business-production",
+      "title": "先估计资产实际能产出什么",
+      "summary": "他用农场和商业物业的历史经历说明自己关注经营能力。",
+      "topics": [
+        "理解生意",
+        "经营收益",
+        "估计",
+        "投资判断"
+      ],
+      "evidence_ids": [
+        "buffett-e-business-production"
+      ],
+      "application": {
+        "questions": [
+          "你能否对未来产出和必要成本作一个有依据的粗略估计？"
+        ],
+        "steps": [
+          "列出产出、成本和关键假设。",
+          "无法作合理估计时先补资料或跳过。"
+        ],
+        "limits": [
+          "原文个案的历史回报不能外推；粗略估计仍可能错误。"
+        ]
+      }
+    },
+    {
+      "id": "buffett-p-prediction-noise",
+      "title": "区分经营事实与市场评论",
+      "summary": "他提醒宏观或市场预测可能转移对具体资产事实的注意。",
+      "topics": [
+        "信息筛选",
+        "市场评论",
+        "经营事实",
+        "判断"
+      ],
+      "evidence_ids": [
+        "buffett-e-prediction-noise"
+      ],
+      "application": {
+        "questions": [
+          "这条评论提供了可核对的新事实，还是仅预测市场下一步？"
+        ],
+        "steps": [
+          "将具体经营事实与观点分开记录。",
+          "检查当前选择对预测是否过度依赖。"
+        ],
+        "limits": [
+          "不能据此忽略宏观政策、利率、法律或业务的真实外部约束。"
+        ]
+      }
+    },
+    {
+      "id": "buffett-p-acquisition-culture",
+      "title": "收购时明确对组织和人的安排",
+      "summary": "他把长期归属、保留经营文化等列为伯克希尔吸引卖方的条件。",
+      "topics": [
+        "收购",
+        "组织文化",
+        "长期承诺",
+        "管理"
+      ],
+      "evidence_ids": [
+        "buffett-e-acquisition-culture"
+      ],
+      "application": {
+        "questions": [
+          "交易后谁继续经营，哪些承诺有具体执行条件？"
+        ],
+        "steps": [
+          "写清团队、职责和经营安排。",
+          "将长期承诺与可落实的条件、例外及责任人连接。"
+        ],
+        "limits": [
+          "特定公司的收购主张不能证明每项交易都实现这些承诺。"
+        ]
+      }
+    },
+    {
+      "id": "buffett-p-price-discipline",
+      "title": "好生意也要单独判断交易价格",
+      "summary": "他把合理购买价格与业务优势、管理和增长条件并列。",
+      "topics": [
+        "估值",
+        "价格纪律",
+        "资本配置",
+        "商业判断"
+      ],
+      "evidence_ids": [
+        "buffett-e-price-discipline"
+      ],
+      "application": {
+        "questions": [
+          "你是否因为喜欢业务而跳过了价格和预期回报的判断？"
+        ],
+        "steps": [
+          "把业务质量与购买条件分别评估。",
+          "在保守假设下比较价格，保留不成交的选择。"
+        ],
+        "limits": [
+          "所谓合理价格需具体分析，本文不能给出当前任何标的的估值结论。"
+        ]
+      }
+    },
+    {
+      "id": "buffett-p-leverage-and-judgment",
+      "title": "在借款前考虑被迫退出和判断受扰",
+      "summary": "他用历史回撤说明借钱持有股票可能带来资金及情绪压力。",
+      "topics": [
+        "杠杆",
+        "风险承受",
+        "流动性",
+        "决策"
+      ],
+      "evidence_ids": [
+        "buffett-e-leverage-and-judgment"
+      ],
+      "application": {
+        "questions": [
+          "价格剧烈变化时，你是否仍有能力和空间按原计划行动？"
+        ],
+        "steps": [
+          "估算不利情景下的现金义务。",
+          "检查是否可能因外部期限而被迫退出。"
+        ],
+        "limits": [
+          "历史回撤不能预测下一次幅度；这是风险分析，不是对用户的具体投资配置。"
+        ]
+      }
+    },
+    {
+      "id": "buffett-p-funding-independence",
+      "title": "让生存不依赖临时融资善意",
+      "summary": "他强调极端条件下仍需保有独立的资金与经营余力。",
+      "topics": [
+        "现金储备",
+        "融资",
+        "生存",
+        "压力情景"
+      ],
+      "evidence_ids": [
+        "buffett-e-funding-independence"
+      ],
+      "application": {
+        "questions": [
+          "如果外部融资或回款中断，哪些义务仍必须履行？"
+        ],
+        "steps": [
+          "列出最低现金需求与可中断支出。",
+          "用保守情景检验储备和备用安排。"
+        ],
+        "limits": [
+          "大型企业的储备规模和工具不能直接套到个人；需要结合具体收支。"
+        ]
+      }
+    },
+    {
+      "id": "buffett-p-correct-errors",
+      "title": "确认错误后及时采取修正行动",
+      "summary": "他认为延迟纠错比承认判断会出错更危险。",
+      "topics": [
+        "纠错",
+        "复盘",
+        "决策",
+        "执行"
+      ],
+      "evidence_ids": [
+        "buffett-e-correct-errors"
+      ],
+      "application": {
+        "questions": [
+          "你是否已经确认问题，却仍用等待替代行动？"
+        ],
+        "steps": [
+          "区分待核的不确定性与已确认的错误。",
+          "对已确认部分决定修正、退出或补救，并检查后果。"
+        ],
+        "limits": [
+          "不能把暂时不利结果自动判为错误；修正也需要考虑新的损失。"
+        ]
+      }
+    },
+    {
+      "id": "buffett-p-owner-communication",
+      "title": "按信息接收者需要讲清好坏进展",
+      "summary": "他要求向所有者提供自己在角色互换时希望得到的说明。",
+      "topics": [
+        "诚实沟通",
+        "所有者",
+        "责任",
+        "信息披露"
+      ],
+      "evidence_ids": [
+        "buffett-e-owner-communication"
+      ],
+      "application": {
+        "questions": [
+          "如果你承担对方的风险，会希望及时知道什么？"
+        ],
+        "steps": [
+          "同时说明好消息、不利发展和判断依据。",
+          "用可理解的口径解释变化与未知部分。"
+        ],
+        "limits": [
+          "角色互换是沟通检查方法，不能替代法定披露或保密职责。"
+        ]
+      }
+    },
+    {
+      "id": "buffett-p-people-and-business-judgment",
+      "title": "分别复核对生意和对人的判断",
+      "summary": "他承认会误判业务前景，也会误判管理者的能力和可靠性。",
+      "topics": [
+        "用人",
+        "商业判断",
+        "可靠性",
+        "复核"
+      ],
+      "evidence_ids": [
+        "buffett-e-people-and-business-judgment"
+      ],
+      "application": {
+        "questions": [
+          "你是否因为看好业务，就跳过了对实际执行者的独立核对？"
+        ],
+        "steps": [
+          "分别记录业务条件与人员判断的依据。",
+          "用实际行为与结果复查，不只依赖头衔和早期印象。"
+        ],
+        "limits": [
+          "人的判断有不确定性，不能从一次失误推导永久人格标签。"
+        ]
+      }
+    },
+    {
+      "id": "buffett-p-learn-and-move-on",
+      "title": "从过去失误学习后继续改善",
+      "summary": "他在晚年回顾中鼓励从错误学习，而不是持续惩罚自己。",
+      "topics": [
+        "失误复盘",
+        "改进",
+        "自我评价",
+        "行动"
+      ],
+      "evidence_ids": [
+        "buffett-e-learn-and-move-on"
+      ],
+      "application": {
+        "questions": [
+          "这次错误能改变哪项后续行动，而不是只留下自责？"
+        ],
+        "steps": [
+          "区分已无法改变的过去与可调整的行为。",
+          "选一个具体改进并检查是否做到。"
+        ],
+        "limits": [
+          "这是个人经验与鼓励，不是心理治疗方案，也不意味着免除对他人的责任。"
+        ]
+      }
+    },
+    {
+      "id": "buffett-p-choose-role-models",
+      "title": "选择榜样时明确要学习的行为",
+      "summary": "他建议认真选择值得效仿的人，并把希望留下的评价与日常行为联系起来。",
+      "topics": [
+        "榜样",
+        "价值选择",
+        "日常行为",
+        "长期目标"
+      ],
+      "evidence_ids": [
+        "buffett-e-choose-role-models"
+      ],
+      "application": {
+        "questions": [
+          "你欣赏这个人的哪些行为，哪些经历和条件不应照搬？"
+        ],
+        "steps": [
+          "把榜样的具体行为与名气、财富分开。",
+          "选一项符合自身目标且能承担代价的做法尝试。"
+        ],
+        "limits": [
+          "榜样不是全盘模仿；名人可能犯错，公开形象也不等于完整真实人生。"
+        ]
+      }
+    },
+    {
+      "id": "buffett-p-kindness-beyond-status",
+      "title": "用对人的实际帮助衡量部分成就",
+      "summary": "他把帮助他人、善意与平等看待不同职业的人放在金钱和名气之外。",
+      "topics": [
+        "善意",
+        "帮助他人",
+        "成就标准",
+        "尊重"
+      ],
+      "evidence_ids": [
+        "buffett-e-kindness-beyond-status"
+      ],
+      "application": {
+        "questions": [
+          "除了收入与头衔，这个选择给周围的人带来什么？"
+        ],
+        "steps": [
+          "明确一个能实际帮助他人的动作。",
+          "检查自己的资源、边界和对对方意愿的尊重。"
+        ],
+        "limits": [
+          "价值主张不是关于所有善举都没有成本的经济结论，也不要求无边界自我牺牲。"
+        ]
+      }
+    }
+  ]
+}

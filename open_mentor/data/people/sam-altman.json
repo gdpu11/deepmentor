@@ -1,0 +1,1152 @@
+{
+  "schema_version": 1,
+  "person": {
+    "id": "sam-altman",
+    "name": "萨姆·奥特曼",
+    "aliases": [
+      "Sam Altman",
+      "山姆·奥特曼",
+      "奥特曼",
+      "薩姆·奧特曼"
+    ],
+    "description": "从本人博客整理职业积累、独立判断、沟通、风险边界、工作取舍、招聘与创业验证；保留其偏向高增长创业和非典型成功的样本限制。"
+  },
+  "sources": [
+    {
+      "id": "altman-successful",
+      "title": "How To Be Successful - Sam Altman",
+      "url": "https://blog.samaltman.com/how-to-be-successful",
+      "publisher": "Sam Altman / 本人博客",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "本人署名经验随笔，只核对原文表达；个人样本、激烈措辞与倍数说法不是统计结论或成功保证。不使用关于药物、补剂等个人尝试提供健康指导，也不把他引用的他人方法冒称原创。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。"
+      },
+      "content_sha256": "c6befcb90bf43de885b64851c616d4e82968bcc6a7b7827f50dce1134b977bd6",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "altman-productivity",
+      "title": "Productivity - Sam Altman",
+      "url": "https://blog.samaltman.com/productivity",
+      "publisher": "Sam Altman / 本人博客",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "本人署名经验随笔，只核对原文表达；个人样本、激烈措辞与倍数说法不是统计结论或成功保证。不使用关于药物、补剂等个人尝试提供健康指导，也不把他引用的他人方法冒称原创。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。"
+      },
+      "content_sha256": "f7b6bb72ef57279e5a94086cab1d417470f628b0136b48e0734fb2a2a79660d3",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "altman-hiring",
+      "title": "How to hire - Sam Altman",
+      "url": "https://blog.samaltman.com/how-to-hire",
+      "publisher": "Sam Altman / 本人博客",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "本人署名经验随笔，只核对原文表达；个人样本、激烈措辞与倍数说法不是统计结论或成功保证。不使用关于药物、补剂等个人尝试提供健康指导，也不把他引用的他人方法冒称原创。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。"
+      },
+      "content_sha256": "52c070227d2afd085b3184aad2a46a576e50ca9e01bbebceddf3328359d719bf",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "altman-startup-advice",
+      "title": "Startup advice, briefly - Sam Altman",
+      "url": "https://blog.samaltman.com/startup-advice-briefly",
+      "publisher": "Sam Altman / 本人博客",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "本人署名经验随笔，只核对原文表达；个人样本、激烈措辞与倍数说法不是统计结论或成功保证。不使用关于药物、补剂等个人尝试提供健康指导，也不把他引用的他人方法冒称原创。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。"
+      },
+      "content_sha256": "91185d7bbbe25f0e89e5fe74b0cd7a72f0e82076173b1ccf8abab899dc255ed6",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "altman-e-career-compounding",
+      "source_id": "altman-successful",
+      "speaker": "萨姆·奥特曼",
+      "excerpt": "Compound",
+      "summary": "他建议寻找知识、工具、关系等能支持后续工作的积累。",
+      "locator": {
+        "type": "heading",
+        "value": "1. Compound yourself"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "职业选择",
+        "长期积累",
+        "学习",
+        "工具"
+      ],
+      "context": "原文为作者经验判断；步骤为编辑应用，需结合资源、责任和反例核对。"
+    },
+    {
+      "id": "altman-e-confidence-with-evidence",
+      "source_id": "altman-successful",
+      "speaker": "萨姆·奥特曼",
+      "excerpt": "self-belief",
+      "summary": "他强调自信，同时要求通过实际判断和结果了解自身能力。",
+      "locator": {
+        "type": "heading",
+        "value": "2. Have almost too much self-belief"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "自信",
+        "证据",
+        "交付",
+        "反思"
+      ],
+      "context": "原文为作者经验判断；步骤为编辑应用，需结合资源、责任和反例核对。"
+    },
+    {
+      "id": "altman-e-test-independent-ideas",
+      "source_id": "altman-successful",
+      "speaker": "萨姆·奥特曼",
+      "excerpt": "test",
+      "summary": "他把独立思考与快速、低成本测试连在一起。",
+      "locator": {
+        "type": "heading",
+        "value": "3. Learn to think independently"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "独立思考",
+        "现实验证",
+        "试验",
+        "创意"
+      ],
+      "context": "原文为作者经验判断；步骤为编辑应用，需结合资源、责任和反例核对。"
+    },
+    {
+      "id": "altman-e-clear-communication",
+      "source_id": "altman-successful",
+      "speaker": "萨姆·奥特曼",
+      "excerpt": "concise",
+      "summary": "他把清晰思考与简洁的书面沟通作为需要练习的能力。",
+      "locator": {
+        "type": "heading",
+        "value": "4. Get good at sales"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "沟通",
+        "写作",
+        "销售",
+        "清晰表达"
+      ],
+      "context": "原文为作者经验判断；步骤为编辑应用，需结合资源、责任和反例核对。"
+    },
+    {
+      "id": "altman-e-bounded-risk",
+      "source_id": "altman-successful",
+      "speaker": "萨姆·奥特曼",
+      "excerpt": "obligations",
+      "summary": "他把基本生活义务与有边界的冒险机会一起考虑。",
+      "locator": {
+        "type": "heading",
+        "value": "5. Make it easy to take risks"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "风险边界",
+        "创业选择",
+        "基本责任",
+        "试错"
+      ],
+      "context": "原文为作者经验判断；步骤为编辑应用，需结合资源、责任和反例核对。"
+    },
+    {
+      "id": "altman-e-few-priorities",
+      "source_id": "altman-successful",
+      "speaker": "萨姆·奥特曼",
+      "excerpt": "priorities",
+      "summary": "他强调先决定值得做的事情，而不只增加工作时长。",
+      "locator": {
+        "type": "heading",
+        "value": "6. Focus"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "专注",
+        "优先级",
+        "时间选择",
+        "执行"
+      ],
+      "context": "原文为作者经验判断；步骤为编辑应用，需结合资源、责任和反例核对。"
+    },
+    {
+      "id": "altman-e-helpful-network",
+      "source_id": "altman-successful",
+      "speaker": "萨姆·奥特曼",
+      "excerpt": "help",
+      "summary": "他回顾长期帮助他人与后续合作机会的联系。",
+      "locator": {
+        "type": "heading",
+        "value": "11. Build a network"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "互助",
+        "合作",
+        "长期关系",
+        "职业联系"
+      ],
+      "context": "原文为作者经验判断；步骤为编辑应用，需结合资源、责任和反例核对。"
+    },
+    {
+      "id": "altman-e-internal-motivation",
+      "source_id": "altman-successful",
+      "speaker": "萨姆·奥特曼",
+      "excerpt": "internally",
+      "summary": "他提醒为了取悦旁观者而追随共识，可能使职业选择偏离真正目标。",
+      "locator": {
+        "type": "heading",
+        "value": "13. Be internally driven"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "内在动机",
+        "职业方向",
+        "价值选择",
+        "取舍"
+      ],
+      "context": "原文为作者经验判断；步骤为编辑应用，需结合资源、责任和反例核对。"
+    },
+    {
+      "id": "altman-e-work-before-speed",
+      "source_id": "altman-productivity",
+      "speaker": "萨姆·奥特曼",
+      "excerpt": "worthless",
+      "summary": "他将工作方向放在效率技巧之前。",
+      "locator": {
+        "type": "heading",
+        "value": "What you work on"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "工作方向",
+        "生产力",
+        "价值判断",
+        "取舍"
+      ],
+      "context": "原文为作者经验判断；步骤为编辑应用，需结合资源、责任和反例核对。"
+    },
+    {
+      "id": "altman-e-review-task-lists",
+      "source_id": "altman-productivity",
+      "speaker": "萨姆·奥特曼",
+      "excerpt": "lists",
+      "summary": "他通过重写清单重新考虑哪些任务值得保留。",
+      "locator": {
+        "type": "heading",
+        "value": "Execution；清单和重写"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "任务清单",
+        "承诺管理",
+        "复盘",
+        "工作安排"
+      ],
+      "context": "原文为作者经验判断；步骤为编辑应用，需结合资源、责任和反例核对。"
+    },
+    {
+      "id": "altman-e-schedule-for-work",
+      "source_id": "altman-productivity",
+      "speaker": "萨姆·奥特曼",
+      "excerpt": "different times",
+      "summary": "他描述用不同时段处理不同类型工作，并减少低价值会议。",
+      "locator": {
+        "type": "heading",
+        "value": "Execution；一天中的不同工作"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "时间安排",
+        "会议",
+        "工作节奏",
+        "注意力"
+      ],
+      "context": "原文为作者经验判断；步骤为编辑应用，需结合资源、责任和反例核对。"
+    },
+    {
+      "id": "altman-e-space-for-new-input",
+      "source_id": "altman-productivity",
+      "speaker": "萨姆·奥特曼",
+      "excerpt": "chance encounters",
+      "summary": "他在减少会议的同时强调开放网络与偶然接触新想法的价值。",
+      "locator": {
+        "type": "heading",
+        "value": "Execution；关于开放网络"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "开放学习",
+        "探索",
+        "工作安排",
+        "弱联系"
+      ],
+      "context": "原文为作者经验判断；步骤为编辑应用，需结合资源、责任和反例核对。"
+    },
+    {
+      "id": "altman-e-verify-personal-contribution",
+      "source_id": "altman-hiring",
+      "speaker": "萨姆·奥特曼",
+      "excerpt": "actually did",
+      "summary": "他建议深入了解项目中的具体贡献，而不只看成功项目的名头。",
+      "locator": {
+        "type": "heading",
+        "value": "Look for smart, effective people"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "招聘",
+        "能力验证",
+        "项目贡献",
+        "面试"
+      ],
+      "context": "原文为作者经验判断；步骤为编辑应用，需结合资源、责任和反例核对。"
+    },
+    {
+      "id": "altman-e-bounded-work-sample",
+      "source_id": "altman-hiring",
+      "speaker": "萨姆·奥特曼",
+      "excerpt": "audition",
+      "summary": "他建议通过一起做相关工作了解合作方式。",
+      "locator": {
+        "type": "heading",
+        "value": "Have people audition for roles"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "招聘",
+        "工作样本",
+        "协作",
+        "岗位匹配"
+      ],
+      "context": "原文为作者经验判断；步骤为编辑应用，需结合资源、责任和反例核对。"
+    },
+    {
+      "id": "altman-e-specific-references",
+      "source_id": "altman-hiring",
+      "speaker": "萨姆·奥特曼",
+      "excerpt": "references",
+      "summary": "他建议通过参考人了解候选人的具体表现。",
+      "locator": {
+        "type": "heading",
+        "value": "候选人历史与参考人"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "背调",
+        "招聘",
+        "行为证据",
+        "上下文"
+      ],
+      "context": "原文为作者经验判断；步骤为编辑应用，需结合资源、责任和反例核对。"
+    },
+    {
+      "id": "altman-e-values-and-diversity",
+      "source_id": "altman-hiring",
+      "speaker": "萨姆·奥特曼",
+      "excerpt": "diversity",
+      "summary": "他把合作价值与思考方式的差异分开，而不只选择像自己的人。",
+      "locator": {
+        "type": "heading",
+        "value": "Hire people you like；关于思想多样性"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "团队",
+        "价值原则",
+        "多样性",
+        "招聘"
+      ],
+      "context": "原文为作者经验判断；步骤为编辑应用，需结合资源、责任和反例核对。"
+    },
+    {
+      "id": "altman-e-mutual-hiring-decision",
+      "source_id": "altman-hiring",
+      "speaker": "萨姆·奥特曼",
+      "excerpt": "closing",
+      "summary": "他提醒招聘不只是在筛选，也需要说明为什么值得来。",
+      "locator": {
+        "type": "heading",
+        "value": "候选人决定与closing"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "招聘沟通",
+        "岗位信息",
+        "双向选择",
+        "团队"
+      ],
+      "context": "原文为作者经验判断；步骤为编辑应用，需结合资源、责任和反例核对。"
+    },
+    {
+      "id": "altman-e-project-before-company",
+      "source_id": "altman-startup-advice",
+      "speaker": "萨姆·奥特曼",
+      "excerpt": "project",
+      "summary": "他比较项目阶段与急于以公司身份锁定方向的差异。",
+      "locator": {
+        "type": "heading",
+        "value": "开头；idea与company"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "创业准备",
+        "项目探索",
+        "承诺",
+        "方向"
+      ],
+      "context": "原文为作者经验判断；步骤为编辑应用，需结合资源、责任和反例核对。"
+    },
+    {
+      "id": "altman-e-honest-user-validation",
+      "source_id": "altman-startup-advice",
+      "speaker": "萨姆·奥特曼",
+      "excerpt": "deceive",
+      "summary": "他要求反复听取用户、改进产品，避免自我欺骗式的喜爱判断。",
+      "locator": {
+        "type": "heading",
+        "value": "Make something people want；反馈循环"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "用户验证",
+        "需求",
+        "产品迭代",
+        "真实使用"
+      ],
+      "context": "原文为作者经验判断；步骤为编辑应用，需结合资源、责任和反例核对。"
+    },
+    {
+      "id": "altman-e-burn-before-validation",
+      "source_id": "altman-startup-advice",
+      "speaker": "萨姆·奥特曼",
+      "excerpt": "burn rate",
+      "summary": "他把低消耗和慢招聘与产品需求尚未确认的阶段联系起来。",
+      "locator": {
+        "type": "heading",
+        "value": "需求验证与控制消耗"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "现金消耗",
+        "招聘时机",
+        "创业成本",
+        "产品验证"
+      ],
+      "context": "原文为作者经验判断；步骤为编辑应用，需结合资源、责任和反例核对。"
+    }
+  ],
+  "principles": [
+    {
+      "id": "altman-p-career-compounding",
+      "title": "选择让积累继续发挥作用的工作",
+      "summary": "他建议寻找知识、工具、关系等能支持后续工作的积累。",
+      "topics": [
+        "职业选择",
+        "长期积累",
+        "学习",
+        "工具"
+      ],
+      "evidence_ids": [
+        "altman-e-career-compounding"
+      ],
+      "application": {
+        "questions": [
+          "今天做的事情，哪些能降低以后解决问题的成本？"
+        ],
+        "steps": [
+          "列出可以持续复用的能力和产出。",
+          "比较短期回报与长期积累，再选择投入。"
+        ],
+        "limits": [
+          "不把职业成长视为确定的指数曲线，也不保证财富增长。"
+        ]
+      }
+    },
+    {
+      "id": "altman-p-confidence-with-evidence",
+      "title": "让自信接受交付和新证据的校准",
+      "summary": "他强调自信，同时要求通过实际判断和结果了解自身能力。",
+      "topics": [
+        "自信",
+        "证据",
+        "交付",
+        "反思"
+      ],
+      "evidence_ids": [
+        "altman-e-confidence-with-evidence"
+      ],
+      "application": {
+        "questions": [
+          "你相信能做到的依据是什么，出现什么证据时会调整？"
+        ],
+        "steps": [
+          "记录已验证的能力与未知前提。",
+          "定期检查结果，保留纠正判断的入口。"
+        ],
+        "limits": [
+          "不把强烈信念或他人反对当作自己必然正确的证明。"
+        ]
+      }
+    },
+    {
+      "id": "altman-p-test-independent-ideas",
+      "title": "独立想法要进入现实验证",
+      "summary": "他把独立思考与快速、低成本测试连在一起。",
+      "topics": [
+        "独立思考",
+        "现实验证",
+        "试验",
+        "创意"
+      ],
+      "evidence_ids": [
+        "altman-e-test-independent-ideas"
+      ],
+      "application": {
+        "questions": [
+          "与共识不同的想法，最小能用什么观察验证？"
+        ],
+        "steps": [
+          "把想法写成可以被推翻的判断。",
+          "先做小试验，再决定扩大投入。"
+        ],
+        "limits": [
+          "独立不是为了反对多数，也不能无限重复失败而忽略约束。"
+        ]
+      }
+    },
+    {
+      "id": "altman-p-clear-communication",
+      "title": "先理清思考，再用简单文字表达",
+      "summary": "他把清晰思考与简洁的书面沟通作为需要练习的能力。",
+      "topics": [
+        "沟通",
+        "写作",
+        "销售",
+        "清晰表达"
+      ],
+      "evidence_ids": [
+        "altman-e-clear-communication"
+      ],
+      "application": {
+        "questions": [
+          "对方能否理解问题、依据和你希望他作出的选择？"
+        ],
+        "steps": [
+          "先整理论点与证据。",
+          "用简单语言解释并听取对方疑问。"
+        ],
+        "limits": [
+          "沟通不包含夸大承诺、操纵或销售自己也不相信的东西。"
+        ]
+      }
+    },
+    {
+      "id": "altman-p-bounded-risk",
+      "title": "先承担基本责任，再安排可承受的尝试",
+      "summary": "他把基本生活义务与有边界的冒险机会一起考虑。",
+      "topics": [
+        "风险边界",
+        "创业选择",
+        "基本责任",
+        "试错"
+      ],
+      "evidence_ids": [
+        "altman-e-bounded-risk"
+      ],
+      "application": {
+        "questions": [
+          "如果尝试失败，能否承担生活、家庭和已承诺事项？"
+        ],
+        "steps": [
+          "先明确基本责任与可承受损失。",
+          "用小规模尝试了解机会，再决定下一步。"
+        ],
+        "limits": [
+          "文中的收益倍数是启发性例子，不是概率、投资回报或人人适用的风险偏好。"
+        ]
+      }
+    },
+    {
+      "id": "altman-p-few-priorities",
+      "title": "把注意力集中到少数重要任务",
+      "summary": "他强调先决定值得做的事情，而不只增加工作时长。",
+      "topics": [
+        "专注",
+        "优先级",
+        "时间选择",
+        "执行"
+      ],
+      "evidence_ids": [
+        "altman-e-few-priorities"
+      ],
+      "application": {
+        "questions": [
+          "如果只能推进少数事情，哪些会改变目标的实现条件？"
+        ],
+        "steps": [
+          "明确当前最重要的交付。",
+          "推迟与这些交付无关的可选工作。"
+        ],
+        "limits": [
+          "不是所有人都应追求极端速度；保留休息与必要协作。"
+        ]
+      }
+    },
+    {
+      "id": "altman-p-helpful-network",
+      "title": "通过真实帮助建立长期合作关系",
+      "summary": "他回顾长期帮助他人与后续合作机会的联系。",
+      "topics": [
+        "互助",
+        "合作",
+        "长期关系",
+        "职业联系"
+      ],
+      "evidence_ids": [
+        "altman-e-helpful-network"
+      ],
+      "application": {
+        "questions": [
+          "你能提供什么实际帮助，而不是只索取资源？"
+        ],
+        "steps": [
+          "参与具体共同任务。",
+          "在能力范围内提供帮助并清楚表达边界。"
+        ],
+        "limits": [
+          "个人机会回顾不证明帮助必有回报，也不把关系当交易筹码。"
+        ]
+      }
+    },
+    {
+      "id": "altman-p-internal-motivation",
+      "title": "把重要选择与自己在意的工作联系起来",
+      "summary": "他提醒为了取悦旁观者而追随共识，可能使职业选择偏离真正目标。",
+      "topics": [
+        "内在动机",
+        "职业方向",
+        "价值选择",
+        "取舍"
+      ],
+      "evidence_ids": [
+        "altman-e-internal-motivation"
+      ],
+      "application": {
+        "questions": [
+          "没有旁观者认可时，你还愿意承担这项工作的实际代价吗？"
+        ],
+        "steps": [
+          "区分个人目标、外部评价和必要责任。",
+          "选择一项能检验真实兴趣的实际任务。"
+        ],
+        "limits": [
+          "不能据此忽视他人反馈、经济约束或合作责任。"
+        ]
+      }
+    },
+    {
+      "id": "altman-p-work-before-speed",
+      "title": "先判断做什么，再优化做多快",
+      "summary": "他将工作方向放在效率技巧之前。",
+      "topics": [
+        "工作方向",
+        "生产力",
+        "价值判断",
+        "取舍"
+      ],
+      "evidence_ids": [
+        "altman-e-work-before-speed"
+      ],
+      "application": {
+        "questions": [
+          "这项任务完成以后，会改善什么实际结果？"
+        ],
+        "steps": [
+          "检查任务与目标之间的联系。",
+          "再决定是否优化、委托或停止。"
+        ],
+        "limits": [
+          "所谓不值得需有具体依据，不能只凭个人偏好否定别人的工作。"
+        ]
+      }
+    },
+    {
+      "id": "altman-p-review-task-lists",
+      "title": "用任务清单定期重查承诺",
+      "summary": "他通过重写清单重新考虑哪些任务值得保留。",
+      "topics": [
+        "任务清单",
+        "承诺管理",
+        "复盘",
+        "工作安排"
+      ],
+      "evidence_ids": [
+        "altman-e-review-task-lists"
+      ],
+      "application": {
+        "questions": [
+          "清单中的事项现在是否仍重要、可完成且有人负责？"
+        ],
+        "steps": [
+          "清楚记录任务与承诺。",
+          "定期删除已失效任务并重新安排重点。"
+        ],
+        "limits": [
+          "纸笔与具体频率只是他的偏好，不是统一工具或绩效要求。"
+        ]
+      }
+    },
+    {
+      "id": "altman-p-schedule-for-work",
+      "title": "按工作性质安排时间和会议",
+      "summary": "他描述用不同时段处理不同类型工作，并减少低价值会议。",
+      "topics": [
+        "时间安排",
+        "会议",
+        "工作节奏",
+        "注意力"
+      ],
+      "evidence_ids": [
+        "altman-e-schedule-for-work"
+      ],
+      "application": {
+        "questions": [
+          "哪些任务需要连续时间，哪些适合集中沟通？"
+        ],
+        "steps": [
+          "按需要的注意力和协作条件安排任务。",
+          "比较会议是否真的减少后续误解或返工。"
+        ],
+        "limits": [
+          "不照搬他的会议时长或生理节奏，也不将少开会当普遍目标。"
+        ]
+      }
+    },
+    {
+      "id": "altman-p-space-for-new-input",
+      "title": "在专注之外保留接触新信息的空间",
+      "summary": "他在减少会议的同时强调开放网络与偶然接触新想法的价值。",
+      "topics": [
+        "开放学习",
+        "探索",
+        "工作安排",
+        "弱联系"
+      ],
+      "evidence_ids": [
+        "altman-e-space-for-new-input"
+      ],
+      "application": {
+        "questions": [
+          "当前安排是否把可能改变判断的新信息也全部挡掉？"
+        ],
+        "steps": [
+          "保留少量有目的的外部交流。",
+          "按实际收获调整频率与投入。"
+        ],
+        "limits": [
+          "偶然机会不是无限社交的理由；文中的比例属于个人估计。"
+        ]
+      }
+    },
+    {
+      "id": "altman-p-verify-personal-contribution",
+      "title": "招聘时追问候选人实际做了什么",
+      "summary": "他建议深入了解项目中的具体贡献，而不只看成功项目的名头。",
+      "topics": [
+        "招聘",
+        "能力验证",
+        "项目贡献",
+        "面试"
+      ],
+      "evidence_ids": [
+        "altman-e-verify-personal-contribution"
+      ],
+      "application": {
+        "questions": [
+          "这项成果中，候选人独立负责的决定和工作是什么？"
+        ],
+        "steps": [
+          "围绕真实任务追问过程、取舍和结果。",
+          "区分团队成绩与个人可证明贡献。"
+        ],
+        "limits": [
+          "不能把表达流利、熟悉名词或短时间印象当能力证明。"
+        ]
+      }
+    },
+    {
+      "id": "altman-p-bounded-work-sample",
+      "title": "用实际协作样本补充面试印象",
+      "summary": "他建议通过一起做相关工作了解合作方式。",
+      "topics": [
+        "招聘",
+        "工作样本",
+        "协作",
+        "岗位匹配"
+      ],
+      "evidence_ids": [
+        "altman-e-bounded-work-sample"
+      ],
+      "application": {
+        "questions": [
+          "有没有合理范围内的任务能检验实际工作方式？"
+        ],
+        "steps": [
+          "设计与岗位有关、范围清楚的样本。",
+          "明确报酬、使用范围和参与意愿，再核对过程。"
+        ],
+        "limits": [
+          "报酬与知情边界是编辑补充；不把试岗当索取免费劳动或违反雇佣约定的理由。"
+        ]
+      }
+    },
+    {
+      "id": "altman-p-specific-references",
+      "title": "背调关注具体行为和工作情境",
+      "summary": "他建议通过参考人了解候选人的具体表现。",
+      "topics": [
+        "背调",
+        "招聘",
+        "行为证据",
+        "上下文"
+      ],
+      "evidence_ids": [
+        "altman-e-specific-references"
+      ],
+      "application": {
+        "questions": [
+          "评价背后有没有具体共事场景和可核对事实？"
+        ],
+        "steps": [
+          "取得适当同意后了解与岗位有关的经历。",
+          "对不同信息源的具体事实作比较。"
+        ],
+        "limits": [
+          "不私自收集无关隐私，不把单人好恶当结论，也不以传闻作人格标签。"
+        ]
+      }
+    },
+    {
+      "id": "altman-p-values-and-diversity",
+      "title": "区分共同原则与思维多样性",
+      "summary": "他把合作价值与思考方式的差异分开，而不只选择像自己的人。",
+      "topics": [
+        "团队",
+        "价值原则",
+        "多样性",
+        "招聘"
+      ],
+      "evidence_ids": [
+        "altman-e-values-and-diversity"
+      ],
+      "application": {
+        "questions": [
+          "所谓文化匹配是必要工作原则，还是只喜欢相似背景？"
+        ],
+        "steps": [
+          "把原则写成可观察行为。",
+          "检查选人标准是否排除有价值的不同观点。"
+        ],
+        "limits": [
+          "不采用周日加班或私人喜好作为统一筛选标准；文化不能替代公平和岗位能力。"
+        ]
+      }
+    },
+    {
+      "id": "altman-p-mutual-hiring-decision",
+      "title": "选定候选人后认真回应对方的选择",
+      "summary": "他提醒招聘不只是在筛选，也需要说明为什么值得来。",
+      "topics": [
+        "招聘沟通",
+        "岗位信息",
+        "双向选择",
+        "团队"
+      ],
+      "evidence_ids": [
+        "altman-e-mutual-hiring-decision"
+      ],
+      "application": {
+        "questions": [
+          "对方是否了解岗位责任、资源和实际限制？"
+        ],
+        "steps": [
+          "清楚说明承诺及不能保证的部分。",
+          "回答实际疑问并尊重拒绝和考虑时间。"
+        ],
+        "limits": [
+          "不照搬高频联系或制造压力的做法，不用名气替代真实条件。"
+        ]
+      }
+    },
+    {
+      "id": "altman-p-project-before-company",
+      "title": "先探索值得做的项目，再承担公司承诺",
+      "summary": "他比较项目阶段与急于以公司身份锁定方向的差异。",
+      "topics": [
+        "创业准备",
+        "项目探索",
+        "承诺",
+        "方向"
+      ],
+      "evidence_ids": [
+        "altman-e-project-before-company"
+      ],
+      "application": {
+        "questions": [
+          "目前需要验证一个想法，还是已经有理由承担更大组织成本？"
+        ],
+        "steps": [
+          "先验证具体问题和交付。",
+          "在需求与责任明确后决定是否扩大。"
+        ],
+        "limits": [
+          "项目模式不能规避必要登记、合同或对用户的责任。"
+        ]
+      }
+    },
+    {
+      "id": "altman-p-honest-user-validation",
+      "title": "如实检查用户是否真的需要并使用产品",
+      "summary": "他要求反复听取用户、改进产品，避免自我欺骗式的喜爱判断。",
+      "topics": [
+        "用户验证",
+        "需求",
+        "产品迭代",
+        "真实使用"
+      ],
+      "evidence_ids": [
+        "altman-e-honest-user-validation"
+      ],
+      "application": {
+        "questions": [
+          "称赞之外，用户有没有自愿使用、回访或承担成本？"
+        ],
+        "steps": [
+          "观察实际使用行为并询问原因。",
+          "记录不成立的证据，再决定改进方向。"
+        ],
+        "limits": [
+          "不将少量高热情用户当整个市场，也不靠诱导行为制造需求证明。"
+        ]
+      }
+    },
+    {
+      "id": "altman-p-burn-before-validation",
+      "title": "产品未验证时控制固定消耗",
+      "summary": "他把低消耗和慢招聘与产品需求尚未确认的阶段联系起来。",
+      "topics": [
+        "现金消耗",
+        "招聘时机",
+        "创业成本",
+        "产品验证"
+      ],
+      "evidence_ids": [
+        "altman-e-burn-before-validation"
+      ],
+      "application": {
+        "questions": [
+          "扩大固定成本前，是否已有足以支持投入的需求与交付证据？"
+        ],
+        "steps": [
+          "算清现有资源和基本责任。",
+          "先验证最大未知，再承担难撤回的成本。"
+        ],
+        "limits": [
+          "低成本不意味压低必要质量或劳动保障，也不保证后续融资。"
+        ]
+      }
+    }
+  ]
+}

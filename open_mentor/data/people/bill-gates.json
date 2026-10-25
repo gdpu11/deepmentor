@@ -1,0 +1,891 @@
+{
+  "schema_version": 1,
+  "person": {
+    "id": "bill-gates",
+    "name": "比尔·盖茨",
+    "aliases": [
+      "盖茨",
+      "Bill Gates",
+      "比爾·蓋茨"
+    ],
+    "description": "依据本人哈佛演讲原发文字与2011年年度信，整理问题选择、资源、行动路径、衡量效果、教学反馈、学习条件和公共参与；历史项目不冒作当前效果。"
+  },
+  "sources": [
+    {
+      "id": "gates-harvard-2007",
+      "title": "Bill Gates: Harvard Commencement",
+      "url": "https://www.gatesfoundation.org/ideas/speeches/2007/06/bill-gates-harvard-commencement",
+      "publisher": "Gates Foundation / Bill Gates",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2007-06-06",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "本人署名演讲发布文字；published_at取基金会页面所标June 6, 2007，是发布页日期而非对现场发生日期的独立确认。排除开头辍学玩笑和末尾订阅。医学、疾病与历史统计只保留背景，不转成医疗指导；不将其主张当独立效果验证。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "3d8a9063673deab09d0acbb0ad25d1b3ace88449b3318db21249856d11310eec",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "gates-letter-2011",
+      "title": "2011 Annual Letter from Bill Gates",
+      "url": "https://docs.gatesfoundation.org/documents/2011-annual-letter.pdf",
+      "publisher": "Bill & Melinda Gates Foundation / Bill Gates",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_pdf_text_check",
+        "note": "本人署名年度信。只提取正文中的表达，不将照片、图表数据及Warren Buffett等引用归为本人原创；2011年教育和项目观察不当2026年事实或因果证明。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。原文标示的时期：作者落款January 2011，未确认日。"
+      },
+      "content_sha256": "c1222600378e90df9fd486db16683b6062b4ed30e06c6ef7a9b153c5a6e907c4",
+      "refresh": {
+        "mode": "manual",
+        "interval_days": 90
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "gates-e-resources-and-impact",
+      "source_id": "gates-harvard-2007",
+      "speaker": "比尔·盖茨",
+      "excerpt": "resources",
+      "summary": "他把个人少量时间与资金和基金会同样放在资源如何帮助更多人的问题下考虑。",
+      "locator": {
+        "type": "heading",
+        "value": "想象每周几小时、每月少量捐款的段落"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "资源分配",
+        "公共参与",
+        "影响",
+        "优先级"
+      ],
+      "context": "核对本人已发表文字，具体应用由编辑归纳；历史自述和倡议不等同独立验证。"
+    },
+    {
+      "id": "gates-e-unserved-needs",
+      "source_id": "gates-harvard-2007",
+      "speaker": "比尔·盖茨",
+      "excerpt": "market",
+      "summary": "他以贫困人群需求为例，讨论市场激励和公共投入没有自动覆盖的问题。",
+      "locator": {
+        "type": "heading",
+        "value": "讨论为何部分需求没有得到回应的段落"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "未满足需求",
+        "激励",
+        "公共服务",
+        "市场"
+      ],
+      "context": "核对本人已发表文字，具体应用由编辑归纳；历史自述和倡议不等同独立验证。"
+    },
+    {
+      "id": "gates-e-clarify-action-path",
+      "source_id": "gates-harvard-2007",
+      "speaker": "比尔·盖茨",
+      "excerpt": "complexity",
+      "summary": "他将看见问题、理解方案和看见影响作为让关心落实的条件。",
+      "locator": {
+        "type": "heading",
+        "value": "从关心到行动；问题、方案和影响"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "行动路径",
+        "复杂问题",
+        "公共参与",
+        "沟通"
+      ],
+      "context": "核对本人已发表文字，具体应用由编辑归纳；历史自述和倡议不等同独立验证。"
+    },
+    {
+      "id": "gates-e-goal-before-tools",
+      "source_id": "gates-harvard-2007",
+      "speaker": "比尔·盖茨",
+      "excerpt": "determine a goal",
+      "summary": "他提出先确定目标，再找能有效推进目标的方法，然后考虑理想技术。",
+      "locator": {
+        "type": "heading",
+        "value": "四阶段方法开头"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "目标",
+        "方案选择",
+        "技术",
+        "关键路径"
+      ],
+      "context": "核对本人已发表文字，具体应用由编辑归纳；历史自述和倡议不等同独立验证。"
+    },
+    {
+      "id": "gates-e-current-tools-and-research",
+      "source_id": "gates-harvard-2007",
+      "speaker": "比尔·盖茨",
+      "excerpt": "already have",
+      "summary": "他建议在寻找理想技术期间，合理使用已经具备的技术。",
+      "locator": {
+        "type": "heading",
+        "value": "四阶段方法末尾；理想技术与当前能力"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "研究",
+        "现有工具",
+        "分阶段",
+        "可行性"
+      ],
+      "context": "核对本人已发表文字，具体应用由编辑归纳；历史自述和倡议不等同独立验证。"
+    },
+    {
+      "id": "gates-e-measure-and-share-learning",
+      "source_id": "gates-harvard-2007",
+      "speaker": "比尔·盖茨",
+      "excerpt": "successes and failures",
+      "summary": "他在确定方案后强调测量影响，并让其他人从成功和失败中学习。",
+      "locator": {
+        "type": "heading",
+        "value": "The final step段"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "效果衡量",
+        "复盘",
+        "失败学习",
+        "透明"
+      ],
+      "context": "核对本人已发表文字，具体应用由编辑归纳；历史自述和倡议不等同独立验证。"
+    },
+    {
+      "id": "gates-e-numbers-and-human-impact",
+      "source_id": "gates-harvard-2007",
+      "speaker": "比尔·盖茨",
+      "excerpt": "human impact",
+      "summary": "他认为只展示数量不足以让人理解工作影响，还需说明对人的意义。",
+      "locator": {
+        "type": "heading",
+        "value": "衡量之后；不仅展示数量的段落"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "效果沟通",
+        "统计",
+        "人的处境",
+        "参与"
+      ],
+      "context": "核对本人已发表文字，具体应用由编辑归纳；历史自述和倡议不等同独立验证。"
+    },
+    {
+      "id": "gates-e-broaden-technology-access",
+      "source_id": "gates-harvard-2007",
+      "speaker": "比尔·盖茨",
+      "excerpt": "access",
+      "summary": "他担心缺乏技术接入让有实践经验的人无法参与交流与创新。",
+      "locator": {
+        "type": "heading",
+        "value": "网络协作之后；尚未获得技术接入的人"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "技术可及性",
+        "参与",
+        "协作",
+        "机会"
+      ],
+      "context": "核对本人已发表文字，具体应用由编辑归纳；历史自述和倡议不等同独立验证。"
+    },
+    {
+      "id": "gates-e-learn-one-real-problem",
+      "source_id": "gates-harvard-2007",
+      "speaker": "比尔·盖茨",
+      "excerpt": "specialist",
+      "summary": "他鼓励毕业生选择复杂问题进行学习，可以从每周有限时间开始。",
+      "locator": {
+        "type": "heading",
+        "value": "结尾；成为具体议题的学习者并寻找同行"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "持续学习",
+        "公共参与",
+        "专注问题",
+        "同伴"
+      ],
+      "context": "核对本人已发表文字，具体应用由编辑归纳；历史自述和倡议不等同独立验证。"
+    },
+    {
+      "id": "gates-e-teaching-support",
+      "source_id": "gates-letter-2011",
+      "speaker": "比尔·盖茨",
+      "excerpt": "support systems",
+      "summary": "他希望把优秀教学经验转成帮助其他教师改进的支持系统。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第19页；Excellence in Teaching正文"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "教学",
+        "反馈",
+        "支持条件",
+        "能力发展"
+      ],
+      "context": "核对本人已发表文字，具体应用由编辑归纳；历史自述和倡议不等同独立验证。"
+    },
+    {
+      "id": "gates-e-multiple-feedback-sources",
+      "source_id": "gates-letter-2011",
+      "speaker": "比尔·盖茨",
+      "excerpt": "multiple sources",
+      "summary": "他主张结合学生调查、课堂视频、测试与同事等信息帮助改进。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第19页；教学反馈段末"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "教学评价",
+        "多源反馈",
+        "观察",
+        "改进"
+      ],
+      "context": "核对本人已发表文字，具体应用由编辑归纳；历史自述和倡议不等同独立验证。"
+    },
+    {
+      "id": "gates-e-observe-actual-work",
+      "source_id": "gates-letter-2011",
+      "speaker": "比尔·盖茨",
+      "excerpt": "videos",
+      "summary": "他回顾教师观看课堂视频，识别学生失去兴趣的位置并分析原因。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第19页；与教师一起观看课堂记录的段落"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "课堂观察",
+        "具体反馈",
+        "教学改进",
+        "记录"
+      ],
+      "context": "核对本人已发表文字，具体应用由编辑归纳；历史自述和倡议不等同独立验证。"
+    },
+    {
+      "id": "gates-e-fit-real-life-conditions",
+      "source_id": "gates-letter-2011",
+      "speaker": "比尔·盖茨",
+      "excerpt": "scheduled",
+      "summary": "他讨论技术培训时指出，课程时间等安排会影响兼顾工作与家庭的人。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第21页；Tennessee Technology Center段"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "学习条件",
+        "时间安排",
+        "职业培训",
+        "家庭"
+      ],
+      "context": "核对本人已发表文字，具体应用由编辑归纳；历史自述和倡议不等同独立验证。"
+    },
+    {
+      "id": "gates-e-diagnose-learning-gaps",
+      "source_id": "gates-letter-2011",
+      "speaker": "比尔·盖茨",
+      "excerpt": "weak spots",
+      "summary": "他介绍在线练习与教师信息如何用于发现学生需要补充的内容。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第21页；Khan Academy练习段"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "学习工具",
+        "知识缺口",
+        "反馈",
+        "练习"
+      ],
+      "context": "核对本人已发表文字，具体应用由编辑归纳；历史自述和倡议不等同独立验证。"
+    },
+    {
+      "id": "gates-e-test-blended-learning",
+      "source_id": "gates-letter-2011",
+      "speaker": "比尔·盖茨",
+      "excerpt": "blend",
+      "summary": "他指出仍需学习如何把课堂与在线学习结合，特别是对年龄小或准备不足的学生。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第21页；online learning段末"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "在线学习",
+        "课堂",
+        "学习支持",
+        "验证"
+      ],
+      "context": "核对本人已发表文字，具体应用由编辑归纳；历史自述和倡议不等同独立验证。"
+    },
+    {
+      "id": "gates-e-two-way-public-learning",
+      "source_id": "gates-letter-2011",
+      "speaker": "比尔·盖茨",
+      "excerpt": "hear back",
+      "summary": "他解释使用博客与社交平台的一项价值是听到其他人的反馈。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第23页；Continuing the Conversation第一段"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "公开学习",
+        "反馈",
+        "交流",
+        "社交平台"
+      ],
+      "context": "核对本人已发表文字，具体应用由编辑归纳；历史自述和倡议不等同独立验证。"
+    }
+  ],
+  "principles": [
+    {
+      "id": "gates-p-resources-and-impact",
+      "title": "先问有限资源能在哪产生实际帮助",
+      "summary": "他把个人少量时间与资金和基金会同样放在资源如何帮助更多人的问题下考虑。",
+      "topics": [
+        "资源分配",
+        "公共参与",
+        "影响",
+        "优先级"
+      ],
+      "evidence_ids": [
+        "gates-e-resources-and-impact"
+      ],
+      "application": {
+        "questions": [
+          "你的有限投入要改变哪项具体问题？"
+        ],
+        "steps": [
+          "确定服务对象和希望改变的状况。",
+          "比较可行做法及能观察到的实际帮助。"
+        ],
+        "limits": [
+          "人数不是唯一价值指标；不据此推荐特定捐款或保证效果。"
+        ]
+      }
+    },
+    {
+      "id": "gates-p-unserved-needs",
+      "title": "检查重要需求为什么没有得到服务",
+      "summary": "他以贫困人群需求为例，讨论市场激励和公共投入没有自动覆盖的问题。",
+      "topics": [
+        "未满足需求",
+        "激励",
+        "公共服务",
+        "市场"
+      ],
+      "evidence_ids": [
+        "gates-e-unserved-needs"
+      ],
+      "application": {
+        "questions": [
+          "是没有技术，还是使用者缺少支付、表达或获得服务的条件？"
+        ],
+        "steps": [
+          "分别检查需求、可获得性和供给激励。",
+          "与受影响的人核对障碍，而非只假设没有需求。"
+        ],
+        "limits": [
+          "历史疾病数字不作当前事实；市场和政策因果仍需具体证据。"
+        ]
+      }
+    },
+    {
+      "id": "gates-p-clarify-action-path",
+      "title": "把关心转成能看见问题和行动路径的说明",
+      "summary": "他将看见问题、理解方案和看见影响作为让关心落实的条件。",
+      "topics": [
+        "行动路径",
+        "复杂问题",
+        "公共参与",
+        "沟通"
+      ],
+      "evidence_ids": [
+        "gates-e-clarify-action-path"
+      ],
+      "application": {
+        "questions": [
+          "想参与的人是否知道可以做什么以及为什么有用？"
+        ],
+        "steps": [
+          "把问题和可行行动说明白。",
+          "提供可核查的进展，持续修正理解。"
+        ],
+        "limits": [
+          "复杂性不是所有不行动的唯一原因，能力与资源限制也要具体判断。"
+        ]
+      }
+    },
+    {
+      "id": "gates-p-goal-before-tools",
+      "title": "选择技术之前先定目标和关键路径",
+      "summary": "他提出先确定目标，再找能有效推进目标的方法，然后考虑理想技术。",
+      "topics": [
+        "目标",
+        "方案选择",
+        "技术",
+        "关键路径"
+      ],
+      "evidence_ids": [
+        "gates-e-goal-before-tools"
+      ],
+      "application": {
+        "questions": [
+          "你在选择工具之前是否说清要改变什么？"
+        ],
+        "steps": [
+          "确定目标和评估条件。",
+          "比较能推动目标的不同方法后再选工具。"
+        ],
+        "limits": [
+          "不能用口号代替比较证据；不沿用演讲中的医疗方案作建议。"
+        ]
+      }
+    },
+    {
+      "id": "gates-p-current-tools-and-research",
+      "title": "长期研究与使用现有可行工具可以并行",
+      "summary": "他建议在寻找理想技术期间，合理使用已经具备的技术。",
+      "topics": [
+        "研究",
+        "现有工具",
+        "分阶段",
+        "可行性"
+      ],
+      "evidence_ids": [
+        "gates-e-current-tools-and-research"
+      ],
+      "application": {
+        "questions": [
+          "等待更好方案时，已有条件可以先解决哪部分？"
+        ],
+        "steps": [
+          "区分长期研发与当前可行行动。",
+          "明确效果与限制，避免把临时方案当最终方案。"
+        ],
+        "limits": [
+          "现有工具仍需适用性和安全核对，不是立即采用任何技术。"
+        ]
+      }
+    },
+    {
+      "id": "gates-p-measure-and-share-learning",
+      "title": "衡量结果并分享成功与失败",
+      "summary": "他在确定方案后强调测量影响，并让其他人从成功和失败中学习。",
+      "topics": [
+        "效果衡量",
+        "复盘",
+        "失败学习",
+        "透明"
+      ],
+      "evidence_ids": [
+        "gates-e-measure-and-share-learning"
+      ],
+      "application": {
+        "questions": [
+          "你如何知道工作真的产生了帮助，别人能学到什么？"
+        ],
+        "steps": [
+          "预先说清结果指标和观察方法。",
+          "同时报告结果、失败和不确定性。"
+        ],
+        "limits": [
+          "不能只凭活动数量宣称因果效果，也不能省略失败。"
+        ]
+      }
+    },
+    {
+      "id": "gates-p-numbers-and-human-impact",
+      "title": "效果沟通同时说明数字和人的实际变化",
+      "summary": "他认为只展示数量不足以让人理解工作影响，还需说明对人的意义。",
+      "topics": [
+        "效果沟通",
+        "统计",
+        "人的处境",
+        "参与"
+      ],
+      "evidence_ids": [
+        "gates-e-numbers-and-human-impact"
+      ],
+      "application": {
+        "questions": [
+          "这些数字对应了谁生活中的哪项变化？"
+        ],
+        "steps": [
+          "用可核查的统计说明规模。",
+          "经适当授权说明实际经历并交代代表性。"
+        ],
+        "limits": [
+          "不能用感人故事替代总体证据，也不能为传播侵犯隐私。"
+        ]
+      }
+    },
+    {
+      "id": "gates-p-broaden-technology-access",
+      "title": "扩大参与技术与问题求解的机会",
+      "summary": "他担心缺乏技术接入让有实践经验的人无法参与交流与创新。",
+      "topics": [
+        "技术可及性",
+        "参与",
+        "协作",
+        "机会"
+      ],
+      "evidence_ids": [
+        "gates-e-broaden-technology-access"
+      ],
+      "application": {
+        "questions": [
+          "哪些有相关经验的人还被工具或条件挡在外面？"
+        ],
+        "steps": [
+          "识别设备、语言和技能等具体门槛。",
+          "选择能降低门槛的参与方式。"
+        ],
+        "limits": [
+          "不沿用演讲中的接入比例，也不认为提供设备即可消除所有障碍。"
+        ]
+      }
+    },
+    {
+      "id": "gates-p-learn-one-real-problem",
+      "title": "持续了解一个具体问题再参与解决",
+      "summary": "他鼓励毕业生选择复杂问题进行学习，可以从每周有限时间开始。",
+      "topics": [
+        "持续学习",
+        "公共参与",
+        "专注问题",
+        "同伴"
+      ],
+      "evidence_ids": [
+        "gates-e-learn-one-real-problem"
+      ],
+      "application": {
+        "questions": [
+          "你愿意持续理解哪项实际问题？"
+        ],
+        "steps": [
+          "从可靠资料和相关人的经验入手。",
+          "寻找已有工作与可以承担的一项贡献。"
+        ],
+        "limits": [
+          "不要求每个人放弃职业，也不声称少量投入必然产生重大改变。"
+        ]
+      }
+    },
+    {
+      "id": "gates-p-teaching-support",
+      "title": "让教师改进有反馈与支持条件",
+      "summary": "他希望把优秀教学经验转成帮助其他教师改进的支持系统。",
+      "topics": [
+        "教学",
+        "反馈",
+        "支持条件",
+        "能力发展"
+      ],
+      "evidence_ids": [
+        "gates-e-teaching-support"
+      ],
+      "application": {
+        "questions": [
+          "要求改进的同时，提供了哪些帮助？"
+        ],
+        "steps": [
+          "找到具体教学难点。",
+          "提供观察、交流和练习支持，再检查变化。"
+        ],
+        "limits": [
+          "不是对某种评价体系效果的独立证明，不用历史国别排名评价个人。"
+        ]
+      }
+    },
+    {
+      "id": "gates-p-multiple-feedback-sources",
+      "title": "评价教学时结合不同来源的反馈",
+      "summary": "他主张结合学生调查、课堂视频、测试与同事等信息帮助改进。",
+      "topics": [
+        "教学评价",
+        "多源反馈",
+        "观察",
+        "改进"
+      ],
+      "evidence_ids": [
+        "gates-e-multiple-feedback-sources"
+      ],
+      "application": {
+        "questions": [
+          "单一分数会漏掉哪些重要表现？"
+        ],
+        "steps": [
+          "比较不同信息的适用范围和偏差。",
+          "围绕具体可改进的问题形成反馈。"
+        ],
+        "limits": [
+          "多来源也可能共享偏差；不把其方案当已经验证的公平制度。"
+        ]
+      }
+    },
+    {
+      "id": "gates-p-observe-actual-work",
+      "title": "通过具体工作记录识别改进点",
+      "summary": "他回顾教师观看课堂视频，识别学生失去兴趣的位置并分析原因。",
+      "topics": [
+        "课堂观察",
+        "具体反馈",
+        "教学改进",
+        "记录"
+      ],
+      "evidence_ids": [
+        "gates-e-observe-actual-work"
+      ],
+      "application": {
+        "questions": [
+          "你能否看到实际过程，而不只记住总体印象？"
+        ],
+        "steps": [
+          "在适当授权下记录具体工作。",
+          "选一个可观察的问题尝试改进。"
+        ],
+        "limits": [
+          "须保护学生和教师隐私；个人访问感受不构成因果研究。"
+        ]
+      }
+    },
+    {
+      "id": "gates-p-fit-real-life-conditions",
+      "title": "让学习安排适应学习者真实生活条件",
+      "summary": "他讨论技术培训时指出，课程时间等安排会影响兼顾工作与家庭的人。",
+      "topics": [
+        "学习条件",
+        "时间安排",
+        "职业培训",
+        "家庭"
+      ],
+      "evidence_ids": [
+        "gates-e-fit-real-life-conditions"
+      ],
+      "application": {
+        "questions": [
+          "学习困难是否来自安排与生活约束冲突？"
+        ],
+        "steps": [
+          "核对工作、家庭和时间门槛。",
+          "比较可行安排，而非只要求增加意志力。"
+        ],
+        "limits": [
+          "不沿用历史毕业率，也不保证改时间就能解决所有困难。"
+        ]
+      }
+    },
+    {
+      "id": "gates-p-diagnose-learning-gaps",
+      "title": "让学习工具帮助定位知识缺口",
+      "summary": "他介绍在线练习与教师信息如何用于发现学生需要补充的内容。",
+      "topics": [
+        "学习工具",
+        "知识缺口",
+        "反馈",
+        "练习"
+      ],
+      "evidence_ids": [
+        "gates-e-diagnose-learning-gaps"
+      ],
+      "application": {
+        "questions": [
+          "工具能否指出具体不会什么以及下一步怎么学？"
+        ],
+        "steps": [
+          "用与目标相关的任务观察薄弱处。",
+          "补充材料后再次检查理解。"
+        ],
+        "limits": [
+          "工具效果须结合学生和情境验证；不把2011年产品描述当当前功能。"
+        ]
+      }
+    },
+    {
+      "id": "gates-p-test-blended-learning",
+      "title": "数字工具要结合不同学习者的需要验证",
+      "summary": "他指出仍需学习如何把课堂与在线学习结合，特别是对年龄小或准备不足的学生。",
+      "topics": [
+        "在线学习",
+        "课堂",
+        "学习支持",
+        "验证"
+      ],
+      "evidence_ids": [
+        "gates-e-test-blended-learning"
+      ],
+      "application": {
+        "questions": [
+          "哪些学习者需要工具之外的指导与条件？"
+        ],
+        "steps": [
+          "区分学习者的准备和支持需求。",
+          "比较组合方式的实际表现。"
+        ],
+        "limits": [
+          "原文对在线学习的概括不是完整效果证据；不推荐所有人仅靠视频自学。"
+        ]
+      }
+    },
+    {
+      "id": "gates-p-two-way-public-learning",
+      "title": "公开分享也要保留听取回应的渠道",
+      "summary": "他解释使用博客与社交平台的一项价值是听到其他人的反馈。",
+      "topics": [
+        "公开学习",
+        "反馈",
+        "交流",
+        "社交平台"
+      ],
+      "evidence_ids": [
+        "gates-e-two-way-public-learning"
+      ],
+      "application": {
+        "questions": [
+          "发布内容之后，你怎样接收相关人的不同经验？"
+        ],
+        "steps": [
+          "开放与主题相关的反馈方式。",
+          "核对并回应有实质信息的问题。"
+        ],
+        "limits": [
+          "收到反馈不证明已代表所有受影响的人，也不把热度当可靠性。"
+        ]
+      }
+    }
+  ]
+}

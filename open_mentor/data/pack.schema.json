@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object", "additionalProperties": false,
+  "required": ["schema_version", "person", "sources", "evidence", "principles"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "person": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "name", "aliases", "description"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"}, "name": {"$ref": "#/$defs/text"},
+        "aliases": {"$ref": "#/$defs/texts"}, "description": {"$ref": "#/$defs/text"}
+      }
+    },
+    "sources": {"type": "array", "items": {"$ref": "#/$defs/source"}},
+    "evidence": {"type": "array", "items": {"$ref": "#/$defs/evidence"}},
+    "principles": {"type": "array", "items": {"$ref": "#/$defs/principle"}}
+  },
+  "$defs": {
+    "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{1,79}$"},
+    "text": {"type": "string", "minLength": 1},
+    "texts": {"type": "array", "items": {"$ref": "#/$defs/text"}, "uniqueItems": true},
+    "date": {"type": "string", "format": "date"},
+    "url": {"type": "string", "format": "uri", "pattern": "^https://[^ /]+/"},
+    "source": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "title", "url", "publisher", "kind", "authority", "published_at", "language", "rights", "review", "content_sha256", "refresh"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"}, "title": {"$ref": "#/$defs/text"},
+        "url": {"$ref": "#/$defs/url"}, "publisher": {"$ref": "#/$defs/text"},
+        "kind": {"enum": ["essay", "interview", "x_post", "book"]},
+        "authority": {"enum": ["first_party", "publisher", "compilation", "secondary"]},
+        "published_at": {"anyOf": [{"$ref": "#/$defs/date"}, {"type": "null"}]},
+        "language": {"$ref": "#/$defs/text"},
+        "origin_url": {"anyOf": [{"$ref": "#/$defs/url"}, {"type": "null"}]},
+        "rights": {
+          "type": "object", "additionalProperties": false,
+          "required": ["license", "redistribution", "note"],
+          "properties": {"license": {"$ref": "#/$defs/text"}, "redistribution": {"const": "metadata_and_short_excerpts"}, "note": {"$ref": "#/$defs/text"}}
+        },
+        "review": {
+          "type": "object", "additionalProperties": false,
+          "required": ["status", "checked_at", "reviewer", "method", "note"],
+          "properties": {
+            "status": {"enum": ["reviewed", "pending"]},
+            "checked_at": {"$ref": "#/$defs/date"}, "reviewer": {"$ref": "#/$defs/text"},
+            "method": {"$ref": "#/$defs/text"}, "note": {"$ref": "#/$defs/text"}
+          }
+        },
+        "content_sha256": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"},
+        "refresh": {
+          "type": "object", "additionalProperties": false,
+          "required": ["mode", "interval_days"],
+          "properties": {"mode": {"enum": ["http", "manual"]}, "interval_days": {"type": "integer", "minimum": 1}}
+        }
+      }
+    },
+    "evidence": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "source_id", "speaker", "excerpt", "summary", "locator", "verification", "tags", "context"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"}, "source_id": {"$ref": "#/$defs/id"},
+        "speaker": {"$ref": "#/$defs/text"}, "excerpt": {"$ref": "#/$defs/text"},
+        "summary": {"$ref": "#/$defs/text"}, "tags": {"$ref": "#/$defs/texts"}, "context": {"$ref": "#/$defs/text"},
+        "locator": {
+          "type": "object", "additionalProperties": false,
+          "required": ["type", "value"],
+          "properties": {"type": {"enum": ["heading", "timestamp", "post"]}, "value": {"$ref": "#/$defs/text"}}
+        },
+        "verification": {
+          "type": "object", "additionalProperties": false,
+          "required": ["status", "origin_verified", "checked_at", "reviewer", "note"],
+          "properties": {
+            "status": {"enum": ["reviewed", "pending", "disputed", "retracted"]}, "origin_verified": {"type": "boolean"},
+            "checked_at": {"anyOf": [{"$ref": "#/$defs/date"}, {"type": "null"}]},
+            "reviewer": {"type": ["string", "null"]}, "note": {"$ref": "#/$defs/text"}
+          }
+        }
+      }
+    },
+    "principle": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "title", "summary", "topics", "evidence_ids", "application"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"}, "title": {"$ref": "#/$defs/text"},
+        "summary": {"$ref": "#/$defs/text"}, "topics": {"$ref": "#/$defs/texts"},
+        "evidence_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"$ref": "#/$defs/id"}},
+        "application": {
+          "type": "object", "additionalProperties": false,
+          "required": ["questions", "steps", "limits"],
+          "properties": {"questions": {"$ref": "#/$defs/texts"}, "steps": {"$ref": "#/$defs/texts"}, "limits": {"$ref": "#/$defs/texts"}}
+        }
+      }
+    }
+  }
+}

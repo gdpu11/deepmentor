@@ -1,0 +1,853 @@
+{
+  "schema_version": 1,
+  "person": {
+    "id": "naval",
+    "name": "纳瓦尔·拉维坎特",
+    "aliases": [
+      "纳瓦尔",
+      "呐瓦尔",
+      "Naval",
+      "Naval Ravikant"
+    ],
+    "description": "收录官站文章、原始 X 帖子与书籍官网章节，讨论专长、合作、判断和杠杆；保留历史时间与适用条件。"
+  },
+  "sources": [
+    {
+      "id": "naval-specific",
+      "title": "Arm Yourself With Specific Knowledge",
+      "url": "https://nav.al/specific-knowledge",
+      "publisher": "Naval / nav.al",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2019-03-25",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；当前包仅收录短摘录与原创中文归纳。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted seed curation",
+        "method": "publisher_webpage_text_check",
+        "note": "已核对发布者网页中的短摘录；不代表独立验证其中的事实或因果。"
+      },
+      "content_sha256": "6d5b25545055fa31bb6fc2fd08fb70692c19b41d2b36e9ad944062eb9f2f54a0",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "naval-long-term",
+      "title": "Play Long-term Games With Long-term People",
+      "url": "https://nav.al/long-term",
+      "publisher": "Naval / nav.al",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2019-03-19",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；当前包仅收录短摘录与原创中文归纳。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted seed curation",
+        "method": "publisher_webpage_text_check",
+        "note": "已核对发布者网页中的短摘录；不代表独立验证其中的事实或因果。"
+      },
+      "content_sha256": "b9795c4f0be58000a1c9610a3c1eae8b183050c142789e29ff576d023cbd1c28",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "naval-wealth",
+      "title": "Seek Wealth, Not Money or Status",
+      "url": "https://nav.al/seek-wealth",
+      "publisher": "Naval / nav.al",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2019-02-28",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；当前包仅收录短摘录与原创中文归纳。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted seed curation",
+        "method": "publisher_webpage_text_check",
+        "note": "已核对发布者网页中的短摘录；不代表独立验证其中的事实或因果。"
+      },
+      "content_sha256": "59ff88a37e212f04315d7c5126a219a7088de2ac623610853768f371ad71b571",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "naval-leverage",
+      "title": "Product and Media are New Leverage",
+      "url": "https://nav.al/product-media",
+      "publisher": "Naval / nav.al",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2019-04-17",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；当前包仅收录短摘录与原创中文归纳。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted seed curation",
+        "method": "publisher_webpage_text_check",
+        "note": "已核对发布者网页中的短摘录；不代表独立验证其中的事实或因果。"
+      },
+      "content_sha256": "5ac9206961d6d5566a5f7a6925143b5640d3db1853fb2d37b948680339a18c27",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "naval-book-leverage",
+      "title": "The Almanack of Naval Ravikant — Find a Position of Leverage",
+      "url": "https://www.navalmanack.com/almanack-of-naval-ravikant/find-a-position-of-leverage",
+      "publisher": "Eric Jorgenson / Navalmanack",
+      "kind": "book",
+      "authority": "compilation",
+      "published_at": null,
+      "language": "en",
+      "origin_url": "https://nav.al/product-media",
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；当前包仅收录短摘录与原创中文归纳。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted seed curation",
+        "method": "publisher_webpage_text_check",
+        "note": "书籍官网是编辑选编文本，原书也提示核对原始来源。该章与官站文章有来源重叠，不能算独立交叉验证；网页未给完整年份，日期留空。"
+      },
+      "content_sha256": "f3e172f935950aa83eb296fe7c44ac436cb5bdf08c44a2d708724e41b4669913",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 7
+      }
+    },
+    {
+      "id": "naval-judgment",
+      "title": "Judgment Is the Decisive Skill",
+      "url": "https://nav.al/judgment",
+      "publisher": "Naval / nav.al",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2019-04-29",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "仅分发来源元数据、短摘录与原创归纳，不再分发完整采访或帖子。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "method": "original_publisher_text_check",
+        "note": "已核对原发布文字，不等于独立验证其主张；文字稿未逐句听辨音轨。"
+      },
+      "content_sha256": "c7757a8427a2a0c82bd70da0973b0673d1b2c17f371a491681de9b09e04633af",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "naval-accountability",
+      "title": "Embrace Accountability to Get Leverage",
+      "url": "https://nav.al/accountability-leverage",
+      "publisher": "Naval / nav.al",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2019-04-11",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "仅分发来源元数据、短摘录与原创归纳，不再分发完整采访或帖子。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "method": "original_publisher_text_check",
+        "note": "已核对原发布文字，不等于独立验证其主张；文字稿未逐句听辨音轨。"
+      },
+      "content_sha256": "fd6ca4d8d696f221c9befc6f366dfd55ef2af4c7db6e0d43b9faeda477ec2f18",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "naval-authenticity",
+      "title": "Escape Competition Through Authenticity",
+      "url": "https://nav.al/competition-authenticity",
+      "publisher": "Naval / nav.al",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2019-05-16",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "仅分发来源元数据、短摘录与原创归纳，不再分发完整采访或帖子。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "method": "original_publisher_text_check",
+        "note": "已核对原发布文字，不等于独立验证其主张；文字稿未逐句听辨音轨。"
+      },
+      "content_sha256": "7150dbf9d3e4822d56ba31e4e69b3457eab20a9e4d4c8b32821f6409936c870e",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "naval-x-authenticity",
+      "title": "Escape competition through authenticity.",
+      "url": "https://x.com/naval/status/975975798204112896",
+      "publisher": "Naval / X",
+      "kind": "x_post",
+      "authority": "first_party",
+      "published_at": "2018-03-20",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "仅分发来源元数据、短摘录与原创归纳，不再分发完整采访或帖子。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "method": "official_x_embed_api",
+        "note": "由 X 官方公开嵌入接口读取，核对帖子 ID 与作者 naval；与官站展开说明同源，不当作独立验证。"
+      },
+      "content_sha256": "69626a601117abf266c817df4d2869f9648ce984632fc8431e5c9acebea9b261",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "naval-rich",
+      "title": "How to Get Rich",
+      "url": "https://nav.al/rich",
+      "publisher": "Naval / nav.al",
+      "kind": "interview",
+      "authority": "first_party",
+      "published_at": "2019-12-28",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "原文与音视频权利归原权利人；仅分发来源、短摘录与原创归纳。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "method": "original_publisher_text_check",
+        "note": "已核对原发布文字、发言归属和定位；未逐句听辨原音，也不独立背书其主张。官站汇总的播客文字，包含 Nivi 提问；页面 12 月 28 日为汇总发布日期，不能当每条观点首次说出的时间。"
+      },
+      "content_sha256": "55346f8a57d745e3c3e94f25f2c1c77fdc2c5dfbe55c329a8cf81b153ca715f5",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "naval-e-specific",
+      "source_id": "naval-specific",
+      "speaker": "Naval Ravikant",
+      "excerpt": "specific knowledge is found much more by pursuing your innate talents, your genuine curiosity, and your passion.",
+      "summary": "用实际经历寻找专长，持续发展真正愿意投入的能力。",
+      "locator": {
+        "type": "heading",
+        "value": "Specific knowledge is found by pursuing your curiosity"
+      },
+      "tags": [
+        "专长",
+        "职业",
+        "优势",
+        "学习",
+        "specific knowledge",
+        "career"
+      ],
+      "context": "讨论如何形成个人专长；没有保证某项兴趣必然具备市场需求。",
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted seed curation",
+        "note": "短摘录与本人发布网站的文字一致；未核对音轨，不把文本一致性当作事实正确性。"
+      }
+    },
+    {
+      "id": "naval-e-long-term",
+      "source_id": "naval-long-term",
+      "speaker": "Naval Ravikant",
+      "excerpt": "all the benefits in life come from compound interests.",
+      "summary": "反复合作、积累信任，使长期成果能够累积。",
+      "locator": {
+        "type": "heading",
+        "value": "Play Long-term Games With Long-term People"
+      },
+      "tags": [
+        "合作",
+        "长期",
+        "信任",
+        "合伙人",
+        "long term",
+        "trust"
+      ],
+      "context": "文中也承认有人会为一次性收益背叛；长期合作的愿望不能替代观察实际行为。",
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted seed curation",
+        "note": "短摘录与本人发布网站的文字一致；未核对音轨，不把文本一致性当作事实正确性。"
+      }
+    },
+    {
+      "id": "naval-e-wealth",
+      "source_id": "naval-wealth",
+      "speaker": "Naval Ravikant",
+      "excerpt": "Wealth is assets that earn while you sleep.",
+      "summary": "区分持续出售时间的收入与能够重复产生价值的资产。",
+      "locator": {
+        "type": "heading",
+        "value": "Wealth is assets that earn while you sleep"
+      },
+      "tags": [
+        "资产",
+        "时间",
+        "财富",
+        "自由",
+        "收入",
+        "assets",
+        "time"
+      ],
+      "context": "这里记录的是他的财富定义，不能用来推定某项资产安全或必然盈利。",
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted seed curation",
+        "note": "短摘录与本人发布网站的文字一致；未核对音轨，不把文本一致性当作事实正确性。"
+      }
+    },
+    {
+      "id": "naval-e-leverage",
+      "source_id": "naval-leverage",
+      "speaker": "Naval Ravikant",
+      "excerpt": "you can multiply your efforts without having to involve other humans and without needing money from other humans.",
+      "summary": "软件和内容可以重复分发，让一次投入服务更多用户。",
+      "locator": {
+        "type": "heading",
+        "value": "Product and media leverage are permissionless"
+      },
+      "tags": [
+        "代码",
+        "软件",
+        "开源",
+        "内容",
+        "产品",
+        "杠杆",
+        "code",
+        "software",
+        "leverage"
+      ],
+      "context": "讨论低复制成本的产品；不代表开发、维护、获客成本为零。",
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted seed curation",
+        "note": "短摘录与本人发布网站的文字一致；未核对音轨，不把文本一致性当作事实正确性。"
+      }
+    },
+    {
+      "id": "naval-e-book-leverage",
+      "source_id": "naval-book-leverage",
+      "speaker": "Naval Ravikant（Eric Jorgenson 编辑选编）",
+      "excerpt": "Code is probably the most powerful form of permissionless leverage.",
+      "summary": "书中也以代码解释无需他人授予的杠杆。",
+      "locator": {
+        "type": "heading",
+        "value": "Find a Position of Leverage"
+      },
+      "tags": [
+        "代码",
+        "书籍",
+        "纳瓦尔宝典",
+        "leverage",
+        "book"
+      ],
+      "context": "编辑选编材料，仅作补充阅读，不视为未经编辑的本人逐字记录。",
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": false,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted seed curation",
+        "note": "核对的是来源页面文字，尚未对照原始音视频。不得将整理稿措辞当成本人逐字原话。"
+      }
+    },
+    {
+      "id": "naval-e-judgment",
+      "source_id": "naval-judgment",
+      "speaker": "Naval Ravikant",
+      "excerpt": "real-world experience",
+      "summary": "判断需要经验和对长期后果的理解。",
+      "locator": {
+        "type": "heading",
+        "value": "Without experience, judgment is often less than useless"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与实际读取的原发布文字一致；保留说话人/记者归纳及历史语境。"
+      },
+      "tags": [
+        "判断",
+        "决策",
+        "经验",
+        "judgment"
+      ],
+      "context": "谈判断力形成，不表示短期尝试可以替代所有领域的专业训练。"
+    },
+    {
+      "id": "naval-e-accountability",
+      "source_id": "naval-accountability",
+      "speaker": "Naval Ravikant",
+      "excerpt": "clear accountability",
+      "summary": "团队需要明确各部分责任。",
+      "locator": {
+        "type": "heading",
+        "value": "A well-functioning team has clear accountability for each position"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与实际读取的原发布文字一致；保留说话人/记者归纳及历史语境。"
+      },
+      "tags": [
+        "团队",
+        "责任",
+        "协作",
+        "accountability"
+      ],
+      "context": "承担责任同时包含失败风险；不是把系统问题归咎于个人。"
+    },
+    {
+      "id": "naval-e-authenticity",
+      "source_id": "naval-authenticity",
+      "speaker": "Naval Ravikant",
+      "excerpt": "be authentic to yourself",
+      "summary": "用真实能力与兴趣形成差异。",
+      "locator": {
+        "type": "heading",
+        "value": "Escape Competition Through Authenticity"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与实际读取的原发布文字一致；保留说话人/记者归纳及历史语境。"
+      },
+      "tags": [
+        "竞争",
+        "差异",
+        "优势",
+        "authenticity"
+      ],
+      "context": "访谈提醒从既往实际行为认识自己，而非幻想另一个人设。"
+    },
+    {
+      "id": "naval-e-x-authenticity",
+      "source_id": "naval-x-authenticity",
+      "speaker": "Naval Ravikant",
+      "excerpt": "Escape competition through authenticity.",
+      "summary": "原帖以真实自我讨论竞争。",
+      "locator": {
+        "type": "post",
+        "value": "975975798204112896"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与实际读取的原发布文字一致；保留说话人/记者归纳及历史语境。"
+      },
+      "tags": [
+        "X",
+        "竞争",
+        "authenticity"
+      ],
+      "context": "这是短帖，应用边界需结合后续官站访谈理解。"
+    },
+    {
+      "id": "naval-e-reading-habit",
+      "source_id": "naval-rich",
+      "speaker": "纳瓦尔·拉维坎特",
+      "excerpt": "read what you love until you love to read",
+      "summary": "先从有兴趣的材料建立阅读习惯，再逐步扩展学习范围。",
+      "locator": {
+        "type": "heading",
+        "value": "Read What You Love Until You Love to Read"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与原发布文字一致；定位和说话人已检查。原话核对与事实正确性、适用性分别判断。"
+      },
+      "tags": [
+        "阅读",
+        "学习",
+        "兴趣",
+        "习惯"
+      ],
+      "context": "属于 Naval 的回答，不把 Nivi 在问题中列举的观点直接当证据。"
+    },
+    {
+      "id": "naval-e-build-sell",
+      "source_id": "naval-rich",
+      "speaker": "纳瓦尔·拉维坎特",
+      "excerpt": "learn to sell, learn to build",
+      "summary": "创造产品与让别人理解、采用产品，是互补的能力。",
+      "locator": {
+        "type": "heading",
+        "value": "Learn to Sell, Learn to Build"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与原发布文字一致；定位和说话人已检查。原话核对与事实正确性、适用性分别判断。"
+      },
+      "tags": [
+        "产品",
+        "开发",
+        "销售",
+        "表达",
+        "合作"
+      ],
+      "context": "建造与销售在文中是广义工作类别，不只指编程或推销。"
+    }
+  ],
+  "principles": [
+    {
+      "id": "naval-p-specific",
+      "title": "从已有专长选择职业方向",
+      "summary": "先列出能持续做、已有成果的能力，再检查真实需求。",
+      "topics": [
+        "职业选择",
+        "转行",
+        "创业方向",
+        "优势",
+        "专长",
+        "学习",
+        "career",
+        "specific knowledge"
+      ],
+      "evidence_ids": [
+        "naval-e-specific"
+      ],
+      "application": {
+        "questions": [
+          "哪些工作你会主动钻研，且已经做出可展示的成果？",
+          "谁确实需要这个能力，现有解决方式有什么不足？"
+        ],
+        "steps": [
+          "列出三个已有作品或已解决的问题，用实际行为识别能力。",
+          "找具体需求做小规模验证，再决定是否扩大投入。"
+        ],
+        "limits": [
+          "兴趣不等于需求，专长也不保证回报。",
+          "这是编辑给出的应用步骤；纳瓦尔没有评价用户的具体职业选择。"
+        ]
+      }
+    },
+    {
+      "id": "naval-p-long-term",
+      "title": "用可观察的行为选择长期合作",
+      "summary": "在可持续合作的环境中积累信任，关注对方怎样履行承诺。",
+      "topics": [
+        "合作",
+        "合伙人",
+        "团队",
+        "信任",
+        "长期",
+        "partners",
+        "trust",
+        "long term"
+      ],
+      "evidence_ids": [
+        "naval-e-long-term"
+      ],
+      "application": {
+        "questions": [
+          "双方会重复合作吗？各自的承诺和实际行为一致吗？",
+          "现在退出或缩小合作，代价有多大？"
+        ],
+        "steps": [
+          "用一次范围明确的小合作观察交付和沟通。",
+          "留下承诺、分工和复盘记录，再决定是否增加依赖。"
+        ],
+        "limits": [
+          "长期合作不能成为容忍侵害或持续失信的理由。",
+          "原文有对一次性背叛的例外讨论，不能只保留复利口号。"
+        ]
+      }
+    },
+    {
+      "id": "naval-p-wealth",
+      "title": "检查投入是否形成可重复使用的资产",
+      "summary": "判断工作成果是否能够在下一次任务中继续创造价值。",
+      "topics": [
+        "资产",
+        "时间",
+        "工作",
+        "收入",
+        "自由",
+        "assets",
+        "time"
+      ],
+      "evidence_ids": [
+        "naval-e-wealth"
+      ],
+      "application": {
+        "questions": [
+          "停止投入新时间后，哪些成果还能继续被使用？",
+          "维护和分发这些成果还需要什么成本？"
+        ],
+        "steps": [
+          "从当前工作中选一个可复用的成果，观察复用次数与维护成本。"
+        ],
+        "limits": [
+          "这里不提供具体资产的买卖结论。",
+          "能够重复使用只是分析维度，并非收益保证。"
+        ]
+      }
+    },
+    {
+      "id": "naval-p-leverage",
+      "title": "让代码与内容服务更多人",
+      "summary": "检查产品是否能以较低复制成本满足重复出现的需求。",
+      "topics": [
+        "代码",
+        "软件",
+        "开源",
+        "产品",
+        "内容",
+        "规模",
+        "杠杆",
+        "code",
+        "software",
+        "leverage",
+        "product"
+      ],
+      "evidence_ids": [
+        "naval-e-leverage",
+        "naval-e-book-leverage"
+      ],
+      "application": {
+        "questions": [
+          "哪一类需求正在不同用户身上重复出现？",
+          "每增加一个用户，要增加多少人工工作？"
+        ],
+        "steps": [
+          "先解决一个真实、反复出现的问题。",
+          "衡量新增用户所需人工与维护成本，再改善交付过程。"
+        ],
+        "limits": [
+          "可复制不等于有需求或能获客。",
+          "书籍与官站材料可能同源，不能按两份独立证据加权。"
+        ]
+      }
+    },
+    {
+      "id": "naval-p-judgment",
+      "title": "用真实反馈校准判断",
+      "summary": "在可承受的范围内试验，回看决定的后果。",
+      "topics": [
+        "决策",
+        "判断",
+        "经验",
+        "反馈",
+        "judgment"
+      ],
+      "evidence_ids": [
+        "naval-e-judgment"
+      ],
+      "application": {
+        "questions": [
+          "结论来自实际反馈还是纯粹设想？"
+        ],
+        "steps": [
+          "写下预期与反证条件。",
+          "做可逆的小试验，按实际结果更新判断。"
+        ],
+        "limits": [
+          "应用步骤是编辑设计；不能由人物声望推导结论正确。"
+        ]
+      }
+    },
+    {
+      "id": "naval-p-accountability",
+      "title": "给合作建立明确责任",
+      "summary": "让交付、决策和复盘各有负责的人。",
+      "topics": [
+        "合作",
+        "团队",
+        "职责",
+        "责任",
+        "accountability"
+      ],
+      "evidence_ids": [
+        "naval-e-accountability"
+      ],
+      "application": {
+        "questions": [
+          "每个重要结果由谁负责，谁可以作决定？"
+        ],
+        "steps": [
+          "把目标、权限和验收方式写清楚。"
+        ],
+        "limits": [
+          "清晰责任需配合相应权限和资源，不等于责备个人。"
+        ]
+      }
+    },
+    {
+      "id": "naval-p-authenticity",
+      "title": "从真实优势建立差异",
+      "summary": "依据已有能力与实际投入选择自己的打法。",
+      "topics": [
+        "竞争",
+        "差异化",
+        "个人优势",
+        "职业",
+        "authenticity"
+      ],
+      "evidence_ids": [
+        "naval-e-authenticity",
+        "naval-e-x-authenticity"
+      ],
+      "application": {
+        "questions": [
+          "你能持续做好的具体事情是什么？"
+        ],
+        "steps": [
+          "用已有作品和用户反馈验证差异。"
+        ],
+        "limits": [
+          "真实不等于忽视需求；原帖与官站展开说明不能算两份独立验证。"
+        ]
+      }
+    },
+    {
+      "id": "naval-p-reading-habit",
+      "title": "从读得下去的材料建立学习习惯",
+      "summary": "先从有兴趣的材料建立阅读习惯，再逐步扩展学习范围。",
+      "topics": [
+        "阅读",
+        "学习",
+        "兴趣",
+        "习惯"
+      ],
+      "evidence_ids": [
+        "naval-e-reading-habit"
+      ],
+      "application": {
+        "questions": [
+          "什么材料能让你愿意持续读下去？"
+        ],
+        "steps": [
+          "选一本与你的好奇心有关的材料。",
+          "读完一个小部分，记下新的问题并选择下一步材料。"
+        ],
+        "limits": [
+          "兴趣是入口，专业任务仍需回到可靠原始资料。",
+          "问题和步骤是编辑应用推演，并非本人对当前用户的直接建议。"
+        ]
+      }
+    },
+    {
+      "id": "naval-p-build-sell",
+      "title": "检查创造与传播之间的缺口",
+      "summary": "创造产品与让别人理解、采用产品，是互补的能力。",
+      "topics": [
+        "产品",
+        "开发",
+        "销售",
+        "表达",
+        "合作"
+      ],
+      "evidence_ids": [
+        "naval-e-build-sell"
+      ],
+      "application": {
+        "questions": [
+          "项目当前缺的是交付能力，还是让合适用户理解和采用？"
+        ],
+        "steps": [
+          "用一次真实用户接触定位当前缺口。",
+          "自己学习一个关键环节，或与能力互补的人合作。"
+        ],
+        "limits": [
+          "传播不能替代产品价值，也不鼓励夸大效果。",
+          "问题和步骤是编辑应用推演，并非本人对当前用户的直接建议。"
+        ]
+      }
+    }
+  ]
+}

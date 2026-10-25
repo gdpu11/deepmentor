@@ -1,0 +1,840 @@
+{
+  "schema_version": 1,
+  "person": {
+    "id": "steve-jobs",
+    "name": "史蒂夫·乔布斯",
+    "aliases": [
+      "乔布斯",
+      "Steve Jobs",
+      "喬布斯"
+    ],
+    "description": "依据斯坦福毕业演讲原稿与Steve Jobs Archive授权原始表达，整理探索、重新开始、设计、选人、聚焦与修正判断；明确区分编者、其他通信者和本人。"
+  },
+  "sources": [
+    {
+      "id": "jobs-stanford-2005",
+      "title": "Steve Jobs: Stanford commencement prepared address (2005)",
+      "url": "https://news.stanford.edu/stories/2005/06/youve-got-find-love-jobs-says",
+      "publisher": "Stanford University",
+      "kind": "essay",
+      "authority": "publisher",
+      "published_at": "2005-06-12",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "学校发布的演讲准备稿，核对发表文字而非逐秒音频。HTTP受限时由网页阅读工具读取作者正文，哈希对应所保存的正文摘取，不是整个HTTP页面；手动复核。个人回顾不证明辍学或创业必然成功，不提取医疗自述为建议。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "b1d8c49d575faf80c6259a415d8cd99e782da6ab32c177543cccdd9a71eb7ad7",
+      "refresh": {
+        "mode": "manual",
+        "interval_days": 90
+      }
+    },
+    {
+      "id": "jobs-archive-book",
+      "title": "Make Something Wonderful: Steve Jobs in his own words",
+      "url": "https://book.stevejobsarchive.com/",
+      "publisher": "Steve Jobs Archive / edited by Leslie Berlin",
+      "kind": "book",
+      "authority": "publisher",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "授权出版物中的本人原始访谈、演讲与邮件；不将Laurene Powell Jobs、Leslie Berlin、记者、Andy Grove或其他通信者的话归给乔布斯。逐条标明原始条目与时期，核对出版文字不等于原录音或全部书稿审核。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。"
+      },
+      "content_sha256": "6465321ab48aab0260eca3db2bf302bab6d62ef9ce32fdb9e24f182afa461c0f",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "jobs-e-curiosity-without-guarantees",
+      "source_id": "jobs-stanford-2005",
+      "speaker": "史蒂夫·乔布斯",
+      "excerpt": "calligraphy",
+      "summary": "他用书法学习回顾说明，部分经验的用途是在后来才显现的。",
+      "locator": {
+        "type": "heading",
+        "value": "第一段故事；书法学习与后来设计的联系"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "好奇心",
+        "探索学习",
+        "跨领域",
+        "职业选择"
+      ],
+      "context": "本人已发表表达的相应段落；个人回顾存在事后解释局限，下面步骤是编辑应用，不是本人针对用户的回复。"
+    },
+    {
+      "id": "jobs-e-begin-again",
+      "source_id": "jobs-stanford-2005",
+      "speaker": "史蒂夫·乔布斯",
+      "excerpt": "beginner",
+      "summary": "他回顾离开苹果后，从已有成功身份转回初学者的体验。",
+      "locator": {
+        "type": "heading",
+        "value": "第二段故事；离开苹果之后"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "重新开始",
+        "职业挫折",
+        "学习",
+        "身份变化"
+      ],
+      "context": "本人已发表表达的相应段落；个人回顾存在事后解释局限，下面步骤是编辑应用，不是本人针对用户的回复。"
+    },
+    {
+      "id": "jobs-e-meaningful-work",
+      "source_id": "jobs-stanford-2005",
+      "speaker": "史蒂夫·乔布斯",
+      "excerpt": "great work",
+      "summary": "他将自己继续创造的动力归于对所做工作的热爱与认可。",
+      "locator": {
+        "type": "heading",
+        "value": "第二段故事；寻找喜欢且认可的工作"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "工作意义",
+        "职业方向",
+        "动机",
+        "探索"
+      ],
+      "context": "本人已发表表达的相应段落；个人回顾存在事后解释局限，下面步骤是编辑应用，不是本人针对用户的回复。"
+    },
+    {
+      "id": "jobs-e-repeated-misalignment",
+      "source_id": "jobs-stanford-2005",
+      "speaker": "史蒂夫·乔布斯",
+      "excerpt": "change something",
+      "summary": "他描述长期反复不愿做当天事情时，会考虑改变。",
+      "locator": {
+        "type": "heading",
+        "value": "第三段故事开头；每天自问的段落"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "自我检查",
+        "长期选择",
+        "工作调整",
+        "时间"
+      ],
+      "context": "本人已发表表达的相应段落；个人回顾存在事后解释局限，下面步骤是编辑应用，不是本人针对用户的回复。"
+    },
+    {
+      "id": "jobs-e-finite-time-own-values",
+      "source_id": "jobs-stanford-2005",
+      "speaker": "史蒂夫·乔布斯",
+      "excerpt": "inner voice",
+      "summary": "他提醒时间有限，不要让外界意见完全盖过自己的判断。",
+      "locator": {
+        "type": "heading",
+        "value": "第三段故事末尾；有限时间与外界声音"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "人生选择",
+        "时间有限",
+        "个人价值",
+        "外界评价"
+      ],
+      "context": "本人已发表表达的相应段落；个人回顾存在事后解释局限，下面步骤是编辑应用，不是本人针对用户的回复。"
+    },
+    {
+      "id": "jobs-e-design-through-observation",
+      "source_id": "jobs-archive-book",
+      "speaker": "史蒂夫·乔布斯",
+      "excerpt": "make mistakes",
+      "summary": "他谈到日常产品、艺术观察以及自己犯错后审美判断的变化。",
+      "locator": {
+        "type": "heading",
+        "value": "Interview with Michael Moritz；1984年5月；SJ谈审美改进"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "产品设计",
+        "观察",
+        "迭代",
+        "审美"
+      ],
+      "context": "本人已发表表达的相应段落；个人回顾存在事后解释局限，下面步骤是编辑应用，不是本人针对用户的回复。"
+    },
+    {
+      "id": "jobs-e-design-for-physical-use",
+      "source_id": "jobs-archive-book",
+      "speaker": "史蒂夫·乔布斯",
+      "excerpt": "carry around",
+      "summary": "他以产品尺寸、把手和房间之间搬运，说明设计要回应具体使用方式。",
+      "locator": {
+        "type": "heading",
+        "value": "同一1984访谈；更小与便于搬运的产品"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "使用情境",
+        "产品设计",
+        "可携带",
+        "功能取舍"
+      ],
+      "context": "本人已发表表达的相应段落；个人回顾存在事后解释局限，下面步骤是编辑应用，不是本人针对用户的回复。"
+    },
+    {
+      "id": "jobs-e-hiring-contribution",
+      "source_id": "jobs-archive-book",
+      "speaker": "史蒂夫·乔布斯",
+      "excerpt": "results",
+      "summary": "他区分履历与表达的漂亮程度，和候选人实际参与产生的结果。",
+      "locator": {
+        "type": "heading",
+        "value": "Interview for In the Company of Giants；1990年代；候选人过往工作"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "招聘",
+        "个人贡献",
+        "交付结果",
+        "验证"
+      ],
+      "context": "本人已发表表达的相应段落；个人回顾存在事后解释局限，下面步骤是编辑应用，不是本人针对用户的回复。"
+    },
+    {
+      "id": "jobs-e-early-career-potential",
+      "source_id": "jobs-archive-book",
+      "speaker": "史蒂夫·乔布斯",
+      "excerpt": "learn quickly",
+      "summary": "他指出年轻候选人可能尚未获得创造显著成果的机会，需要另看学习能力等条件。",
+      "locator": {
+        "type": "heading",
+        "value": "同一访谈；年轻候选人与潜力"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "招聘",
+        "早期职业",
+        "学习潜力",
+        "机会条件"
+      ],
+      "context": "本人已发表表达的相应段落；个人回顾存在事后解释局限，下面步骤是编辑应用，不是本人针对用户的回复。"
+    },
+    {
+      "id": "jobs-e-cross-field-insight",
+      "source_id": "jobs-archive-book",
+      "speaker": "史蒂夫·乔布斯",
+      "excerpt": "liberal arts",
+      "summary": "他把自己对技术的人文视角与Macintosh中的字体和出版体验联系起来。",
+      "locator": {
+        "type": "heading",
+        "value": "同一访谈；SJ解释个人长处"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "跨领域",
+        "产品",
+        "人文",
+        "技术"
+      ],
+      "context": "本人已发表表达的相应段落；个人回顾存在事后解释局限，下面步骤是编辑应用，不是本人针对用户的回复。"
+    },
+    {
+      "id": "jobs-e-ideal-and-feasible",
+      "source_id": "jobs-archive-book",
+      "speaker": "史蒂夫·乔布斯",
+      "excerpt": "better",
+      "summary": "他承认追求最理想结果有时会妨碍已经可行的改进。",
+      "locator": {
+        "type": "heading",
+        "value": "同一访谈；SJ回答长处如何成为弱点"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "可行性",
+        "产品迭代",
+        "完美主义",
+        "取舍"
+      ],
+      "context": "本人已发表表达的相应段落；个人回顾存在事后解释局限，下面步骤是编辑应用，不是本人针对用户的回复。"
+    },
+    {
+      "id": "jobs-e-work-as-motivation",
+      "source_id": "jobs-archive-book",
+      "speaker": "史蒂夫·乔布斯",
+      "excerpt": "the work",
+      "summary": "他把团队持续投入归因于共同工作、同伴与成果，而非只归于领导者魅力。",
+      "locator": {
+        "type": "heading",
+        "value": "同一访谈；SJ回答如何激励员工"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "团队动机",
+        "工作意义",
+        "协作环境",
+        "成果"
+      ],
+      "context": "本人已发表表达的相应段落；个人回顾存在事后解释局限，下面步骤是编辑应用，不是本人针对用户的回复。"
+    },
+    {
+      "id": "jobs-e-invite-challenge",
+      "source_id": "jobs-archive-book",
+      "speaker": "史蒂夫·乔布斯",
+      "excerpt": "challenge me",
+      "summary": "他在给Avie Tevanian的邮件中明确请求继续提出挑战。",
+      "locator": {
+        "type": "heading",
+        "value": "Email Exchange with Avie Tevanian；1997-08-25 22:26；Steve发出的邮件"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "领导",
+        "不同意见",
+        "决策",
+        "团队反馈"
+      ],
+      "context": "本人已发表表达的相应段落；个人回顾存在事后解释局限，下面步骤是编辑应用，不是本人针对用户的回复。"
+    },
+    {
+      "id": "jobs-e-revise-own-position",
+      "source_id": "jobs-archive-book",
+      "speaker": "史蒂夫·乔布斯",
+      "excerpt": "changed",
+      "summary": "他在与Andy Grove的邮件往来后，明确改变了是否免费帮助Intel的决定。",
+      "locator": {
+        "type": "heading",
+        "value": "Email Exchange Between Steve, Intel CEO Andy Grove, and an Intel Engineer；1995-10-01 15:50；Steve最后回信"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "修正判断",
+        "合作",
+        "反馈",
+        "立场"
+      ],
+      "context": "本人已发表表达的相应段落；个人回顾存在事后解释局限，下面步骤是编辑应用，不是本人针对用户的回复。"
+    },
+    {
+      "id": "jobs-e-coherent-product-line",
+      "source_id": "jobs-archive-book",
+      "speaker": "史蒂夫·乔布斯",
+      "excerpt": "product line",
+      "summary": "他回顾精简产品路线时，提到自己和客户都难以理解原来的组合。",
+      "locator": {
+        "type": "heading",
+        "value": "Speech to Apple Employees；1997-09-23；开头谈产品路线"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "产品组合",
+        "聚焦",
+        "客户理解",
+        "资源取舍"
+      ],
+      "context": "本人已发表表达的相应段落；个人回顾存在事后解释局限，下面步骤是编辑应用，不是本人针对用户的回复。"
+    }
+  ],
+  "principles": [
+    {
+      "id": "jobs-p-curiosity-without-guarantees",
+      "title": "给有意义的探索留出空间",
+      "summary": "他用书法学习回顾说明，部分经验的用途是在后来才显现的。",
+      "topics": [
+        "好奇心",
+        "探索学习",
+        "跨领域",
+        "职业选择"
+      ],
+      "evidence_ids": [
+        "jobs-e-curiosity-without-guarantees"
+      ],
+      "application": {
+        "questions": [
+          "你是否只允许自己学习立刻有回报的东西？"
+        ],
+        "steps": [
+          "选择一项有兴趣且成本可承受的探索。",
+          "记录学到的能力，不预设将来必有回报。"
+        ],
+        "limits": [
+          "不是辍学建议，也不把成功者的事后连线当预测方法。"
+        ]
+      }
+    },
+    {
+      "id": "jobs-p-begin-again",
+      "title": "遭遇身份或职位变化后允许自己重新学习",
+      "summary": "他回顾离开苹果后，从已有成功身份转回初学者的体验。",
+      "topics": [
+        "重新开始",
+        "职业挫折",
+        "学习",
+        "身份变化"
+      ],
+      "evidence_ids": [
+        "jobs-e-begin-again"
+      ],
+      "application": {
+        "questions": [
+          "如果不再依赖原来的身份，你仍愿意做什么？"
+        ],
+        "steps": [
+          "区分失去的职位与仍有的能力和兴趣。",
+          "用可承担的小项目重新取得反馈。"
+        ],
+        "limits": [
+          "不美化失业的经济代价，也不保证挫折必然带来更好结果。"
+        ]
+      }
+    },
+    {
+      "id": "jobs-p-meaningful-work",
+      "title": "持续检查工作是否仍值得投入",
+      "summary": "他将自己继续创造的动力归于对所做工作的热爱与认可。",
+      "topics": [
+        "工作意义",
+        "职业方向",
+        "动机",
+        "探索"
+      ],
+      "evidence_ids": [
+        "jobs-e-meaningful-work"
+      ],
+      "application": {
+        "questions": [
+          "工作中哪些部分让你愿意持续改进？"
+        ],
+        "steps": [
+          "区分具体任务、工作环境和兴趣来源。",
+          "在现实约束内寻找更合适的组合。"
+        ],
+        "limits": [
+          "不要求所有人立刻辞职追求热爱，也不将兴趣视为收入保证。"
+        ]
+      }
+    },
+    {
+      "id": "jobs-p-repeated-misalignment",
+      "title": "把持续的不愿意视为需要检查的信号",
+      "summary": "他描述长期反复不愿做当天事情时，会考虑改变。",
+      "topics": [
+        "自我检查",
+        "长期选择",
+        "工作调整",
+        "时间"
+      ],
+      "evidence_ids": [
+        "jobs-e-repeated-misalignment"
+      ],
+      "application": {
+        "questions": [
+          "不愿意来自偶尔疲惫，还是持续的不匹配？"
+        ],
+        "steps": [
+          "记录重复出现的原因。",
+          "先尝试可逆调整，再评价更大的改变。"
+        ],
+        "limits": [
+          "不把单日情绪当重大决定依据；不借此诊断心理状态。"
+        ]
+      }
+    },
+    {
+      "id": "jobs-p-finite-time-own-values",
+      "title": "重大取舍中保留自己的价值判断",
+      "summary": "他提醒时间有限，不要让外界意见完全盖过自己的判断。",
+      "topics": [
+        "人生选择",
+        "时间有限",
+        "个人价值",
+        "外界评价"
+      ],
+      "evidence_ids": [
+        "jobs-e-finite-time-own-values"
+      ],
+      "application": {
+        "questions": [
+          "如果去掉他人的面子期待，你仍重视什么？"
+        ],
+        "steps": [
+          "分清自己的目标和外界评价。",
+          "同时核对责任、成本和证据，再作取舍。"
+        ],
+        "limits": [
+          "直觉不是免于验证的理由，也不将临终反思变成医疗或危机建议。"
+        ]
+      }
+    },
+    {
+      "id": "jobs-p-design-through-observation",
+      "title": "从观察和改错中打磨设计判断",
+      "summary": "他谈到日常产品、艺术观察以及自己犯错后审美判断的变化。",
+      "topics": [
+        "产品设计",
+        "观察",
+        "迭代",
+        "审美"
+      ],
+      "evidence_ids": [
+        "jobs-e-design-through-observation"
+      ],
+      "application": {
+        "questions": [
+          "哪次具体失误能帮助你识别更好的设计？"
+        ],
+        "steps": [
+          "比较真实使用中的差别。",
+          "修改一处问题，再让使用者检验。"
+        ],
+        "limits": [
+          "审美经验不能证明做好设计总不增加成本或时间。"
+        ]
+      }
+    },
+    {
+      "id": "jobs-p-design-for-physical-use",
+      "title": "把实际搬运与使用情境纳入产品设计",
+      "summary": "他以产品尺寸、把手和房间之间搬运，说明设计要回应具体使用方式。",
+      "topics": [
+        "使用情境",
+        "产品设计",
+        "可携带",
+        "功能取舍"
+      ],
+      "evidence_ids": [
+        "jobs-e-design-for-physical-use"
+      ],
+      "application": {
+        "questions": [
+          "使用者要在什么地方、怎样移动或使用它？"
+        ],
+        "steps": [
+          "描述一个具体使用过程。",
+          "比较体积、功能和操作负担的取舍。"
+        ],
+        "limits": [
+          "不把小型化当所有产品的最优方向。"
+        ]
+      }
+    },
+    {
+      "id": "jobs-p-hiring-contribution",
+      "title": "选人时核对结果中的个人贡献",
+      "summary": "他区分履历与表达的漂亮程度，和候选人实际参与产生的结果。",
+      "topics": [
+        "招聘",
+        "个人贡献",
+        "交付结果",
+        "验证"
+      ],
+      "evidence_ids": [
+        "jobs-e-hiring-contribution"
+      ],
+      "application": {
+        "questions": [
+          "候选人对结果承担了哪部分具体工作？"
+        ],
+        "steps": [
+          "让其说明任务、决策和交付。",
+          "用适当授权的实例或推荐信息核对。"
+        ],
+        "limits": [
+          "不能把团队成功全归个人；不采用其攻击式面试做法。"
+        ]
+      }
+    },
+    {
+      "id": "jobs-p-early-career-potential",
+      "title": "对尚无成果机会的人检查学习潜力",
+      "summary": "他指出年轻候选人可能尚未获得创造显著成果的机会，需要另看学习能力等条件。",
+      "topics": [
+        "招聘",
+        "早期职业",
+        "学习潜力",
+        "机会条件"
+      ],
+      "evidence_ids": [
+        "jobs-e-early-career-potential"
+      ],
+      "application": {
+        "questions": [
+          "没有同等机会时，怎样公平地看到候选人的能力？"
+        ],
+        "steps": [
+          "用与岗位有关的小任务观察学习与修正。",
+          "结合已有机会解释履历差异。"
+        ],
+        "limits": [
+          "面试直觉不是可靠性保证；不把加班意愿当潜力。"
+        ]
+      }
+    },
+    {
+      "id": "jobs-p-cross-field-insight",
+      "title": "让其他领域的知识帮助产品表达",
+      "summary": "他把自己对技术的人文视角与Macintosh中的字体和出版体验联系起来。",
+      "topics": [
+        "跨领域",
+        "产品",
+        "人文",
+        "技术"
+      ],
+      "evidence_ids": [
+        "jobs-e-cross-field-insight"
+      ],
+      "application": {
+        "questions": [
+          "哪个相邻领域的成熟经验能帮助改善产品？"
+        ],
+        "steps": [
+          "找到具体可以借鉴的做法。",
+          "用实际用户任务检验它是否适用。"
+        ],
+        "limits": [
+          "这是个人回顾，跨学科标签本身不证明产品有价值。"
+        ]
+      }
+    },
+    {
+      "id": "jobs-p-ideal-and-feasible",
+      "title": "在理想目标和当前可实现改进之间作判断",
+      "summary": "他承认追求最理想结果有时会妨碍已经可行的改进。",
+      "topics": [
+        "可行性",
+        "产品迭代",
+        "完美主义",
+        "取舍"
+      ],
+      "evidence_ids": [
+        "jobs-e-ideal-and-feasible"
+      ],
+      "application": {
+        "questions": [
+          "当前应该等待最佳方案，还是先交付可验证的改进？"
+        ],
+        "steps": [
+          "明确不能妥协的底线。",
+          "比较增量交付与等待的价值和代价。"
+        ],
+        "limits": [
+          "不能以先改进为理由放弃必要安全和质量要求。"
+        ]
+      }
+    },
+    {
+      "id": "jobs-p-work-as-motivation",
+      "title": "把工作内容和协作环境作为团队动力来源",
+      "summary": "他把团队持续投入归因于共同工作、同伴与成果，而非只归于领导者魅力。",
+      "topics": [
+        "团队动机",
+        "工作意义",
+        "协作环境",
+        "成果"
+      ],
+      "evidence_ids": [
+        "jobs-e-work-as-motivation"
+      ],
+      "application": {
+        "questions": [
+          "团队是否理解这项工作值得做的原因？"
+        ],
+        "steps": [
+          "说明具体使用价值和可达成结果。",
+          "改善工作条件，让成员看到贡献。"
+        ],
+        "limits": [
+          "个人自述不证明所有成员体验相同，也不支持威胁或过度工作。"
+        ]
+      }
+    },
+    {
+      "id": "jobs-p-invite-challenge",
+      "title": "主动允许同事挑战自己的判断",
+      "summary": "他在给Avie Tevanian的邮件中明确请求继续提出挑战。",
+      "topics": [
+        "领导",
+        "不同意见",
+        "决策",
+        "团队反馈"
+      ],
+      "evidence_ids": [
+        "jobs-e-invite-challenge"
+      ],
+      "application": {
+        "questions": [
+          "同事是否能在有分歧时安全地说明理由？"
+        ],
+        "steps": [
+          "明确邀请有依据的不同意见。",
+          "回应内容，并说明最终取舍。"
+        ],
+        "limits": [
+          "单封邀请不证明整体组织没有权力或表达障碍。"
+        ]
+      }
+    },
+    {
+      "id": "jobs-p-revise-own-position",
+      "title": "在获得更清晰的视角后可以撤回原立场",
+      "summary": "他在与Andy Grove的邮件往来后，明确改变了是否免费帮助Intel的决定。",
+      "topics": [
+        "修正判断",
+        "合作",
+        "反馈",
+        "立场"
+      ],
+      "evidence_ids": [
+        "jobs-e-revise-own-position"
+      ],
+      "application": {
+        "questions": [
+          "哪些新信息足以让你改变原先的决定？"
+        ],
+        "steps": [
+          "说清分歧背后的前提。",
+          "新前提成立时，明确更新决定与后续行动。"
+        ],
+        "limits": [
+          "不把Grove或工程师的话归给乔布斯，也不推导知识产权应普遍免费。"
+        ]
+      }
+    },
+    {
+      "id": "jobs-p-coherent-product-line",
+      "title": "让产品组合有能被客户理解的重点",
+      "summary": "他回顾精简产品路线时，提到自己和客户都难以理解原来的组合。",
+      "topics": [
+        "产品组合",
+        "聚焦",
+        "客户理解",
+        "资源取舍"
+      ],
+      "evidence_ids": [
+        "jobs-e-coherent-product-line"
+      ],
+      "application": {
+        "questions": [
+          "客户能否说清不同产品分别解决什么问题？"
+        ],
+        "steps": [
+          "列出各产品服务的任务和相互关系。",
+          "减少重复与混乱，把资源放到明确的重点。"
+        ],
+        "limits": [
+          "不机械复制其删除比例，也不将内部感受当所有员工与客户的验证。"
+        ]
+      }
+    }
+  ]
+}

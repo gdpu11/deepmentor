@@ -1,0 +1,1050 @@
+{
+  "schema_version": 1,
+  "person": {
+    "id": "satya-nadella",
+    "name": "萨提亚·纳德拉",
+    "aliases": [
+      "Satya Nadella",
+      "Nadella",
+      "纳德拉",
+      "薩提亞·納德拉"
+    ],
+    "description": "从本人2014、2020和2025年公开员工信整理持续学习、使命、用户价值、组织调整、可靠性、倾听与行动；公开承诺与实际达成分开。"
+  },
+  "sources": [
+    {
+      "id": "nadella-first-day-2014",
+      "title": "Satya Nadella email to employees on first day as CEO",
+      "url": "https://news.microsoft.com/source/2014/02/04/satya-nadella-email-to-employees-on-first-day-as-ceo/",
+      "publisher": "Microsoft / Satya Nadella公开员工信",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2014-02-04",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "微软原发布、明确归于纳德拉的员工信；只核对本人正文。战略、文化和改革效果为当时管理者陈述，不证明实际达成；裁员及其他决定的背景与承诺一并保留，不把宣传口径当员工体验的验证。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "2a7dd7e7f887fdce547acb27b456cf7e3de586a4b2fa9540f8134d8236e74f80",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "nadella-organization-2014",
+      "title": "Starting to Evolve Our Organization and Culture",
+      "url": "https://news.microsoft.com/source/2014/07/17/starting-to-evolve-our-organization-and-culture/",
+      "publisher": "Microsoft / Satya Nadella公开员工信",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2014-07-17",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "微软原发布、明确归于纳德拉的员工信；只核对本人正文。战略、文化和改革效果为当时管理者陈述，不证明实际达成；裁员及其他决定的背景与承诺一并保留，不把宣传口径当员工体验的验证。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "967ecf4f1e6c4e5c2ff6709954eac56e8f94f710501c4e862998a27e93741c2e",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "nadella-change-2020",
+      "title": "Change in ourselves helps drive change in the world",
+      "url": "https://blogs.microsoft.com/blog/2020/06/05/change-in-ourselves-helps-drive-change-in-the-world/",
+      "publisher": "Microsoft / Satya Nadella公开员工信",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2020-06-05",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "微软原发布、明确归于纳德拉的员工信；只核对本人正文。战略、文化和改革效果为当时管理者陈述，不证明实际达成；裁员及其他决定的背景与承诺一并保留，不把宣传口径当员工体验的验证。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "982cfb4d8c250211e2747ff7d32384914222ab5b811ed59a173e408a5ff809fa",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "nadella-why-2025",
+      "title": "Recommitting to our why, what, and how",
+      "url": "https://blogs.microsoft.com/blog/2025/07/24/recommitting-to-our-why-what-and-how/",
+      "publisher": "Microsoft / Satya Nadella公开员工信",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2025-07-24",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "微软原发布、明确归于纳德拉的员工信；只核对本人正文。战略、文化和改革效果为当时管理者陈述，不证明实际达成；裁员及其他决定的背景与承诺一并保留，不把宣传口径当员工体验的验证。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "827ececdc7293077e8090d0c2ab3fa4c3a4b1ca5232ecdb9efd9e496e84f4098",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "nadella-e-continuous-learning",
+      "source_id": "nadella-first-day-2014",
+      "speaker": "萨提亚·纳德拉",
+      "excerpt": "curiosity",
+      "summary": "他用自己的读书与课程习惯说明好奇心和知识需求。",
+      "locator": {
+        "type": "heading",
+        "value": "Who am I"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "持续学习",
+        "好奇心",
+        "工作能力",
+        "知识"
+      ],
+      "context": "本人公开文字已核对；历史战略与承诺不当当前政策或成功因果，应用步骤为编辑推演。"
+    },
+    {
+      "id": "nadella-e-empower-user-tasks",
+      "source_id": "nadella-first-day-2014",
+      "speaker": "萨提亚·纳德拉",
+      "excerpt": "care about",
+      "summary": "他解释do more指让人做更多在意的事情，而非公司做更多事项。",
+      "locator": {
+        "type": "heading",
+        "value": "Why are we here；do more"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "用户价值",
+        "功能取舍",
+        "赋能",
+        "实际任务"
+      ],
+      "context": "本人公开文字已核对；历史战略与承诺不当当前政策或成功因果，应用步骤为编辑推演。"
+    },
+    {
+      "id": "nadella-e-distinct-contribution",
+      "source_id": "nadella-first-day-2014",
+      "speaker": "萨提亚·纳德拉",
+      "excerpt": "uniquely",
+      "summary": "他要求组织思考自己能独特地提供什么，而不只延续历史。",
+      "locator": {
+        "type": "heading",
+        "value": "Why are we here；独特贡献"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "定位",
+        "独特能力",
+        "组织方向",
+        "贡献"
+      ],
+      "context": "本人公开文字已核对；历史战略与承诺不当当前政策或成功因果，应用步骤为编辑推演。"
+    },
+    {
+      "id": "nadella-e-meaning-in-useful-work",
+      "source_id": "nadella-first-day-2014",
+      "speaker": "萨提亚·纳德拉",
+      "excerpt": "meaning",
+      "summary": "他希望成员在改善他人生活的工作中找到意义。",
+      "locator": {
+        "type": "heading",
+        "value": "结尾；find meaning in our work"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "工作意义",
+        "贡献",
+        "职业选择",
+        "目标"
+      ],
+      "context": "本人公开文字已核对；历史战略与承诺不当当前政策或成功因果，应用步骤为编辑推演。"
+    },
+    {
+      "id": "nadella-e-strategy-needs-organization",
+      "source_id": "nadella-organization-2014",
+      "speaker": "萨提亚·纳德拉",
+      "excerpt": "organization",
+      "summary": "他将明确焦点视为开始，随后需要调整组织和工作方式。",
+      "locator": {
+        "type": "heading",
+        "value": "员工信开头；焦点与组织"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "组织设计",
+        "战略落地",
+        "职责",
+        "协作"
+      ],
+      "context": "本人公开文字已核对；历史战略与承诺不当当前政策或成功因果，应用步骤为编辑推演。"
+    },
+    {
+      "id": "nadella-e-communicate-change-conditions",
+      "source_id": "nadella-organization-2014",
+      "speaker": "萨提亚·纳德拉",
+      "excerpt": "transparent",
+      "summary": "他在宣布裁员时承诺提供时间信息、支持与有尊重的沟通。",
+      "locator": {
+        "type": "heading",
+        "value": "关于裁员安排与支持的段落"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "组织变化",
+        "沟通",
+        "员工支持",
+        "承诺"
+      ],
+      "context": "本人公开文字已核对；历史战略与承诺不当当前政策或成功因果，应用步骤为编辑推演。"
+    },
+    {
+      "id": "nadella-e-reduce-unnecessary-layers",
+      "source_id": "nadella-organization-2014",
+      "speaker": "萨提亚·纳德拉",
+      "excerpt": "layers",
+      "summary": "他提出减少管理层级与简化流程来改善协作。",
+      "locator": {
+        "type": "heading",
+        "value": "work simplification段落"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "组织层级",
+        "信息流",
+        "决策",
+        "简化流程"
+      ],
+      "context": "本人公开文字已核对；历史战略与承诺不当当前政策或成功因果，应用步骤为编辑推演。"
+    },
+    {
+      "id": "nadella-e-learn-and-unlearn",
+      "source_id": "nadella-why-2025",
+      "speaker": "萨提亚·纳德拉",
+      "excerpt": "unlearning",
+      "summary": "他将持续学习与不再沿用旧方式放在组织转型中讨论。",
+      "locator": {
+        "type": "heading",
+        "value": "2025信；转型中的unlearning和learning"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "学习",
+        "放下旧做法",
+        "技术转型",
+        "前提复查"
+      ],
+      "context": "本人公开文字已核对；历史战略与承诺不当当前政策或成功因果，应用步骤为编辑推演。"
+    },
+    {
+      "id": "nadella-e-operate-and-explore",
+      "source_id": "nadella-why-2025",
+      "speaker": "萨提亚·纳德拉",
+      "excerpt": "maintain",
+      "summary": "他承认维护现有业务同时创造新类别是一项困难的双重任务。",
+      "locator": {
+        "type": "heading",
+        "value": "2025信；维持现有业务与创造新类别"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "现有业务",
+        "新探索",
+        "资源取舍",
+        "组织责任"
+      ],
+      "context": "本人公开文字已核对；历史战略与承诺不当当前政策或成功因果，应用步骤为编辑推演。"
+    },
+    {
+      "id": "nadella-e-security-and-quality",
+      "source_id": "nadella-why-2025",
+      "speaker": "萨提亚·纳德拉",
+      "excerpt": "non-negotiable",
+      "summary": "他将安全和质量称为不可妥协的优先项。",
+      "locator": {
+        "type": "heading",
+        "value": "Our what；security and quality"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "安全",
+        "质量",
+        "基础要求",
+        "创新"
+      ],
+      "context": "本人公开文字已核对；历史战略与承诺不当当前政策或成功因果，应用步骤为编辑推演。"
+    },
+    {
+      "id": "nadella-e-product-and-platform",
+      "source_id": "nadella-why-2025",
+      "speaker": "萨提亚·纳德拉",
+      "excerpt": "end-to-end",
+      "summary": "他将底层能力与端到端体验放在一起，并强调生态机会。",
+      "locator": {
+        "type": "heading",
+        "value": "Our what；产品与平台的关系"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "产品体验",
+        "平台",
+        "基础能力",
+        "生态"
+      ],
+      "context": "本人公开文字已核对；历史战略与承诺不当当前政策或成功因果，应用步骤为编辑推演。"
+    },
+    {
+      "id": "nadella-e-relevance-not-longevity",
+      "source_id": "nadella-why-2025",
+      "speaker": "萨提亚·纳德拉",
+      "excerpt": "relevance",
+      "summary": "他在结尾强调存在多久不如现在能帮助别人做什么。",
+      "locator": {
+        "type": "heading",
+        "value": "2025信结尾；longevity与relevance"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "相关性",
+        "历史成功",
+        "用户需要",
+        "复查"
+      ],
+      "context": "本人公开文字已核对；历史战略与承诺不当当前政策或成功因果，应用步骤为编辑推演。"
+    },
+    {
+      "id": "nadella-e-learn-it-all",
+      "source_id": "nadella-why-2025",
+      "speaker": "萨提亚·纳德拉",
+      "excerpt": "learn-it-all",
+      "summary": "他把learn-it-all与know-it-all对照，强调每日改进。",
+      "locator": {
+        "type": "heading",
+        "value": "Our how；culture"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "学习态度",
+        "谦逊",
+        "反馈",
+        "组织文化"
+      ],
+      "context": "本人公开文字已核对；历史战略与承诺不当当前政策或成功因果，应用步骤为编辑推演。"
+    },
+    {
+      "id": "nadella-e-levels-of-action",
+      "source_id": "nadella-change-2020",
+      "speaker": "萨提亚·纳德拉",
+      "excerpt": "organizational",
+      "summary": "他在回应不公时分别追问个人怎样变、周围组织怎样变以及公司能作什么。",
+      "locator": {
+        "type": "heading",
+        "value": "2020信开头；三种行动层面"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "行动层面",
+        "个人责任",
+        "组织责任",
+        "公共贡献"
+      ],
+      "context": "本人公开文字已核对；历史战略与承诺不当当前政策或成功因果，应用步骤为编辑推演。"
+    },
+    {
+      "id": "nadella-e-listen-to-experience",
+      "source_id": "nadella-change-2020",
+      "speaker": "萨提亚·纳德拉",
+      "excerpt": "Listening",
+      "summary": "他说明向受影响同事学习如何帮助自己理解差异。",
+      "locator": {
+        "type": "heading",
+        "value": "2020信；向同事倾听和学习"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "倾听",
+        "当事人经验",
+        "理解",
+        "协作"
+      ],
+      "context": "本人公开文字已核对；历史战略与承诺不当当前政策或成功因果，应用步骤为编辑推演。"
+    },
+    {
+      "id": "nadella-e-values-and-lived-practice",
+      "source_id": "nadella-change-2020",
+      "speaker": "萨提亚·纳德拉",
+      "excerpt": "daily lived experience",
+      "summary": "他提出缩小组织口头文化与实际经历之间的距离。",
+      "locator": {
+        "type": "heading",
+        "value": "2020信；宣称文化与日常经历"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "价值实践",
+        "组织文化",
+        "实际体验",
+        "改进"
+      ],
+      "context": "本人公开文字已核对；历史战略与承诺不当当前政策或成功因果，应用步骤为编辑推演。"
+    },
+    {
+      "id": "nadella-e-inclusion-in-conditions",
+      "source_id": "nadella-change-2020",
+      "speaker": "萨提亚·纳德拉",
+      "excerpt": "voices",
+      "summary": "他将代表性、人才渠道与让不同声音被重视联系起来。",
+      "locator": {
+        "type": "heading",
+        "value": "2020信；代表性和被听见的声音"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "包容",
+        "人才渠道",
+        "参与条件",
+        "组织设计"
+      ],
+      "context": "本人公开文字已核对；历史战略与承诺不当当前政策或成功因果，应用步骤为编辑推演。"
+    },
+    {
+      "id": "nadella-e-resources-behind-commitments",
+      "source_id": "nadella-change-2020",
+      "speaker": "萨提亚·纳德拉",
+      "excerpt": "resources",
+      "summary": "他用资助、供应商项目和员工参与说明公司承诺需要行动安排。",
+      "locator": {
+        "type": "heading",
+        "value": "2020信；平台与资源的使用"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "承诺兑现",
+        "资源",
+        "责任",
+        "社会贡献"
+      ],
+      "context": "本人公开文字已核对；历史战略与承诺不当当前政策或成功因果，应用步骤为编辑推演。"
+    }
+  ],
+  "principles": [
+    {
+      "id": "nadella-p-continuous-learning",
+      "title": "把持续学习放入长期工作能力",
+      "summary": "他用自己的读书与课程习惯说明好奇心和知识需求。",
+      "topics": [
+        "持续学习",
+        "好奇心",
+        "工作能力",
+        "知识"
+      ],
+      "evidence_ids": [
+        "nadella-e-continuous-learning"
+      ],
+      "application": {
+        "questions": [
+          "当前工作需要补充什么新的理解或能力？"
+        ],
+        "steps": [
+          "选择一个实际知识缺口。",
+          "学习后用具体任务核对理解。"
+        ],
+        "limits": [
+          "买书或报名本身不证明学会，也不要求照搬他的投入方式。"
+        ]
+      }
+    },
+    {
+      "id": "nadella-p-empower-user-tasks",
+      "title": "把更多能力还给用户，而不只增加功能",
+      "summary": "他解释do more指让人做更多在意的事情，而非公司做更多事项。",
+      "topics": [
+        "用户价值",
+        "功能取舍",
+        "赋能",
+        "实际任务"
+      ],
+      "evidence_ids": [
+        "nadella-e-empower-user-tasks"
+      ],
+      "application": {
+        "questions": [
+          "新增能力让用户更容易完成了什么？"
+        ],
+        "steps": [
+          "明确用户任务和现有困难。",
+          "用真实使用结果检查改善。"
+        ],
+        "limits": [
+          "这是使命主张，不证明任何产品功能天然有价值。"
+        ]
+      }
+    },
+    {
+      "id": "nadella-p-distinct-contribution",
+      "title": "明确自己能作出的实际独特贡献",
+      "summary": "他要求组织思考自己能独特地提供什么，而不只延续历史。",
+      "topics": [
+        "定位",
+        "独特能力",
+        "组织方向",
+        "贡献"
+      ],
+      "evidence_ids": [
+        "nadella-e-distinct-contribution"
+      ],
+      "application": {
+        "questions": [
+          "你的能力与资源能改善哪项其他方案尚未解决的任务？"
+        ],
+        "steps": [
+          "说明具体能力与条件。",
+          "用比较和用户反馈检验差异。"
+        ],
+        "limits": [
+          "独特不是自我宣称，也不能把信中公司优越性评价当独立事实。"
+        ]
+      }
+    },
+    {
+      "id": "nadella-p-meaning-in-useful-work",
+      "title": "把工作意义联系到给别人带来的改善",
+      "summary": "他希望成员在改善他人生活的工作中找到意义。",
+      "topics": [
+        "工作意义",
+        "贡献",
+        "职业选择",
+        "目标"
+      ],
+      "evidence_ids": [
+        "nadella-e-meaning-in-useful-work"
+      ],
+      "application": {
+        "questions": [
+          "这项工作对谁有帮助，你能否看见具体影响？"
+        ],
+        "steps": [
+          "描述受益者和实际改善。",
+          "同时检查个人责任、兴趣和代价。"
+        ],
+        "limits": [
+          "使命不能替代合理报酬和工作条件，也不要求每份工作都承载全部人生意义。"
+        ]
+      }
+    },
+    {
+      "id": "nadella-p-strategy-needs-organization",
+      "title": "战略方向需要相应职责与组织安排",
+      "summary": "他将明确焦点视为开始，随后需要调整组织和工作方式。",
+      "topics": [
+        "组织设计",
+        "战略落地",
+        "职责",
+        "协作"
+      ],
+      "evidence_ids": [
+        "nadella-e-strategy-needs-organization"
+      ],
+      "application": {
+        "questions": [
+          "现有分工和资源是否支持已经选定的方向？"
+        ],
+        "steps": [
+          "明确最重要的交付及负责人。",
+          "检查资源和协作方式是否对应。"
+        ],
+        "limits": [
+          "组织调整不是战略正确的证明，也不能由口号推导必须裁员。"
+        ]
+      }
+    },
+    {
+      "id": "nadella-p-communicate-change-conditions",
+      "title": "重大调整时说明范围、安排和支持",
+      "summary": "他在宣布裁员时承诺提供时间信息、支持与有尊重的沟通。",
+      "topics": [
+        "组织变化",
+        "沟通",
+        "员工支持",
+        "承诺"
+      ],
+      "evidence_ids": [
+        "nadella-e-communicate-change-conditions"
+      ],
+      "application": {
+        "questions": [
+          "受影响的人是否知道已确定什么、未知什么以及有哪些支持？"
+        ],
+        "steps": [
+          "清楚说明决定、流程与实际可提供支持。",
+          "为具体问题留下沟通入口。"
+        ],
+        "limits": [
+          "这里只能证明公开承诺，不证明承诺兑现或决定公正，也不构成劳动法律意见。"
+        ]
+      }
+    },
+    {
+      "id": "nadella-p-reduce-unnecessary-layers",
+      "title": "检查不必要层级是否阻碍信息和决策",
+      "summary": "他提出减少管理层级与简化流程来改善协作。",
+      "topics": [
+        "组织层级",
+        "信息流",
+        "决策",
+        "简化流程"
+      ],
+      "evidence_ids": [
+        "nadella-e-reduce-unnecessary-layers"
+      ],
+      "application": {
+        "questions": [
+          "哪一层流转实际增加了判断质量，哪一层只造成等待？"
+        ],
+        "steps": [
+          "跟踪一个真实决定的流转。",
+          "在职责和控制明确的前提下调整多余环节。"
+        ],
+        "limits": [
+          "扁平化不一定适合所有规模，不能删掉必要专业和风险控制。"
+        ]
+      }
+    },
+    {
+      "id": "nadella-p-learn-and-unlearn",
+      "title": "新条件下同时学习和放下失效做法",
+      "summary": "他将持续学习与不再沿用旧方式放在组织转型中讨论。",
+      "topics": [
+        "学习",
+        "放下旧做法",
+        "技术转型",
+        "前提复查"
+      ],
+      "evidence_ids": [
+        "nadella-e-learn-and-unlearn"
+      ],
+      "application": {
+        "questions": [
+          "哪些经验仍成立，哪些依赖已经变化的条件？"
+        ],
+        "steps": [
+          "把旧做法的前提写清楚。",
+          "通过小范围验证比较新的做法。"
+        ],
+        "limits": [
+          "不因新技术出现就否定全部旧能力，也不照搬其AI发展预测。"
+        ]
+      }
+    },
+    {
+      "id": "nadella-p-operate-and-explore",
+      "title": "兼顾现有服务责任和新的探索",
+      "summary": "他承认维护现有业务同时创造新类别是一项困难的双重任务。",
+      "topics": [
+        "现有业务",
+        "新探索",
+        "资源取舍",
+        "组织责任"
+      ],
+      "evidence_ids": [
+        "nadella-e-operate-and-explore"
+      ],
+      "application": {
+        "questions": [
+          "探索新方向时，哪些现有责任仍必须可靠完成？"
+        ],
+        "steps": [
+          "区分稳定服务和试验任务的资源。",
+          "设定各自结果与复查条件。"
+        ],
+        "limits": [
+          "不保证两者可以无代价同时推进，必要时需要明确取舍。"
+        ]
+      }
+    },
+    {
+      "id": "nadella-p-security-and-quality",
+      "title": "创新前守住安全与质量的基础要求",
+      "summary": "他将安全和质量称为不可妥协的优先项。",
+      "topics": [
+        "安全",
+        "质量",
+        "基础要求",
+        "创新"
+      ],
+      "evidence_ids": [
+        "nadella-e-security-and-quality"
+      ],
+      "application": {
+        "questions": [
+          "为了新功能，你是否正在牺牲用户依赖的基础能力？"
+        ],
+        "steps": [
+          "明确关键安全与质量条件。",
+          "用验证结果决定能否扩大投入。"
+        ],
+        "limits": [
+          "公开优先级不证明某公司的产品已经安全，也不构成完整工程认证。"
+        ]
+      }
+    },
+    {
+      "id": "nadella-p-product-and-platform",
+      "title": "同时检查产品体验与平台基础能否衔接",
+      "summary": "他将底层能力与端到端体验放在一起，并强调生态机会。",
+      "topics": [
+        "产品体验",
+        "平台",
+        "基础能力",
+        "生态"
+      ],
+      "evidence_ids": [
+        "nadella-e-product-and-platform"
+      ],
+      "application": {
+        "questions": [
+          "基础能力是否真的形成了用户可完成的任务路径？"
+        ],
+        "steps": [
+          "明确组件之间的实际责任和接口。",
+          "从完整使用路径检查交付。"
+        ],
+        "limits": [
+          "不是必须建设全栈平台，仍需考虑组织能力和外部合作。"
+        ]
+      }
+    },
+    {
+      "id": "nadella-p-relevance-not-longevity",
+      "title": "用当前贡献检查过去成功是否仍相关",
+      "summary": "他在结尾强调存在多久不如现在能帮助别人做什么。",
+      "topics": [
+        "相关性",
+        "历史成功",
+        "用户需要",
+        "复查"
+      ],
+      "evidence_ids": [
+        "nadella-e-relevance-not-longevity"
+      ],
+      "application": {
+        "questions": [
+          "过去的优势今天仍在解决重要问题吗？"
+        ],
+        "steps": [
+          "核对新的需求与替代方案。",
+          "决定保留、改进或停止哪些投入。"
+        ],
+        "limits": [
+          "不以短期热度替代长期价值，也不认为新方案必然更好。"
+        ]
+      }
+    },
+    {
+      "id": "nadella-p-learn-it-all",
+      "title": "把愿意继续学习放在展示全知之前",
+      "summary": "他把learn-it-all与know-it-all对照，强调每日改进。",
+      "topics": [
+        "学习态度",
+        "谦逊",
+        "反馈",
+        "组织文化"
+      ],
+      "evidence_ids": [
+        "nadella-e-learn-it-all"
+      ],
+      "application": {
+        "questions": [
+          "你更在意维护已有答案，还是找到实际更好的理解？"
+        ],
+        "steps": [
+          "允许明确说出未知。",
+          "根据具体反馈改进一个行为。"
+        ],
+        "limits": [
+          "不把学习口号当能力或文化已经改善的证明，也不用于给人贴标签。"
+        ]
+      }
+    },
+    {
+      "id": "nadella-p-levels-of-action",
+      "title": "区分个人、组织和更广泛的行动层面",
+      "summary": "他在回应不公时分别追问个人怎样变、周围组织怎样变以及公司能作什么。",
+      "topics": [
+        "行动层面",
+        "个人责任",
+        "组织责任",
+        "公共贡献"
+      ],
+      "evidence_ids": [
+        "nadella-e-levels-of-action"
+      ],
+      "application": {
+        "questions": [
+          "这个问题由个人能改变什么，哪些需要组织或公共协作？"
+        ],
+        "steps": [
+          "明确各层面的权限和责任。",
+          "选择有实际条件的一项行动。"
+        ],
+        "limits": [
+          "不是要求每个人独自解决系统问题，也不把个人善意等同制度改善。"
+        ]
+      }
+    },
+    {
+      "id": "nadella-p-listen-to-experience",
+      "title": "理解影响前先倾听当事人的经验",
+      "summary": "他说明向受影响同事学习如何帮助自己理解差异。",
+      "topics": [
+        "倾听",
+        "当事人经验",
+        "理解",
+        "协作"
+      ],
+      "evidence_ids": [
+        "nadella-e-listen-to-experience"
+      ],
+      "application": {
+        "questions": [
+          "你对问题的理解是否来自实际承担影响的人？"
+        ],
+        "steps": [
+          "询问具体经历和需要。",
+          "核对自己的假设，并保留不同人之间的差异。"
+        ],
+        "limits": [
+          "不能强迫别人讲述私人或痛苦经历，也不能把某个人当整个群体的代表。"
+        ]
+      }
+    },
+    {
+      "id": "nadella-p-values-and-lived-practice",
+      "title": "检查宣称文化与日常体验的差距",
+      "summary": "他提出缩小组织口头文化与实际经历之间的距离。",
+      "topics": [
+        "价值实践",
+        "组织文化",
+        "实际体验",
+        "改进"
+      ],
+      "evidence_ids": [
+        "nadella-e-values-and-lived-practice"
+      ],
+      "application": {
+        "questions": [
+          "成员每天经历的规则，是否符合公开承诺？"
+        ],
+        "steps": [
+          "收集具体行为和制度中的差距。",
+          "明确负责改进的事项并复查结果。"
+        ],
+        "limits": [
+          "公司自述不证明差距已经消失，不能用文化叙事压制合理反馈。"
+        ]
+      }
+    },
+    {
+      "id": "nadella-p-inclusion-in-conditions",
+      "title": "让参与和被听见进入具体工作条件",
+      "summary": "他将代表性、人才渠道与让不同声音被重视联系起来。",
+      "topics": [
+        "包容",
+        "人才渠道",
+        "参与条件",
+        "组织设计"
+      ],
+      "evidence_ids": [
+        "nadella-e-inclusion-in-conditions"
+      ],
+      "application": {
+        "questions": [
+          "哪些人难以进入机会或在现有流程中表达意见？"
+        ],
+        "steps": [
+          "核对招募、协作和反馈的具体条件。",
+          "改善有证据的障碍并观察实际参与。"
+        ],
+        "limits": [
+          "不把群体标签代替个体能力判断，也不保证单个项目能解决全部不平等。"
+        ]
+      }
+    },
+    {
+      "id": "nadella-p-resources-behind-commitments",
+      "title": "让公开承诺对应实际资源和责任",
+      "summary": "他用资助、供应商项目和员工参与说明公司承诺需要行动安排。",
+      "topics": [
+        "承诺兑现",
+        "资源",
+        "责任",
+        "社会贡献"
+      ],
+      "evidence_ids": [
+        "nadella-e-resources-behind-commitments"
+      ],
+      "application": {
+        "questions": [
+          "这项承诺是否已有负责人、资源和可核对进展？"
+        ],
+        "steps": [
+          "说明能投入什么与希望改善什么。",
+          "检查资源去向及实际反馈。"
+        ],
+        "limits": [
+          "不把文中历史金额、机构列表或捐赠自述当当前事实或推荐。"
+        ]
+      }
+    }
+  ]
+}

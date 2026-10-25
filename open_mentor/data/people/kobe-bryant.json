@@ -1,0 +1,284 @@
+{
+  "schema_version": 1,
+  "person": {
+    "id": "kobe-bryant",
+    "name": "科比·布莱恩特",
+    "aliases": [
+      "科比",
+      "Kobe Bryant",
+      "Kobe",
+      "黑曼巴"
+    ],
+    "description": "从本人署名文章与原播客文字稿提炼复盘、学习和创作方法，保留竞技运动的语境。"
+  },
+  "sources": [
+    {
+      "id": "kobe-zero",
+      "title": "Zero",
+      "url": "https://www.theplayerstribune.com/articles/kobe-passes-jordan",
+      "publisher": "Kobe Bryant / The Players’ Tribune",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2014-12-15",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "原文与音视频权利归原权利人；仅分发来源、短摘录与原创归纳。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "method": "original_publisher_text_check",
+        "note": "已核对原发布文字、发言归属和定位；未逐句听辨原音，也不独立背书其主张。这是科比回忆少年经历的署名文章，不是独立核实的生平统计。"
+      },
+      "content_sha256": "9fd8c9882636d45708a72712b6bc719386049a08e6e82040b9f85806dcf982c0",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "kobe-harbinger2019",
+      "title": "Kobe Bryant | Dissecting the Mamba Mentality",
+      "url": "https://www.jordanharbinger.com/kobe-bryant-dissecting-the-mamba-mentality/",
+      "publisher": "The Jordan Harbinger Show",
+      "kind": "interview",
+      "authority": "publisher",
+      "published_at": "2019-09-09",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "原文与音视频权利归原权利人；仅分发来源、短摘录与原创归纳。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "method": "original_publisher_text_check",
+        "note": "已核对原发布文字、发言归属和定位；未逐句听辨原音，也不独立背书其主张。页面显示 9 月 9 日；结构化元数据为 9 月 10 日 UTC，保留显示日期。只摘取 Kobe 的发言，教练转述另标明。"
+      },
+      "content_sha256": "358bd8ec01510f802e30b614f3e36ae4dc7c84bf29f46ec0633f2a313459a497",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "kobe-e-failure-fuel",
+      "source_id": "kobe-zero",
+      "speaker": "科比·布莱恩特",
+      "excerpt": "I would channel my failure as fuel",
+      "summary": "他把少年时的挫折转为继续学习基本功的动力。",
+      "locator": {
+        "type": "heading",
+        "value": "文章：少年联赛与失败经历"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与原发布文字一致；定位和说话人已检查。原话核对与事实正确性、适用性分别判断。"
+      },
+      "tags": [
+        "失败",
+        "挫折",
+        "练习",
+        "基本功"
+      ],
+      "context": "这是科比的个人回忆；不把竞争中的攻击性或极端训练强度当成普遍规范。"
+    },
+    {
+      "id": "kobe-e-act-review",
+      "source_id": "kobe-harbinger2019",
+      "speaker": "科比（转述教练 Tex Winter）",
+      "excerpt": "remove the ego",
+      "summary": "科比转述 Tex Winter 的录像复盘方法：评价动作，降低自我防御。",
+      "locator": {
+        "type": "timestamp",
+        "value": "00:16:25"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与原发布文字一致；定位和说话人已检查。原话核对与事实正确性、适用性分别判断。"
+      },
+      "tags": [
+        "复盘",
+        "反馈",
+        "自尊",
+        "改进"
+      ],
+      "context": "摘录嵌在科比对教练 Tex Winter 话语的转述中，不标成科比原创格言。"
+    },
+    {
+      "id": "kobe-e-cross-domain",
+      "source_id": "kobe-harbinger2019",
+      "speaker": "科比·布莱恩特",
+      "excerpt": "How and why?",
+      "summary": "他研究其他领域持续表现出色的人，追问其创作过程。",
+      "locator": {
+        "type": "timestamp",
+        "value": "00:21:07"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与原发布文字一致；定位和说话人已检查。原话核对与事实正确性、适用性分别判断。"
+      },
+      "tags": [
+        "学习",
+        "跨领域",
+        "创作",
+        "过程"
+      ],
+      "context": "谈论向 Taylor Swift 等创作者学习，非对每个作品的品味评价。"
+    },
+    {
+      "id": "kobe-e-craft-details",
+      "source_id": "kobe-harbinger2019",
+      "speaker": "科比·布莱恩特",
+      "excerpt": "look at every single detail",
+      "summary": "他把对作品的关心落实到书和影片的具体细节。",
+      "locator": {
+        "type": "timestamp",
+        "value": "00:05:33"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与原发布文字一致；定位和说话人已检查。原话核对与事实正确性、适用性分别判断。"
+      },
+      "tags": [
+        "作品",
+        "创作",
+        "质量",
+        "细节"
+      ],
+      "context": "例子是其工作室的书籍设计与制作流程，不是无止境修改的要求。"
+    }
+  ],
+  "principles": [
+    {
+      "id": "kobe-p-failure-fuel",
+      "title": "把失败转为下一轮具体练习",
+      "summary": "他把少年时的挫折转为继续学习基本功的动力。",
+      "topics": [
+        "失败",
+        "挫折",
+        "练习",
+        "基本功"
+      ],
+      "evidence_ids": [
+        "kobe-e-failure-fuel"
+      ],
+      "application": {
+        "questions": [
+          "这次失败暴露的是哪一项可练习的能力？"
+        ],
+        "steps": [
+          "记录一次失败中的具体动作或判断。",
+          "选一个基本技能，在可持续的节奏下练习并记录变化。"
+        ],
+        "limits": [
+          "不把失败归结为人格问题，也不承诺努力必然获胜。",
+          "问题和步骤是编辑应用推演，并非本人对当前用户的直接建议。"
+        ]
+      }
+    },
+    {
+      "id": "kobe-p-act-review",
+      "title": "复盘时把人和具体行为分开",
+      "summary": "科比转述 Tex Winter 的录像复盘方法：评价动作，降低自我防御。",
+      "topics": [
+        "复盘",
+        "反馈",
+        "自尊",
+        "改进"
+      ],
+      "evidence_ids": [
+        "kobe-e-act-review"
+      ],
+      "application": {
+        "questions": [
+          "反馈指向了什么可观察的行为？"
+        ],
+        "steps": [
+          "先描述发生了什么和它造成的结果。",
+          "把改进约定写成下一次可以观察的动作。"
+        ],
+        "limits": [
+          "不以“对事”之名合理化羞辱或霸凌。",
+          "问题和步骤是编辑应用推演，并非本人对当前用户的直接建议。"
+        ]
+      }
+    },
+    {
+      "id": "kobe-p-cross-domain",
+      "title": "学习别人的过程而不只看成就",
+      "summary": "他研究其他领域持续表现出色的人，追问其创作过程。",
+      "topics": [
+        "学习",
+        "跨领域",
+        "创作",
+        "过程"
+      ],
+      "evidence_ids": [
+        "kobe-e-cross-domain"
+      ],
+      "application": {
+        "questions": [
+          "对方反复完成好作品的过程是什么？"
+        ],
+        "steps": [
+          "找到对方描述工作过程的原始访谈。",
+          "选一个与你的任务可比的环节，小规模尝试。"
+        ],
+        "limits": [
+          "跨行业经验须检查条件差异，不能直接照搬成功路径。",
+          "问题和步骤是编辑应用推演，并非本人对当前用户的直接建议。"
+        ]
+      }
+    },
+    {
+      "id": "kobe-p-craft-details",
+      "title": "把质量标准落到用户可见的细节",
+      "summary": "他把对作品的关心落实到书和影片的具体细节。",
+      "topics": [
+        "作品",
+        "创作",
+        "质量",
+        "细节"
+      ],
+      "evidence_ids": [
+        "kobe-e-craft-details"
+      ],
+      "application": {
+        "questions": [
+          "哪个细节会直接影响作品的使用或理解？"
+        ],
+        "steps": [
+          "找出最影响读者体验的一个细节。",
+          "给它设定可检查的完成标准，并在交付前核对。"
+        ],
+        "limits": [
+          "按价值和时间预算取舍，避免所有细节无限打磨。",
+          "问题和步骤是编辑应用推演，并非本人对当前用户的直接建议。"
+        ]
+      }
+    }
+  ]
+}

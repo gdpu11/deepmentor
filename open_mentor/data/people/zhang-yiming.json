@@ -1,0 +1,867 @@
+{
+  "schema_version": 1,
+  "person": {
+    "id": "zhang-yiming",
+    "name": "张一鸣",
+    "aliases": [
+      "Zhang Yiming",
+      "張一鳴"
+    ],
+    "description": "从南开校友原发演讲记录与极客公园现场对谈整理基础、耐心、阅读、独立选择、行业观察、合作与平台；分清张一鸣、王石和张鹏的发言。"
+  },
+  "sources": [
+    {
+      "id": "zhang-nankai-alumni",
+      "title": "张一鸣：意料之外的大学生活和创业心路-南开校友网",
+      "url": "https://nkuaa.nankai.edu.cn/info/1070/2981.htm",
+      "publisher": "南开校友网 / 张一鸣2015年校友会讲话记录",
+      "kind": "essay",
+      "authority": "publisher",
+      "published_at": null,
+      "language": "zh",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "学校原发讲话记录，排除编者按；网页更新时间不冒作首发日期。个人经历、市场和公司数字为自述，未独立验证；笑谈择校、婚恋与熬夜不转成统一行为指南。2016新生讲话存在重合内容，不用作另一份独立验证。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。原文标示的时期：2015年讲话；页面只标更新时间2016-02-21。"
+      },
+      "content_sha256": "f6875e70ea34f60e873f351f84071e38a20ec3054ce8931255edc1716eb37157",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "zhang-wangshi",
+      "title": "王石对话张一鸣：创业不能只考虑6个月能拿到融资，这样会没有竞争力 | 极客公园",
+      "url": "https://www.geekpark.net/news/215165",
+      "publisher": "极客公园 / 王石与张一鸣现场对谈原发记录",
+      "kind": "interview",
+      "authority": "publisher",
+      "published_at": "2016-04-12",
+      "language": "zh",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "只提取张一鸣回答，王石关于义工、择业和登山的建议不归给他。日期核对页面公开published_at字段；时代、融资及企业自述保留历史限制。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "6c3bb0410d075add51e31c76acb349ea1521dbbe841a6268d390b389fb6fe4c1",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "zhang-advertising",
+      "title": "张一鸣：广告是信息的一部分 | 极客公园",
+      "url": "https://www.geekpark.net/news/207719",
+      "publisher": "极客公园 / 张鹏访谈张一鸣原发记录",
+      "kind": "interview",
+      "authority": "publisher",
+      "published_at": "2014-07-03",
+      "language": "zh",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "区分小标题、导语、张鹏问题与张一鸣回答。日期取公开published_at字段；推荐与广告主张为当时商业立场，不视为当前隐私政策或实际效果证明。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "c7f861f43bd5437dd1e71e2eccda26f05a57b01bf42b0fe191b52e6fc718068f",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "yiming-e-patient-complex-work",
+      "source_id": "zhang-nankai-alumni",
+      "speaker": "张一鸣",
+      "excerpt": "耐心",
+      "summary": "他回顾创业中从想法到实际成果可能经历漫长阶段。",
+      "locator": {
+        "type": "heading",
+        "value": "先说耐心；长期思考与创业经历"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "耐心",
+        "复杂工作",
+        "长期项目",
+        "现实时间"
+      ],
+      "context": "原发布文字中的本人发言已定位；历史自述不等于独立因果，应用步骤为编辑推演。"
+    },
+    {
+      "id": "yiming-e-strengthen-foundations",
+      "source_id": "zhang-nankai-alumni",
+      "speaker": "张一鸣",
+      "excerpt": "基础",
+      "summary": "他提醒不要过早取巧而忽略技术基础和深入理解。",
+      "locator": {
+        "type": "heading",
+        "value": "关于实习生与技术基础的回顾"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "基础能力",
+        "技术学习",
+        "长期积累",
+        "实践"
+      ],
+      "context": "原发布文字中的本人发言已定位；历史自述不等于独立因果，应用步骤为编辑推演。"
+    },
+    {
+      "id": "yiming-e-broad-reading",
+      "source_id": "zhang-nankai-alumni",
+      "speaker": "张一鸣",
+      "excerpt": "知识",
+      "summary": "他回顾广泛阅读如何在后来帮助理解行业和管理。",
+      "locator": {
+        "type": "heading",
+        "value": "第二；知识与阅读经历"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "阅读",
+        "跨领域",
+        "知识积累",
+        "理解"
+      ],
+      "context": "原发布文字中的本人发言已定位；历史自述不等于独立因果，应用步骤为编辑推演。"
+    },
+    {
+      "id": "yiming-e-long-thinking-time",
+      "source_id": "zhang-nankai-alumni",
+      "speaker": "张一鸣",
+      "excerpt": "思考",
+      "summary": "他描述散步时列出长期问题进行思考。",
+      "locator": {
+        "type": "heading",
+        "value": "第二；散步与长期问题"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "长期思考",
+        "时间安排",
+        "提问",
+        "方向"
+      ],
+      "context": "原发布文字中的本人发言已定位；历史自述不等于独立因果，应用步骤为编辑推演。"
+    },
+    {
+      "id": "yiming-e-independent-strategic-choice",
+      "source_id": "zhang-nankai-alumni",
+      "speaker": "张一鸣",
+      "excerpt": "独立",
+      "summary": "他回顾拒绝战略投资时，对短期增长与独立方向的权衡。",
+      "locator": {
+        "type": "heading",
+        "value": "关于2013年前后战略投资offer的回顾"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "战略投资",
+        "独立选择",
+        "长期取舍",
+        "资源依赖"
+      ],
+      "context": "原发布文字中的本人发言已定位；历史自述不等于独立因果，应用步骤为编辑推演。"
+    },
+    {
+      "id": "yiming-e-observe-medium-change",
+      "source_id": "zhang-nankai-alumni",
+      "speaker": "张一鸣",
+      "excerpt": "手机",
+      "summary": "他以观察读报与手机使用变化来解释自己当时的判断。",
+      "locator": {
+        "type": "heading",
+        "value": "第二；2011年信息介质变化的回顾"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "机会发现",
+        "行为观察",
+        "技术变化",
+        "假设"
+      ],
+      "context": "原发布文字中的本人发言已定位；历史自述不等于独立因果，应用步骤为编辑推演。"
+    },
+    {
+      "id": "yiming-e-different-approach",
+      "source_id": "zhang-nankai-alumni",
+      "speaker": "张一鸣",
+      "excerpt": "技术",
+      "summary": "他将对信息分发和机器学习的理解作为不同于既有产品的解释。",
+      "locator": {
+        "type": "heading",
+        "value": "关于已有资讯产品与不同技术方式"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "竞争",
+        "技术能力",
+        "产品差异",
+        "理解需求"
+      ],
+      "context": "原发布文字中的本人发言已定位；历史自述不等于独立因果，应用步骤为编辑推演。"
+    },
+    {
+      "id": "yiming-e-relationships-through-work",
+      "source_id": "zhang-nankai-alumni",
+      "speaker": "张一鸣",
+      "excerpt": "伙伴",
+      "summary": "他回顾修电脑、编程和共同项目如何帮助结识后来伙伴。",
+      "locator": {
+        "type": "heading",
+        "value": "最后；同伴、项目和后来的合作"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "协作关系",
+        "实际贡献",
+        "同伴",
+        "职业联系"
+      ],
+      "context": "原发布文字中的本人发言已定位；历史自述不等于独立因果，应用步骤为编辑推演。"
+    },
+    {
+      "id": "yiming-e-beyond-funding-window",
+      "source_id": "zhang-wangshi",
+      "speaker": "张一鸣",
+      "excerpt": "六个月",
+      "summary": "他提醒只考虑六个月内融资，之后可能缺乏持续竞争力。",
+      "locator": {
+        "type": "heading",
+        "value": "张一鸣关于优化目标与融资的回答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "经营目标",
+        "融资",
+        "长期能力",
+        "商业模式"
+      ],
+      "context": "原发布文字中的本人发言已定位；历史自述不等于独立因果，应用步骤为编辑推演。"
+    },
+    {
+      "id": "yiming-e-choices-and-conditions",
+      "source_id": "zhang-wangshi",
+      "speaker": "张一鸣",
+      "excerpt": "使命",
+      "summary": "他承认创业中的诱惑与迷茫，也谈到条件具备后更容易按使命行动。",
+      "locator": {
+        "type": "heading",
+        "value": "张一鸣关于诱惑与迷茫的回答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "选择条件",
+        "资源",
+        "长期方向",
+        "取舍"
+      ],
+      "context": "原发布文字中的本人发言已定位；历史自述不等于独立因果，应用步骤为编辑推演。"
+    },
+    {
+      "id": "yiming-e-explore-knowledge-uncertainty",
+      "source_id": "zhang-wangshi",
+      "speaker": "张一鸣",
+      "excerpt": "不确定性",
+      "summary": "他谈到更愿意通过阅读和新知识体验不确定性。",
+      "locator": {
+        "type": "heading",
+        "value": "最后一段张一鸣回答；知识的山峰"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "学习",
+        "知识探索",
+        "假设",
+        "不确定性"
+      ],
+      "context": "原发布文字中的本人发言已定位；历史自述不等于独立因果，应用步骤为编辑推演。"
+    },
+    {
+      "id": "yiming-e-tools-for-partners",
+      "source_id": "zhang-advertising",
+      "speaker": "张一鸣",
+      "excerpt": "工具",
+      "summary": "他把媒体平台定位为提供创作与变现工具，而非直接参与内容竞争。",
+      "locator": {
+        "type": "heading",
+        "value": "张一鸣关于媒体平台定位的回答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "平台",
+        "合作方",
+        "工具",
+        "分工"
+      ],
+      "context": "原发布文字中的本人发言已定位；历史自述不等于独立因果，应用步骤为编辑推演。"
+    },
+    {
+      "id": "yiming-e-commercial-content-value",
+      "source_id": "zhang-advertising",
+      "speaker": "张一鸣",
+      "excerpt": "价值",
+      "summary": "他把可读性或可服务性列为商业信息的要求。",
+      "locator": {
+        "type": "heading",
+        "value": "张一鸣关于广告理解的回答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "商业内容",
+        "用户价值",
+        "广告",
+        "实际服务"
+      ],
+      "context": "原发布文字中的本人发言已定位；历史自述不等于独立因果，应用步骤为编辑推演。"
+    },
+    {
+      "id": "yiming-e-relevant-distribution",
+      "source_id": "zhang-advertising",
+      "speaker": "张一鸣",
+      "excerpt": "无关",
+      "summary": "他说明商业内容不能推给无关的人，相关性是关键条件。",
+      "locator": {
+        "type": "heading",
+        "value": "同一回答；不能推给无关的人"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "信息相关性",
+        "分发",
+        "用户体验",
+        "商业信息"
+      ],
+      "context": "原发布文字中的本人发言已定位；历史自述不等于独立因果，应用步骤为编辑推演。"
+    },
+    {
+      "id": "yiming-e-recommendation-variety",
+      "source_id": "zhang-advertising",
+      "speaker": "张一鸣",
+      "excerpt": "新颖",
+      "summary": "他回应内容相似的问题时，提出更完整兴趣覆盖和新颖内容的方向。",
+      "locator": {
+        "type": "heading",
+        "value": "张一鸣回应每天内容相似的问题"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "推荐",
+        "内容多样性",
+        "兴趣覆盖",
+        "新颖性"
+      ],
+      "context": "原发布文字中的本人发言已定位；历史自述不等于独立因果，应用步骤为编辑推演。"
+    }
+  ],
+  "principles": [
+    {
+      "id": "yiming-p-patient-complex-work",
+      "title": "给复杂事情的形成保留现实时间",
+      "summary": "他回顾创业中从想法到实际成果可能经历漫长阶段。",
+      "topics": [
+        "耐心",
+        "复杂工作",
+        "长期项目",
+        "现实时间"
+      ],
+      "evidence_ids": [
+        "yiming-e-patient-complex-work"
+      ],
+      "application": {
+        "questions": [
+          "当前进展缓慢是正常过程，还是关键前提已经不成立？"
+        ],
+        "steps": [
+          "定义可以观察的阶段进展。",
+          "在可承受范围内继续验证，并定期复查前提。"
+        ],
+        "limits": [
+          "耐心不是无边界等待，也不能用成功回顾证明坚持必然成功。"
+        ]
+      }
+    },
+    {
+      "id": "yiming-p-strengthen-foundations",
+      "title": "持续补足枯燥但重要的基础能力",
+      "summary": "他提醒不要过早取巧而忽略技术基础和深入理解。",
+      "topics": [
+        "基础能力",
+        "技术学习",
+        "长期积累",
+        "实践"
+      ],
+      "evidence_ids": [
+        "yiming-e-strengthen-foundations"
+      ],
+      "application": {
+        "questions": [
+          "你是否在反复绕开某项限制长期发展的基础？"
+        ],
+        "steps": [
+          "找到真实任务里反复出现的知识缺口。",
+          "安排基础练习，并以应用结果检查理解。"
+        ],
+        "limits": [
+          "不将其对少数毕业生的观察当学校、城市或群体能力的结论。"
+        ]
+      }
+    },
+    {
+      "id": "yiming-p-broad-reading",
+      "title": "用跨领域阅读拓展理解问题的材料",
+      "summary": "他回顾广泛阅读如何在后来帮助理解行业和管理。",
+      "topics": [
+        "阅读",
+        "跨领域",
+        "知识积累",
+        "理解"
+      ],
+      "evidence_ids": [
+        "yiming-e-broad-reading"
+      ],
+      "application": {
+        "questions": [
+          "理解这个问题，还缺少哪一类不同于本专业的知识？"
+        ],
+        "steps": [
+          "选择可靠的相关材料。",
+          "把新知识与实际问题联系并验证。"
+        ],
+        "limits": [
+          "阅读量不等于理解，也不把事后联系当每本书都必然有回报的证明。"
+        ]
+      }
+    },
+    {
+      "id": "yiming-p-long-thinking-time",
+      "title": "为不直接服务短期目标的问题留出思考时间",
+      "summary": "他描述散步时列出长期问题进行思考。",
+      "topics": [
+        "长期思考",
+        "时间安排",
+        "提问",
+        "方向"
+      ],
+      "evidence_ids": [
+        "yiming-e-long-thinking-time"
+      ],
+      "application": {
+        "questions": [
+          "哪些重要问题总被眼前任务挤掉？"
+        ],
+        "steps": [
+          "列出一项值得长期理解的问题。",
+          "安排可持续的思考和查证时间。"
+        ],
+        "limits": [
+          "不要求复制特定环境，也不以思考替代必要行动。"
+        ]
+      }
+    },
+    {
+      "id": "yiming-p-independent-strategic-choice",
+      "title": "接受资源之前检查长期依赖和取舍",
+      "summary": "他回顾拒绝战略投资时，对短期增长与独立方向的权衡。",
+      "topics": [
+        "战略投资",
+        "独立选择",
+        "长期取舍",
+        "资源依赖"
+      ],
+      "evidence_ids": [
+        "yiming-e-independent-strategic-choice"
+      ],
+      "application": {
+        "questions": [
+          "这份资源附带的限制，是否改变了你真正想走的方向？"
+        ],
+        "steps": [
+          "写清资源、约束和难撤回的承诺。",
+          "比较不同情景下的长期代价。"
+        ],
+        "limits": [
+          "不建议一概拒绝投资；其自述成功不证明同样选择适合别的企业。"
+        ]
+      }
+    },
+    {
+      "id": "yiming-p-observe-medium-change",
+      "title": "从真实行为和技术条件变化提出机会假设",
+      "summary": "他以观察读报与手机使用变化来解释自己当时的判断。",
+      "topics": [
+        "机会发现",
+        "行为观察",
+        "技术变化",
+        "假设"
+      ],
+      "evidence_ids": [
+        "yiming-e-observe-medium-change"
+      ],
+      "application": {
+        "questions": [
+          "哪些具体行为变化提示需求或媒介条件变了？"
+        ],
+        "steps": [
+          "核对观察是否超出个人小样本。",
+          "把机会写成可验证的问题，再做实际测试。"
+        ],
+        "limits": [
+          "不沿用历史出货量和公司数据，也不从事后成就推导观察必然正确。"
+        ]
+      }
+    },
+    {
+      "id": "yiming-p-different-approach",
+      "title": "竞争判断要落到具体能力和不同做法",
+      "summary": "他将对信息分发和机器学习的理解作为不同于既有产品的解释。",
+      "topics": [
+        "竞争",
+        "技术能力",
+        "产品差异",
+        "理解需求"
+      ],
+      "evidence_ids": [
+        "yiming-e-different-approach"
+      ],
+      "application": {
+        "questions": [
+          "你提供的差异来自什么实际能力，用户能否感受到？"
+        ],
+        "steps": [
+          "明确现有方案的限制。",
+          "用真实任务比较差异与成本。"
+        ],
+        "limits": [
+          "他对市场结果的解释未独立验证，不把用新技术自动当差异化成功。"
+        ]
+      }
+    },
+    {
+      "id": "yiming-p-relationships-through-work",
+      "title": "通过实际协作形成合作关系",
+      "summary": "他回顾修电脑、编程和共同项目如何帮助结识后来伙伴。",
+      "topics": [
+        "协作关系",
+        "实际贡献",
+        "同伴",
+        "职业联系"
+      ],
+      "evidence_ids": [
+        "yiming-e-relationships-through-work"
+      ],
+      "application": {
+        "questions": [
+          "你能在哪项真实任务中与合适的人一起做事？"
+        ],
+        "steps": [
+          "围绕共同问题作出具体贡献。",
+          "用合作过程检验能力、信任和工作方式。"
+        ],
+        "limits": [
+          "同学或朋友关系不保证长期合作合适，也不把帮助当索取关系的交换。"
+        ]
+      }
+    },
+    {
+      "id": "yiming-p-beyond-funding-window",
+      "title": "经营目标不应只剩下一轮融资",
+      "summary": "他提醒只考虑六个月内融资，之后可能缺乏持续竞争力。",
+      "topics": [
+        "经营目标",
+        "融资",
+        "长期能力",
+        "商业模式"
+      ],
+      "evidence_ids": [
+        "yiming-e-beyond-funding-window"
+      ],
+      "application": {
+        "questions": [
+          "融资之外，业务要形成什么实际能力和价值？"
+        ],
+        "steps": [
+          "写清长期服务的需求和经营前提。",
+          "用客户、交付和现金条件评估下一阶段。"
+        ],
+        "limits": [
+          "融资不是个人收入；不把持续不盈利等同长期主义。"
+        ]
+      }
+    },
+    {
+      "id": "yiming-p-choices-and-conditions",
+      "title": "把长期选择放回实际资源条件中判断",
+      "summary": "他承认创业中的诱惑与迷茫，也谈到条件具备后更容易按使命行动。",
+      "topics": [
+        "选择条件",
+        "资源",
+        "长期方向",
+        "取舍"
+      ],
+      "evidence_ids": [
+        "yiming-e-choices-and-conditions"
+      ],
+      "application": {
+        "questions": [
+          "你能作哪些选择，哪些仍受生活或组织条件限制？"
+        ],
+        "steps": [
+          "分别列出目标与现实约束。",
+          "优先改善关键条件，再评价可选路径。"
+        ],
+        "limits": [
+          "不把资源不足解释为意志不坚定，也不照搬他自述的迷茫时长。"
+        ]
+      }
+    },
+    {
+      "id": "yiming-p-explore-knowledge-uncertainty",
+      "title": "通过学习扩展可以考虑的解释和可能",
+      "summary": "他谈到更愿意通过阅读和新知识体验不确定性。",
+      "topics": [
+        "学习",
+        "知识探索",
+        "假设",
+        "不确定性"
+      ],
+      "evidence_ids": [
+        "yiming-e-explore-knowledge-uncertainty"
+      ],
+      "application": {
+        "questions": [
+          "哪项新知识能让你看到此前没考虑的可能？"
+        ],
+        "steps": [
+          "选择与实际问题相关的材料。",
+          "记录新解释，并寻找能区分它们的证据。"
+        ],
+        "limits": [
+          "不把知识探索等同危险冒险，也不冒用王石的登山经历。"
+        ]
+      }
+    },
+    {
+      "id": "yiming-p-tools-for-partners",
+      "title": "说明平台给合作方提供什么工具和能力",
+      "summary": "他把媒体平台定位为提供创作与变现工具，而非直接参与内容竞争。",
+      "topics": [
+        "平台",
+        "合作方",
+        "工具",
+        "分工"
+      ],
+      "evidence_ids": [
+        "yiming-e-tools-for-partners"
+      ],
+      "application": {
+        "questions": [
+          "平台在哪个环节帮助合作方创造价值？"
+        ],
+        "steps": [
+          "明确各方负责的能力和利益关系。",
+          "以实际交付核对工具是否解决问题。"
+        ],
+        "limits": [
+          "这是当时战略主张，不保证平台与合作方不存在利益冲突。"
+        ]
+      }
+    },
+    {
+      "id": "yiming-p-commercial-content-value",
+      "title": "商业内容也需要给使用者实际价值",
+      "summary": "他把可读性或可服务性列为商业信息的要求。",
+      "topics": [
+        "商业内容",
+        "用户价值",
+        "广告",
+        "实际服务"
+      ],
+      "evidence_ids": [
+        "yiming-e-commercial-content-value"
+      ],
+      "application": {
+        "questions": [
+          "这条商业信息除了出资方利益，给接收者带来什么？"
+        ],
+        "steps": [
+          "说明实际用途和可能负担。",
+          "用真实反馈核对价值，而非只看点击。"
+        ],
+        "limits": [
+          "不把广告与信息相近解释为可以隐瞒商业关系；披露要求仍需按具体情境判断。"
+        ]
+      }
+    },
+    {
+      "id": "yiming-p-relevant-distribution",
+      "title": "信息分发要检查是否与接收者相关",
+      "summary": "他说明商业内容不能推给无关的人，相关性是关键条件。",
+      "topics": [
+        "信息相关性",
+        "分发",
+        "用户体验",
+        "商业信息"
+      ],
+      "evidence_ids": [
+        "yiming-e-relevant-distribution"
+      ],
+      "application": {
+        "questions": [
+          "接收者为什么会需要这条信息？"
+        ],
+        "steps": [
+          "核对具体使用情境。",
+          "减少无关干扰，并尊重适当的选择和数据边界。"
+        ],
+        "limits": [
+          "不将相关性当收集更多隐私的许可；具体选择与数据步骤为编辑补充。"
+        ]
+      }
+    },
+    {
+      "id": "yiming-p-recommendation-variety",
+      "title": "推荐同时检查兴趣覆盖和新颖性",
+      "summary": "他回应内容相似的问题时，提出更完整兴趣覆盖和新颖内容的方向。",
+      "topics": [
+        "推荐",
+        "内容多样性",
+        "兴趣覆盖",
+        "新颖性"
+      ],
+      "evidence_ids": [
+        "yiming-e-recommendation-variety"
+      ],
+      "application": {
+        "questions": [
+          "推荐是否只反复强化用户已经看过的一小部分？"
+        ],
+        "steps": [
+          "观察覆盖、重复和实际反馈。",
+          "让用户有机会接触相关的新内容。"
+        ],
+        "limits": [
+          "这是产品目标，不证明当时或当前系统已经做到，也不认为更多新内容总是更好。"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,473 @@
+{
+  "schema_version": 1,
+  "person": {
+    "id": "duan-yongping",
+    "name": "段永平",
+    "aliases": [
+      "Duan Yongping",
+      "大道"
+    ],
+    "description": "从浙江大学现场报道和澎湃原报道提取本分、纠错和风险边界；未核实其 X 账号，不填造 X 语料。"
+  },
+  "sources": [
+    {
+      "id": "duan-zju-account2025",
+      "title": "段永平校友返校与师生座谈交流",
+      "url": "https://m.thepaper.cn/baijiahao_29855492",
+      "publisher": "浙江大学官方政务账号 / 记者查蒙",
+      "kind": "interview",
+      "authority": "publisher",
+      "published_at": "2025-01-06",
+      "language": "zh",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "仅分发来源元数据、短摘录与原创归纳，不再分发完整采访或帖子。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "method": "original_publisher_text_check",
+        "note": "活动主办高校账号的现场报道，保留原文引语。不是完整逐字稿，未给出秒级定位。"
+      },
+      "content_sha256": "0442ef2bdad71c38813fb726eec66272eacd5cff7d24caf3b728324ce726ccd2",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "duan-paper2025",
+      "title": "段永平重回浙大畅谈投资",
+      "url": "https://www.thepaper.cn/newsDetail_forward_29850741",
+      "publisher": "澎湃新闻 / 戚夜云",
+      "kind": "interview",
+      "authority": "publisher",
+      "published_at": "2025-01-06",
+      "language": "zh",
+      "origin_url": "https://m.thepaper.cn/baijiahao_29855492",
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "仅分发来源元数据、短摘录与原创归纳，不再分发完整采访或帖子。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "method": "original_publisher_text_check",
+        "note": "原采访报道含记者归纳与直接引语；与高校报道属于同场活动，不当作两次独立验证。"
+      },
+      "content_sha256": "73a360a4084ecd47c9d8f81db6f59c2e14bfdb9b1779dbce8ffd967b4fe3014a",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "duan-e-right-direction",
+      "source_id": "duan-zju-account2025",
+      "speaker": "段永平",
+      "excerpt": "做对的事情",
+      "summary": "区分方向是否正确与执行是否到位。",
+      "locator": {
+        "type": "heading",
+        "value": "分享人生心得：第一条"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与实际读取的原发布文字一致；保留说话人/记者归纳及历史语境。"
+      },
+      "tags": [
+        "方向",
+        "本分",
+        "执行"
+      ],
+      "context": "主办方报道中的直接引语，属于其人生经验。"
+    },
+    {
+      "id": "duan-e-correct-errors",
+      "source_id": "duan-zju-account2025",
+      "speaker": "段永平",
+      "excerpt": "及时改正",
+      "summary": "发现方向错误要停下纠正。",
+      "locator": {
+        "type": "heading",
+        "value": "分享人生心得：第一条"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与实际读取的原发布文字一致；保留说话人/记者归纳及历史语境。"
+      },
+      "tags": [
+        "纠错",
+        "止损",
+        "错误"
+      ],
+      "context": "与允许执行中犯错一起理解，不把所有试验失败都视为方向错误。"
+    },
+    {
+      "id": "duan-e-grounded",
+      "source_id": "duan-zju-account2025",
+      "speaker": "段永平",
+      "excerpt": "脚踏实地",
+      "summary": "避免好大喜功、急功近利。",
+      "locator": {
+        "type": "heading",
+        "value": "分享人生心得：第二条"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与实际读取的原发布文字一致；保留说话人/记者归纳及历史语境。"
+      },
+      "tags": [
+        "长期",
+        "目标",
+        "过程"
+      ],
+      "context": "不是要求放弃长期愿景。"
+    },
+    {
+      "id": "duan-e-integrity",
+      "source_id": "duan-zju-account2025",
+      "speaker": "段永平",
+      "excerpt": "正直",
+      "summary": "明辨是非，对长期行为负责。",
+      "locator": {
+        "type": "heading",
+        "value": "分享人生心得：第三条"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与实际读取的原发布文字一致；保留说话人/记者归纳及历史语境。"
+      },
+      "tags": [
+        "诚信",
+        "本分",
+        "承诺"
+      ],
+      "context": "不从该引语推断当事人的每次行为均符合这一原则。"
+    },
+    {
+      "id": "duan-e-follower",
+      "source_id": "duan-zju-account2025",
+      "speaker": "段永平",
+      "excerpt": "敢为天下后",
+      "summary": "创新不一定来自最先进入。",
+      "locator": {
+        "type": "heading",
+        "value": "互动环节：创新与创业"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与实际读取的原发布文字一致；保留说话人/记者归纳及历史语境。"
+      },
+      "tags": [
+        "创新",
+        "产品",
+        "后发",
+        "差异化"
+      ],
+      "context": "上下文要求发现机会并有实力做到更好，非主张单纯复制。"
+    },
+    {
+      "id": "duan-e-risk-boundary",
+      "source_id": "duan-paper2025",
+      "speaker": "澎湃新闻记者戚夜云（现场归纳）",
+      "excerpt": "必需资金",
+      "summary": "报道归纳其反对拿必需资源冒不可承受风险。",
+      "locator": {
+        "type": "heading",
+        "value": "好赛道不会低毛利"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与实际读取的原发布文字一致；保留说话人/记者归纳及历史语境。"
+      },
+      "tags": [
+        "风险",
+        "底线",
+        "资源"
+      ],
+      "context": "这是记者对其资金风险边界的归纳；通用应用不提供具体投资买卖结论。"
+    },
+    {
+      "id": "duan-e-business-model",
+      "source_id": "duan-paper2025",
+      "speaker": "段永平",
+      "excerpt": "商业模式",
+      "summary": "他要求投资与创业都认真理解商业模式，而不只追求赚钱的名头。",
+      "locator": {
+        "type": "heading",
+        "value": "好赛道不会低毛利"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与原发布文字一致；定位和说话人已检查。原话核对与事实正确性、适用性分别判断。"
+      },
+      "tags": [
+        "商业模式",
+        "创业",
+        "需求",
+        "理解"
+      ],
+      "context": "记者记录的现场表达；对毛利与赛道的概括是其观点，不是普遍经济定律。"
+    },
+    {
+      "id": "duan-e-recheck-thesis",
+      "source_id": "duan-paper2025",
+      "speaker": "段永平",
+      "excerpt": "价值投资不等于长期投资",
+      "summary": "长期持有之前，需要持续理解所持有的生意与价值。",
+      "locator": {
+        "type": "heading",
+        "value": "价值投资不等于长期投资"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与原发布文字一致；定位和说话人已检查。原话核对与事实正确性、适用性分别判断。"
+      },
+      "tags": [
+        "判断",
+        "长期",
+        "纠错",
+        "商业"
+      ],
+      "context": "保留“持错公司怎么办”的提问语境；不把持有时间本身当作价值证据。"
+    }
+  ],
+  "principles": [
+    {
+      "id": "duan-p-right-direction",
+      "title": "先检查方向，再投入努力",
+      "summary": "分别判断目标与执行方式。",
+      "topics": [
+        "方向",
+        "选择",
+        "本分",
+        "执行"
+      ],
+      "evidence_ids": [
+        "duan-e-right-direction"
+      ],
+      "application": {
+        "questions": [
+          "目标有何事实支持，执行是否真正服务目标？"
+        ],
+        "steps": [
+          "把方向假设与执行问题分开复盘。"
+        ],
+        "limits": [
+          "没有一条引语能直接判定用户的具体选择。"
+        ]
+      }
+    },
+    {
+      "id": "duan-p-correct-errors",
+      "title": "确认错误后及时纠正",
+      "summary": "别让过去投入阻止重新判断。",
+      "topics": [
+        "纠错",
+        "止损",
+        "错误",
+        "沉没成本"
+      ],
+      "evidence_ids": [
+        "duan-e-correct-errors"
+      ],
+      "application": {
+        "questions": [
+          "新的事实证明方向错了吗，还是一次执行失误？"
+        ],
+        "steps": [
+          "先确认错误类型，停止扩大已知错误。"
+        ],
+        "limits": [
+          "不把短期波动或一次试验失败直接当成方向错误。"
+        ]
+      }
+    },
+    {
+      "id": "duan-p-grounded",
+      "title": "用具体行动承接长期目标",
+      "summary": "避免只追求宏大名头与即时回报。",
+      "topics": [
+        "目标",
+        "长期",
+        "行动",
+        "过程"
+      ],
+      "evidence_ids": [
+        "duan-e-grounded"
+      ],
+      "application": {
+        "questions": [
+          "近期哪项行动能检验长期目标？"
+        ],
+        "steps": [
+          "设一个可交付的小里程碑并复盘。"
+        ],
+        "limits": [
+          "小步实践不等于拒绝长期愿景。"
+        ]
+      }
+    },
+    {
+      "id": "duan-p-integrity",
+      "title": "把本分落实为明确承诺",
+      "summary": "用可说明、可承担的方式处理合作。",
+      "topics": [
+        "本分",
+        "诚信",
+        "合作",
+        "承诺"
+      ],
+      "evidence_ids": [
+        "duan-e-integrity"
+      ],
+      "application": {
+        "questions": [
+          "你的决定会影响谁，承诺是否诚实可履行？"
+        ],
+        "steps": [
+          "写清边界与承诺，发现偏差及时沟通。"
+        ],
+        "limits": [
+          "这是编辑给出的通用应用，不替人物担保其行为。"
+        ]
+      }
+    },
+    {
+      "id": "duan-p-follower",
+      "title": "围绕真实需求做有能力的改进",
+      "summary": "后进入也需要明确的改进理由。",
+      "topics": [
+        "创新",
+        "产品",
+        "后发",
+        "差异化"
+      ],
+      "evidence_ids": [
+        "duan-e-follower"
+      ],
+      "application": {
+        "questions": [
+          "已有方案遗漏什么，你有能力把哪里做得更好？"
+        ],
+        "steps": [
+          "先验证一项用户需要的改进。"
+        ],
+        "limits": [
+          "不把后发优势当作成功保证或侵权理由。"
+        ]
+      }
+    },
+    {
+      "id": "duan-p-risk-boundary",
+      "title": "先保护不可承受损失的资源",
+      "summary": "机会判断要包含失败后的生存条件。",
+      "topics": [
+        "风险",
+        "底线",
+        "资源",
+        "创业"
+      ],
+      "evidence_ids": [
+        "duan-e-risk-boundary"
+      ],
+      "application": {
+        "questions": [
+          "失败会不会影响必需支出或无法履行的责任？"
+        ],
+        "steps": [
+          "先列最坏损失和退出条件，再决定试验范围。"
+        ],
+        "limits": [
+          "这是风险思考方法，不提供资产配置或买卖建议。"
+        ]
+      }
+    },
+    {
+      "id": "duan-p-business-model",
+      "title": "把机会还原为具体的商业运作",
+      "summary": "他要求投资与创业都认真理解商业模式，而不只追求赚钱的名头。",
+      "topics": [
+        "商业模式",
+        "创业",
+        "需求",
+        "理解"
+      ],
+      "evidence_ids": [
+        "duan-e-business-model"
+      ],
+      "application": {
+        "questions": [
+          "谁获得价值、谁付费、哪些成本随规模变化？"
+        ],
+        "steps": [
+          "画出一次真实交易中的价值、资金与成本流。",
+          "核实最关键的一项假设，再判断是否继续投入。"
+        ],
+        "limits": [
+          "不据此推荐具体证券、赛道或收益率。",
+          "问题和步骤是编辑应用推演，并非本人对当前用户的直接建议。"
+        ]
+      }
+    },
+    {
+      "id": "duan-p-recheck-thesis",
+      "title": "用理由的有效性检查长期承诺",
+      "summary": "长期持有之前，需要持续理解所持有的生意与价值。",
+      "topics": [
+        "判断",
+        "长期",
+        "纠错",
+        "商业"
+      ],
+      "evidence_ids": [
+        "duan-e-recheck-thesis"
+      ],
+      "application": {
+        "questions": [
+          "你最初判断的依据现在还成立吗？"
+        ],
+        "steps": [
+          "写下原判断依赖的事实和会令你改变判断的条件。",
+          "依据新信息重新核对，避免只以已投入时间为理由。"
+        ],
+        "limits": [
+          "这是判断方法的编辑归纳，不能替代个别投资的风险评估。",
+          "问题和步骤是编辑应用推演，并非本人对当前用户的直接建议。"
+        ]
+      }
+    }
+  ]
+}

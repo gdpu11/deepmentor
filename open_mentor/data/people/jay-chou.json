@@ -1,0 +1,284 @@
+{
+  "schema_version": 1,
+  "person": {
+    "id": "jay-chou",
+    "name": "周杰伦",
+    "aliases": [
+      "周杰倫",
+      "Jay Chou",
+      "杰伦",
+      "Jay"
+    ],
+    "description": "依据央视面对面原访谈与 Hypebeast 自采专访整理创作、反馈和学习经验，不收录歌词。"
+  },
+  "sources": [
+    {
+      "id": "jay-cctv2018",
+      "title": "面对面专访周杰伦：我的音乐要跨时代",
+      "url": "https://m.news.cctv.com/2018/04/02/ARTItkW7qMN8lv7vAQkNtJ3Y180402.shtml",
+      "publisher": "央视新闻 /《面对面》董倩",
+      "kind": "interview",
+      "authority": "publisher",
+      "published_at": "2018-04-02",
+      "language": "zh",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "原文与音视频权利归原权利人；仅分发来源、短摘录与原创归纳。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "method": "original_publisher_text_check",
+        "note": "已核对原发布文字、发言归属和定位；未逐句听辨原音，也不独立背书其主张。区分记者叙述与周杰伦回答；不把早年经历改写为放之四海皆准的成功公式。"
+      },
+      "content_sha256": "c9a71765deb997cf3ab5cb5bb88a68239061b3b3b8703ee893f1e18ba064db20",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "jay-hypebeast2021",
+      "title": "Jay Chou x Sotheby’s Exclusive Interview",
+      "url": "https://hypebeast.com/2021/6/sothebys-jay-chou-contemporary-curated-asia",
+      "publisher": "Hypebeast / HYPEBEAST ZH 采访",
+      "kind": "interview",
+      "authority": "publisher",
+      "published_at": "2021-06-21",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "原文与音视频权利归原权利人；仅分发来源、短摘录与原创归纳。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "method": "original_publisher_text_check",
+        "note": "已核对原发布文字、发言归属和定位；未逐句听辨原音，也不独立背书其主张。所核为采访媒体发布的英文呈现，保留翻译/编辑可能性，不声称是中文逐字稿。"
+      },
+      "content_sha256": "e30727cc3fcd0a2fbe2090e64c66a0572838b1ce773dc8290874660d34debadc",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "jay-e-feedback-fit",
+      "source_id": "jay-cctv2018",
+      "speaker": "周杰伦",
+      "excerpt": "跟人的路线不太适合",
+      "summary": "他谈早期投稿被拒时，把原因之一理解为与演唱者路线不合。",
+      "locator": {
+        "type": "heading",
+        "value": "考不上大学去餐馆打工 想给刘德华写歌"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与原发布文字一致；定位和说话人已检查。原话核对与事实正确性、适用性分别判断。"
+      },
+      "tags": [
+        "拒绝",
+        "反馈",
+        "作品",
+        "适配"
+      ],
+      "context": "只引用其个人解释，未独立验证被拒的原因。"
+    },
+    {
+      "id": "jay-e-own-taste",
+      "source_id": "jay-cctv2018",
+      "speaker": "周杰伦",
+      "excerpt": "我专门写自己喜欢的",
+      "summary": "他回忆早期创作时，先坚持自己认可的声音。",
+      "locator": {
+        "type": "heading",
+        "value": "首次参加选秀被批口齿不清 幸好遇到吴宗宪"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与原发布文字一致；定位和说话人已检查。原话核对与事实正确性、适用性分别判断。"
+      },
+      "tags": [
+        "创作",
+        "风格",
+        "兴趣",
+        "审美"
+      ],
+      "context": "同一回答含“不顾别人喜不喜欢”的历史自述；应用上仍需验证受众。"
+    },
+    {
+      "id": "jay-e-record-experience",
+      "source_id": "jay-cctv2018",
+      "speaker": "周杰伦",
+      "excerpt": "算是给自己一个回忆",
+      "summary": "他谈为女儿创作时，把作品作为保存生活体验的方式。",
+      "locator": {
+        "type": "heading",
+        "value": "当年锋芒毕露 如今归于平凡"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与原发布文字一致；定位和说话人已检查。原话核对与事实正确性、适用性分别判断。"
+      },
+      "tags": [
+        "创作",
+        "记录",
+        "生活",
+        "素材"
+      ],
+      "context": "这里只保留创作动机，不摘录作品歌词或推断家人隐私。"
+    },
+    {
+      "id": "jay-e-study-new-field",
+      "source_id": "jay-hypebeast2021",
+      "speaker": "周杰伦",
+      "excerpt": "seriously and study hard",
+      "summary": "他回忆初入艺术收藏受到质疑后，决定认真学习这个领域。",
+      "locator": {
+        "type": "heading",
+        "value": "When do you start collecting art?"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与原发布文字一致；定位和说话人已检查。原话核对与事实正确性、适用性分别判断。"
+      },
+      "tags": [
+        "学习",
+        "新领域",
+        "艺术",
+        "反馈"
+      ],
+      "context": "媒体英文版本中的个人回忆；不依据收藏经历提供购买或投资建议。"
+    }
+  ],
+  "principles": [
+    {
+      "id": "jay-p-feedback-fit",
+      "title": "先分清质量反馈与对象不匹配",
+      "summary": "他谈早期投稿被拒时，把原因之一理解为与演唱者路线不合。",
+      "topics": [
+        "拒绝",
+        "反馈",
+        "作品",
+        "适配"
+      ],
+      "evidence_ids": [
+        "jay-e-feedback-fit"
+      ],
+      "application": {
+        "questions": [
+          "这次拒绝具体针对作品质量，还是受众和需求？"
+        ],
+        "steps": [
+          "向对方确认不适合的具体条件。",
+          "为作品找一位目标受众，检验是否存在适配问题。"
+        ],
+        "limits": [
+          "不能把所有负面反馈都解释为别人不懂。",
+          "问题和步骤是编辑应用推演，并非本人对当前用户的直接建议。"
+        ]
+      }
+    },
+    {
+      "id": "jay-p-own-taste",
+      "title": "先做出有清楚审美取向的作品",
+      "summary": "他回忆早期创作时，先坚持自己认可的声音。",
+      "topics": [
+        "创作",
+        "风格",
+        "兴趣",
+        "审美"
+      ],
+      "evidence_ids": [
+        "jay-e-own-taste"
+      ],
+      "application": {
+        "questions": [
+          "你希望作品保留哪个自己真正认可的特点？"
+        ],
+        "steps": [
+          "把一个想表达的特点做成可体验的样本。",
+          "请目标受众体验，区分表达问题与风格偏好。"
+        ],
+        "limits": [
+          "个人喜好不自动证明市场需求或作品质量。",
+          "问题和步骤是编辑应用推演，并非本人对当前用户的直接建议。"
+        ]
+      }
+    },
+    {
+      "id": "jay-p-record-experience",
+      "title": "把具体生活体验保存为创作素材",
+      "summary": "他谈为女儿创作时，把作品作为保存生活体验的方式。",
+      "topics": [
+        "创作",
+        "记录",
+        "生活",
+        "素材"
+      ],
+      "evidence_ids": [
+        "jay-e-record-experience"
+      ],
+      "application": {
+        "questions": [
+          "最近有什么想法或体验值得先记下来？"
+        ],
+        "steps": [
+          "记录一个具体画面、感受或想法。",
+          "用自己的媒介做一个小作品，并检查他人隐私和授权。"
+        ],
+        "limits": [
+          "记录和公开发布是两个决定。",
+          "问题和步骤是编辑应用推演，并非本人对当前用户的直接建议。"
+        ]
+      }
+    },
+    {
+      "id": "jay-p-study-new-field",
+      "title": "进入新领域时先补判断所需的知识",
+      "summary": "他回忆初入艺术收藏受到质疑后，决定认真学习这个领域。",
+      "topics": [
+        "学习",
+        "新领域",
+        "艺术",
+        "反馈"
+      ],
+      "evidence_ids": [
+        "jay-e-study-new-field"
+      ],
+      "application": {
+        "questions": [
+          "你目前用什么依据判断好坏？"
+        ],
+        "steps": [
+          "找出当前最欠缺的基础概念。",
+          "比较具体样例并请有经验的人解释判断依据。"
+        ],
+        "limits": [
+          "先控制试错成本，名人的购买行为不是价值保证。",
+          "问题和步骤是编辑应用推演，并非本人对当前用户的直接建议。"
+        ]
+      }
+    }
+  ]
+}

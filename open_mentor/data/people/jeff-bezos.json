@@ -1,0 +1,1360 @@
+{
+  "schema_version": 1,
+  "person": {
+    "id": "jeff-bezos",
+    "name": "杰夫·贝索斯",
+    "aliases": [
+      "Jeff Bezos",
+      "贝索斯",
+      "傑夫·貝索斯"
+    ],
+    "description": "从本人署名的 1997、2016、2017、2018、2020 年度股东信整理客户、实验、决策、标准与组织；信件年度与实际发表时间分开，不收录继任者的信为其观点。"
+  },
+  "sources": [
+    {
+      "id": "bezos-1997",
+      "title": "Jeff Bezos' Original 1997 Letter to Amazon Shareholders",
+      "url": "https://www.aboutamazon.com/news/company-news/amazons-original-1997-letter-to-shareholders",
+      "publisher": "Amazon / Jeff Bezos 署名股东信",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "1998-03-21",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "1997 年度股东信；逐封核对正文末尾的 Jeff / Jeffrey P. Bezos 署名。网页 Amazon Staff 的编辑署名不取代信件作者。发布日期来自页面元数据；年度是信件对应的财务年度。公司自述及数据不是独立事实核验。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "3d464c23f3ebb24fd536de5775574a8189f51f54bc4b690d5dd73d7ad2dbf4ff",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "bezos-2016",
+      "title": "Jeff Bezos' 2016 Letter to Amazon Shareholders",
+      "url": "https://www.aboutamazon.com/news/company-news/2016-letter-to-shareholders",
+      "publisher": "Amazon / Jeff Bezos 署名股东信",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2017-04-17",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "2016 年度股东信；逐封核对正文末尾的 Jeff / Jeffrey P. Bezos 署名。网页 Amazon Staff 的编辑署名不取代信件作者。发布日期来自页面元数据；年度是信件对应的财务年度。公司自述及数据不是独立事实核验。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "b9b7f171ae1b55afa9a218028dfd684beaab31ce8570ef875cc59e0362177d65",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "bezos-2017",
+      "title": "2017 Letter to Shareholders",
+      "url": "https://www.aboutamazon.com/news/company-news/2017-letter-to-shareholders",
+      "publisher": "Amazon / Jeff Bezos 署名股东信",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2018-04-18",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "2017 年度股东信；逐封核对正文末尾的 Jeff / Jeffrey P. Bezos 署名。网页 Amazon Staff 的编辑署名不取代信件作者。发布日期来自页面元数据；年度是信件对应的财务年度。公司自述及数据不是独立事实核验。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "adb25e213a55dbcdb5aa3ae9074b53767f0597048364bee3f74c9f79b192f267",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "bezos-2018",
+      "title": "2018 Letter to Shareholders",
+      "url": "https://www.aboutamazon.com/news/company-news/2018-letter-to-shareholders",
+      "publisher": "Amazon / Jeff Bezos 署名股东信",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2019-04-11",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "2018 年度股东信；逐封核对正文末尾的 Jeff / Jeffrey P. Bezos 署名。网页 Amazon Staff 的编辑署名不取代信件作者。发布日期来自页面元数据；年度是信件对应的财务年度。公司自述及数据不是独立事实核验。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "fe1b705681235eadbdc19a4a8512709403db9bf2152c7ed73ec5c514f8a0eaf1",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "bezos-2020",
+      "title": "2020 Letter to Shareholders",
+      "url": "https://www.aboutamazon.com/news/company-news/2020-letter-to-shareholders",
+      "publisher": "Amazon / Jeff Bezos 署名股东信",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2021-04-15",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "2020 年度股东信；逐封核对正文末尾的 Jeff / Jeffrey P. Bezos 署名。网页 Amazon Staff 的编辑署名不取代信件作者。发布日期来自页面元数据；年度是信件对应的财务年度。公司自述及数据不是独立事实核验。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "5f20de852bb4470bf27984779fef6210d50f8e43153b35638abf99f92ef8479f",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "bezos-lex-2023",
+      "title": "Jeff Bezos: Amazon and Blue Origin — Lex Fridman Podcast #405 transcript",
+      "url": "https://lexfridman.com/jeff-bezos-transcript/",
+      "publisher": "Lex Fridman / 原播客发布者的人工整理文字稿",
+      "kind": "interview",
+      "authority": "publisher",
+      "published_at": "2023-12-14",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "原播客官网提供带时间戳文字稿，明确提示human generated且可能有错误。只核对所用Jeff Bezos发言段落，区分主持人提问；未声称整场逐句听辨。定位采用文字稿时间戳，播客不同版本前置广告会造成偏移。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "ba178f48f49583f0da01ea09e26c8511de3a46d627193505e8794081a32b5e50",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "bezos-e-long-term-thesis",
+      "source_id": "bezos-1997",
+      "speaker": "杰夫·贝索斯",
+      "excerpt": "long-term market leadership",
+      "summary": "他把长期投入与客户、市场地位和经济模型联系起来。",
+      "locator": {
+        "type": "heading",
+        "value": "It’s All About the Long Term"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "长期经营",
+        "客户价值",
+        "投入",
+        "战略"
+      ],
+      "context": "这是亚马逊早期股东信的战略主张；不把其后来的成功当对任何长期投入的担保。"
+    },
+    {
+      "id": "bezos-e-stop-weak-programs",
+      "source_id": "bezos-1997",
+      "speaker": "杰夫·贝索斯",
+      "excerpt": "jettison those",
+      "summary": "他同时提出分析项目效果、停止不达预期的项目并增加有效投入。",
+      "locator": {
+        "type": "heading",
+        "value": "长期原则列表；衡量项目和投资效果"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "项目取舍",
+        "实验",
+        "投入回报",
+        "停止条件"
+      ],
+      "context": "原文把长期经营与退出无效项目放在一起，不等于永不放弃。"
+    },
+    {
+      "id": "bezos-e-cash-economics",
+      "source_id": "bezos-1997",
+      "speaker": "杰夫·贝索斯",
+      "excerpt": "future cash flows",
+      "summary": "他声明在会计外观与未来现金流价值冲突时更关注后者。",
+      "locator": {
+        "type": "heading",
+        "value": "长期原则列表；GAAP 与现金流的取舍"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "现金流",
+        "会计口径",
+        "经营判断",
+        "资本配置"
+      ],
+      "context": "保留 present value 的估计属性；不把营业额、公司价值或融资视为个人收入。"
+    },
+    {
+      "id": "bezos-e-customer-focus",
+      "source_id": "bezos-2016",
+      "speaker": "杰夫·贝索斯",
+      "excerpt": "customer obsession",
+      "summary": "他把持续关注客户视为维持组织活力的重要方式。",
+      "locator": {
+        "type": "heading",
+        "value": "True Customer Obsession"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "客户",
+        "需求",
+        "产品",
+        "长期经营"
+      ],
+      "context": "原文提出管理者的经营哲学，不作为客户满意或经营成效已经得到独立证明的材料。"
+    },
+    {
+      "id": "bezos-e-avoid-process-proxy",
+      "source_id": "bezos-2016",
+      "speaker": "杰夫·贝索斯",
+      "excerpt": "process as proxy",
+      "summary": "他提醒组织可能把流程执行或调查结果当成客户结果的替代物。",
+      "locator": {
+        "type": "heading",
+        "value": "Resist Proxies"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "流程",
+        "指标",
+        "客户结果",
+        "组织管理"
+      ],
+      "context": "原文同时讨论调查和平均值的局限，不是拒绝数据或调查本身。"
+    },
+    {
+      "id": "bezos-e-external-trends",
+      "source_id": "bezos-2016",
+      "speaker": "杰夫·贝索斯",
+      "excerpt": "Embrace External Trends",
+      "summary": "他认为组织需要及时理解外部趋势并学习应用。",
+      "locator": {
+        "type": "heading",
+        "value": "Embrace External Trends"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "趋势",
+        "组织学习",
+        "技术变化",
+        "战略"
+      ],
+      "context": "原文以当时的机器学习等趋势举例，历史例子不直接证明今天某技术值得投入。"
+    },
+    {
+      "id": "bezos-e-reversible-decisions",
+      "source_id": "bezos-2016",
+      "speaker": "杰夫·贝索斯",
+      "excerpt": "two-way doors",
+      "summary": "他建议可逆决策采用较轻流程，并通过及时纠错控制信息不完整的风险。",
+      "locator": {
+        "type": "heading",
+        "value": "High-Velocity Decision Making；前两点"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "可逆决策",
+        "决策速度",
+        "不确定性",
+        "纠错"
+      ],
+      "context": "不把大型公司管理比喻自动适用到所有个人决策；保留纠错能力这一前提。"
+    },
+    {
+      "id": "bezos-e-disagree-commit",
+      "source_id": "bezos-2016",
+      "speaker": "杰夫·贝索斯",
+      "excerpt": "disagree and commit",
+      "summary": "他提出在仍有分歧时也可以明确承诺执行，减少反复消耗。",
+      "locator": {
+        "type": "heading",
+        "value": "High-Velocity Decision Making；第三点"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "团队分歧",
+        "决策",
+        "执行",
+        "协作"
+      ],
+      "context": "原文包含贝索斯自己支持团队决定的例子，不是单向要求下属服从。"
+    },
+    {
+      "id": "bezos-e-resolve-misalignment",
+      "source_id": "bezos-2016",
+      "speaker": "杰夫·贝索斯",
+      "excerpt": "escalate them immediately",
+      "summary": "他区分一般意见分歧与目标不一致，建议后者尽快升级处理。",
+      "locator": {
+        "type": "heading",
+        "value": "High-Velocity Decision Making；第四点"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "目标对齐",
+        "权责",
+        "冲突",
+        "组织沟通"
+      ],
+      "context": "作者反对靠耗尽对方耐心决定结果，不保证升级后一定能获得共识。"
+    },
+    {
+      "id": "bezos-e-teachable-standards",
+      "source_id": "bezos-2017",
+      "speaker": "杰夫·贝索斯",
+      "excerpt": "high standards are teachable",
+      "summary": "他认为高标准可以通过接触和学习逐渐形成。",
+      "locator": {
+        "type": "heading",
+        "value": "Intrinsic or Teachable?"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "质量标准",
+        "培养",
+        "团队学习",
+        "反馈"
+      ],
+      "context": "原文同时讨论招聘与接触环境，不把标准培训等同于喊口号。"
+    },
+    {
+      "id": "bezos-e-domain-specific-standards",
+      "source_id": "bezos-2017",
+      "speaker": "杰夫·贝索斯",
+      "excerpt": "high standards are domain specific",
+      "summary": "他认为一个领域的高标准不会自动迁移到另一个领域。",
+      "locator": {
+        "type": "heading",
+        "value": "Universal or Domain Specific?"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "能力边界",
+        "领域学习",
+        "质量判断",
+        "标准"
+      ],
+      "context": "文章强调对自己尚未具备的领域标准保持开放。"
+    },
+    {
+      "id": "bezos-e-realistic-scope",
+      "source_id": "bezos-2017",
+      "speaker": "杰夫·贝索斯",
+      "excerpt": "realistic expectations",
+      "summary": "他认为知道何为好成果，还需要对完成它所需的努力有合理预期。",
+      "locator": {
+        "type": "heading",
+        "value": "Recognition and Scope"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "范围估算",
+        "质量",
+        "计划",
+        "工作量"
+      ],
+      "context": "不把高标准解释成无限加班，也不把低估工作量归因于态度差。"
+    },
+    {
+      "id": "bezos-e-written-reasoning",
+      "source_id": "bezos-2017",
+      "speaker": "杰夫·贝索斯",
+      "excerpt": "six-page memos",
+      "summary": "他描述以叙事备忘录和共同阅读支持会议讨论。",
+      "locator": {
+        "type": "heading",
+        "value": "Six-Page Narratives"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "书面沟通",
+        "会议",
+        "推理",
+        "团队协作"
+      ],
+      "context": "原文同时强调好文稿需要反复修改，不把取消幻灯片本身当成质量保证。"
+    },
+    {
+      "id": "bezos-e-builders-mindset",
+      "source_id": "bezos-2018",
+      "speaker": "杰夫·贝索斯",
+      "excerpt": "culture of builders",
+      "summary": "他用建设者心态描述好奇、探索并通过迭代改进的团队。",
+      "locator": {
+        "type": "heading",
+        "value": "Intuition, curiosity, and the power of wandering"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "组织学习",
+        "创新",
+        "迭代",
+        "专家判断"
+      ],
+      "context": "这是作者对其希望形成的组织文化的描述，不证明公司所有实际行为都符合该文化。"
+    },
+    {
+      "id": "bezos-e-bounded-exploration",
+      "source_id": "bezos-2018",
+      "speaker": "杰夫·贝索斯",
+      "excerpt": "experimentation, iteration, and refinement",
+      "summary": "他以产品发展过程说明部分机会来自反复试验和客户反馈。",
+      "locator": {
+        "type": "heading",
+        "value": "SageMaker 发展过程与 wandering 段落"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "探索",
+        "实验",
+        "迭代",
+        "产品发现"
+      ],
+      "context": "原文是管理者对历史项目的叙述，未构成实验必然带来产品成功的证据。"
+    },
+    {
+      "id": "bezos-e-failure-scale",
+      "source_id": "bezos-2018",
+      "speaker": "杰夫·贝索斯",
+      "excerpt": "size of your failed experiments",
+      "summary": "他讨论随组织规模增长而调整试验规模，并承认失败属于发明过程。",
+      "locator": {
+        "type": "heading",
+        "value": "实验失败规模随公司规模变化的段落"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "试错",
+        "风险预算",
+        "规模",
+        "创新"
+      ],
+      "context": "原文的大额失败语境是亚马逊当时的公司规模，不是个人创业投入建议。"
+    },
+    {
+      "id": "bezos-e-prototype-unarticulated-needs",
+      "source_id": "bezos-2018",
+      "speaker": "杰夫·贝索斯",
+      "excerpt": "No customer was asking for Echo",
+      "summary": "他用 Echo 说明客户可能无法预先描述某种新产品形态。",
+      "locator": {
+        "type": "heading",
+        "value": "Echo 例子；客户未提出特定产品形态"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "原型",
+        "需求发现",
+        "创新",
+        "用户反馈"
+      ],
+      "context": "与其客户导向主张并列保存，不把它合成为只听用户或完全不听用户的极端规则。"
+    },
+    {
+      "id": "bezos-e-stakeholder-value",
+      "source_id": "bezos-2020",
+      "speaker": "杰夫·贝索斯",
+      "excerpt": "create value for everyone",
+      "summary": "他提出业务应考虑与之交互的各方得到什么价值。",
+      "locator": {
+        "type": "heading",
+        "value": "Create More Than You Consume"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "客户价值",
+        "合作方",
+        "员工",
+        "商业模式"
+      ],
+      "context": "原信带有公司管理者立场，保留其自述性质和估算前提。"
+    },
+    {
+      "id": "bezos-e-maintain-distinctiveness",
+      "source_id": "bezos-2020",
+      "speaker": "杰夫·贝索斯",
+      "excerpt": "maintain your distinctiveness",
+      "summary": "他认为保持有意义的独特性需要持续投入。",
+      "locator": {
+        "type": "heading",
+        "value": "Differentiation is Survival and the Universe Wants You to be Typical"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "差异化",
+        "组织文化",
+        "产品定位",
+        "长期投入"
+      ],
+      "context": "只归纳作者在引用之后的商业论述，不把 Richard Dawkins 的原文说成贝索斯创作。"
+    },
+    {
+      "id": "bezos-e-employee-conditions",
+      "source_id": "bezos-2020",
+      "speaker": "杰夫·贝索斯",
+      "excerpt": "Earth’s Best Employer",
+      "summary": "他在信中把改善员工工作环境与安全列为新的管理目标。",
+      "locator": {
+        "type": "heading",
+        "value": "Earth’s Best Employer and Earth’s Safest Place to Work"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "员工体验",
+        "组织管理",
+        "安全",
+        "经营目标"
+      ],
+      "context": "原信回应工作环境争议并陈述管理者目标；不把宣传口径转成已证实的事实。"
+    },
+    {
+      "id": "bezos-e-resourceful-problem-solving",
+      "source_id": "bezos-lex-2023",
+      "speaker": "杰夫·贝索斯",
+      "excerpt": "resourceful",
+      "summary": "他回忆与祖父修理设备的经历，将耐心和灵活尝试与解决问题联系起来。",
+      "locator": {
+        "type": "heading",
+        "value": "Ranch；Jeff Bezos 00:02:13—00:03:39"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "解决问题",
+        "动手实践",
+        "学习",
+        "耐心"
+      ],
+      "context": "不把祖父自行兽医操作当可复制建议，提炼的是一般问题分解。"
+    },
+    {
+      "id": "bezos-e-long-attention-practice",
+      "source_id": "bezos-lex-2023",
+      "speaker": "杰夫·贝索斯",
+      "excerpt": "long attention span things",
+      "summary": "他在讨论手机与阅读时，主张生活中保留需要持续注意的事情。",
+      "locator": {
+        "type": "heading",
+        "value": "Principles；Jeff Bezos 01:42:45—01:44:41"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "持续注意",
+        "深度阅读",
+        "时间分配",
+        "专注"
+      ],
+      "context": "保留原话的不确定性，不将其当临床注意力诊断或强制戒用手机建议。"
+    },
+    {
+      "id": "bezos-e-senior-speaks-later",
+      "source_id": "bezos-lex-2023",
+      "speaker": "杰夫·贝索斯",
+      "excerpt": "always speak last",
+      "summary": "他解释自己在会议中后发言，以减少身份对他人判断的影响。",
+      "locator": {
+        "type": "heading",
+        "value": "Amazon；Jeff Bezos 01:30:49—01:32:17；发言顺序"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "会议",
+        "团队判断",
+        "独立意见",
+        "管理"
+      ],
+      "context": "对团队行为的解释仍为个人经验；不把资历较浅等同于判断更准确。"
+    }
+  ],
+  "principles": [
+    {
+      "id": "bezos-p-long-term-thesis",
+      "title": "让长期投入有明确的价值逻辑",
+      "summary": "他把长期投入与客户、市场地位和经济模型联系起来。",
+      "topics": [
+        "长期经营",
+        "客户价值",
+        "投入",
+        "战略"
+      ],
+      "evidence_ids": [
+        "bezos-e-long-term-thesis"
+      ],
+      "application": {
+        "questions": [
+          "这项长期投入通过什么路径改善客户价值与经营结果？"
+        ],
+        "steps": [
+          "写出投入、客户改善与经济结果之间的假设。",
+          "设置阶段性证据和重新评估时间。"
+        ],
+        "limits": [
+          "长期承诺不能替代反馈，也不能证明当前亏损将来一定有价值。"
+        ]
+      }
+    },
+    {
+      "id": "bezos-p-stop-weak-programs",
+      "title": "用实际效果决定加码或停止项目",
+      "summary": "他同时提出分析项目效果、停止不达预期的项目并增加有效投入。",
+      "topics": [
+        "项目取舍",
+        "实验",
+        "投入回报",
+        "停止条件"
+      ],
+      "evidence_ids": [
+        "bezos-e-stop-weak-programs"
+      ],
+      "application": {
+        "questions": [
+          "你事先约定了什么证据会让项目加码、修改或停止？"
+        ],
+        "steps": [
+          "定义能反映价值的观察指标。",
+          "在复盘日按证据调整投入，保留失败记录。"
+        ],
+        "limits": [
+          "项目回报的周期和外部影响需要考虑，不能只用短期单一数字决定一切。"
+        ]
+      }
+    },
+    {
+      "id": "bezos-p-cash-economics",
+      "title": "把经营判断落实到现金经济性",
+      "summary": "他声明在会计外观与未来现金流价值冲突时更关注后者。",
+      "topics": [
+        "现金流",
+        "会计口径",
+        "经营判断",
+        "资本配置"
+      ],
+      "evidence_ids": [
+        "bezos-e-cash-economics"
+      ],
+      "application": {
+        "questions": [
+          "账面增长是否带来可持续的现金收入，成本和占用在哪里？"
+        ],
+        "steps": [
+          "分开列出收入、现金到账、必要成本和资金占用。",
+          "检验关键假设，避免只追求报表外观。"
+        ],
+        "limits": [
+          "这是经营分析方向，不是要求忽略会计规范，也不是对未来现金流的确定预测。"
+        ]
+      }
+    },
+    {
+      "id": "bezos-p-customer-focus",
+      "title": "从客户未被满足的需要出发",
+      "summary": "他把持续关注客户视为维持组织活力的重要方式。",
+      "topics": [
+        "客户",
+        "需求",
+        "产品",
+        "长期经营"
+      ],
+      "evidence_ids": [
+        "bezos-e-customer-focus"
+      ],
+      "application": {
+        "questions": [
+          "客户还有哪些不满意，哪项改善值得投入？"
+        ],
+        "steps": [
+          "观察一次完整的客户使用过程。",
+          "选择一个能被客户感知的改善并验证。"
+        ],
+        "limits": [
+          "客户导向仍需考虑员工、合作方、成本和合法边界，不等于满足所有要求。"
+        ]
+      }
+    },
+    {
+      "id": "bezos-p-avoid-process-proxy",
+      "title": "检查流程是否仍服务实际结果",
+      "summary": "他提醒组织可能把流程执行或调查结果当成客户结果的替代物。",
+      "topics": [
+        "流程",
+        "指标",
+        "客户结果",
+        "组织管理"
+      ],
+      "evidence_ids": [
+        "bezos-e-avoid-process-proxy"
+      ],
+      "application": {
+        "questions": [
+          "流程都走完之后，客户的问题真的改善了吗？"
+        ],
+        "steps": [
+          "把流程完成指标与实际结果分开。",
+          "当两者背离时回看真实案例和流程目的。"
+        ],
+        "limits": [
+          "不能因流程可能失真而删除必要的安全、合规和质量检查。"
+        ]
+      }
+    },
+    {
+      "id": "bezos-p-external-trends",
+      "title": "检验重要变化对业务的实际影响",
+      "summary": "他认为组织需要及时理解外部趋势并学习应用。",
+      "topics": [
+        "趋势",
+        "组织学习",
+        "技术变化",
+        "战略"
+      ],
+      "evidence_ids": [
+        "bezos-e-external-trends"
+      ],
+      "application": {
+        "questions": [
+          "这项变化具体影响了哪一个客户需求或工作约束？"
+        ],
+        "steps": [
+          "选择一个与业务有关的变化。",
+          "用受控试验比较新方法与当前方法。"
+        ],
+        "limits": [
+          "趋势标签不是需求或收益证据；不能把所有热门技术都视为必须追随。"
+        ]
+      }
+    },
+    {
+      "id": "bezos-p-reversible-decisions",
+      "title": "按可逆性调整决策成本",
+      "summary": "他建议可逆决策采用较轻流程，并通过及时纠错控制信息不完整的风险。",
+      "topics": [
+        "可逆决策",
+        "决策速度",
+        "不确定性",
+        "纠错"
+      ],
+      "evidence_ids": [
+        "bezos-e-reversible-decisions"
+      ],
+      "application": {
+        "questions": [
+          "判断错误后能否撤回，撤回成本与影响范围有多大？"
+        ],
+        "steps": [
+          "先区分可逆与难以逆转的选择。",
+          "对可逆选择做小试验并约定纠错信号。"
+        ],
+        "limits": [
+          "原文约七成信息的说法是经验启发，不是通用阈值；医疗、法律、安全等重大后果不能据此降低必要核验。"
+        ]
+      }
+    },
+    {
+      "id": "bezos-p-disagree-commit",
+      "title": "说明分歧后对已作决定共同执行",
+      "summary": "他提出在仍有分歧时也可以明确承诺执行，减少反复消耗。",
+      "topics": [
+        "团队分歧",
+        "决策",
+        "执行",
+        "协作"
+      ],
+      "evidence_ids": [
+        "bezos-e-disagree-commit"
+      ],
+      "application": {
+        "questions": [
+          "分歧是否已被充分说清，谁负责最终决定，如何共同验证？"
+        ],
+        "steps": [
+          "记录各自判断和主要风险。",
+          "明确责任人、执行安排和复盘条件。"
+        ],
+        "limits": [
+          "不能用承诺执行压制事实反馈、合理异议或违反职责与规则的行为。"
+        ]
+      }
+    },
+    {
+      "id": "bezos-p-resolve-misalignment",
+      "title": "目标真正冲突时及时解决权责问题",
+      "summary": "他区分一般意见分歧与目标不一致，建议后者尽快升级处理。",
+      "topics": [
+        "目标对齐",
+        "权责",
+        "冲突",
+        "组织沟通"
+      ],
+      "evidence_ids": [
+        "bezos-e-resolve-misalignment"
+      ],
+      "application": {
+        "questions": [
+          "争论是信息不同，还是目标、优先级或决策权不同？"
+        ],
+        "steps": [
+          "列出双方目标和不可兼得的约束。",
+          "把冲突交给有相应决策权的人，形成明确取舍。"
+        ],
+        "limits": [
+          "升级处理应遵循组织职责，不代替必要讨论，也不鼓励绕过正当责任链。"
+        ]
+      }
+    },
+    {
+      "id": "bezos-p-teachable-standards",
+      "title": "用实例和反馈培养质量标准",
+      "summary": "他认为高标准可以通过接触和学习逐渐形成。",
+      "topics": [
+        "质量标准",
+        "培养",
+        "团队学习",
+        "反馈"
+      ],
+      "evidence_ids": [
+        "bezos-e-teachable-standards"
+      ],
+      "application": {
+        "questions": [
+          "团队能看见怎样的成果算好，怎样的成果还不够好吗？"
+        ],
+        "steps": [
+          "提供有解释的优秀样例。",
+          "用具体反馈指导修改，并检查是否形成共同理解。"
+        ],
+        "limits": [
+          "这是管理者的经验判断，不证明每个人在任何条件下都能达到同样水平。"
+        ]
+      }
+    },
+    {
+      "id": "bezos-p-domain-specific-standards",
+      "title": "进入新领域时重新学习判断标准",
+      "summary": "他认为一个领域的高标准不会自动迁移到另一个领域。",
+      "topics": [
+        "能力边界",
+        "领域学习",
+        "质量判断",
+        "标准"
+      ],
+      "evidence_ids": [
+        "bezos-e-domain-specific-standards"
+      ],
+      "application": {
+        "questions": [
+          "你凭什么判断这个新领域中的好与坏？"
+        ],
+        "steps": [
+          "请有经验的人解释具体样例和常见缺陷。",
+          "在小任务中校准自己的判断。"
+        ],
+        "limits": [
+          "已有能力可以迁移，但需要检验，不能因为领域不同就否定全部经验。"
+        ]
+      }
+    },
+    {
+      "id": "bezos-p-realistic-scope",
+      "title": "把质量要求与真实工作量放在一起",
+      "summary": "他认为知道何为好成果，还需要对完成它所需的努力有合理预期。",
+      "topics": [
+        "范围估算",
+        "质量",
+        "计划",
+        "工作量"
+      ],
+      "evidence_ids": [
+        "bezos-e-realistic-scope"
+      ],
+      "application": {
+        "questions": [
+          "你要求的质量通常需要多少准备、练习和修改？"
+        ],
+        "steps": [
+          "用相近任务估算投入。",
+          "先完成一个样本，再调整范围、时间或质量目标。"
+        ],
+        "limits": [
+          "作者的倒立训练和写作周期例子不是当前任务的工期标准。"
+        ]
+      }
+    },
+    {
+      "id": "bezos-p-written-reasoning",
+      "title": "用完整文字暴露推理和缺口",
+      "summary": "他描述以叙事备忘录和共同阅读支持会议讨论。",
+      "topics": [
+        "书面沟通",
+        "会议",
+        "推理",
+        "团队协作"
+      ],
+      "evidence_ids": [
+        "bezos-e-written-reasoning"
+      ],
+      "application": {
+        "questions": [
+          "参加讨论的人是否共享事实、假设和待决问题？"
+        ],
+        "steps": [
+          "会前写清问题、证据、选项与未解部分。",
+          "预留阅读和修改时间，再讨论真正的分歧。"
+        ],
+        "limits": [
+          "六页是亚马逊的具体实践，不是所有团队必须遵守的格式。"
+        ]
+      }
+    },
+    {
+      "id": "bezos-p-builders-mindset",
+      "title": "让已有专家继续检查现有做法",
+      "summary": "他用建设者心态描述好奇、探索并通过迭代改进的团队。",
+      "topics": [
+        "组织学习",
+        "创新",
+        "迭代",
+        "专家判断"
+      ],
+      "evidence_ids": [
+        "bezos-e-builders-mindset"
+      ],
+      "application": {
+        "questions": [
+          "现有做法是经过验证的约束，还是只因一直如此？"
+        ],
+        "steps": [
+          "挑选一个可质疑的旧假设。",
+          "在不破坏必要保障的范围内比较替代方案。"
+        ],
+        "limits": [
+          "保持好奇不能替代专业知识和安全要求，也不意味着所有惯例都错。"
+        ]
+      }
+    },
+    {
+      "id": "bezos-p-bounded-exploration",
+      "title": "给方向未定的探索留出受控空间",
+      "summary": "他以产品发展过程说明部分机会来自反复试验和客户反馈。",
+      "topics": [
+        "探索",
+        "实验",
+        "迭代",
+        "产品发现"
+      ],
+      "evidence_ids": [
+        "bezos-e-bounded-exploration"
+      ],
+      "application": {
+        "questions": [
+          "探索在验证什么，预算和复盘点是什么？"
+        ],
+        "steps": [
+          "把探索问题与已确定交付分开。",
+          "设置投入上限和观察点，保留学习结果。"
+        ],
+        "limits": [
+          "探索可能无成果；大型公司的资源与容错能力不能照搬。"
+        ]
+      }
+    },
+    {
+      "id": "bezos-p-failure-scale",
+      "title": "让实验风险与承受能力相匹配",
+      "summary": "他讨论随组织规模增长而调整试验规模，并承认失败属于发明过程。",
+      "topics": [
+        "试错",
+        "风险预算",
+        "规模",
+        "创新"
+      ],
+      "evidence_ids": [
+        "bezos-e-failure-scale"
+      ],
+      "application": {
+        "questions": [
+          "这次试验失败会影响多少资源和人，损失是否承受得起？"
+        ],
+        "steps": [
+          "列出失败情景和影响范围。",
+          "按自己的承受能力限制试验，不复制大公司的金额。"
+        ],
+        "limits": [
+          "失败不是目标，也不证明方法正确；重大不可逆损害不能作为普通实验预算。"
+        ]
+      }
+    },
+    {
+      "id": "bezos-p-prototype-unarticulated-needs",
+      "title": "对说不清的新需求用原型学习",
+      "summary": "他用 Echo 说明客户可能无法预先描述某种新产品形态。",
+      "topics": [
+        "原型",
+        "需求发现",
+        "创新",
+        "用户反馈"
+      ],
+      "evidence_ids": [
+        "bezos-e-prototype-unarticulated-needs"
+      ],
+      "application": {
+        "questions": [
+          "用户说不出解决方式时，你能否用低成本原型观察实际反应？"
+        ],
+        "steps": [
+          "先明确要改善的真实问题。",
+          "展示最小原型并观察行为，而不只询问喜不喜欢。"
+        ],
+        "limits": [
+          "这个成功案例不能证明忽略用户、只凭直觉就能成功；反面样本和失败成本仍需考虑。"
+        ]
+      }
+    },
+    {
+      "id": "bezos-p-stakeholder-value",
+      "title": "逐方检查业务创造和消耗的价值",
+      "summary": "他提出业务应考虑与之交互的各方得到什么价值。",
+      "topics": [
+        "客户价值",
+        "合作方",
+        "员工",
+        "商业模式"
+      ],
+      "evidence_ids": [
+        "bezos-e-stakeholder-value"
+      ],
+      "application": {
+        "questions": [
+          "客户、员工、合作方和出资者各得到什么，又承担什么？"
+        ],
+        "steps": [
+          "分别列出各方收益、成本和外部影响。",
+          "检查一方的收益是否只是把成本转给别人。"
+        ],
+        "limits": [
+          "公司自行估算的价值数字不是独立核验结果，也不证明各方都受益。"
+        ]
+      }
+    },
+    {
+      "id": "bezos-p-maintain-distinctiveness",
+      "title": "主动维护有实际价值的差异",
+      "summary": "他认为保持有意义的独特性需要持续投入。",
+      "topics": [
+        "差异化",
+        "组织文化",
+        "产品定位",
+        "长期投入"
+      ],
+      "evidence_ids": [
+        "bezos-e-maintain-distinctiveness"
+      ],
+      "application": {
+        "questions": [
+          "你的差异具体帮助了谁，维护它需要什么？"
+        ],
+        "steps": [
+          "写出客户能感知的差异及其证据。",
+          "评估维护成本，并停止无价值的标新立异。"
+        ],
+        "limits": [
+          "独特本身不等于价值；原信引用生物学的比喻不能当商业因果证明。"
+        ]
+      }
+    },
+    {
+      "id": "bezos-p-employee-conditions",
+      "title": "把员工体验和安全纳入经营目标",
+      "summary": "他在信中把改善员工工作环境与安全列为新的管理目标。",
+      "topics": [
+        "员工体验",
+        "组织管理",
+        "安全",
+        "经营目标"
+      ],
+      "evidence_ids": [
+        "bezos-e-employee-conditions"
+      ],
+      "application": {
+        "questions": [
+          "客户指标改善时，员工承担的成本和风险是否也被看到？"
+        ],
+        "steps": [
+          "为员工工作条件收集具体反馈。",
+          "把安全、负荷和改善责任列入经营复盘。"
+        ],
+        "limits": [
+          "公开目标不证明公司当时或后来已经达成，也不替代劳动和安全专业标准。"
+        ]
+      }
+    },
+    {
+      "id": "bezos-p-resourceful-problem-solving",
+      "title": "把陌生难题拆成可以尝试解决的部分",
+      "summary": "他回忆与祖父修理设备的经历，将耐心和灵活尝试与解决问题联系起来。",
+      "topics": [
+        "解决问题",
+        "动手实践",
+        "学习",
+        "耐心"
+      ],
+      "evidence_ids": [
+        "bezos-e-resourceful-problem-solving"
+      ],
+      "application": {
+        "questions": [
+          "卡住的难题能拆成哪项安全、可验证的小尝试？"
+        ],
+        "steps": [
+          "明确未知环节，查资料或寻求适当帮助。",
+          "先验证一个部件，再决定下一步。"
+        ],
+        "limits": [
+          "童年回忆不证明每件事都应自己做；危险设备和专业操作需合适能力。"
+        ]
+      }
+    },
+    {
+      "id": "bezos-p-long-attention-practice",
+      "title": "给需要长时间注意力的活动留出位置",
+      "summary": "他在讨论手机与阅读时，主张生活中保留需要持续注意的事情。",
+      "topics": [
+        "持续注意",
+        "深度阅读",
+        "时间分配",
+        "专注"
+      ],
+      "evidence_ids": [
+        "bezos-e-long-attention-practice"
+      ],
+      "application": {
+        "questions": [
+          "你的时间里是否还容得下完整阅读或持续思考一件事？"
+        ],
+        "steps": [
+          "选一项值得完整完成的长任务。",
+          "观察干扰来源与完成效果，再调整安排。"
+        ],
+        "limits": [
+          "他明确未断言短内容必然有害；这是个人判断，不是手机改变大脑的因果证据。"
+        ]
+      }
+    },
+    {
+      "id": "bezos-p-senior-speaks-later",
+      "title": "先听其他人的判断，再由资深者表态",
+      "summary": "他解释自己在会议中后发言，以减少身份对他人判断的影响。",
+      "topics": [
+        "会议",
+        "团队判断",
+        "独立意见",
+        "管理"
+      ],
+      "evidence_ids": [
+        "bezos-e-senior-speaks-later"
+      ],
+      "application": {
+        "questions": [
+          "团队的意见是独立形成，还是在领导表态后趋同？"
+        ],
+        "steps": [
+          "先收集各人的理由和证据。",
+          "让负责人最后说明判断，并保留不同意见。"
+        ],
+        "limits": [
+          "发言顺序不能完全消除权力和从众影响；紧急协调也可能需要负责人先明确事实。"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "schema_version": 1,
+  "person": {
+    "id": "jing-tian",
+    "name": "景甜",
+    "aliases": [
+      "Jing Tian",
+      "景甜",
+      "景田"
+    ],
+    "description": "从景甜本人的原发布专访整理准备、反馈和工作节奏；不把他人对她的叙述归成她的观点。"
+  },
+  "sources": [
+    {
+      "id": "jing-bjnews2021",
+      "title": "“司藤小姐”景甜决定走出舒适圈丨人物",
+      "url": "https://m.bjnews.com.cn/detail/161666542315448.html",
+      "publisher": "新京报 / 张坤玉、郭延冰",
+      "kind": "interview",
+      "authority": "publisher",
+      "published_at": "2021-03-26",
+      "language": "zh",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "原文与音视频权利归原权利人；仅分发来源、短摘录与原创归纳。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "method": "original_publisher_text_check",
+        "note": "已核对原发布文字、发言归属和定位；未逐句听辨原音，也不独立背书其主张。原稿日期为 3 月 26 日，新华网 4 月 1 日是转载，未另算一份独立证据。"
+      },
+      "content_sha256": "1dc5d9ef8f46b823b9c4f96650ec1298df01a7fc26e436c02f0cd4eb8421930f",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "jing-ifeng2016",
+      "title": "专访景甜：没想过走国际路线，演不演大片看缘分",
+      "url": "https://ent.ifeng.com/c/7e2HwFHMyKZ",
+      "publisher": "凤凰网娱乐 / 秦婉",
+      "kind": "interview",
+      "authority": "publisher",
+      "published_at": "2016-12-16",
+      "language": "zh",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "原文与音视频权利归原权利人；仅分发来源、短摘录与原创归纳。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "method": "original_publisher_text_check",
+        "note": "已核对原发布文字、发言归属和定位；未逐句听辨原音，也不独立背书其主张。保留试镜与半年训练的具体语境；不把影视行业特殊工时、饮食或体重变化当健康指导。"
+      },
+      "content_sha256": "814dbcc8b41e7697c19de5cc8b917552dd72554fe547b89d6e71f0f06b864d21",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "jing-e-feedback-filter",
+      "source_id": "jing-bjnews2021",
+      "speaker": "景甜",
+      "excerpt": "自己分辨一下就好了",
+      "summary": "她区分能促进进步的意见与缺少客观评价的单纯不喜欢。",
+      "locator": {
+        "type": "heading",
+        "value": "问答：如何面对外界的讨论与非议"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与原发布文字一致；定位和说话人已检查。原话核对与事实正确性、适用性分别判断。"
+      },
+      "tags": [
+        "反馈",
+        "评价",
+        "改进",
+        "边界"
+      ],
+      "context": "不是拒绝所有批评，而是保留能帮助进步的意见。"
+    },
+    {
+      "id": "jing-e-preparation",
+      "source_id": "jing-bjnews2021",
+      "speaker": "景甜",
+      "excerpt": "剧本吃得有多透",
+      "summary": "她把表演中情绪是否准确与前期理解剧本联系起来。",
+      "locator": {
+        "type": "heading",
+        "value": "演员这份职业，让人分裂却也永无止境"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与原发布文字一致；定位和说话人已检查。原话核对与事实正确性、适用性分别判断。"
+      },
+      "tags": [
+        "准备",
+        "理解",
+        "表演",
+        "专业"
+      ],
+      "context": "角色准备经验，不作心理诊断。"
+    },
+    {
+      "id": "jing-e-work-rhythm",
+      "source_id": "jing-bjnews2021",
+      "speaker": "景甜",
+      "excerpt": "调整一下自己的状态",
+      "summary": "她谈暂停接戏、调整状态后再选择打动自己的作品。",
+      "locator": {
+        "type": "heading",
+        "value": "一年半没拍戏，却学会了人生要义"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与原发布文字一致；定位和说话人已检查。原话核对与事实正确性、适用性分别判断。"
+      },
+      "tags": [
+        "节奏",
+        "休息",
+        "选择",
+        "工作"
+      ],
+      "context": "她的工作与财务条件有特殊性；不据此要求所有人长期停工。"
+    },
+    {
+      "id": "jing-e-portable-practice",
+      "source_id": "jing-ifeng2016",
+      "speaker": "景甜",
+      "excerpt": "下次还能用得到",
+      "summary": "面对尚未确认的角色机会，她把训练也看成可复用的技能积累。",
+      "locator": {
+        "type": "heading",
+        "value": "半年训练让我沉淀和踏实，做好了落选准备"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与原发布文字一致；定位和说话人已检查。原话核对与事实正确性、适用性分别判断。"
+      },
+      "tags": [
+        "训练",
+        "技能",
+        "不确定性",
+        "积累"
+      ],
+      "context": "回忆试镜训练，明确她并非当时已确定入选。"
+    }
+  ],
+  "principles": [
+    {
+      "id": "jing-p-feedback-filter",
+      "title": "区分可行动的反馈与单纯好恶",
+      "summary": "她区分能促进进步的意见与缺少客观评价的单纯不喜欢。",
+      "topics": [
+        "反馈",
+        "评价",
+        "改进",
+        "边界"
+      ],
+      "evidence_ids": [
+        "jing-e-feedback-filter"
+      ],
+      "application": {
+        "questions": [
+          "这条意见指出了什么具体问题，能否验证？"
+        ],
+        "steps": [
+          "把评价改写成可检查的事实或行为。",
+          "对有依据的问题采取行动，对纯粹好恶避免反复消耗。"
+        ],
+        "limits": [
+          "反馈者的身份和善意不能替代证据。",
+          "问题和步骤是编辑应用推演，并非本人对当前用户的直接建议。"
+        ]
+      }
+    },
+    {
+      "id": "jing-p-preparation",
+      "title": "把前期理解落实到交付的具体场景",
+      "summary": "她把表演中情绪是否准确与前期理解剧本联系起来。",
+      "topics": [
+        "准备",
+        "理解",
+        "表演",
+        "专业"
+      ],
+      "evidence_ids": [
+        "jing-e-preparation"
+      ],
+      "application": {
+        "questions": [
+          "哪些背景信息会改变你现在的表达或动作？"
+        ],
+        "steps": [
+          "在开始执行前，写清目标、背景和关键约束。",
+          "用一个具体场景检查理解是否足够支持行动。"
+        ],
+        "limits": [
+          "准备需要服务交付，避免无止境收集资料。",
+          "问题和步骤是编辑应用推演，并非本人对当前用户的直接建议。"
+        ]
+      }
+    },
+    {
+      "id": "jing-p-work-rhythm",
+      "title": "把恢复状态纳入工作安排",
+      "summary": "她谈暂停接戏、调整状态后再选择打动自己的作品。",
+      "topics": [
+        "节奏",
+        "休息",
+        "选择",
+        "工作"
+      ],
+      "evidence_ids": [
+        "jing-e-work-rhythm"
+      ],
+      "application": {
+        "questions": [
+          "目前的安排是否持续透支，并影响下一次交付？"
+        ],
+        "steps": [
+          "先减少一项可以延后的消耗。",
+          "在现实约束内安排恢复时间，再评估新任务。"
+        ],
+        "limits": [
+          "这是职业经验，不替代医疗或心理健康意见。",
+          "问题和步骤是编辑应用推演，并非本人对当前用户的直接建议。"
+        ]
+      }
+    },
+    {
+      "id": "jing-p-portable-practice",
+      "title": "在不确定机会中辨别可带走的能力",
+      "summary": "面对尚未确认的角色机会，她把训练也看成可复用的技能积累。",
+      "topics": [
+        "训练",
+        "技能",
+        "不确定性",
+        "积累"
+      ],
+      "evidence_ids": [
+        "jing-e-portable-practice"
+      ],
+      "application": {
+        "questions": [
+          "如果这次没有选中，哪些投入仍能用于其他目标？"
+        ],
+        "steps": [
+          "列出机会专用投入与可复用的技能。",
+          "优先做可负担、可复用的练习，并设置投入上限。"
+        ],
+        "limits": [
+          "不把长期无偿投入或苛刻试镜要求合理化。",
+          "问题和步骤是编辑应用推演，并非本人对当前用户的直接建议。"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,892 @@
+{
+  "schema_version": 1,
+  "person": {
+    "id": "richard-feynman",
+    "name": "理查德·费曼",
+    "aliases": [
+      "Richard Feynman",
+      "Richard P. Feynman",
+      "费曼",
+      "費曼"
+    ],
+    "description": "依据Caltech原发布的Cargo Cult Science与1955年The Value of Science，整理研究诚实、验证、反例、权威边界、好奇心和不确定性；不附会未经核对的所谓四步学习法。"
+  },
+  "sources": [
+    {
+      "id": "feynman-cargo",
+      "title": "Cargo Cult Science — Caltech 1974 Commencement Address",
+      "url": "https://calteches.library.caltech.edu/51/02/CargoCult.htm",
+      "publisher": "Caltech Engineering and Science / 原发布档案",
+      "kind": "essay",
+      "authority": "publisher",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "官方原刊档案文字。旧HTML有标点编码异常，摘录只使用清楚可辨的词句并核对段落；案例是其当时的讲述，未独立复核案例数据，不提供其中的医学或政治预测。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。原文标示的时期：1974年毕业演讲。"
+      },
+      "content_sha256": "091e0cf7c9f89fa5af1b4b8d1b695c9dfe55d84b1f63c2b0bea7a8245d0487d3",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "feynman-value-science",
+      "title": "The Value of Science — Richard P. Feynman",
+      "url": "https://calteches.library.caltech.edu/1575/1/Science.pdf",
+      "publisher": "Caltech Engineering and Science / 1955年12月原刊扫描",
+      "kind": "essay",
+      "authority": "publisher",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_pdf_text_check",
+        "note": "扫描PDF无可用文字层，保留OCR页文并逐页查看三页图像，核对本文所用表达和署名。OCR仍有断行和误字，引用只取图像确认的短词；未确认完整刊载日。历史脑科学例子不当作当前知识。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。原文标示的时期：1955年12月原刊，演讲在当年秋季会议。"
+      },
+      "content_sha256": "0dc6e5eb62748cbde29568c2f6cca8084d4e0b99113242c7b13be9b086ce76a8",
+      "refresh": {
+        "mode": "manual",
+        "interval_days": 90
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "feynman-e-avoid-self-deception",
+      "source_id": "feynman-cargo",
+      "speaker": "理查德·费曼",
+      "excerpt": "fool",
+      "summary": "他把不欺骗自己置于诚实研究的核心。",
+      "locator": {
+        "type": "heading",
+        "value": "关于first principle与诚实"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "自我欺骗",
+        "证据",
+        "判断",
+        "研究"
+      ],
+      "context": "原文表达已定位；方法应用为编辑推演。历史实例、价值判断和经验解释不自动构成独立事实或效果证明。"
+    },
+    {
+      "id": "feynman-e-disclose-weaknesses",
+      "source_id": "feynman-cargo",
+      "speaker": "理查德·费曼",
+      "excerpt": "invalid",
+      "summary": "他要求研究者说明已知或可能影响结果的问题。",
+      "locator": {
+        "type": "heading",
+        "value": "关于scientific integrity的段落"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "研究诚实",
+        "局限",
+        "报告",
+        "反证"
+      ],
+      "context": "原文表达已定位；方法应用为编辑推演。历史实例、价值判断和经验解释不自动构成独立事实或效果证明。"
+    },
+    {
+      "id": "feynman-e-alternative-explanations",
+      "source_id": "feynman-cargo",
+      "speaker": "理查德·费曼",
+      "excerpt": "causes",
+      "summary": "他要求说明其他解释以及用于排除它们的实验。",
+      "locator": {
+        "type": "heading",
+        "value": "scientific integrity；其他原因与排除过程"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "替代解释",
+        "实验设计",
+        "因果判断",
+        "对照"
+      ],
+      "context": "原文表达已定位；方法应用为编辑推演。历史实例、价值判断和经验解释不自动构成独立事实或效果证明。"
+    },
+    {
+      "id": "feynman-e-truth-and-implication",
+      "source_id": "feynman-cargo",
+      "speaker": "理查德·费曼",
+      "excerpt": "implication",
+      "summary": "他以广告为例说明一句话字面不假，仍可能造成错误印象。",
+      "locator": {
+        "type": "heading",
+        "value": "广告与scientific integrity的比较"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "诚实沟通",
+        "暗示",
+        "事实核对",
+        "报告"
+      ],
+      "context": "原文表达已定位；方法应用为编辑推演。历史实例、价值判断和经验解释不自动构成独立事实或效果证明。"
+    },
+    {
+      "id": "feynman-e-authority-anchoring",
+      "source_id": "feynman-cargo",
+      "speaker": "理查德·费曼",
+      "excerpt": "Millikan",
+      "summary": "他通过后续测量受先前结果影响的故事提醒权威锚定。",
+      "locator": {
+        "type": "heading",
+        "value": "关于电子电荷测量的历史例子"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "权威",
+        "独立测量",
+        "锚定",
+        "实验"
+      ],
+      "context": "原文表达已定位；方法应用为编辑推演。历史实例、价值判断和经验解释不自动构成独立事实或效果证明。"
+    },
+    {
+      "id": "feynman-e-report-all-outcomes",
+      "source_id": "feynman-cargo",
+      "speaker": "理查德·费曼",
+      "excerpt": "whichever",
+      "summary": "他要求不按结果是否支持自己来决定是否发表。",
+      "locator": {
+        "type": "heading",
+        "value": "关于发表任何方向结果的段落"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "发表偏差",
+        "验证",
+        "透明",
+        "研究计划"
+      ],
+      "context": "原文表达已定位；方法应用为编辑推演。历史实例、价值判断和经验解释不自动构成独立事实或效果证明。"
+    },
+    {
+      "id": "feynman-e-repeat-under-known-conditions",
+      "source_id": "feynman-cargo",
+      "speaker": "理查德·费曼",
+      "excerpt": "repeat",
+      "summary": "他重视他人重复实验以及结果在明确条件下能否再现。",
+      "locator": {
+        "type": "heading",
+        "value": "关于他人重复实验与结果核对"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "可重复性",
+        "验证条件",
+        "实验",
+        "测量"
+      ],
+      "context": "原文表达已定位；方法应用为编辑推演。历史实例、价值判断和经验解释不自动构成独立事实或效果证明。"
+    },
+    {
+      "id": "feynman-e-control-hidden-cues",
+      "source_id": "feynman-cargo",
+      "speaker": "理查德·费曼",
+      "excerpt": "Young",
+      "summary": "他用迷宫实验讲述排除气味、声音等意外线索的重要性。",
+      "locator": {
+        "type": "heading",
+        "value": "关于Young迷宫实验的例子"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "混杂因素",
+        "实验设计",
+        "控制变量",
+        "验证"
+      ],
+      "context": "原文表达已定位；方法应用为编辑推演。历史实例、价值判断和经验解释不自动构成独立事实或效果证明。"
+    },
+    {
+      "id": "feynman-e-independent-research-conditions",
+      "source_id": "feynman-cargo",
+      "speaker": "理查德·费曼",
+      "excerpt": "freedom",
+      "summary": "他在结尾希望研究者拥有不受职位与经费压力干扰的诚实空间。",
+      "locator": {
+        "type": "heading",
+        "value": "结尾；诚实与经费职位压力"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "职业选择",
+        "研究独立",
+        "激励",
+        "诚信"
+      ],
+      "context": "原文表达已定位；方法应用为编辑推演。历史实例、价值判断和经验解释不自动构成独立事实或效果证明。"
+    },
+    {
+      "id": "feynman-e-expertise-boundaries",
+      "source_id": "feynman-value-science",
+      "speaker": "理查德·费曼",
+      "excerpt": "untrained",
+      "summary": "他提醒科学家谈非专业社会问题同样可能缺乏训练。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第1页（文件页序）；开头的非专业判断"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "专业边界",
+        "权威",
+        "社会问题",
+        "判断"
+      ],
+      "context": "原文表达已定位；方法应用为编辑推演。历史实例、价值判断和经验解释不自动构成独立事实或效果证明。"
+    },
+    {
+      "id": "feynman-e-tools-and-values",
+      "source_id": "feynman-value-science",
+      "speaker": "理查德·费曼",
+      "excerpt": "moral",
+      "summary": "他区分科学提供的能力与决定怎样使用能力的道德选择。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第1页（文件页序）；科学的能力与道德选择"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "技术伦理",
+        "价值选择",
+        "能力",
+        "责任"
+      ],
+      "context": "原文表达已定位；方法应用为编辑推演。历史实例、价值判断和经验解释不自动构成独立事实或效果证明。"
+    },
+    {
+      "id": "feynman-e-intellectual-enjoyment",
+      "source_id": "feynman-value-science",
+      "speaker": "理查德·费曼",
+      "excerpt": "enjoyment",
+      "summary": "他把阅读、学习和思考带来的乐趣列为科学的价值之一。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第1页（文件页序）；intellectual enjoyment"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "好奇心",
+        "学习乐趣",
+        "探索",
+        "生活选择"
+      ],
+      "context": "原文表达已定位；方法应用为编辑推演。历史实例、价值判断和经验解释不自动构成独立事实或效果证明。"
+    },
+    {
+      "id": "feynman-e-deeper-questions",
+      "source_id": "feynman-value-science",
+      "speaker": "理查德·费曼",
+      "excerpt": "mystery",
+      "summary": "他描述理解越深入，越可能看见新的未知与问题。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第2页（文件页序）；The grand adventure"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "提问",
+        "深入学习",
+        "未知",
+        "探索"
+      ],
+      "context": "原文表达已定位；方法应用为编辑推演。历史实例、价值判断和经验解释不自动构成独立事实或效果证明。"
+    },
+    {
+      "id": "feynman-e-degrees-of-certainty",
+      "source_id": "feynman-value-science",
+      "speaker": "理查德·费曼",
+      "excerpt": "certainty",
+      "summary": "他把科学知识描述为具有不同确定程度的陈述。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第2页（文件页序）；关于无知、怀疑和确定程度"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "不确定性",
+        "置信程度",
+        "诚实表达",
+        "知识"
+      ],
+      "context": "原文表达已定位；方法应用为编辑推演。历史实例、价值判断和经验解释不自动构成独立事实或效果证明。"
+    },
+    {
+      "id": "feynman-e-protect-discussion",
+      "source_id": "feynman-value-science",
+      "speaker": "理查德·费曼",
+      "excerpt": "discussion",
+      "summary": "他把讨论、尝试和修正作为面对未知问题的重要条件。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第3页（文件页序）；未知问题与讨论"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "讨论自由",
+        "制度",
+        "批评",
+        "改进"
+      ],
+      "context": "原文表达已定位；方法应用为编辑推演。历史实例、价值判断和经验解释不自动构成独立事实或效果证明。"
+    },
+    {
+      "id": "feynman-e-leave-room-for-future",
+      "source_id": "feynman-value-science",
+      "speaker": "理查德·费曼",
+      "excerpt": "pass",
+      "summary": "他将学习、改善解决办法并传递给后来者视为责任。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第3页（文件页序）；Our responsibility as scientists"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "长期责任",
+        "可修正性",
+        "知识传承",
+        "未来"
+      ],
+      "context": "原文表达已定位；方法应用为编辑推演。历史实例、价值判断和经验解释不自动构成独立事实或效果证明。"
+    }
+  ],
+  "principles": [
+    {
+      "id": "feynman-p-avoid-self-deception",
+      "title": "先检查自己最想相信的结论",
+      "summary": "他把不欺骗自己置于诚实研究的核心。",
+      "topics": [
+        "自我欺骗",
+        "证据",
+        "判断",
+        "研究"
+      ],
+      "evidence_ids": [
+        "feynman-e-avoid-self-deception"
+      ],
+      "application": {
+        "questions": [
+          "什么结果最让你满意，你是否因此降低了检验标准？"
+        ],
+        "steps": [
+          "写出期望结论及其相反可能。",
+          "对支持与反对证据使用相同核对问题。"
+        ],
+        "limits": [
+          "怀疑自己不是否定所有经验，也不能以怀疑替代具体检验。"
+        ]
+      }
+    },
+    {
+      "id": "feynman-p-disclose-weaknesses",
+      "title": "报告可能使解释不成立的细节",
+      "summary": "他要求研究者说明已知或可能影响结果的问题。",
+      "topics": [
+        "研究诚实",
+        "局限",
+        "报告",
+        "反证"
+      ],
+      "evidence_ids": [
+        "feynman-e-disclose-weaknesses"
+      ],
+      "application": {
+        "questions": [
+          "别人需要知道哪些限制，才能自己判断结果？"
+        ],
+        "steps": [
+          "列出方法、测量和解释的已知不足。",
+          "在结论附近清楚说明。"
+        ],
+        "limits": [
+          "披露限制不自动使结论可信，也不能用免责声明代替修正严重问题。"
+        ]
+      }
+    },
+    {
+      "id": "feynman-p-alternative-explanations",
+      "title": "检查同一结果还可能来自什么原因",
+      "summary": "他要求说明其他解释以及用于排除它们的实验。",
+      "topics": [
+        "替代解释",
+        "实验设计",
+        "因果判断",
+        "对照"
+      ],
+      "evidence_ids": [
+        "feynman-e-alternative-explanations"
+      ],
+      "application": {
+        "questions": [
+          "如果你的解释不对，还有什么机制会产生同样结果？"
+        ],
+        "steps": [
+          "列出最重要的替代解释。",
+          "设计能区分解释的观察或对照。"
+        ],
+        "limits": [
+          "无法排除时应保留不确定性，不能把相关性包装成因果。"
+        ]
+      }
+    },
+    {
+      "id": "feynman-p-truth-and-implication",
+      "title": "同时核对字面事实与传达的暗示",
+      "summary": "他以广告为例说明一句话字面不假，仍可能造成错误印象。",
+      "topics": [
+        "诚实沟通",
+        "暗示",
+        "事实核对",
+        "报告"
+      ],
+      "evidence_ids": [
+        "feynman-e-truth-and-implication"
+      ],
+      "application": {
+        "questions": [
+          "读者可能从这句话推断出哪些并未被证明的事情？"
+        ],
+        "steps": [
+          "分别写出已证明内容与可能的读者推断。",
+          "补充关键条件和比较背景。"
+        ],
+        "limits": [
+          "不把他当时的食品广告例子作为当前食品或健康事实。"
+        ]
+      }
+    },
+    {
+      "id": "feynman-p-authority-anchoring",
+      "title": "结果偏离权威时也要独立检查测量",
+      "summary": "他通过后续测量受先前结果影响的故事提醒权威锚定。",
+      "topics": [
+        "权威",
+        "独立测量",
+        "锚定",
+        "实验"
+      ],
+      "evidence_ids": [
+        "feynman-e-authority-anchoring"
+      ],
+      "application": {
+        "questions": [
+          "你是在排查真实误差，还是只因结果不像权威而反复修改？"
+        ],
+        "steps": [
+          "保留原始结果与排查过程。",
+          "检查误差来源而不以一致性作为唯一正确标准。"
+        ],
+        "limits": [
+          "历史故事未在这里独立复核；偏离共识同样可能是自己的错误。"
+        ]
+      }
+    },
+    {
+      "id": "feynman-p-report-all-outcomes",
+      "title": "检验前就接受报告不同方向的结果",
+      "summary": "他要求不按结果是否支持自己来决定是否发表。",
+      "topics": [
+        "发表偏差",
+        "验证",
+        "透明",
+        "研究计划"
+      ],
+      "evidence_ids": [
+        "feynman-e-report-all-outcomes"
+      ],
+      "application": {
+        "questions": [
+          "如果结果不支持原判断，你是否仍会如实保留和说明？"
+        ],
+        "steps": [
+          "事先写清主要问题和评价方式。",
+          "记录支持、不支持和无法判断的结果。"
+        ],
+        "limits": [
+          "适当保护隐私与机密仍然必要；不是要求公开无权披露的信息。"
+        ]
+      }
+    },
+    {
+      "id": "feynman-p-repeat-under-known-conditions",
+      "title": "重复验证需要说明成立的条件",
+      "summary": "他重视他人重复实验以及结果在明确条件下能否再现。",
+      "topics": [
+        "可重复性",
+        "验证条件",
+        "实验",
+        "测量"
+      ],
+      "evidence_ids": [
+        "feynman-e-repeat-under-known-conditions"
+      ],
+      "application": {
+        "questions": [
+          "别人能否知道在什么条件下重复你的结果？"
+        ],
+        "steps": [
+          "记录输入、步骤、环境和评价标准。",
+          "观察哪些条件变化会使结果改变。"
+        ],
+        "limits": [
+          "一次重复或失败都需要解释具体条件，不能直接推广为永恒规律。"
+        ]
+      }
+    },
+    {
+      "id": "feynman-p-control-hidden-cues",
+      "title": "实验设计要排查隐藏线索和混杂",
+      "summary": "他用迷宫实验讲述排除气味、声音等意外线索的重要性。",
+      "topics": [
+        "混杂因素",
+        "实验设计",
+        "控制变量",
+        "验证"
+      ],
+      "evidence_ids": [
+        "feynman-e-control-hidden-cues"
+      ],
+      "application": {
+        "questions": [
+          "参与者是否能通过你没考虑的线索完成任务？"
+        ],
+        "steps": [
+          "列出环境、呈现和测量中的潜在线索。",
+          "逐项验证最可能影响结果的因素。"
+        ],
+        "limits": [
+          "不把演讲中的动物实验细节当已经独立核验的复现方案。"
+        ]
+      }
+    },
+    {
+      "id": "feynman-p-independent-research-conditions",
+      "title": "选择能容许诚实结果的工作条件",
+      "summary": "他在结尾希望研究者拥有不受职位与经费压力干扰的诚实空间。",
+      "topics": [
+        "职业选择",
+        "研究独立",
+        "激励",
+        "诚信"
+      ],
+      "evidence_ids": [
+        "feynman-e-independent-research-conditions"
+      ],
+      "application": {
+        "questions": [
+          "这个环境是否允许报告不讨好的结果？"
+        ],
+        "steps": [
+          "核对发表、资助和反馈的实际规则。",
+          "明确利益关系与可能压制证据的条件。"
+        ],
+        "limits": [
+          "独立不是不接受问责，也不保证离开某个组织就能获得理想条件。"
+        ]
+      }
+    },
+    {
+      "id": "feynman-p-expertise-boundaries",
+      "title": "专业能力不能自动覆盖所有人生问题",
+      "summary": "他提醒科学家谈非专业社会问题同样可能缺乏训练。",
+      "topics": [
+        "专业边界",
+        "权威",
+        "社会问题",
+        "判断"
+      ],
+      "evidence_ids": [
+        "feynman-e-expertise-boundaries"
+      ],
+      "application": {
+        "questions": [
+          "这个人的专业经验，是否真的覆盖当前问题？"
+        ],
+        "steps": [
+          "核对专业范围及实际论据。",
+          "需要时寻找相应领域的知识和不同视角。"
+        ],
+        "limits": [
+          "不反向推断专家意见必错；也不照搬作者的夸张用语评价个人。"
+        ]
+      }
+    },
+    {
+      "id": "feynman-p-tools-and-values",
+      "title": "把技术能做什么与应该怎样使用分开",
+      "summary": "他区分科学提供的能力与决定怎样使用能力的道德选择。",
+      "topics": [
+        "技术伦理",
+        "价值选择",
+        "能力",
+        "责任"
+      ],
+      "evidence_ids": [
+        "feynman-e-tools-and-values"
+      ],
+      "application": {
+        "questions": [
+          "即使技术可行，谁来承担使用它的后果？"
+        ],
+        "steps": [
+          "分别说明技术能力、目标和影响。",
+          "邀请受到影响的人参与必要取舍。"
+        ],
+        "limits": [
+          "价值分歧不能只靠技术指标解决，也不意味事实研究与责任无关。"
+        ]
+      }
+    },
+    {
+      "id": "feynman-p-intellectual-enjoyment",
+      "title": "给理解和探索本身保留价值",
+      "summary": "他把阅读、学习和思考带来的乐趣列为科学的价值之一。",
+      "topics": [
+        "好奇心",
+        "学习乐趣",
+        "探索",
+        "生活选择"
+      ],
+      "evidence_ids": [
+        "feynman-e-intellectual-enjoyment"
+      ],
+      "application": {
+        "questions": [
+          "有没有一件值得因想理解而继续探索的事情？"
+        ],
+        "steps": [
+          "选择一个真正好奇的小问题。",
+          "给探索安排可承受的时间与资源。"
+        ],
+        "limits": [
+          "不要求每个人研究科学，也不忽视现实责任和实际用途。"
+        ]
+      }
+    },
+    {
+      "id": "feynman-p-deeper-questions",
+      "title": "用新知识形成更具体的问题",
+      "summary": "他描述理解越深入，越可能看见新的未知与问题。",
+      "topics": [
+        "提问",
+        "深入学习",
+        "未知",
+        "探索"
+      ],
+      "evidence_ids": [
+        "feynman-e-deeper-questions"
+      ],
+      "application": {
+        "questions": [
+          "已有理解让你能提出什么比最初更精确的问题？"
+        ],
+        "steps": [
+          "写清当前解释能说明什么。",
+          "挑一个尚无法解释的现象继续查证。"
+        ],
+        "limits": [
+          "神秘感不是任何主张都可信的理由，也不以复杂术语代替理解。"
+        ]
+      }
+    },
+    {
+      "id": "feynman-p-degrees-of-certainty",
+      "title": "把不知道、猜测与较有把握分开说",
+      "summary": "他把科学知识描述为具有不同确定程度的陈述。",
+      "topics": [
+        "不确定性",
+        "置信程度",
+        "诚实表达",
+        "知识"
+      ],
+      "evidence_ids": [
+        "feynman-e-degrees-of-certainty"
+      ],
+      "application": {
+        "questions": [
+          "哪些是已观察事实，哪些是推测，依据有多强？"
+        ],
+        "steps": [
+          "按证据区分不同强度的判断。",
+          "说明什么新信息会改变结论。"
+        ],
+        "limits": [
+          "不把一切都不确定解释为所有观点同样可信或无需行动。"
+        ]
+      }
+    },
+    {
+      "id": "feynman-p-protect-discussion",
+      "title": "让制度为批评和新想法留出位置",
+      "summary": "他把讨论、尝试和修正作为面对未知问题的重要条件。",
+      "topics": [
+        "讨论自由",
+        "制度",
+        "批评",
+        "改进"
+      ],
+      "evidence_ids": [
+        "feynman-e-protect-discussion"
+      ],
+      "application": {
+        "questions": [
+          "目前的规则是否允许指出错误并检验替代方案？"
+        ],
+        "steps": [
+          "建立可以提出具体异议的渠道。",
+          "让不同方案接受可核对的检验。"
+        ],
+        "limits": [
+          "讨论需要尊重参与者和职责，不能把自由当伤害或泄露机密的许可。"
+        ]
+      }
+    },
+    {
+      "id": "feynman-p-leave-room-for-future",
+      "title": "改善当前方案，也为后来者保留修正空间",
+      "summary": "他将学习、改善解决办法并传递给后来者视为责任。",
+      "topics": [
+        "长期责任",
+        "可修正性",
+        "知识传承",
+        "未来"
+      ],
+      "evidence_ids": [
+        "feynman-e-leave-room-for-future"
+      ],
+      "application": {
+        "questions": [
+          "你的决定是否使后来者还能学习、纠错与改进？"
+        ],
+        "steps": [
+          "记录当前前提、证据和未解决问题。",
+          "避免把暂时方案包装成不可讨论的最终答案。"
+        ],
+        "limits": [
+          "这是价值与制度判断，不保证后人一定找到更好答案。"
+        ]
+      }
+    }
+  ]
+}

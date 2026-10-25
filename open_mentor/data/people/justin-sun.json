@@ -1,0 +1,835 @@
+{
+  "schema_version": 1,
+  "person": {
+    "id": "justin-sun",
+    "name": "孙宇晨",
+    "aliases": [
+      "Justin Sun",
+      "孙哥",
+      "孙宇晨"
+    ],
+    "description": "收录早期原采访及 2026 年 Alan、William 上下集的已复核片段，讨论记录、选择、客户价值与方法迭代；完整机器转写与片段核验分开记录。"
+  },
+  "sources": [
+    {
+      "id": "sun-alan-video",
+      "title": "对话孙宇晨：年轻人如何抓住AI时代的机会？",
+      "url": "https://www.bilibili.com/video/BV1fcHD6cEw3/",
+      "publisher": "邵艾伦 Alan",
+      "kind": "interview",
+      "authority": "publisher",
+      "published_at": "2026-10-10",
+      "language": "zh",
+      "origin_url": "https://www.youtube.com/watch?v=0Z-vhBvBmUY",
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；当前包仅收录短摘录与原创中文归纳。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted publisher-frame review",
+        "method": "selected_original_publisher_frames_and_asr_context_check",
+        "note": "原片与完整机器转写已取得；只对本包引用的片段检查原发布画内字幕、发言归属与上下文。该状态不代表整场逐句人工听辨、ASR 全部正确或事实背书。时码基于该来源的 YouTube 原发布版本；逐段记录与媒体校验和保存在本地 evidence-review.json。"
+      },
+      "content_sha256": null,
+      "refresh": {
+        "mode": "manual",
+        "interval_days": 7
+      }
+    },
+    {
+      "id": "sun-alan-notes",
+      "title": "播客笔记｜Alan 对话孙宇晨",
+      "url": "https://www.techflowpost.com/article/34433",
+      "publisher": "深潮 TechFlow",
+      "kind": "interview",
+      "authority": "secondary",
+      "published_at": "2026-10-09",
+      "language": "zh",
+      "origin_url": "https://www.bilibili.com/video/BV1fcHD6cEw3/",
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；当前包仅收录短摘录与原创中文归纳。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted seed curation",
+        "method": "publisher_webpage_text_check",
+        "note": "来源自称“整理 & 编译”。原视频 B 站发布时间与该文不同，分别保留。只核对整理稿自身的文字；没有把其重构的引语、数学与健康说法升级为本人已核实原话。"
+      },
+      "content_sha256": "921c34f04cf07e8777b1a04b1d5f017a6b12ac30fcd4ba828ca63e07679b26a0",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 7
+      }
+    },
+    {
+      "id": "sun-paper2015",
+      "title": "专访90后创业者孙宇晨",
+      "url": "https://www.thepaper.cn/newsDetail_forward_1413224",
+      "publisher": "澎湃新闻 / 朱凡",
+      "kind": "interview",
+      "authority": "publisher",
+      "published_at": "2015-12-29",
+      "language": "zh",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "仅分发来源元数据、短摘录与原创归纳，不再分发完整采访或帖子。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "method": "original_publisher_text_check",
+        "note": "原采访记者发布的文章，兼有引语、Q&A 和记者归纳；逐条注明实际说话人。2015 年看法不当成 2026 年立场。"
+      },
+      "content_sha256": "c43d75800cbefe837ab7cd5b962ed7213a40f1c52d9a2a34706c7560f5005017",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "sun-cctv2015",
+      "title": "【电商者说】孙宇晨：为互联网＋而生",
+      "url": "https://news.cntv.cn/2015/05/08/ARTI1431072425139748.shtml",
+      "publisher": "央视网",
+      "kind": "interview",
+      "authority": "publisher",
+      "published_at": "2015-05-08",
+      "language": "zh",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "仅分发来源元数据、短摘录与原创归纳，不再分发完整采访或帖子。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "method": "original_publisher_text_check",
+        "note": "已核对原发布文字，不等于独立验证其主张；文字稿未逐句听辨音轨。"
+      },
+      "content_sha256": "fae10827fe3c7f4f15ee76cb33b2388f21b54b80703626842cc062b0ad9824d2",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "sun-william-upper",
+      "title": "对话孙宇晨：AI黄金时代，普通人如何下注？",
+      "url": "https://www.youtube.com/watch?v=o9Jn__LGGI4",
+      "publisher": "William Joy / 金明《黄金时代》",
+      "kind": "interview",
+      "authority": "publisher",
+      "published_at": "2026-10-16",
+      "language": "zh",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方音视频及完整转写仅本地研究；开源包仅分发元数据、短摘录与原创归纳。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted publisher-frame review",
+        "method": "selected_original_publisher_frames_and_asr_context_check",
+        "note": "原片与完整机器转写已取得；只对本包引用的片段检查原发布画内字幕、发言归属与上下文。该状态不代表整场逐句人工听辨、ASR 全部正确或事实背书。时码基于该来源的 YouTube 原发布版本；逐段记录与媒体校验和保存在本地 evidence-review.json。"
+      },
+      "content_sha256": null,
+      "refresh": {
+        "mode": "manual",
+        "interval_days": 7
+      }
+    },
+    {
+      "id": "sun-william-lower",
+      "title": "争议之外，我认为最好的进化方式",
+      "url": "https://www.youtube.com/watch?v=lFnc_92IeEI",
+      "publisher": "William Joy / 金明《黄金时代》",
+      "kind": "interview",
+      "authority": "publisher",
+      "published_at": "2026-10-22",
+      "language": "zh",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方音视频及完整转写仅本地研究；开源包仅分发元数据、短摘录与原创归纳。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted publisher-frame review",
+        "method": "selected_original_publisher_frames_and_asr_context_check",
+        "note": "原片与完整机器转写已取得；只对本包引用的片段检查原发布画内字幕、发言归属与上下文。该状态不代表整场逐句人工听辨、ASR 全部正确或事实背书。时码基于该来源的 YouTube 原发布版本；逐段记录与媒体校验和保存在本地 evidence-review.json。"
+      },
+      "content_sha256": null,
+      "refresh": {
+        "mode": "manual",
+        "interval_days": 7
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "sun-e-portable-notes",
+      "source_id": "sun-alan-notes",
+      "speaker": "深潮 TechFlow（采访整理，待核原话）",
+      "excerpt": "数据本地化",
+      "summary": "整理稿提到保存本地记录并更换模型接口。",
+      "locator": {
+        "type": "heading",
+        "value": "全 AI 托管日常与身体管理"
+      },
+      "tags": [
+        "记录",
+        "本地",
+        "数据",
+        "AI",
+        "Markdown",
+        "模型",
+        "迁移",
+        "portable data"
+      ],
+      "context": "仅证明整理稿包含该表述。这里不采纳其健康诊断或精准热量估算结论。",
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": false,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted seed curation",
+        "note": "核对的是来源页面文字，尚未对照原始音视频。不得将整理稿措辞当成本人逐字原话。"
+      }
+    },
+    {
+      "id": "sun-e-options-notes",
+      "source_id": "sun-alan-notes",
+      "speaker": "深潮 TechFlow（采访整理，待核原话）",
+      "excerpt": "先做“探图”",
+      "summary": "整理稿提到先比较更多选项，再作决定。",
+      "locator": {
+        "type": "heading",
+        "value": "AI 时代的全图插眼与全球套利"
+      },
+      "tags": [
+        "选择",
+        "决策",
+        "选项",
+        "职业",
+        "机会",
+        "比较",
+        "options",
+        "decision"
+      ],
+      "context": "保留比较选项这个候选方法；没有核实原片中的具体阈值，不采纳整理稿“37%”的最优性表述。",
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": false,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted seed curation",
+        "note": "核对的是来源页面文字，尚未对照原始音视频。不得将整理稿措辞当成本人逐字原话。"
+      }
+    },
+    {
+      "id": "sun-e-small-experiments",
+      "source_id": "sun-paper2015",
+      "speaker": "澎湃新闻记者朱凡（专访归纳）",
+      "excerpt": "失败的成本",
+      "summary": "报道将其创业方法归纳为提高试错频率、降低成本。",
+      "locator": {
+        "type": "heading",
+        "value": "“我把大量时间浪费在了读书上，创业越早越好”"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与实际读取的原发布文字一致；保留说话人/记者归纳及历史语境。"
+      },
+      "tags": [
+        "试错",
+        "失败",
+        "成本",
+        "创业"
+      ],
+      "context": "这是记者转述其认同《精益创业》的方法，并非孙宇晨逐字原话；不包含成功保证。"
+    },
+    {
+      "id": "sun-e-capital-context",
+      "source_id": "sun-paper2015",
+      "speaker": "孙宇晨",
+      "excerpt": "商业规律",
+      "summary": "融资环境与创业执行需要分开分析。",
+      "locator": {
+        "type": "heading",
+        "value": "问答：资本寒冬对创业者的影响"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与实际读取的原发布文字一致；保留说话人/记者归纳及历史语境。"
+      },
+      "tags": [
+        "融资",
+        "环境",
+        "创业",
+        "资本"
+      ],
+      "context": "历史资本寒冬问答；他也承认融资对公司有影响，不能只摘“没有影响”。"
+    },
+    {
+      "id": "sun-e-learning-execution",
+      "source_id": "sun-paper2015",
+      "speaker": "孙宇晨",
+      "excerpt": "学习速度都很快",
+      "summary": "他认可学习速度优势，也讨论实际执行的难处。",
+      "locator": {
+        "type": "heading",
+        "value": "问答：高学历对创业是否有帮助"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与实际读取的原发布文字一致；保留说话人/记者归纳及历史语境。"
+      },
+      "tags": [
+        "学习",
+        "学历",
+        "能力",
+        "执行"
+      ],
+      "context": "同一回答包含其对学历作用的强烈个人判断；不据此劝人退学或承诺创业结果。"
+    },
+    {
+      "id": "sun-e-user-friction",
+      "source_id": "sun-cctv2015",
+      "speaker": "孙宇晨",
+      "excerpt": "中介多",
+      "summary": "他从跨境清算的费用和速度解释产品出发点。",
+      "locator": {
+        "type": "heading",
+        "value": "互联网让90后变老总"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted source curation",
+        "note": "短摘录与实际读取的原发布文字一致；保留说话人/记者归纳及历史语境。"
+      },
+      "tags": [
+        "需求",
+        "用户",
+        "产品",
+        "摩擦"
+      ],
+      "context": "这是其对早期业务机会的自述，不证明产品效果或商业结果。"
+    },
+    {
+      "id": "sun-e-portable-video",
+      "source_id": "sun-alan-video",
+      "speaker": "孙宇晨（按原发布画面字幕与问答归属核对）",
+      "excerpt": "MD 文档",
+      "summary": "他描述把持续记录保存为本地文档，方便另一种 AI 工具接续读取。",
+      "locator": {
+        "type": "timestamp",
+        "value": "YouTube 00:07:28–00:07:51"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted publisher-frame review",
+        "note": "核对原发布画面字幕、该段问答归属及 ASR 上下文；截图与校验和见本地片段复核记录。未逐句听辨音轨，不把字幕当事实背书。"
+      },
+      "tags": [
+        "记录",
+        "本地",
+        "AI",
+        "数据",
+        "Markdown",
+        "模型",
+        "迁移"
+      ],
+      "context": "例子来自其个人记录流程；不采纳同段的健康估算、自动诊断或模型训练效果主张。"
+    },
+    {
+      "id": "sun-e-map-video",
+      "source_id": "sun-alan-video",
+      "speaker": "孙宇晨（按原发布画面字幕与问答归属核对）",
+      "excerpt": "先探图",
+      "summary": "他以策略游戏探图作比，主张决定前先了解资源、条件与选择。",
+      "locator": {
+        "type": "timestamp",
+        "value": "YouTube 00:43:13–00:45:18"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted publisher-frame review",
+        "note": "核对原发布画面字幕、该段问答归属及 ASR 上下文；截图与校验和见本地片段复核记录。未逐句听辨音轨，不把字幕当事实背书。"
+      },
+      "tags": [
+        "决策",
+        "选择",
+        "选项",
+        "机会",
+        "比较",
+        "调查"
+      ],
+      "context": "上下文是专业与商业机会选择。保留信息收集比喻，不接受“信息足够就无需决定”或“调查免费”等绝对表述。"
+    },
+    {
+      "id": "sun-e-interest-focus-video",
+      "source_id": "sun-alan-video",
+      "speaker": "孙宇晨（按原发布画面字幕与问答归属核对）",
+      "excerpt": "自己最感兴趣的方向",
+      "summary": "他建议关注技术动向后，结合兴趣选一个方向继续钻研。",
+      "locator": {
+        "type": "timestamp",
+        "value": "YouTube 00:19:37–00:20:28"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted publisher-frame review",
+        "note": "核对原发布画面字幕、该段问答归属及 ASR 上下文；截图与校验和见本地片段复核记录。未逐句听辨音轨，不把字幕当事实背书。"
+      },
+      "tags": [
+        "兴趣",
+        "方向",
+        "学习",
+        "科技",
+        "专长"
+      ],
+      "context": "他提到自己会看 X 与科技消息；这不证明该消息正确，也不是让每个人研究所有领域。"
+    },
+    {
+      "id": "sun-e-customer-value-video",
+      "source_id": "sun-alan-video",
+      "speaker": "孙宇晨（按原发布画面字幕与问答归属核对）",
+      "excerpt": "创造价值",
+      "summary": "他把商业机会的判断落到能否为具体客户提供价值。",
+      "locator": {
+        "type": "timestamp",
+        "value": "YouTube 00:35:32–00:36:52"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted publisher-frame review",
+        "note": "核对原发布画面字幕、该段问答归属及 ASR 上下文；截图与校验和见本地片段复核记录。未逐句听辨音轨，不把字幕当事实背书。"
+      },
+      "tags": [
+        "产品",
+        "客户",
+        "价值",
+        "需求",
+        "商业"
+      ],
+      "context": "上下文含 API 中转与跨地区例子；仅提炼客户价值问题，不把中转生意、政策解释和“都能赚钱”当可靠结论。"
+    },
+    {
+      "id": "sun-e-iterate-william",
+      "source_id": "sun-william-upper",
+      "speaker": "孙宇晨（按原发布画面字幕与问答归属核对）",
+      "excerpt": "要迭代",
+      "summary": "谈及奖项机制设计时，他说具体做法和调整仍需迭代。",
+      "locator": {
+        "type": "timestamp",
+        "value": "YouTube 00:29:57–00:30:26"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted publisher-frame review",
+        "note": "核对原发布画面字幕、该段问答归属及 ASR 上下文；截图与校验和见本地片段复核记录。未逐句听辨音轨，不把字幕当事实背书。"
+      },
+      "tags": [
+        "制度",
+        "试点",
+        "验证",
+        "迭代"
+      ],
+      "context": "记录其对制度设计的自述，不验证奖项实际发放、AI 科研能力或数学证明是否正确。"
+    },
+    {
+      "id": "sun-e-brand-william",
+      "source_id": "sun-william-upper",
+      "speaker": "孙宇晨（按原发布画面字幕与问答归属核对）",
+      "excerpt": "用户相信我们的品牌",
+      "summary": "他用自己对客户信任与使用习惯的理解解释产品定价。",
+      "locator": {
+        "type": "timestamp",
+        "value": "YouTube 00:45:20–00:46:42"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted publisher-frame review",
+        "note": "核对原发布画面字幕、该段问答归属及 ASR 上下文；截图与校验和见本地片段复核记录。未逐句听辨音轨，不把字幕当事实背书。"
+      },
+      "tags": [
+        "产品",
+        "客户",
+        "信任",
+        "差异化",
+        "品牌"
+      ],
+      "context": "这是创始人对自己业务的解释，未独立验证客户信任、安全性、交易规模或费用优势；采访者的总结没有归给他。"
+    },
+    {
+      "id": "sun-e-models-william",
+      "source_id": "sun-william-lower",
+      "speaker": "孙宇晨（按原发布画面字幕与问答归属核对）",
+      "excerpt": "学风控",
+      "summary": "他把自己的学习参照拆为风控、科技增长判断和传播等不同部分。",
+      "locator": {
+        "type": "timestamp",
+        "value": "YouTube 00:04:24–00:07:14"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-24",
+        "reviewer": "Codex-assisted publisher-frame review",
+        "note": "核对原发布画面字幕、该段问答归属及 ASR 上下文；截图与校验和见本地片段复核记录。未逐句听辨音轨，不把字幕当事实背书。"
+      },
+      "tags": [
+        "学习",
+        "参照",
+        "方法",
+        "判断"
+      ],
+      "context": "他自述分别向巴菲特、马斯克和特朗普学习；不将他对三人的概括视为客观定论，也不背书投资效果。"
+    }
+  ],
+  "principles": [
+    {
+      "id": "sun-p-portable",
+      "title": "把个人记录保留成可迁移的资料",
+      "summary": "把持续记录保存为本地文档，便于工具接续上下文。",
+      "topics": [
+        "记录",
+        "本地",
+        "AI",
+        "数据",
+        "知识库",
+        "Markdown",
+        "模型",
+        "迁移",
+        "portable data"
+      ],
+      "evidence_ids": [
+        "sun-e-portable-notes",
+        "sun-e-portable-video"
+      ],
+      "application": {
+        "questions": [
+          "哪些历史材料散落在工具里，换工具后会失去上下文？"
+        ],
+        "steps": [
+          "选择一个低风险的工作记录场景，保留可导出的原始资料与结果。",
+          "比较更换工具前后的信息完整性。"
+        ],
+        "limits": [
+          "原片已复核的是文档交接片段，整理稿仍保留二手标签。",
+          "敏感资料上传模型之前，应先判断必要性与授权；不能依据其经历推导医学效果。",
+          "这些步骤是编辑推演，不是孙宇晨为用户作出的建议。"
+        ]
+      }
+    },
+    {
+      "id": "sun-p-options",
+      "title": "在决定前补足比较样本",
+      "summary": "先扩大参照系，识别真实选项和限制，再作下一步决定。",
+      "topics": [
+        "决策",
+        "选择",
+        "选项",
+        "职业",
+        "专业",
+        "机会",
+        "比较",
+        "options",
+        "decision"
+      ],
+      "evidence_ids": [
+        "sun-e-options-notes",
+        "sun-e-map-video"
+      ],
+      "application": {
+        "questions": [
+          "有哪些可行选项仍未调查？决定是否可逆？"
+        ],
+        "steps": [
+          "先用同一套标准比较几个真实选项，并记录未知项。",
+          "用小规模试验补信息，再作下一步选择。"
+        ],
+        "limits": [
+          "原片已复核探图比喻；整理稿仍保留二手标签。",
+          "调查也有成本和截止时间，更多信息不能消除所有不确定性。",
+          "没有把整理稿的“37%”当成视频已验证或普遍最优的规则。"
+        ]
+      }
+    },
+    {
+      "id": "sun-p-small-experiments",
+      "title": "降低探索中的单次试错成本",
+      "summary": "把创业假设变成可负担的验证。",
+      "topics": [
+        "试错",
+        "创业",
+        "成本",
+        "验证"
+      ],
+      "evidence_ids": [
+        "sun-e-small-experiments"
+      ],
+      "application": {
+        "questions": [
+          "一次试错会损失多少时间、钱与信誉？"
+        ],
+        "steps": [
+          "缩小第一次交付范围，先观察真实使用。"
+        ],
+        "limits": [
+          "步骤是编辑应用；源文章是记者归纳，没有成功保证。"
+        ]
+      }
+    },
+    {
+      "id": "sun-p-capital-context",
+      "title": "分别评估融资条件与产品进展",
+      "summary": "不要用环境冷热代替对项目的具体判断。",
+      "topics": [
+        "融资",
+        "环境",
+        "创业",
+        "资本"
+      ],
+      "evidence_ids": [
+        "sun-e-capital-context"
+      ],
+      "application": {
+        "questions": [
+          "哪些问题来自资金，哪些来自产品或执行？"
+        ],
+        "steps": [
+          "分开列出资金约束、交付与需求证据。"
+        ],
+        "limits": [
+          "不能把他当年的融资判断当成当前市场判断。"
+        ]
+      }
+    },
+    {
+      "id": "sun-p-learning-execution",
+      "title": "把学习优势落实为实际交付",
+      "summary": "知识背景与执行条件需要一起检验。",
+      "topics": [
+        "学习",
+        "学历",
+        "执行",
+        "职业"
+      ],
+      "evidence_ids": [
+        "sun-e-learning-execution"
+      ],
+      "application": {
+        "questions": [
+          "已有知识怎样帮助你更快交付可验证的结果？"
+        ],
+        "steps": [
+          "选一个小任务，比较学习投入和实际交付。"
+        ],
+        "limits": [
+          "不据此评价某种学历人群，也不建议放弃学业。"
+        ]
+      }
+    },
+    {
+      "id": "sun-p-user-friction",
+      "title": "从实际业务摩擦寻找产品入口",
+      "summary": "先描述用户现有流程中的不便。",
+      "topics": [
+        "需求",
+        "用户",
+        "产品",
+        "业务",
+        "摩擦"
+      ],
+      "evidence_ids": [
+        "sun-e-user-friction"
+      ],
+      "application": {
+        "questions": [
+          "当前流程慢、贵或复杂在哪里，用户怎样应付？"
+        ],
+        "steps": [
+          "观察真实流程，验证改进是否减少实际成本。"
+        ],
+        "limits": [
+          "历史业务自述只支持问题识别思路，不证明某技术天然更好。"
+        ]
+      }
+    },
+    {
+      "id": "sun-p-interest-focus",
+      "title": "从持续关注中选一个方向深入",
+      "summary": "把广泛获取信息与有重点的钻研结合起来。",
+      "topics": [
+        "兴趣",
+        "方向",
+        "学习",
+        "科技",
+        "专长"
+      ],
+      "evidence_ids": [
+        "sun-e-interest-focus-video"
+      ],
+      "application": {
+        "questions": [
+          "哪些问题既让你持续好奇，也有条件做实际验证？"
+        ],
+        "steps": [
+          "列出最近反复关注的真实问题。",
+          "选一个方向做小规模验证，记录需要补的知识。"
+        ],
+        "limits": [
+          "兴趣须与能力、资源和真实需求一起判断。",
+          "步骤为编辑应用推演，不是孙宇晨对当前用户作出的直接建议。"
+        ]
+      }
+    },
+    {
+      "id": "sun-p-customer-value",
+      "title": "先说明为哪位客户创造什么价值",
+      "summary": "检验机会时，把抽象趋势转成客户可感知的改善。",
+      "topics": [
+        "产品",
+        "客户",
+        "价值",
+        "需求",
+        "商业"
+      ],
+      "evidence_ids": [
+        "sun-e-customer-value-video"
+      ],
+      "application": {
+        "questions": [
+          "客户现在哪一步受阻，你能具体改善什么？"
+        ],
+        "steps": [
+          "找一位真实目标用户，了解当前做法和阻碍。",
+          "做出一个可比较的小样本，检查用户是否得到改善。"
+        ],
+        "limits": [
+          "不能由一个案例推导市场规模、收益或跨境业务许可。",
+          "步骤为编辑应用推演，不是孙宇晨对当前用户作出的直接建议。"
+        ]
+      }
+    },
+    {
+      "id": "sun-p-iterate-rules",
+      "title": "为新规则保留反馈和调整空间",
+      "summary": "先把规则作为可检验的设计，再依据执行反馈调整。",
+      "topics": [
+        "制度",
+        "试点",
+        "验证",
+        "迭代"
+      ],
+      "evidence_ids": [
+        "sun-e-iterate-william"
+      ],
+      "application": {
+        "questions": [
+          "规则预期解决什么问题，怎样知道它需要调整？"
+        ],
+        "steps": [
+          "在小范围写清规则、验收条件与反馈入口。",
+          "执行后记录未覆盖的案例，说明修改理由与版本。"
+        ],
+        "limits": [
+          "修改不能掩盖承诺或任意改变已参与者的权益。",
+          "步骤为编辑应用推演，不是孙宇晨对当前用户作出的直接建议。"
+        ]
+      }
+    },
+    {
+      "id": "sun-p-trust-differentiation",
+      "title": "把差异化落到客户实际在意的条件",
+      "summary": "比较价格之外，也需调查可靠性、习惯和迁移成本。",
+      "topics": [
+        "产品",
+        "客户",
+        "信任",
+        "差异化",
+        "品牌"
+      ],
+      "evidence_ids": [
+        "sun-e-brand-william"
+      ],
+      "application": {
+        "questions": [
+          "用户愿意继续使用的具体原因是什么？"
+        ],
+        "steps": [
+          "询问真实客户保留或更换产品的原因。",
+          "用可靠性或体验数据检验解释，避免只听创始人自述。"
+        ],
+        "limits": [
+          "品牌不是安全性证明，历史习惯不保证长期留存。",
+          "步骤为编辑应用推演，不是孙宇晨对当前用户作出的直接建议。"
+        ]
+      }
+    },
+    {
+      "id": "sun-p-select-methods",
+      "title": "按具体问题选择学习参照",
+      "summary": "把想学习的方法拆开，检查每一部分是否适合自己的条件。",
+      "topics": [
+        "学习",
+        "参照",
+        "方法",
+        "判断"
+      ],
+      "evidence_ids": [
+        "sun-e-models-william"
+      ],
+      "application": {
+        "questions": [
+          "你想借用的是哪一种方法，适用条件是什么？"
+        ],
+        "steps": [
+          "先定义当前问题需要的能力。",
+          "查阅对应方法的原始表达，分别记录可借鉴之处与不适用条件。"
+        ],
+        "limits": [
+          "不能把不同人的做法拼在一起就当作经过验证的体系。",
+          "步骤为编辑应用推演，不是孙宇晨对当前用户作出的直接建议。"
+        ]
+      }
+    }
+  ]
+}

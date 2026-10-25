@@ -1,0 +1,891 @@
+{
+  "schema_version": 1,
+  "person": {
+    "id": "fei-fei-li",
+    "name": "李飞飞",
+    "aliases": [
+      "Fei-Fei Li",
+      "Fei Fei Li",
+      "李飛飛"
+    ],
+    "description": "依据Stanford HAI原采访与本人2023年参议院书面陈述，整理方向、个人经验、导师、研究与公共利益、技术自主、跨学科、数据与评价；不提供医学或法律结论。"
+  },
+  "sources": [
+    {
+      "id": "fei-hai-memoir",
+      "title": "Fei-Fei Li: A Candid Look at a Young Immigrant’s Rise to AI Trailblazer | Stanford HAI",
+      "url": "https://hai.stanford.edu/news/fei-fei-li-candid-look-young-immigrants-rise-ai-trailblazer",
+      "publisher": "Stanford HAI / Shana Lynch自采李飞飞问答",
+      "kind": "interview",
+      "authority": "publisher",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "仅使用明确问答中的李飞飞回答；前导生平、数据库规模及后附其他作者文章不当本人原话。原发文字核对，不称逐句音频核对；自传式回顾仍是个人叙述。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。"
+      },
+      "content_sha256": "d7e4afd99782607b46f0f7239716debf1f38d459a31dc910d9dce67018eefe44",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "fei-congress-2023",
+      "title": "Governing AI Through Acquisition and Procurement — Fei-Fei Li testimony",
+      "url": "https://hai.stanford.edu/assets/files/2023-09/Fei-Fei-Li-Senate-Testimony.pdf",
+      "publisher": "Fei-Fei Li / Stanford HAI发布本人书面陈述",
+      "kind": "essay",
+      "authority": "publisher",
+      "published_at": "2023-09-14",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_pdf_text_check",
+        "note": "文件注明向参议院委员会陈述日期2023-09-14，不推断文件上传日。核对本人正文与具体文件页序；PDF文字层有词间空格缺失，保留原提取并对所引短词定位。注释中的其他研究与当时法律不当本人独立研究或当前法律指南。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "c23756230688e3e0650dffbbbf0a3591383ffc3943f907c944db036c797e97aa",
+      "refresh": {
+        "mode": "manual",
+        "interval_days": 90
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "fei-e-personal-direction",
+      "source_id": "fei-hai-memoir",
+      "speaker": "李飞飞",
+      "excerpt": "North Star",
+      "summary": "她把探索科学与移民经历都描述为面对未知并寻找自身方向。",
+      "locator": {
+        "type": "heading",
+        "value": "第一个回答；移民经历与研究"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "方向",
+        "未知",
+        "科学探索",
+        "长期投入"
+      ],
+      "context": "本人公开表达已定位；编辑步骤用于判断具体条件，不把倡议、回忆或研究自述当必然效果。"
+    },
+    {
+      "id": "fei-e-experience-as-perspective",
+      "source_id": "fei-hai-memoir",
+      "speaker": "李飞飞",
+      "excerpt": "perspective",
+      "summary": "她将家庭、照护和移民经历与以人为中心的研究兴趣联系。",
+      "locator": {
+        "type": "heading",
+        "value": "第一个回答；经历与human-centered AI"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "个人经验",
+        "问题发现",
+        "照护视角",
+        "研究选择"
+      ],
+      "context": "本人公开表达已定位；编辑步骤用于判断具体条件，不把倡议、回忆或研究自述当必然效果。"
+    },
+    {
+      "id": "fei-e-supportive-mentors",
+      "source_id": "fei-hai-memoir",
+      "speaker": "李飞飞",
+      "excerpt": "mentors",
+      "summary": "她回顾老师和研究导师在自己尚未看到可能时提供支持。",
+      "locator": {
+        "type": "heading",
+        "value": "关于导师的问答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "导师",
+        "支持",
+        "能力成长",
+        "职业探索"
+      ],
+      "context": "本人公开表达已定位；编辑步骤用于判断具体条件，不把倡议、回忆或研究自述当必然效果。"
+    },
+    {
+      "id": "fei-e-public-research-balance",
+      "source_id": "fei-hai-memoir",
+      "speaker": "李飞飞",
+      "excerpt": "balance",
+      "summary": "她担心公共研究与产业之间出现过强失衡，同时承认自己不确定失衡程度。",
+      "locator": {
+        "type": "heading",
+        "value": "关于学生和教师离开学校进入公司的回答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "公共研究",
+        "产业",
+        "资源",
+        "长期知识"
+      ],
+      "context": "本人公开表达已定位；编辑步骤用于判断具体条件，不把倡议、回忆或研究自述当必然效果。"
+    },
+    {
+      "id": "fei-e-human-agency",
+      "source_id": "fei-hai-memoir",
+      "speaker": "李飞飞",
+      "excerpt": "agency",
+      "summary": "她强调人应保留对AI怎样建设与使用的选择权。",
+      "locator": {
+        "type": "heading",
+        "value": "关于AI为何是一种责任的回答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "人的自主",
+        "技术责任",
+        "人工智能",
+        "选择"
+      ],
+      "context": "本人公开表达已定位；编辑步骤用于判断具体条件，不把倡议、回忆或研究自述当必然效果。"
+    },
+    {
+      "id": "fei-e-multidisciplinary-lens",
+      "source_id": "fei-hai-memoir",
+      "speaker": "李飞飞",
+      "excerpt": "multidisciplinary",
+      "summary": "她赞赏年轻研究者同时考虑技术、气候、公平等视角。",
+      "locator": {
+        "type": "heading",
+        "value": "关于为何对AI抱希望的回答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "跨学科",
+        "技术选择",
+        "公平",
+        "研究视角"
+      ],
+      "context": "本人公开表达已定位；编辑步骤用于判断具体条件，不把倡议、回忆或研究自述当必然效果。"
+    },
+    {
+      "id": "fei-e-diverse-paths",
+      "source_id": "fei-hai-memoir",
+      "speaker": "李飞飞",
+      "excerpt": "paths",
+      "summary": "她希望不同性别、出身和经历的人能形成自己的路径。",
+      "locator": {
+        "type": "heading",
+        "value": "最后关于希望读者带走什么的回答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "职业进入",
+        "多样性",
+        "技术学习",
+        "背景"
+      ],
+      "context": "本人公开表达已定位；编辑步骤用于判断具体条件，不把倡议、回忆或研究自述当必然效果。"
+    },
+    {
+      "id": "fei-e-beyond-extreme-ai-stories",
+      "source_id": "fei-congress-2023",
+      "speaker": "李飞飞",
+      "excerpt": "wild",
+      "summary": "她在陈述开头批评把AI说成解决一切或必然毁灭世界的两端叙事。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第1页（文件页序）；Introduction"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "技术判断",
+        "宣传",
+        "证据",
+        "风险"
+      ],
+      "context": "本人公开表达已定位；编辑步骤用于判断具体条件，不把倡议、回忆或研究自述当必然效果。"
+    },
+    {
+      "id": "fei-e-beyond-language",
+      "source_id": "fei-congress-2023",
+      "speaker": "李飞飞",
+      "excerpt": "linguistic",
+      "summary": "她提醒智能范围比语言能力更广，并以视觉研究为例。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第1页（文件页序）；Benefits of AI"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "任务选择",
+        "人工智能",
+        "视觉",
+        "能力范围"
+      ],
+      "context": "本人公开表达已定位；编辑步骤用于判断具体条件，不把倡议、回忆或研究自述当必然效果。"
+    },
+    {
+      "id": "fei-e-representative-data",
+      "source_id": "fei-congress-2023",
+      "speaker": "李飞飞",
+      "excerpt": "representative",
+      "summary": "她用信用评分例子强调高质量、有代表性数据的重要性。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第3页（文件页序）；数据偏差"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "数据代表性",
+        "公平",
+        "真实人群",
+        "模型评价"
+      ],
+      "context": "本人公开表达已定位；编辑步骤用于判断具体条件，不把倡议、回忆或研究自述当必然效果。"
+    },
+    {
+      "id": "fei-e-privacy-from-start",
+      "source_id": "fei-congress-2023",
+      "speaker": "李飞飞",
+      "excerpt": "privacy",
+      "summary": "她要求在应用开始时就纳入数据隐私和安全安排。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第3页（文件页序）；隐私与安全"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "隐私",
+        "安全",
+        "数据使用",
+        "设计前提"
+      ],
+      "context": "本人公开表达已定位；编辑步骤用于判断具体条件，不把倡议、回忆或研究自述当必然效果。"
+    },
+    {
+      "id": "fei-e-include-affected-stakeholders",
+      "source_id": "fei-congress-2023",
+      "speaker": "李飞飞",
+      "excerpt": "proactively",
+      "summary": "她提到开发者、政策制定者、服务提供者和实际受影响者应共同参与。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第3页（文件页序）；共同参与"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "利益相关者",
+        "参与设计",
+        "实施",
+        "协作"
+      ],
+      "context": "本人公开表达已定位；编辑步骤用于判断具体条件，不把倡议、回忆或研究自述当必然效果。"
+    },
+    {
+      "id": "fei-e-holistic-evaluation",
+      "source_id": "fei-congress-2023",
+      "speaker": "李飞飞",
+      "excerpt": "evaluation",
+      "summary": "她主张评价不应只看单个准确率指标。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第4页（文件页序）；evaluation"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "模型评价",
+        "现实可靠性",
+        "公平",
+        "准确率"
+      ],
+      "context": "本人公开表达已定位；编辑步骤用于判断具体条件，不把倡议、回忆或研究自述当必然效果。"
+    },
+    {
+      "id": "fei-e-vendor-transparency",
+      "source_id": "fei-congress-2023",
+      "speaker": "李飞飞",
+      "excerpt": "transparency",
+      "summary": "她建议提供者说明数据怎样收集标注，以及风险与应对。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第4页（文件页序）；transparency measures"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "供应商核对",
+        "透明",
+        "数据来源",
+        "风险披露"
+      ],
+      "context": "本人公开表达已定位；编辑步骤用于判断具体条件，不把倡议、回忆或研究自述当必然效果。"
+    },
+    {
+      "id": "fei-e-shared-research-resources",
+      "source_id": "fei-congress-2023",
+      "speaker": "李飞飞",
+      "excerpt": "infrastructure",
+      "summary": "她主张通过公共研究基础设施扩大学术机构取得数据和算力的机会。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第5页（文件页序）；Public Sector Investment"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "研究资源",
+        "算力",
+        "人才培养",
+        "公共基础设施"
+      ],
+      "context": "本人公开表达已定位；编辑步骤用于判断具体条件，不把倡议、回忆或研究自述当必然效果。"
+    },
+    {
+      "id": "fei-e-train-decision-makers",
+      "source_id": "fei-congress-2023",
+      "speaker": "李飞飞",
+      "excerpt": "up-skill",
+      "summary": "她强调培训实际采购与治理人员，帮助他们作更细致的判断。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第4页（文件页序）；采购人员培训"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "技术素养",
+        "决策者",
+        "能力限制",
+        "组织学习"
+      ],
+      "context": "本人公开表达已定位；编辑步骤用于判断具体条件，不把倡议、回忆或研究自述当必然效果。"
+    }
+  ],
+  "principles": [
+    {
+      "id": "fei-p-personal-direction",
+      "title": "在不确定旅程中明确值得投入的方向",
+      "summary": "她把探索科学与移民经历都描述为面对未知并寻找自身方向。",
+      "topics": [
+        "方向",
+        "未知",
+        "科学探索",
+        "长期投入"
+      ],
+      "evidence_ids": [
+        "fei-e-personal-direction"
+      ],
+      "application": {
+        "questions": [
+          "当前值得继续探索的问题是什么，你为何在意它？"
+        ],
+        "steps": [
+          "写清方向和现实约束。",
+          "用可承受的小任务积累证据。"
+        ],
+        "limits": [
+          "人生回顾不证明坚持必然成功，方向也应允许随证据调整。"
+        ]
+      }
+    },
+    {
+      "id": "fei-p-experience-as-perspective",
+      "title": "把亲身经验转成理解问题的视角",
+      "summary": "她将家庭、照护和移民经历与以人为中心的研究兴趣联系。",
+      "topics": [
+        "个人经验",
+        "问题发现",
+        "照护视角",
+        "研究选择"
+      ],
+      "evidence_ids": [
+        "fei-e-experience-as-perspective"
+      ],
+      "application": {
+        "questions": [
+          "哪些真实经历让你看到了别人容易忽略的困难？"
+        ],
+        "steps": [
+          "描述具体问题和受影响的人。",
+          "用其他相关人的经验补充自身视角。"
+        ],
+        "limits": [
+          "个人经验是入口，不代表全部人群或足以验证解决方案。"
+        ]
+      }
+    },
+    {
+      "id": "fei-p-supportive-mentors",
+      "title": "寻找能帮助看见潜力与成长缺口的导师",
+      "summary": "她回顾老师和研究导师在自己尚未看到可能时提供支持。",
+      "topics": [
+        "导师",
+        "支持",
+        "能力成长",
+        "职业探索"
+      ],
+      "evidence_ids": [
+        "fei-e-supportive-mentors"
+      ],
+      "application": {
+        "questions": [
+          "谁能给你具体支持、真实反馈和领域信息？"
+        ],
+        "steps": [
+          "围绕实际问题向合适的人求助。",
+          "通过练习和反馈检查自己的成长。"
+        ],
+        "limits": [
+          "导师认可不保证成功，不要求把判断权交给某一个人。"
+        ]
+      }
+    },
+    {
+      "id": "fei-p-public-research-balance",
+      "title": "评价研究生态时同时考虑公共利益和产业能力",
+      "summary": "她担心公共研究与产业之间出现过强失衡，同时承认自己不确定失衡程度。",
+      "topics": [
+        "公共研究",
+        "产业",
+        "资源",
+        "长期知识"
+      ],
+      "evidence_ids": [
+        "fei-e-public-research-balance"
+      ],
+      "application": {
+        "questions": [
+          "当前资源分配是否仍给公共问题和长期探索留出空间？"
+        ],
+        "steps": [
+          "区分短期产品目标与公共研究需要。",
+          "检查资源、开放性和人才培养条件。"
+        ],
+        "limits": [
+          "不将所有产业工作视为有害，也不把她的担忧当已量化的当前失衡结论。"
+        ]
+      }
+    },
+    {
+      "id": "fei-p-human-agency",
+      "title": "把技术未来作为需要人作选择的责任",
+      "summary": "她强调人应保留对AI怎样建设与使用的选择权。",
+      "topics": [
+        "人的自主",
+        "技术责任",
+        "人工智能",
+        "选择"
+      ],
+      "evidence_ids": [
+        "fei-e-human-agency"
+      ],
+      "application": {
+        "questions": [
+          "使用这项技术以后，人还能理解、选择和改变什么？"
+        ],
+        "steps": [
+          "明确由谁作决定及谁承担后果。",
+          "保留适当解释、反馈与退出路径。"
+        ],
+        "limits": [
+          "自主权是设计与治理目标，不证明某个系统已经满足。"
+        ]
+      }
+    },
+    {
+      "id": "fei-p-multidisciplinary-lens",
+      "title": "让技术讨论接触不同学科的问题",
+      "summary": "她赞赏年轻研究者同时考虑技术、气候、公平等视角。",
+      "topics": [
+        "跨学科",
+        "技术选择",
+        "公平",
+        "研究视角"
+      ],
+      "evidence_ids": [
+        "fei-e-multidisciplinary-lens"
+      ],
+      "application": {
+        "questions": [
+          "工程指标之外，哪些学科能帮助理解实际影响？"
+        ],
+        "steps": [
+          "找出关键的社会和领域前提。",
+          "邀请相应知识与相关者检验方案。"
+        ],
+        "limits": [
+          "不能只用多学科口号代替具体能力与证据，也不保证视角越多越好。"
+        ]
+      }
+    },
+    {
+      "id": "fei-p-diverse-paths",
+      "title": "不要把单一背景当作进入技术领域的资格",
+      "summary": "她希望不同性别、出身和经历的人能形成自己的路径。",
+      "topics": [
+        "职业进入",
+        "多样性",
+        "技术学习",
+        "背景"
+      ],
+      "evidence_ids": [
+        "fei-e-diverse-paths"
+      ],
+      "application": {
+        "questions": [
+          "哪些门槛是实际能力要求，哪些只是刻板的典型人物形象？"
+        ],
+        "steps": [
+          "核对目标岗位的真实要求。",
+          "用学习和项目建立能力证据，并寻找支持。"
+        ],
+        "limits": [
+          "不否认资源和机会差异，也不保证某种身份带来岗位。"
+        ]
+      }
+    },
+    {
+      "id": "fei-p-beyond-extreme-ai-stories",
+      "title": "把技术判断从极端故事拉回具体能力和风险",
+      "summary": "她在陈述开头批评把AI说成解决一切或必然毁灭世界的两端叙事。",
+      "topics": [
+        "技术判断",
+        "宣传",
+        "证据",
+        "风险"
+      ],
+      "evidence_ids": [
+        "fei-e-beyond-extreme-ai-stories"
+      ],
+      "application": {
+        "questions": [
+          "当前讨论能否落到一个具体系统、任务和可核对风险？"
+        ],
+        "steps": [
+          "拆出实际能力主张与尚未证明的预测。",
+          "查对应任务的证据和限制。"
+        ],
+        "limits": [
+          "不据此否定长期风险研究，也不把反对极端故事变成安全保证。"
+        ]
+      }
+    },
+    {
+      "id": "fei-p-beyond-language",
+      "title": "按任务理解AI，不把语言能力当全部智能",
+      "summary": "她提醒智能范围比语言能力更广，并以视觉研究为例。",
+      "topics": [
+        "任务选择",
+        "人工智能",
+        "视觉",
+        "能力范围"
+      ],
+      "evidence_ids": [
+        "fei-e-beyond-language"
+      ],
+      "application": {
+        "questions": [
+          "你的问题需要处理语言、图像、行动，还是多种信息？"
+        ],
+        "steps": [
+          "写清输入、输出和使用情境。",
+          "比较适合任务的方案，再讨论技术标签。"
+        ],
+        "limits": [
+          "这是能力范围提醒，不代表旧版本中提到的具体技术仍是当前最优方案。"
+        ]
+      }
+    },
+    {
+      "id": "fei-p-representative-data",
+      "title": "检查数据是否覆盖实际服务的人群",
+      "summary": "她用信用评分例子强调高质量、有代表性数据的重要性。",
+      "topics": [
+        "数据代表性",
+        "公平",
+        "真实人群",
+        "模型评价"
+      ],
+      "evidence_ids": [
+        "fei-e-representative-data"
+      ],
+      "application": {
+        "questions": [
+          "哪些使用者在训练与测试数据里缺失或不足？"
+        ],
+        "steps": [
+          "核对数据来源和人群覆盖。",
+          "按真实群体检查表现差异和限制。"
+        ],
+        "limits": [
+          "不能仅靠增加样本解决所有公平问题，也不沿用示例研究作为个人信用判断。"
+        ]
+      }
+    },
+    {
+      "id": "fei-p-privacy-from-start",
+      "title": "把隐私和安全作为早期设计条件",
+      "summary": "她要求在应用开始时就纳入数据隐私和安全安排。",
+      "topics": [
+        "隐私",
+        "安全",
+        "数据使用",
+        "设计前提"
+      ],
+      "evidence_ids": [
+        "fei-e-privacy-from-start"
+      ],
+      "application": {
+        "questions": [
+          "系统需要哪些数据，使用范围与保护安排是否清楚？"
+        ],
+        "steps": [
+          "先明确必要数据和用途。",
+          "核对访问、共享与保留边界。"
+        ],
+        "limits": [
+          "不是具体系统的安全审计或当前合规意见，也不证明任何工具已经安全。"
+        ]
+      }
+    },
+    {
+      "id": "fei-p-include-affected-stakeholders",
+      "title": "让受到影响的人参与开发和实施",
+      "summary": "她提到开发者、政策制定者、服务提供者和实际受影响者应共同参与。",
+      "topics": [
+        "利益相关者",
+        "参与设计",
+        "实施",
+        "协作"
+      ],
+      "evidence_ids": [
+        "fei-e-include-affected-stakeholders"
+      ],
+      "application": {
+        "questions": [
+          "谁承担系统改变的后果，他们是否有机会提出具体问题？"
+        ],
+        "steps": [
+          "列出实际使用者与受影响者。",
+          "在设计和落地阶段持续核对反馈。"
+        ],
+        "limits": [
+          "参与不能只是形式，也不能替代专业责任或必要审批。"
+        ]
+      }
+    },
+    {
+      "id": "fei-p-holistic-evaluation",
+      "title": "评价技术时同时检查准确、公平与现实可靠性",
+      "summary": "她主张评价不应只看单个准确率指标。",
+      "topics": [
+        "模型评价",
+        "现实可靠性",
+        "公平",
+        "准确率"
+      ],
+      "evidence_ids": [
+        "fei-e-holistic-evaluation"
+      ],
+      "application": {
+        "questions": [
+          "离线分数之外，系统在真实条件下怎样表现？"
+        ],
+        "steps": [
+          "明确场景、失败代价和相关群体。",
+          "检查多维评价并保留已知限制。"
+        ],
+        "limits": [
+          "这些维度不构成完整认证清单，也不能据此代替高风险场景的专业验证。"
+        ]
+      }
+    },
+    {
+      "id": "fei-p-vendor-transparency",
+      "title": "向技术提供者核对数据、风险和缓解方式",
+      "summary": "她建议提供者说明数据怎样收集标注，以及风险与应对。",
+      "topics": [
+        "供应商核对",
+        "透明",
+        "数据来源",
+        "风险披露"
+      ],
+      "evidence_ids": [
+        "fei-e-vendor-transparency"
+      ],
+      "application": {
+        "questions": [
+          "购买或使用前，你是否能取得足够信息判断实际风险？"
+        ],
+        "steps": [
+          "要求与任务有关的数据和风险说明。",
+          "用可核对材料检查承诺。"
+        ],
+        "limits": [
+          "公开说明不等于证实其内容，也不构成采购合同或法律审查。"
+        ]
+      }
+    },
+    {
+      "id": "fei-p-shared-research-resources",
+      "title": "把资源可达性纳入人才与创新讨论",
+      "summary": "她主张通过公共研究基础设施扩大学术机构取得数据和算力的机会。",
+      "topics": [
+        "研究资源",
+        "算力",
+        "人才培养",
+        "公共基础设施"
+      ],
+      "evidence_ids": [
+        "fei-e-shared-research-resources"
+      ],
+      "application": {
+        "questions": [
+          "有能力的人是否因为缺少关键资源而无法参与？"
+        ],
+        "steps": [
+          "明确真实资源缺口。",
+          "比较共享、合作与长期能力建设的可行性。"
+        ],
+        "limits": [
+          "这是当时的政策倡议，不是当前项目、法律或资源服务已经可用的证明。"
+        ]
+      }
+    },
+    {
+      "id": "fei-p-train-decision-makers",
+      "title": "让作采用决定的人理解技术能力与限制",
+      "summary": "她强调培训实际采购与治理人员，帮助他们作更细致的判断。",
+      "topics": [
+        "技术素养",
+        "决策者",
+        "能力限制",
+        "组织学习"
+      ],
+      "evidence_ids": [
+        "fei-e-train-decision-makers"
+      ],
+      "application": {
+        "questions": [
+          "批准使用的人是否知道系统能做什么、何时会失败？"
+        ],
+        "steps": [
+          "用真实任务说明能力和限制。",
+          "让负责人参与验证并持续更新理解。"
+        ],
+        "limits": [
+          "培训不自动赋予专业资格，也不沿用陈述中的政策作为当前法律要求。"
+        ]
+      }
+    }
+  ]
+}

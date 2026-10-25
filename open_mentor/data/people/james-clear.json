@@ -1,0 +1,1375 @@
+{
+  "schema_version": 1,
+  "person": {
+    "id": "james-clear",
+    "name": "詹姆斯·克利尔",
+    "aliases": [
+      "James Clear",
+      "詹姆斯克利尔",
+      "詹姆斯·克利爾"
+    ],
+    "description": "从作者官网文章、书摘和早期自出版手册整理身份、系统、提示、吸引力、行动门槛、反馈和恢复；保留版本差异，不把行为建议当临床疗效。"
+  },
+  "sources": [
+    {
+      "id": "clear-identity-based-habits",
+      "title": "Identity-Based Habits: How to Actually Stick to Your Goals This Year",
+      "url": "https://jamesclear.com/identity-based-habits",
+      "publisher": "James Clear / jamesclear.com",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2012-12-31",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "本人官网正文；部分当前页面已更新为 Atomic Habits 书摘。published_at 是网页原始发布元数据，不证明本次版本的每个字当时已经存在。只核对作者自己的正文，不把页内他人引语归于作者。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "db551b9cb4371b890986d6edacdb30521f463f7c9344dced0762482bc538aff8",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "clear-goals-systems",
+      "title": "Forget About Setting Goals. Focus on This Instead.",
+      "url": "https://jamesclear.com/goals-systems",
+      "publisher": "James Clear / jamesclear.com",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2013-10-28",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "本人官网正文；部分当前页面已更新为 Atomic Habits 书摘。published_at 是网页原始发布元数据，不证明本次版本的每个字当时已经存在。只核对作者自己的正文，不把页内他人引语归于作者。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "13785d9c9f7b20e4ea441f9a8b3cbb937f218c3cbd79f216d9f8fc18a496cf00",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "clear-habit-guide",
+      "title": "How to Build New Habits: This is Your Strategy Guide",
+      "url": "https://jamesclear.com/habit-guide",
+      "publisher": "James Clear / jamesclear.com",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2014-07-18",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "本人官网正文；部分当前页面已更新为 Atomic Habits 书摘。published_at 是网页原始发布元数据，不证明本次版本的每个字当时已经存在。只核对作者自己的正文，不把页内他人引语归于作者。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "b886888cbc610a07385a3968157a6d8944b8c63dbf8e8fcb7d8789b9cacf0590",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "clear-habit-stacking",
+      "title": "Habit Stacking: How to Build New Habits by Taking Advantage of Old Ones",
+      "url": "https://jamesclear.com/habit-stacking",
+      "publisher": "James Clear / jamesclear.com",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2014-08-01",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "本人官网正文；部分当前页面已更新为 Atomic Habits 书摘。published_at 是网页原始发布元数据，不证明本次版本的每个字当时已经存在。只核对作者自己的正文，不把页内他人引语归于作者。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "24a51a2fe4f465983abe3110d659cb02669832a24f33e0bee9e91e957648f269",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "clear-environment-design",
+      "title": "Environment Design: How to Improve Without Thinking",
+      "url": "https://jamesclear.com/environment-design",
+      "publisher": "James Clear / jamesclear.com",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2013-07-11",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "本人官网正文；部分当前页面已更新为 Atomic Habits 书摘。published_at 是网页原始发布元数据，不证明本次版本的每个字当时已经存在。只核对作者自己的正文，不把页内他人引语归于作者。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "2220f359bf0600b189cb2d1e9e57d25717c887c360966acbef5fdab4d55029f5",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "clear-goldilocks-rule",
+      "title": "The Goldilocks Rule: How to Stay Motivated in Life and Business",
+      "url": "https://jamesclear.com/goldilocks-rule",
+      "publisher": "James Clear / jamesclear.com",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2016-06-28",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "本人官网正文；部分当前页面已更新为 Atomic Habits 书摘。published_at 是网页原始发布元数据，不证明本次版本的每个字当时已经存在。只核对作者自己的正文，不把页内他人引语归于作者。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "88edc58f3fc2c3cab28fad805848967180466ac151694f6c59ca57ea64b2574e",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "clear-habit-tracker",
+      "title": "The Ultimate Habit Tracker Guide: Why and How to Track Your Habits - James Clear",
+      "url": "https://jamesclear.com/habit-tracker",
+      "publisher": "James Clear / jamesclear.com",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2019-01-14",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "本人官网正文；部分当前页面已更新为 Atomic Habits 书摘。published_at 是网页原始发布元数据，不证明本次版本的每个字当时已经存在。只核对作者自己的正文，不把页内他人引语归于作者。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "e34de6df22094e8f3212060de2de5b2fe74b600f7aa536f619e53b157aa3b3f2",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "clear-procrastinating",
+      "title": "How to Stop Procrastinating by Using the \"2-Minute Rule\"",
+      "url": "https://jamesclear.com/how-to-stop-procrastinating",
+      "publisher": "James Clear / jamesclear.com",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2013-05-27",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "本人官网正文；部分当前页面已更新为 Atomic Habits 书摘。published_at 是网页原始发布元数据，不证明本次版本的每个字当时已经存在。只核对作者自己的正文，不把页内他人引语归于作者。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "0b0be3fc263ee2cd545cc5eb87e9010ed54fe03e2d015769b28af80c5d37d4e5",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "clear-action",
+      "title": "The Mistake Smart People Make: Being In Motion vs. Taking Action",
+      "url": "https://jamesclear.com/taking-action",
+      "publisher": "James Clear / jamesclear.com",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2013-06-27",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "本人官网正文；部分当前页面已更新为 Atomic Habits 书摘。published_at 是网页原始发布元数据，不证明本次版本的每个字当时已经存在。只核对作者自己的正文，不把页内他人引语归于作者。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "1659d2b9b091f5ff4234d261bb2ef0bc3759fce9be90d0688a2e383e086fe581",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "clear-recovery",
+      "title": "How to Get Back on Track: 7 Ways to Bounce Back After Slipping Up",
+      "url": "https://jamesclear.com/get-back-on-track",
+      "publisher": "James Clear / jamesclear.com",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2013-03-21",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "本人官网正文；部分当前页面已更新为 Atomic Habits 书摘。published_at 是网页原始发布元数据，不证明本次版本的每个字当时已经存在。只核对作者自己的正文，不把页内他人引语归于作者。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "3b763888995fc22d1ee290fe3b6e79214bb98b8b2affeb94789708e4cf80588d",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "clear-bundling",
+      "title": "Temptation Bundling: A Simple Way to Boost Your Willpower",
+      "url": "https://jamesclear.com/temptation-bundling",
+      "publisher": "James Clear / jamesclear.com",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2015-06-25",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "本人官网正文；部分当前页面已更新为 Atomic Habits 书摘。published_at 是网页原始发布元数据，不证明本次版本的每个字当时已经存在。只核对作者自己的正文，不把页内他人引语归于作者。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "cac0868d06276942eb8012dbe9891ad8185529d48f6b3ad1ccfc4406d9d6dbb0",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "clear-habits-booklet",
+      "title": "Transform Your Habits, 2nd Edition",
+      "url": "https://jamesclear.com/wp-content/uploads/2013/09/habits-v2.pdf",
+      "publisher": "James Clear / jamesclear.com",
+      "kind": "book",
+      "authority": "first_party",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_pdf_text_check",
+        "note": "作者官网提供的早期自出版手册，非他人编选。只引用作者论述，保留其早期 3R 框架，不当成后续书籍版本或现代临床结论。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。"
+      },
+      "content_sha256": "a30934a5543090056f9ee71d0e6392567147f54afa1c2cbbdfd85ed88e50105d",
+      "refresh": {
+        "mode": "manual",
+        "interval_days": 90
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "clear-e-identity-direction",
+      "source_id": "clear-identity-based-habits",
+      "speaker": "詹姆斯·克利尔",
+      "excerpt": "Decide the type of person",
+      "summary": "他建议先明确想成为怎样的人，再选择能够支持这一身份的行为。",
+      "locator": {
+        "type": "heading",
+        "value": "Identity-Based Habits；两步建议的第一步"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "身份",
+        "习惯",
+        "自我认同",
+        "目标"
+      ],
+      "context": "作者讨论可由小行动支持的身份认同，不声称想象身份就能获得结果。"
+    },
+    {
+      "id": "clear-e-small-evidence",
+      "source_id": "clear-identity-based-habits",
+      "speaker": "詹姆斯·克利尔",
+      "excerpt": "small wins",
+      "summary": "他强调通过小的成功经历为新身份提供证据。",
+      "locator": {
+        "type": "heading",
+        "value": "Identity-Based Habits；第二步及其后的例子"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "小行动",
+        "习惯",
+        "信心",
+        "坚持"
+      ],
+      "context": "正文用实际记住姓名等经历说明证据的作用；不把短期感受当稳定人格结论。"
+    },
+    {
+      "id": "clear-e-systems-over-wishes",
+      "source_id": "clear-goals-systems",
+      "speaker": "詹姆斯·克利尔",
+      "excerpt": "systems are best for making progress",
+      "summary": "他区分决定方向的目标和推动日常进展的系统。",
+      "locator": {
+        "type": "heading",
+        "value": "Forget About Setting Goals；目标与系统的区分"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "系统",
+        "目标",
+        "执行",
+        "日常流程"
+      ],
+      "context": "原文并未要求取消目标，而是提醒不要只设置结果愿望。"
+    },
+    {
+      "id": "clear-e-shared-goals-bias",
+      "source_id": "clear-goals-systems",
+      "speaker": "詹姆斯·克利尔",
+      "excerpt": "Winners and losers have the same goals",
+      "summary": "他指出成功者和失败者可能具有同样目标，不能仅凭赢家故事解释结果。",
+      "locator": {
+        "type": "heading",
+        "value": "Problem #1"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "判断",
+        "目标",
+        "幸存者偏差",
+        "复盘"
+      ],
+      "context": "保留文章对幸存者偏差的讨论；不把一个人的成功经验当因果实验。"
+    },
+    {
+      "id": "clear-e-gradual-increase",
+      "source_id": "clear-habit-guide",
+      "speaker": "詹姆斯·克利尔",
+      "excerpt": "start small and gradually improve",
+      "summary": "他建议先小规模开始，再逐步提高行为负荷。",
+      "locator": {
+        "type": "heading",
+        "value": "2. Increase your habit in very small ways"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "习惯",
+        "渐进",
+        "执行难度",
+        "持续"
+      ],
+      "context": "只取渐进调整思路，不沿用旧文章中意志力资源模型的科学效力断言。"
+    },
+    {
+      "id": "clear-e-manageable-chunks",
+      "source_id": "clear-habit-guide",
+      "speaker": "詹姆斯·克利尔",
+      "excerpt": "break habits into chunks",
+      "summary": "他在增加行为量时仍要求保持单次任务合理、容易执行。",
+      "locator": {
+        "type": "heading",
+        "value": "3. As you build up, break habits into chunks"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "任务拆解",
+        "习惯",
+        "负荷",
+        "执行"
+      ],
+      "context": "文章同时强调保持合理节奏，不将增加总量理解为无限加码。"
+    },
+    {
+      "id": "clear-e-habit-stacking",
+      "source_id": "clear-habit-stacking",
+      "speaker": "詹姆斯·克利尔",
+      "excerpt": "After/Before [CURRENT HABIT]",
+      "summary": "他用已有习惯作为新习惯的明确触发点。",
+      "locator": {
+        "type": "heading",
+        "value": "Habit Stacking Examples；公式与具体提示"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "习惯叠加",
+        "提示",
+        "执行",
+        "日程"
+      ],
+      "context": "仅提取可观察的动作提示；不把模糊的有空时当作明确触发点。"
+    },
+    {
+      "id": "clear-e-environment-steps",
+      "source_id": "clear-environment-design",
+      "speaker": "詹姆斯·克利尔",
+      "excerpt": "the number of steps it takes to perform a habit",
+      "summary": "他建议用完成行为所需的步骤数来检查环境设计。",
+      "locator": {
+        "type": "heading",
+        "value": "环境设计的实际应用段落"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "环境设计",
+        "习惯",
+        "行动阻力",
+        "分心"
+      ],
+      "context": "原文引用研究后提出个人应用；这里不把研究例子的效应直接外推给当前用户。"
+    },
+    {
+      "id": "clear-e-manageable-challenge",
+      "source_id": "clear-goldilocks-rule",
+      "speaker": "詹姆斯·克利尔",
+      "excerpt": "just manageable difficulty",
+      "summary": "他用难度适中的挑战说明维持投入的一种方法。",
+      "locator": {
+        "type": "heading",
+        "value": "The Goldilocks Rule"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "动机",
+        "练习",
+        "难度",
+        "学习"
+      ],
+      "context": "以作者举例和方法建议记录，不将其脑科学表述当独立验证的事实。"
+    },
+    {
+      "id": "clear-e-visible-skill-feedback",
+      "source_id": "clear-goldilocks-rule",
+      "speaker": "詹姆斯·克利尔",
+      "excerpt": "measure your immediate progress",
+      "summary": "他把可见的即时进展与持续投入联系起来。",
+      "locator": {
+        "type": "heading",
+        "value": "Measure Your Progress"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "反馈",
+        "学习",
+        "练习",
+        "进展"
+      ],
+      "context": "文章引用其他研究者解释反馈；只归纳作者倡导的实践方向。"
+    },
+    {
+      "id": "clear-e-habit-record",
+      "source_id": "clear-habit-tracker",
+      "speaker": "詹姆斯·克利尔",
+      "excerpt": "record of your habit streak",
+      "summary": "他建议借助日历等工具留下行为是否发生的记录。",
+      "locator": {
+        "type": "heading",
+        "value": "What is Habit Tracking?"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "习惯追踪",
+        "反馈",
+        "执行记录",
+        "复盘"
+      ],
+      "context": "原文的跟踪工具与商业产品分开，不要求购买作者的付费工具。"
+    },
+    {
+      "id": "clear-e-resume-after-miss",
+      "source_id": "clear-habit-tracker",
+      "speaker": "詹姆斯·克利尔",
+      "excerpt": "Never miss twice",
+      "summary": "他用避免连续漏做提醒自己从中断中恢复。",
+      "locator": {
+        "type": "heading",
+        "value": "How to Recover Quickly When Your Habits Break Down"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "中断恢复",
+        "习惯",
+        "坚持",
+        "复盘"
+      ],
+      "context": "不把漏做一次理解成全部失败，也不把连续打卡当唯一目标。"
+    },
+    {
+      "id": "clear-e-two-minute-start",
+      "source_id": "clear-procrastinating",
+      "speaker": "詹姆斯·克利尔",
+      "excerpt": "less than two minutes to do",
+      "summary": "他建议把新行为的起点压缩到两分钟以内。",
+      "locator": {
+        "type": "heading",
+        "value": "How to Stop Procrastinating With the 2-Minute Rule"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "拖延",
+        "两分钟规则",
+        "习惯",
+        "启动"
+      ],
+      "context": "文章用读一页、打开笔记等起步动作举例，不保证两分钟能完成复杂任务。"
+    },
+    {
+      "id": "clear-e-standardize-first",
+      "source_id": "clear-procrastinating",
+      "speaker": "詹姆斯·克利尔",
+      "excerpt": "standardize before you can optimize",
+      "summary": "他建议先掌握按时开始的行为，再提高强度和质量。",
+      "locator": {
+        "type": "heading",
+        "value": "两分钟起步成为更长流程入口的段落"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "持续执行",
+        "优化",
+        "习惯",
+        "稳定性"
+      ],
+      "context": "原段落把两分钟动作看作更大流程的入口，不倡导长期停留于最低投入。"
+    },
+    {
+      "id": "clear-e-action-produces-output",
+      "source_id": "clear-action",
+      "speaker": "詹姆斯·克利尔",
+      "excerpt": "behavior that will deliver an outcome",
+      "summary": "他区分规划学习等准备和能够直接产生成果的行动。",
+      "locator": {
+        "type": "heading",
+        "value": "Motion vs. Action"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "行动",
+        "交付",
+        "拖延",
+        "结果"
+      ],
+      "context": "原文将 motion 与 action 作方法性区分，并注明受到 Steve Blank 启发。"
+    },
+    {
+      "id": "clear-e-launch-date",
+      "source_id": "clear-action",
+      "speaker": "詹姆斯·克利尔",
+      "excerpt": "Pick a date",
+      "summary": "他对发布等非日常任务建议安排从准备切换到行动的日期。",
+      "locator": {
+        "type": "heading",
+        "value": "2. Pick a date to shift you from motion to action"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "交付",
+        "截止日期",
+        "发布",
+        "执行"
+      ],
+      "context": "原文区别一次性大任务与适合日常重复的行动计划。"
+    },
+    {
+      "id": "clear-e-supportive-accountability",
+      "source_id": "clear-recovery",
+      "speaker": "詹姆斯·克利尔",
+      "excerpt": "expects something of you",
+      "summary": "他认为有人期待自己出现，有时能帮助恢复执行。",
+      "locator": {
+        "type": "heading",
+        "value": "3. Have someone who expects something of you"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "协作",
+        "习惯恢复",
+        "责任",
+        "支持"
+      ],
+      "context": "原文举运动伙伴等例子，并非一套适合所有人的监督制度。"
+    },
+    {
+      "id": "clear-e-check-real-priority",
+      "source_id": "clear-recovery",
+      "speaker": "詹姆斯·克利尔",
+      "excerpt": "actually important to you",
+      "summary": "他提醒反复忘记某项习惯时，也可以检查它是否真对自己重要。",
+      "locator": {
+        "type": "heading",
+        "value": "7. Care"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "目标取舍",
+        "习惯",
+        "优先级",
+        "自我判断"
+      ],
+      "context": "保留作者关于并非多数情况都如此的限定，不从漏做诊断意志或价值观。"
+    },
+    {
+      "id": "clear-e-temptation-bundling",
+      "source_id": "clear-bundling",
+      "speaker": "詹姆斯·克利尔",
+      "excerpt": "habit stacking + temptation bundling",
+      "summary": "他建议把想做的活动与需要完成的行为连接起来。",
+      "locator": {
+        "type": "heading",
+        "value": "How to Create Your Temptation Bundle"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "诱惑捆绑",
+        "动机",
+        "习惯",
+        "吸引力"
+      ],
+      "context": "作者明确讨论已有心理学理论及研究者的方法，不归为独创科学发现。"
+    },
+    {
+      "id": "clear-e-satisfying-feedback",
+      "source_id": "clear-habits-booklet",
+      "speaker": "詹姆斯·克利尔",
+      "excerpt": "positive feedback loop",
+      "summary": "他在早期手册中把奖励作为习惯循环的一部分。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第10页；Step Three 与 Result"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "奖励",
+        "习惯",
+        "满足感",
+        "反馈"
+      ],
+      "context": "作者官网早期自出版文本，图示注明参考 Charles Duhigg；与后来四阶段表述分开记录。"
+    }
+  ],
+  "principles": [
+    {
+      "id": "clear-p-identity-direction",
+      "title": "把习惯连接到自己想成为的人",
+      "summary": "他建议先明确想成为怎样的人，再选择能够支持这一身份的行为。",
+      "topics": [
+        "身份",
+        "习惯",
+        "自我认同",
+        "目标"
+      ],
+      "evidence_ids": [
+        "clear-e-identity-direction"
+      ],
+      "application": {
+        "questions": [
+          "你希望形成的身份，具体会做什么可观察的动作？"
+        ],
+        "steps": [
+          "把身份愿望写成一个日常行为。",
+          "用行动记录检查，而不是只给自己贴标签。"
+        ],
+        "limits": [
+          "身份描述不能替代能力、资源或现实限制，也不用于心理诊断。"
+        ]
+      }
+    },
+    {
+      "id": "clear-p-small-evidence",
+      "title": "用小完成积累自我信任",
+      "summary": "他强调通过小的成功经历为新身份提供证据。",
+      "topics": [
+        "小行动",
+        "习惯",
+        "信心",
+        "坚持"
+      ],
+      "evidence_ids": [
+        "clear-e-small-evidence"
+      ],
+      "application": {
+        "questions": [
+          "今天能完成哪个足够小、又能留下证据的动作？"
+        ],
+        "steps": [
+          "选一个能实际完成的最小行为。",
+          "记录是否做到，再逐步调整难度。"
+        ],
+        "limits": [
+          "小完成是建立行为证据，不证明复杂目标已经达成。"
+        ]
+      }
+    },
+    {
+      "id": "clear-p-systems-over-wishes",
+      "title": "把结果目标落实为重复流程",
+      "summary": "他区分决定方向的目标和推动日常进展的系统。",
+      "topics": [
+        "系统",
+        "目标",
+        "执行",
+        "日常流程"
+      ],
+      "evidence_ids": [
+        "clear-e-systems-over-wishes"
+      ],
+      "application": {
+        "questions": [
+          "为了接近目标，下周会重复执行什么流程？"
+        ],
+        "steps": [
+          "定义每次行动的触发条件、动作和检查方式。",
+          "安排一次复盘，观察流程是否带来实际结果。"
+        ],
+        "limits": [
+          "系统也可能执行错误方向，仍需用目标和实际结果校正。"
+        ]
+      }
+    },
+    {
+      "id": "clear-p-shared-goals-bias",
+      "title": "检查目标之外的成功条件",
+      "summary": "他指出成功者和失败者可能具有同样目标，不能仅凭赢家故事解释结果。",
+      "topics": [
+        "判断",
+        "目标",
+        "幸存者偏差",
+        "复盘"
+      ],
+      "evidence_ids": [
+        "clear-e-shared-goals-bias"
+      ],
+      "application": {
+        "questions": [
+          "你归因于目标的结果，是否也可能来自条件、选择或运气？"
+        ],
+        "steps": [
+          "找一个同样有目标却未成功的对照。",
+          "比较流程、资源和反馈，不仅比较口号。"
+        ],
+        "limits": [
+          "这是作者对目标设定的批评，不能反向证明某个系统必然成功。"
+        ]
+      }
+    },
+    {
+      "id": "clear-p-gradual-increase",
+      "title": "从能持续完成的规模逐渐增加",
+      "summary": "他建议先小规模开始，再逐步提高行为负荷。",
+      "topics": [
+        "习惯",
+        "渐进",
+        "执行难度",
+        "持续"
+      ],
+      "evidence_ids": [
+        "clear-e-gradual-increase"
+      ],
+      "application": {
+        "questions": [
+          "你能稳定完成的起点有多小？"
+        ],
+        "steps": [
+          "选择一周内容易重复的起点。",
+          "根据实际完成情况再增加，而不是一次加满。"
+        ],
+        "limits": [
+          "原文的一百分比喻不是可预测收益或人人适用的增长速度。"
+        ]
+      }
+    },
+    {
+      "id": "clear-p-manageable-chunks",
+      "title": "把增长后的习惯拆成可完成单元",
+      "summary": "他在增加行为量时仍要求保持单次任务合理、容易执行。",
+      "topics": [
+        "任务拆解",
+        "习惯",
+        "负荷",
+        "执行"
+      ],
+      "evidence_ids": [
+        "clear-e-manageable-chunks"
+      ],
+      "application": {
+        "questions": [
+          "总量增加后，是否可以拆成不会明显拖延的小单元？"
+        ],
+        "steps": [
+          "把任务分成可明确结束的几段。",
+          "比较拆分前后的完成率和实际效果。"
+        ],
+        "limits": [
+          "拆分不能替代需要连续投入的训练或专业要求。"
+        ]
+      }
+    },
+    {
+      "id": "clear-p-habit-stacking",
+      "title": "把新行为接到稳定提示之后",
+      "summary": "他用已有习惯作为新习惯的明确触发点。",
+      "topics": [
+        "习惯叠加",
+        "提示",
+        "执行",
+        "日程"
+      ],
+      "evidence_ids": [
+        "clear-e-habit-stacking"
+      ],
+      "application": {
+        "questions": [
+          "哪个已稳定发生的动作能提醒你开始新行为？"
+        ],
+        "steps": [
+          "写出旧动作之后要做的新动作。",
+          "检查旧动作出现频率和当时条件是否合适。"
+        ],
+        "limits": [
+          "文章注明与 BJ Fogg 的方法有关，不把全部框架说成作者独创；提示也需要实际验证。"
+        ]
+      }
+    },
+    {
+      "id": "clear-p-environment-steps",
+      "title": "通过环境改变行动阻力",
+      "summary": "他建议用完成行为所需的步骤数来检查环境设计。",
+      "topics": [
+        "环境设计",
+        "习惯",
+        "行动阻力",
+        "分心"
+      ],
+      "evidence_ids": [
+        "clear-e-environment-steps"
+      ],
+      "application": {
+        "questions": [
+          "什么布置让想做的事难开始、让分心的事太容易？"
+        ],
+        "steps": [
+          "为想做的行为减少准备步骤。",
+          "为不想要的行为增加一次有意识的选择，再检查效果。"
+        ],
+        "limits": [
+          "环境调整不保证改变所有行为，不替代对健康或心理问题的专业评估。"
+        ]
+      }
+    },
+    {
+      "id": "clear-p-manageable-challenge",
+      "title": "把练习难度调到可以应对但仍有挑战",
+      "summary": "他用难度适中的挑战说明维持投入的一种方法。",
+      "topics": [
+        "动机",
+        "练习",
+        "难度",
+        "学习"
+      ],
+      "evidence_ids": [
+        "clear-e-manageable-challenge"
+      ],
+      "application": {
+        "questions": [
+          "任务让你无聊，还是难到无法得到有效反馈？"
+        ],
+        "steps": [
+          "缩小或增加一个可调的任务维度。",
+          "根据完成质量调整下一轮难度。"
+        ],
+        "limits": [
+          "不存在由本文给出的通用最优难度数值；竞技故事不证明适用于每个人。"
+        ]
+      }
+    },
+    {
+      "id": "clear-p-visible-skill-feedback",
+      "title": "让练习尽快获得可用反馈",
+      "summary": "他把可见的即时进展与持续投入联系起来。",
+      "topics": [
+        "反馈",
+        "学习",
+        "练习",
+        "进展"
+      ],
+      "evidence_ids": [
+        "clear-e-visible-skill-feedback"
+      ],
+      "application": {
+        "questions": [
+          "完成一次练习后，你能否知道哪里有进步、哪里要改？"
+        ],
+        "steps": [
+          "选择一个能尽快观察的反馈信号。",
+          "用反馈调整练习，不只累计投入时间。"
+        ],
+        "limits": [
+          "短期反馈可能有噪声，不能完全代表长期学习质量。"
+        ]
+      }
+    },
+    {
+      "id": "clear-p-habit-record",
+      "title": "用简单记录看见执行情况",
+      "summary": "他建议借助日历等工具留下行为是否发生的记录。",
+      "topics": [
+        "习惯追踪",
+        "反馈",
+        "执行记录",
+        "复盘"
+      ],
+      "evidence_ids": [
+        "clear-e-habit-record"
+      ],
+      "application": {
+        "questions": [
+          "你记录的是实际完成，还是仅仅记录计划？"
+        ],
+        "steps": [
+          "只选少量关键行为记录是否完成。",
+          "定期检查记录是否仍连接实际目标。"
+        ],
+        "limits": [
+          "打卡和连续天数只是过程指标，不能代替成果、质量和健康状态。"
+        ]
+      }
+    },
+    {
+      "id": "clear-p-resume-after-miss",
+      "title": "漏做后尽快恢复下一次行动",
+      "summary": "他用避免连续漏做提醒自己从中断中恢复。",
+      "topics": [
+        "中断恢复",
+        "习惯",
+        "坚持",
+        "复盘"
+      ],
+      "evidence_ids": [
+        "clear-e-resume-after-miss"
+      ],
+      "application": {
+        "questions": [
+          "下一次可恢复的机会是什么，而不是还要追究上次漏做多久？"
+        ],
+        "steps": [
+          "找出中断原因。",
+          "安排下一次可行行动，必要时降低当次规模。"
+        ],
+        "limits": [
+          "这是行为提醒，不要求生病、受伤或负担过重时强行完成。"
+        ]
+      }
+    },
+    {
+      "id": "clear-p-two-minute-start",
+      "title": "把新习惯缩成容易开始的版本",
+      "summary": "他建议把新行为的起点压缩到两分钟以内。",
+      "topics": [
+        "拖延",
+        "两分钟规则",
+        "习惯",
+        "启动"
+      ],
+      "evidence_ids": [
+        "clear-e-two-minute-start"
+      ],
+      "application": {
+        "questions": [
+          "这件事的两分钟起步版本是什么？"
+        ],
+        "steps": [
+          "选一个能引向目标的微小开头。",
+          "完成后观察是否自然继续，而不要求首日达到最终强度。"
+        ],
+        "limits": [
+          "这是缩小新习惯起点，和 David Allen 的两分钟内任务立即做完规则含义不同。"
+        ]
+      }
+    },
+    {
+      "id": "clear-p-standardize-first",
+      "title": "先稳定出现再优化表现",
+      "summary": "他建议先掌握按时开始的行为，再提高强度和质量。",
+      "topics": [
+        "持续执行",
+        "优化",
+        "习惯",
+        "稳定性"
+      ],
+      "evidence_ids": [
+        "clear-e-standardize-first"
+      ],
+      "application": {
+        "questions": [
+          "你是在稳定执行之后优化，还是用优化推迟开始？"
+        ],
+        "steps": [
+          "先固定一种可重复的起步方式。",
+          "实际执行一段时间后，只调整一个影响效果的因素。"
+        ],
+        "limits": [
+          "稳定出现是基础，不等于忽略成果质量；安全和专业标准仍需满足。"
+        ]
+      }
+    },
+    {
+      "id": "clear-p-action-produces-output",
+      "title": "区分准备工作与真正交付",
+      "summary": "他区分规划学习等准备和能够直接产生成果的行动。",
+      "topics": [
+        "行动",
+        "交付",
+        "拖延",
+        "结果"
+      ],
+      "evidence_ids": [
+        "clear-e-action-produces-output"
+      ],
+      "application": {
+        "questions": [
+          "今天的工作最终产生了什么可检查的交付？"
+        ],
+        "steps": [
+          "为当前项目定义一个可交付成果。",
+          "给必要准备设置边界，并安排一次实际产出。"
+        ],
+        "limits": [
+          "准备有其价值，尤其涉及高风险或专业要求时；不能把销售前联系等必要过程说成没有用。"
+        ]
+      }
+    },
+    {
+      "id": "clear-p-launch-date",
+      "title": "为一次性交付设定明确日期",
+      "summary": "他对发布等非日常任务建议安排从准备切换到行动的日期。",
+      "topics": [
+        "交付",
+        "截止日期",
+        "发布",
+        "执行"
+      ],
+      "evidence_ids": [
+        "clear-e-launch-date"
+      ],
+      "application": {
+        "questions": [
+          "哪个明确日期会触发一次可评审的交付？"
+        ],
+        "steps": [
+          "确定范围可控的交付日期。",
+          "把范围和必要准备倒排，超出能力时调整范围或日期。"
+        ],
+        "limits": [
+          "截止日期不能替代质量核验，也不要求公开不必要的私人承诺。"
+        ]
+      }
+    },
+    {
+      "id": "clear-p-supportive-accountability",
+      "title": "借助具体的协作期待恢复行动",
+      "summary": "他认为有人期待自己出现，有时能帮助恢复执行。",
+      "topics": [
+        "协作",
+        "习惯恢复",
+        "责任",
+        "支持"
+      ],
+      "evidence_ids": [
+        "clear-e-supportive-accountability"
+      ],
+      "application": {
+        "questions": [
+          "谁能在不增加负担的前提下支持你完成下一次行动？"
+        ],
+        "steps": [
+          "和愿意配合的人约定具体而有限的检查。",
+          "复盘这种安排是在支持执行还是制造额外压力。"
+        ],
+        "limits": [
+          "这是可选支持方式，不能把羞耻、强迫或监视当作激励。"
+        ]
+      }
+    },
+    {
+      "id": "clear-p-check-real-priority",
+      "title": "恢复习惯前重查它是否仍重要",
+      "summary": "他提醒反复忘记某项习惯时，也可以检查它是否真对自己重要。",
+      "topics": [
+        "目标取舍",
+        "习惯",
+        "优先级",
+        "自我判断"
+      ],
+      "evidence_ids": [
+        "clear-e-check-real-priority"
+      ],
+      "application": {
+        "questions": [
+          "这个习惯服务什么仍然重要的目标？"
+        ],
+        "steps": [
+          "写出保留它的具体理由。",
+          "在恢复、改成更合适的行为和主动停止之间作选择。"
+        ],
+        "limits": [
+          "原文说这只是有时成立，不能把所有中断都归因于不在乎。"
+        ]
+      }
+    },
+    {
+      "id": "clear-p-temptation-bundling",
+      "title": "把必要行动与喜欢的活动合理配对",
+      "summary": "他建议把想做的活动与需要完成的行为连接起来。",
+      "topics": [
+        "诱惑捆绑",
+        "动机",
+        "习惯",
+        "吸引力"
+      ],
+      "evidence_ids": [
+        "clear-e-temptation-bundling"
+      ],
+      "application": {
+        "questions": [
+          "哪种喜欢的活动可以安全地帮助你开始必要行动？"
+        ],
+        "steps": [
+          "选择一组互不妨碍的行为。",
+          "做小规模尝试，检查配对是否改善实际完成。"
+        ],
+        "limits": [
+          "配对不能损害注意力、安全或目标本身；文中研究与案例不构成效果保证。"
+        ]
+      }
+    },
+    {
+      "id": "clear-p-satisfying-feedback",
+      "title": "让完成行为获得可感知的正向反馈",
+      "summary": "他在早期手册中把奖励作为习惯循环的一部分。",
+      "topics": [
+        "奖励",
+        "习惯",
+        "满足感",
+        "反馈"
+      ],
+      "evidence_ids": [
+        "clear-e-satisfying-feedback"
+      ],
+      "application": {
+        "questions": [
+          "完成行动后，有什么不会破坏目标的小反馈？"
+        ],
+        "steps": [
+          "在完成后安排简单、可持续且与目标一致的反馈。",
+          "观察是否促进继续行动，而不是只追逐奖励。"
+        ],
+        "limits": [
+          "早期 3R 版本是作者的简化框架，不等于所有行为的科学定律；不把奖励当临床干预。"
+        ]
+      }
+    }
+  ]
+}

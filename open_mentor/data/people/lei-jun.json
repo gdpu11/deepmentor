@@ -1,0 +1,1178 @@
+{
+  "schema_version": 1,
+  "person": {
+    "id": "lei-jun",
+    "name": "雷军",
+    "aliases": [
+      "Lei Jun",
+      "雷軍"
+    ],
+    "description": "从武汉大学原发讲话与授课记录、2018 年亲署公开信、2020 年原发布演讲实录整理目标、创业准备、用户、效率、质量、技术与责任；保留历史语境和自述边界。"
+  },
+  "sources": [
+    {
+      "id": "lei-whu-2015-original",
+      "title": "雷军：相信梦想，坚持梦想-武汉大学新闻网",
+      "url": "https://news.whu.edu.cn/info/1002/43786.htm",
+      "publisher": "武汉大学 / 王珂据录音整理，宣妍参与整理",
+      "kind": "essay",
+      "authority": "publisher",
+      "published_at": "2015-06-27",
+      "language": "zh",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "学校原发本校毕业典礼讲话，页面明确说明据录音整理、标题为编者所加。只核对雷军正文；不使用编者注中的排名等数据作为本人原话。未逐句听辨录音。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "676ddffec6081b6c54772142a98c514b40e055de590b9bdc184f6cdc38397c16",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "lei-whu-2017-original",
+      "title": "雷军回校谈创业经：好好念书是第一步-武汉大学新闻网",
+      "url": "https://news.whu.edu.cn/info/1002/48413.htm",
+      "publisher": "武汉大学报社 / 肖珊原发授课报道",
+      "kind": "interview",
+      "authority": "publisher",
+      "published_at": "2017-04-10",
+      "language": "zh",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "原发记录 2017-04-08 本校创业课；区分雷军直接引语、记者归纳和其他校领导发言。学校推荐语和旁人评价不归入雷军观点。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "bbd9c258ff6ef15b86993758fd3206175d794b9d955e218da493603daa7e88fc",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "lei-prospectus-2018",
+      "title": "雷军：来自董事长的公开信 — 小米2018年招股书",
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2018/0625/LTN20180625034_C.pdf",
+      "publisher": "小米 / 香港交易所刊载之雷军亲署公开信",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2018-06-25",
+      "language": "zh-Hant",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_pdf_text_check",
+        "note": "仅取 PDF第6—10页（文件页序）的董事长公开信。已经渲染核对信首和末页雷军署名；页内标题的文字提取有字体映射缺损，引用取自可读正文并核对页码。published_at 是招股书刊载日期，不推断原信写作日；其后招股书正文不当成本人观点。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "28f35e2d4b3f2308c163a727978d6a0231737c99c58087f41b1f9e601d3bbed3",
+      "refresh": {
+        "mode": "manual",
+        "interval_days": 90
+      }
+    },
+    {
+      "id": "lei-2020-geekpark",
+      "title": "小米十周年，雷军做了一场 4 小时的走心演讲（实录） | 极客公园",
+      "url": "https://www.geekpark.net/news/264145",
+      "publisher": "极客公园 / 原发布演讲实录",
+      "kind": "essay",
+      "authority": "publisher",
+      "published_at": "2020-08-11",
+      "language": "zh",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "原发布者标注实录略有删节；发布日期核对页面公开 published_at 数据。保留管理者历史自述和口语速记属性；不引用疑似错字，不声称已逐句听辨原片。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "43a155f901e329e839b818289f42667671199b87ec270975938c49cca8544e0b",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "lei-whu-2023",
+      "title": "【百卅珞珈】雷军：我的科技探索之路-武汉大学新闻网",
+      "url": "https://news.whu.edu.cn/info/1002/447457.htm",
+      "publisher": "武汉大学党委宣传部 / 雷军本校论坛讲话原文",
+      "kind": "essay",
+      "authority": "publisher",
+      "published_at": "2023-11-30",
+      "language": "zh",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "学校原发第九届校友珞珈论坛讲话；发表日与实际讲话日期分开。只使用雷军自己的论述，不把自述公司数据和未来技术目标当独立核验结论。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "d7577669288e5f762c54d40108b8e3f6f560152668cb9a72a3092902397eec6e",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "lei-e-dream-to-actions",
+      "source_id": "lei-whu-2015-original",
+      "speaker": "雷军",
+      "excerpt": "付诸行动",
+      "summary": "他通过大学阶段的经历说明，愿望需要落实为行动。",
+      "locator": {
+        "type": "heading",
+        "value": "第一点；梦想与具体实践"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "目标",
+        "执行",
+        "职业方向",
+        "学习"
+      ],
+      "context": "只提炼其自述方法，不使用编者注中的学业排名作因果证明。"
+    },
+    {
+      "id": "lei-e-long-term-revisit",
+      "source_id": "lei-whu-2015-original",
+      "speaker": "雷军",
+      "excerpt": "坚持梦想",
+      "summary": "他在演讲中追问多年以后是否仍愿意为梦想行动。",
+      "locator": {
+        "type": "heading",
+        "value": "第二点；长期选择的提问"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "长期目标",
+        "坚持",
+        "取舍",
+        "职业"
+      ],
+      "context": "保留其对创业艰难的提醒，不把励志表达当作人人必须创业。"
+    },
+    {
+      "id": "lei-e-prototype-before-public-promise",
+      "source_id": "lei-whu-2015-original",
+      "speaker": "雷军",
+      "excerpt": "产品做得差不多",
+      "summary": "他回忆再次创业时先低调做产品，以应对失败顾虑。",
+      "locator": {
+        "type": "heading",
+        "value": "第二点；再次创业的顾虑与做产品"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "创业准备",
+        "承诺",
+        "原型",
+        "风险"
+      ],
+      "context": "不把其低调做产品的自述推广成唯一正确的创业方式。"
+    },
+    {
+      "id": "lei-e-education-before-dropping-out",
+      "source_id": "lei-whu-2017-original",
+      "speaker": "雷军",
+      "excerpt": "学业",
+      "summary": "他提醒在校学生认真完成学业，再学习创业技能。",
+      "locator": {
+        "type": "heading",
+        "value": "不要退学创业，好好念书是第一步"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "创业准备",
+        "学业",
+        "基础能力",
+        "职业选择"
+      ],
+      "context": "原发布授课记录中的观点；不把记者列举的个人成就当作普遍成功条件。"
+    },
+    {
+      "id": "lei-e-commercial-experience",
+      "source_id": "lei-whu-2017-original",
+      "speaker": "雷军",
+      "excerpt": "商业技能",
+      "summary": "他建议通过实际工作积累创业所需技能与人际网络。",
+      "locator": {
+        "type": "heading",
+        "value": "关于毕业后先积累工作经验的段落"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "商业技能",
+        "创业时机",
+        "职业经验",
+        "合作"
+      ],
+      "context": "保留演讲对象与历史语境，步骤为编辑推演。"
+    },
+    {
+      "id": "lei-e-startup-motivation",
+      "source_id": "lei-whu-2017-original",
+      "speaker": "雷军",
+      "excerpt": "虚荣",
+      "summary": "他提醒不要只因羡慕创业光环或虚荣就作决定。",
+      "locator": {
+        "type": "heading",
+        "value": "关于创业艰辛与动机的直接引语"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "创业动机",
+        "风险准备",
+        "现实约束",
+        "选择"
+      ],
+      "context": "其观点是创业前的提醒，不证明某种动机必然导致失败。"
+    },
+    {
+      "id": "lei-e-value-and-price",
+      "source_id": "lei-prospectus-2018",
+      "speaker": "雷军",
+      "excerpt": "價格厚道",
+      "summary": "他把产品体验和价格厚道视为相互关联的承诺。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第6页（文件页序）；公开信开头；产品与价格的关系"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "产品价值",
+        "价格",
+        "用户体验",
+        "商业判断"
+      ],
+      "context": "这是其当时的经营主张，不是对产品效果或当前定价的独立验证。"
+    },
+    {
+      "id": "lei-e-whole-chain-efficiency",
+      "source_id": "lei-prospectus-2018",
+      "speaker": "雷军",
+      "excerpt": "商業效率",
+      "summary": "他质疑只压生产成本而忽略交易和流通耗损的做法。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第8页（文件页序）；公开信；关于生产、运营和交易成本的讨论"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "经营效率",
+        "成本",
+        "流程",
+        "商业模式"
+      ],
+      "context": "不把成本降低等同于压缩质量、劳动保障或必要服务。"
+    },
+    {
+      "id": "lei-e-user-participation",
+      "source_id": "lei-prospectus-2018",
+      "speaker": "雷军",
+      "excerpt": "開發和改進",
+      "summary": "他把用户对产品开发与改进的参与列为小米的重要特点。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第7页（文件页序）；公开信；关于用户与产品参与"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "用户参与",
+        "产品迭代",
+        "反馈",
+        "社区"
+      ],
+      "context": "这是管理者对其品牌与用户关系的自述，不证明社群一定忠诚或具有代表性。"
+    },
+    {
+      "id": "lei-e-growth-foundations",
+      "source_id": "lei-prospectus-2018",
+      "speaker": "雷军",
+      "excerpt": "主動減速",
+      "summary": "他回顾高速发展后减速补足创新、质量和交付能力。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第7页（文件页序）；公开信；2016年困难与补课"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "增长",
+        "质量",
+        "交付",
+        "组织能力"
+      ],
+      "context": "只提炼复查能力基础，不沿用其对行业唯一性的自述。"
+    },
+    {
+      "id": "lei-e-ecosystem-cooperation",
+      "source_id": "lei-prospectus-2018",
+      "speaker": "雷军",
+      "excerpt": "生態鏈模式",
+      "summary": "他描述通过生态链与更多企业共同提供产品。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第9页（文件页序）；公开信；关于开放商业生态的段落"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "生态合作",
+        "分工",
+        "产品组合",
+        "合作伙伴"
+      ],
+      "context": "不把某公司的生态规模或前景预测当当前事实。"
+    },
+    {
+      "id": "lei-e-few-core-functions",
+      "source_id": "lei-2020-geekpark",
+      "speaker": "雷军",
+      "excerpt": "4 个功能",
+      "summary": "他回忆 MIUI 起步时集中资源改进少量高频功能。",
+      "locator": {
+        "type": "heading",
+        "value": "关于 MIUI 第一版的回忆"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "产品取舍",
+        "核心功能",
+        "资源",
+        "用户需求"
+      ],
+      "context": "原发布速记中的历史案例；不把后续用户增长当单一原因的证明。"
+    },
+    {
+      "id": "lei-e-local-market-capability",
+      "source_id": "lei-2020-geekpark",
+      "speaker": "雷军",
+      "excerpt": "渠道的能力",
+      "summary": "他把印度市场库存挫折与用户、品牌和渠道基础不足联系起来。",
+      "locator": {
+        "type": "heading",
+        "value": "关于印度库存与复盘的段落"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "国际化",
+        "市场验证",
+        "库存",
+        "扩张风险"
+      ],
+      "context": "保留他自己对挫折的解释，不转成独立因果结论或当前跨境建议。"
+    },
+    {
+      "id": "lei-e-quality-foundation",
+      "source_id": "lei-2020-geekpark",
+      "speaker": "雷军",
+      "excerpt": "生命线",
+      "summary": "他在回顾经营困难时把质量放在生存与创新的基础位置。",
+      "locator": {
+        "type": "heading",
+        "value": "关于质量运动和创新的段落"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "质量",
+        "产品",
+        "经营困难",
+        "可靠性"
+      ],
+      "context": "速记有疑似口语错字，不引用该处；使用可核对的质量表述与上下文。"
+    },
+    {
+      "id": "lei-e-complementary-team",
+      "source_id": "lei-2020-geekpark",
+      "speaker": "雷军",
+      "excerpt": "铁人三项",
+      "summary": "他回忆用软件、硬件和互联网的互补能力组织早期团队。",
+      "locator": {
+        "type": "heading",
+        "value": "早期商业构想、林斌与洪锋的回忆"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "团队",
+        "能力互补",
+        "招募",
+        "创业准备"
+      ],
+      "context": "不把找到知名人才或大型公司的履历当成创业成功的保证。"
+    },
+    {
+      "id": "lei-e-broaden-by-projects",
+      "source_id": "lei-whu-2023",
+      "speaker": "雷军",
+      "excerpt": "多想多试",
+      "summary": "他从大学尝试多种软硬件项目的经历中提炼多想多试。",
+      "locator": {
+        "type": "heading",
+        "value": "我的科技探索之路；大学项目与开源经历"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "学习",
+        "项目实践",
+        "能力",
+        "探索"
+      ],
+      "context": "不把个人天赋或早期故事写成所有人的成长路径。"
+    },
+    {
+      "id": "lei-e-learn-new-domain",
+      "source_id": "lei-whu-2023",
+      "speaker": "雷军",
+      "excerpt": "认真补课",
+      "summary": "他回顾从软件进入硬件后学习技术并补强工程团队。",
+      "locator": {
+        "type": "heading",
+        "value": "从软件到硬件"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "跨行",
+        "学习",
+        "能力边界",
+        "技术"
+      ],
+      "context": "不把频繁开会或极端工时作为应复制的方法。"
+    },
+    {
+      "id": "lei-e-patient-technical-investment",
+      "source_id": "lei-whu-2023",
+      "speaker": "雷军",
+      "excerpt": "持续加大",
+      "summary": "他把技术体系、人才和产业经验视为需要长期投入的条件。",
+      "locator": {
+        "type": "heading",
+        "value": "下一个十年；研发投入与技术体系"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "技术积累",
+        "长期投入",
+        "人才",
+        "研发"
+      ],
+      "context": "不沿用其未来投入和市场地位预测作为当前事实。"
+    },
+    {
+      "id": "lei-e-open-learning-cooperation",
+      "source_id": "lei-whu-2023",
+      "speaker": "雷军",
+      "excerpt": "自我封闭",
+      "summary": "他主张发展自身能力时仍保持开放合作的视野。",
+      "locator": {
+        "type": "heading",
+        "value": "下一个十年；开放创新的讨论"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "开放学习",
+        "合作",
+        "能力建设",
+        "技术视野"
+      ],
+      "context": "保留历史语境，不把开放与自主简化为互相排斥。"
+    },
+    {
+      "id": "lei-e-give-within-means",
+      "source_id": "lei-whu-2023",
+      "speaker": "雷军",
+      "excerpt": "不主张攀比",
+      "summary": "他在谈捐赠时明确不主张攀比，强调不同形式的实际行动。",
+      "locator": {
+        "type": "heading",
+        "value": "感恩与责任"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "责任",
+        "回馈",
+        "价值选择",
+        "资源边界"
+      ],
+      "context": "只是其个人价值表达，不把捐赠数额当道德或成功标准。"
+    }
+  ],
+  "principles": [
+    {
+      "id": "lei-p-dream-to-actions",
+      "title": "把愿望拆成可以实际尝试的目标",
+      "summary": "他通过大学阶段的经历说明，愿望需要落实为行动。",
+      "topics": [
+        "目标",
+        "执行",
+        "职业方向",
+        "学习"
+      ],
+      "evidence_ids": [
+        "lei-e-dream-to-actions"
+      ],
+      "application": {
+        "questions": [
+          "这个愿望下一步能变成什么实际动作？"
+        ],
+        "steps": [
+          "选择一项范围清楚的小任务。",
+          "用完成情况和反馈调整下一步。"
+        ],
+        "limits": [
+          "个人经历不证明他人能按相同速度完成，也不保证最终结果。"
+        ]
+      }
+    },
+    {
+      "id": "lei-p-long-term-revisit",
+      "title": "定期重查长期目标是否仍值得投入",
+      "summary": "他在演讲中追问多年以后是否仍愿意为梦想行动。",
+      "topics": [
+        "长期目标",
+        "坚持",
+        "取舍",
+        "职业"
+      ],
+      "evidence_ids": [
+        "lei-e-long-term-revisit"
+      ],
+      "application": {
+        "questions": [
+          "几年以后仍值得保留的目标是什么，代价是否能够承受？"
+        ],
+        "steps": [
+          "写下目标仍重要的理由。",
+          "按阶段检查现实条件，必要时调整目标和路径。"
+        ],
+        "limits": [
+          "坚持不是无视证据；演讲的鼓励语不构成成功保证。"
+        ]
+      }
+    },
+    {
+      "id": "lei-p-prototype-before-public-promise",
+      "title": "先形成实际进展再扩大外部承诺",
+      "summary": "他回忆再次创业时先低调做产品，以应对失败顾虑。",
+      "topics": [
+        "创业准备",
+        "承诺",
+        "原型",
+        "风险"
+      ],
+      "evidence_ids": [
+        "lei-e-prototype-before-public-promise"
+      ],
+      "application": {
+        "questions": [
+          "你是否在尚无交付能力时就承担了很大的公开承诺？"
+        ],
+        "steps": [
+          "先验证一个实际产品或交付样本。",
+          "根据证据决定对外承诺的范围。"
+        ],
+        "limits": [
+          "这是其个人选择，不意味着所有项目都应保密或延迟必要的用户验证。"
+        ]
+      }
+    },
+    {
+      "id": "lei-p-education-before-dropping-out",
+      "title": "不要用创业冲动跳过基础准备",
+      "summary": "他提醒在校学生认真完成学业，再学习创业技能。",
+      "topics": [
+        "创业准备",
+        "学业",
+        "基础能力",
+        "职业选择"
+      ],
+      "evidence_ids": [
+        "lei-e-education-before-dropping-out"
+      ],
+      "application": {
+        "questions": [
+          "当前最缺的是机会，还是必要的知识与技能基础？"
+        ],
+        "steps": [
+          "列出进入该领域所需能力。",
+          "比较保留学业与工作、逐步验证和直接投入的实际成本。"
+        ],
+        "limits": [
+          "这是面向当年在校学生的建议，不证明某条教育路径适合所有人。"
+        ]
+      }
+    },
+    {
+      "id": "lei-p-commercial-experience",
+      "title": "进入创业前积累商业经验和协作关系",
+      "summary": "他建议通过实际工作积累创业所需技能与人际网络。",
+      "topics": [
+        "商业技能",
+        "创业时机",
+        "职业经验",
+        "合作"
+      ],
+      "evidence_ids": [
+        "lei-e-commercial-experience"
+      ],
+      "application": {
+        "questions": [
+          "除技术外，你是否实际做过客户、销售、成本和团队协作？"
+        ],
+        "steps": [
+          "找一个能接触真实业务闭环的任务。",
+          "用小项目识别缺口并补齐。"
+        ],
+        "limits": [
+          "不把他举出的投资者平均年龄当个人创业门槛，也不保证大公司经历必然有效。"
+        ]
+      }
+    },
+    {
+      "id": "lei-p-startup-motivation",
+      "title": "用实际代价检验创业动机",
+      "summary": "他提醒不要只因羡慕创业光环或虚荣就作决定。",
+      "topics": [
+        "创业动机",
+        "风险准备",
+        "现实约束",
+        "选择"
+      ],
+      "evidence_ids": [
+        "lei-e-startup-motivation"
+      ],
+      "application": {
+        "questions": [
+          "即使没有名声和短期回报，你仍愿意解决这个问题吗？"
+        ],
+        "steps": [
+          "了解实际经营的日常和可能损失。",
+          "给时间、生活与资金设置可承受边界。"
+        ],
+        "limits": [
+          "动机检查不用于评价他人品格；缺少资源也不是意志问题。"
+        ]
+      }
+    },
+    {
+      "id": "lei-p-value-and-price",
+      "title": "把产品体验与用户付出的价格一起考虑",
+      "summary": "他把产品体验和价格厚道视为相互关联的承诺。",
+      "topics": [
+        "产品价值",
+        "价格",
+        "用户体验",
+        "商业判断"
+      ],
+      "evidence_ids": [
+        "lei-e-value-and-price"
+      ],
+      "application": {
+        "questions": [
+          "用户得到的改善，是否值得承担全部购买和使用成本？"
+        ],
+        "steps": [
+          "同时说明产品效果、价格和使用负担。",
+          "用真实用户反馈检查这三者是否匹配。"
+        ],
+        "limits": [
+          "低价不自动等于好价值，也不能把某家公司的利润承诺当所有业务必须遵守的比例。"
+        ]
+      }
+    },
+    {
+      "id": "lei-p-whole-chain-efficiency",
+      "title": "从整个交付链条寻找无效成本",
+      "summary": "他质疑只压生产成本而忽略交易和流通耗损的做法。",
+      "topics": [
+        "经营效率",
+        "成本",
+        "流程",
+        "商业模式"
+      ],
+      "evidence_ids": [
+        "lei-e-whole-chain-efficiency"
+      ],
+      "application": {
+        "questions": [
+          "用户支付的成本中，哪些来自必要价值，哪些来自低效环节？"
+        ],
+        "steps": [
+          "画出从生产到交付的全部环节。",
+          "选择一个有证据的浪费点改善并重新测量。"
+        ],
+        "limits": [
+          "文章的行业成本例子是其论述，不直接适用于当前行业或企业。"
+        ]
+      }
+    },
+    {
+      "id": "lei-p-user-participation",
+      "title": "让真实用户参与产品改进",
+      "summary": "他把用户对产品开发与改进的参与列为小米的重要特点。",
+      "topics": [
+        "用户参与",
+        "产品迭代",
+        "反馈",
+        "社区"
+      ],
+      "evidence_ids": [
+        "lei-e-user-participation"
+      ],
+      "application": {
+        "questions": [
+          "用户反馈能否进入具体的改进和验证流程？"
+        ],
+        "steps": [
+          "邀请一小群真实使用者完成任务。",
+          "记录问题、改动与结果，再向参与者说明进展。"
+        ],
+        "limits": [
+          "活跃社群不代表全部用户，不能只采纳最响亮的声音。"
+        ]
+      }
+    },
+    {
+      "id": "lei-p-growth-foundations",
+      "title": "增长暴露基础短板时先补课",
+      "summary": "他回顾高速发展后减速补足创新、质量和交付能力。",
+      "topics": [
+        "增长",
+        "质量",
+        "交付",
+        "组织能力"
+      ],
+      "evidence_ids": [
+        "lei-e-growth-foundations"
+      ],
+      "application": {
+        "questions": [
+          "增长是否已超过当前质量、交付和组织承受能力？"
+        ],
+        "steps": [
+          "把增长指标与缺陷、延期和负荷放在一起看。",
+          "先处理最影响实际交付的基础问题。"
+        ],
+        "limits": [
+          "管理者对历史复苏的解释不是经过控制验证的成功因果。"
+        ]
+      }
+    },
+    {
+      "id": "lei-p-ecosystem-cooperation",
+      "title": "把生态合作建立在清楚的分工上",
+      "summary": "他描述通过生态链与更多企业共同提供产品。",
+      "topics": [
+        "生态合作",
+        "分工",
+        "产品组合",
+        "合作伙伴"
+      ],
+      "evidence_ids": [
+        "lei-e-ecosystem-cooperation"
+      ],
+      "application": {
+        "questions": [
+          "哪些能力应自己负责，哪些适合与别人合作？"
+        ],
+        "steps": [
+          "明确各方能力、利益和责任。",
+          "先用一项可独立核验的合作交付测试关系。"
+        ],
+        "limits": [
+          "参与生态不保证收益，仍需检查依赖、控制权和退出安排。"
+        ]
+      }
+    },
+    {
+      "id": "lei-p-few-core-functions",
+      "title": "先把少数核心使用任务做好",
+      "summary": "他回忆 MIUI 起步时集中资源改进少量高频功能。",
+      "topics": [
+        "产品取舍",
+        "核心功能",
+        "资源",
+        "用户需求"
+      ],
+      "evidence_ids": [
+        "lei-e-few-core-functions"
+      ],
+      "application": {
+        "questions": [
+          "用户最常完成的任务是什么，哪些功能可以暂后？"
+        ],
+        "steps": [
+          "选一条高频任务链。",
+          "把有限资源用于让它完整、稳定地工作。"
+        ],
+        "limits": [
+          "四个功能是当时的产品选择，不是所有产品的固定数量。"
+        ]
+      }
+    },
+    {
+      "id": "lei-p-local-market-capability",
+      "title": "扩张前验证当地需求和渠道能力",
+      "summary": "他把印度市场库存挫折与用户、品牌和渠道基础不足联系起来。",
+      "topics": [
+        "国际化",
+        "市场验证",
+        "库存",
+        "扩张风险"
+      ],
+      "evidence_ids": [
+        "lei-e-local-market-capability"
+      ],
+      "application": {
+        "questions": [
+          "原市场成立的做法，在新市场具备相同前提吗？"
+        ],
+        "steps": [
+          "先核对本地需求、规则和交付条件。",
+          "以小规模试单验证，再决定库存和投入。"
+        ],
+        "limits": [
+          "历史市场数据和规则不能沿用到今天，也不能只凭一次案例解释全部结果。"
+        ]
+      }
+    },
+    {
+      "id": "lei-p-quality-foundation",
+      "title": "在困难中先守住产品质量",
+      "summary": "他在回顾经营困难时把质量放在生存与创新的基础位置。",
+      "topics": [
+        "质量",
+        "产品",
+        "经营困难",
+        "可靠性"
+      ],
+      "evidence_ids": [
+        "lei-e-quality-foundation"
+      ],
+      "application": {
+        "questions": [
+          "用户最无法接受的缺陷是否已经得到处理？"
+        ],
+        "steps": [
+          "确认最关键的质量底线。",
+          "先减少严重缺陷，再验证新的增长或创新动作。"
+        ],
+        "limits": [
+          "质量必要性不证明它足以解决全部经营问题；不把宣传性成效当独立验证。"
+        ]
+      }
+    },
+    {
+      "id": "lei-p-complementary-team",
+      "title": "围绕实际能力缺口组建团队",
+      "summary": "他回忆用软件、硬件和互联网的互补能力组织早期团队。",
+      "topics": [
+        "团队",
+        "能力互补",
+        "招募",
+        "创业准备"
+      ],
+      "evidence_ids": [
+        "lei-e-complementary-team"
+      ],
+      "application": {
+        "questions": [
+          "当前目标所需的哪些关键能力仍没有负责人？"
+        ],
+        "steps": [
+          "列出能力缺口及交付职责。",
+          "通过实际合作检验匹配，而不只看履历。"
+        ],
+        "limits": [
+          "三类能力是该项目的条件，不是通用创业配置；坚持招募也需要尊重对方意愿。"
+        ]
+      }
+    },
+    {
+      "id": "lei-p-broaden-by-projects",
+      "title": "通过多种实际项目扩展能力",
+      "summary": "他从大学尝试多种软硬件项目的经历中提炼多想多试。",
+      "topics": [
+        "学习",
+        "项目实践",
+        "能力",
+        "探索"
+      ],
+      "evidence_ids": [
+        "lei-e-broaden-by-projects"
+      ],
+      "application": {
+        "questions": [
+          "你能通过哪个小项目检验尚未了解的能力方向？"
+        ],
+        "steps": [
+          "选择一个有实际结果的小尝试。",
+          "记录学到的约束和下一步需要补的能力。"
+        ],
+        "limits": [
+          "尝试需要资源边界，不照搬其未经允许进入机房的经历；原文也承认该行为不当。"
+        ]
+      }
+    },
+    {
+      "id": "lei-p-learn-new-domain",
+      "title": "跨入新领域时补足领域基础",
+      "summary": "他回顾从软件进入硬件后学习技术并补强工程团队。",
+      "topics": [
+        "跨行",
+        "学习",
+        "能力边界",
+        "技术"
+      ],
+      "evidence_ids": [
+        "lei-e-learn-new-domain"
+      ],
+      "application": {
+        "questions": [
+          "新领域里哪些能力不能由过去经验直接代替？"
+        ],
+        "steps": [
+          "找出关键知识和实际操作缺口。",
+          "请有经验的人检查一个具体方案，再逐步承担更多责任。"
+        ],
+        "limits": [
+          "自述的学习速度不适用于所有人，必要时仍需要专业资质和长期训练。"
+        ]
+      }
+    },
+    {
+      "id": "lei-p-patient-technical-investment",
+      "title": "把长期技术目标连接到能力积累",
+      "summary": "他把技术体系、人才和产业经验视为需要长期投入的条件。",
+      "topics": [
+        "技术积累",
+        "长期投入",
+        "人才",
+        "研发"
+      ],
+      "evidence_ids": [
+        "lei-e-patient-technical-investment"
+      ],
+      "application": {
+        "questions": [
+          "投入会沉淀哪些能被检验、能持续复用的能力？"
+        ],
+        "steps": [
+          "分清探索、基础能力建设与近期交付。",
+          "设阶段性技术证据和资源检查点。"
+        ],
+        "limits": [
+          "原文的三十年等说法是历史观察和鼓励，不是技术成功的固定年限或保证。"
+        ]
+      }
+    },
+    {
+      "id": "lei-p-open-learning-cooperation",
+      "title": "把自主能力建设与开放学习结合",
+      "summary": "他主张发展自身能力时仍保持开放合作的视野。",
+      "topics": [
+        "开放学习",
+        "合作",
+        "能力建设",
+        "技术视野"
+      ],
+      "evidence_ids": [
+        "lei-e-open-learning-cooperation"
+      ],
+      "application": {
+        "questions": [
+          "你是否因强调独立而忽略可学习的方法或合适的合作？"
+        ],
+        "steps": [
+          "分别评估必须掌握的能力和可以合作的部分。",
+          "核对合作条件、权利义务与适用规则。"
+        ],
+        "limits": [
+          "这是其当时的技术发展主张，不是对当前政策或任何具体合作的法律判断。"
+        ]
+      }
+    },
+    {
+      "id": "lei-p-give-within-means",
+      "title": "按照能力和意愿承担回馈责任",
+      "summary": "他在谈捐赠时明确不主张攀比，强调不同形式的实际行动。",
+      "topics": [
+        "责任",
+        "回馈",
+        "价值选择",
+        "资源边界"
+      ],
+      "evidence_ids": [
+        "lei-e-give-within-means"
+      ],
+      "application": {
+        "questions": [
+          "哪种帮助与你的能力、意愿和现有责任相符？"
+        ],
+        "steps": [
+          "选择一项可持续的帮助方式。",
+          "在不损害必要生活和既有承诺的范围内行动。"
+        ],
+        "limits": [
+          "不能要求接受帮助的人必须捐赠或按比例回报，也不复制富裕者的金额。"
+        ]
+      }
+    }
+  ]
+}

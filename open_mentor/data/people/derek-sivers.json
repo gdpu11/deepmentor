@@ -1,0 +1,1120 @@
+{
+  "schema_version": 1,
+  "person": {
+    "id": "derek-sivers",
+    "name": "德里克·西弗斯",
+    "aliases": [
+      "Derek Sivers",
+      "德里克西弗斯",
+      "西弗斯"
+    ],
+    "description": "从本人官网文章整理选择、创作、行动、具体化、授权、工作强度、消费及客户关系；只使用作者正文，区分读者留言与自述案例。"
+  },
+  "sources": [
+    {
+      "id": "sivers-hell-yeah",
+      "title": "No “yes.” Either “HELL YEAH!” or “no.” | Derek Sivers",
+      "url": "https://sive.rs/hellyeah",
+      "publisher": "Derek Sivers / 本人官网",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "只核对评论表单之前的作者正文，读者留言不归于作者。不用最早评论日期推断完整刊载日。个人经历、商业数字、夸张比例和幸福感概括不当独立事实；应用保留文章前提。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。"
+      },
+      "content_sha256": "08f83a12375cf2c9bf74fe9db5a779d195ebf4282876433cd71df7b4ef0d891d",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "sivers-goals",
+      "title": "Goals shape the present, not the future. | Derek Sivers",
+      "url": "https://sive.rs/goals",
+      "publisher": "Derek Sivers / 本人官网",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "只核对评论表单之前的作者正文，读者留言不归于作者。不用最早评论日期推断完整刊载日。个人经历、商业数字、夸张比例和幸福感概括不当独立事实；应用保留文章前提。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。"
+      },
+      "content_sha256": "774d4b71041c99d1b38f95d324a7e71a7ed090868a101920153dad9f646a11dc",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "sivers-action-identity",
+      "title": "Small actions change your self-identity | Derek Sivers",
+      "url": "https://sive.rs/actid",
+      "publisher": "Derek Sivers / 本人官网",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "只核对评论表单之前的作者正文，读者留言不归于作者。不用最早评论日期推断完整刊载日。个人经历、商业数字、夸张比例和幸福感概括不当独立事实；应用保留文章前提。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。"
+      },
+      "content_sha256": "d151b38782f6ab7b975f5124cdf6a9d8834bf9e1af48289c591a8e3748d8c226",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "sivers-no-plan",
+      "title": "You don’t need a plan or a vision | Derek Sivers",
+      "url": "https://sive.rs/noplan",
+      "publisher": "Derek Sivers / 本人官网",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "只核对评论表单之前的作者正文，读者留言不归于作者。不用最早评论日期推断完整刊载日。个人经历、商业数字、夸张比例和幸福感概括不当独立事实；应用保留文章前提。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。"
+      },
+      "content_sha256": "a187acf033124af762e2e4e4a5e95356c76fb73d17a4e48e5600220c89172677",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "sivers-specific",
+      "title": "Get specific! | Derek Sivers",
+      "url": "https://sive.rs/get-specific",
+      "publisher": "Derek Sivers / 本人官网",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "只核对评论表单之前的作者正文，读者留言不归于作者。不用最早评论日期推断完整刊载日。个人经历、商业数字、夸张比例和幸福感概括不当独立事实；应用保留文章前提。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。"
+      },
+      "content_sha256": "f36763565397db590c4d2ec9ec1b9bcbb74a37837ecf854e1e4aef8a0c262995",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "sivers-multiply",
+      "title": "Ideas are just a multiplier of execution | Derek Sivers",
+      "url": "https://sive.rs/multiply",
+      "publisher": "Derek Sivers / 本人官网",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "只核对评论表单之前的作者正文，读者留言不归于作者。不用最早评论日期推断完整刊载日。个人经历、商业数字、夸张比例和幸福感概括不当独立事实；应用保留文章前提。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。"
+      },
+      "content_sha256": "c1999221f3e0fe367e3f1fcf26f879515d1100959a248d941ae19306579d88fe",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "sivers-delegate",
+      "title": "Delegate or die: the self-employed trap. | Derek Sivers",
+      "url": "https://sive.rs/delegate",
+      "publisher": "Derek Sivers / 本人官网",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "只核对评论表单之前的作者正文，读者留言不归于作者。不用最早评论日期推断完整刊载日。个人经历、商业数字、夸张比例和幸福感概括不当独立事实；应用保留文章前提。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。"
+      },
+      "content_sha256": "0a65f426f2515232b574ce55d15dddbf763b8a30780c812e906652163315e79e",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "sivers-relax",
+      "title": "Relax for the same result | Derek Sivers",
+      "url": "https://sive.rs/relax",
+      "publisher": "Derek Sivers / 本人官网",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "只核对评论表单之前的作者正文，读者留言不归于作者。不用最早评论日期推断完整刊载日。个人经历、商业数字、夸张比例和幸福感概括不当独立事实；应用保留文章前提。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。"
+      },
+      "content_sha256": "f89a9965cb8430049ac446f5051054d17734c29213b066739047c591286b2593",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "sivers-obvious",
+      "title": "Obvious to you. Amazing to others. | Derek Sivers",
+      "url": "https://sive.rs/obvious",
+      "publisher": "Derek Sivers / 本人官网",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "只核对评论表单之前的作者正文，读者留言不归于作者。不用最早评论日期推断完整刊载日。个人经历、商业数字、夸张比例和幸福感概括不当独立事实；应用保留文章前提。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。"
+      },
+      "content_sha256": "c105b1b06347d33f2ff45ae380c95861adfe0e0062b005b251912e1e901ef40e",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "sivers-enough",
+      "title": "You have enough. | Derek Sivers",
+      "url": "https://sive.rs/enough",
+      "publisher": "Derek Sivers / 本人官网",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "只核对评论表单之前的作者正文，读者留言不归于作者。不用最早评论日期推断完整刊载日。个人经历、商业数字、夸张比例和幸福感概括不当独立事实；应用保留文章前提。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。"
+      },
+      "content_sha256": "9cfca202257df098971ad9c130396142e87368ae6c5018f345f93aefc5c20eb9",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "sivers-customers",
+      "title": "The philosophy of great customer service | Derek Sivers",
+      "url": "https://sive.rs/cs",
+      "publisher": "Derek Sivers / 本人官网",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "只核对评论表单之前的作者正文，读者留言不归于作者。不用最早评论日期推断完整刊载日。个人经历、商业数字、夸张比例和幸福感概括不当独立事实；应用保留文章前提。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。"
+      },
+      "content_sha256": "48b0fda78847d59f9c5a2488f9799b7e8de420cf7ab22bde033f2e9a78a8c2d2",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "sivers-many-customers",
+      "title": "The strength of many little customers | Derek Sivers",
+      "url": "https://sive.rs/blc",
+      "publisher": "Derek Sivers / 本人官网",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "只核对评论表单之前的作者正文，读者留言不归于作者。不用最早评论日期推断完整刊载日。个人经历、商业数字、夸张比例和幸福感概括不当独立事实；应用保留文章前提。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。"
+      },
+      "content_sha256": "39f122794ced73b49b18e35f570e16ac1f17ade7097bba1cb65953059cf047f8",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "sivers-e-selective-commitments",
+      "source_id": "sivers-hell-yeah",
+      "speaker": "德里克·西弗斯",
+      "excerpt": "over-committed",
+      "summary": "他将HELL YEAH or no明确用于过度承诺、注意力分散的情形。",
+      "locator": {
+        "type": "heading",
+        "value": "文章开头的适用前提与选择规则"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "承诺管理",
+        "取舍",
+        "过度负荷",
+        "注意力"
+      ],
+      "context": "作者个人经验与价值主张；应用步骤为编辑推演，不是确定因果或成功保证。"
+    },
+    {
+      "id": "sivers-e-goals-change-today",
+      "source_id": "sivers-goals",
+      "speaker": "德里克·西弗斯",
+      "excerpt": "present moment",
+      "summary": "他建议检查目标是否让人知道现在能做什么。",
+      "locator": {
+        "type": "heading",
+        "value": "目标与当下行动的讨论"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "目标具体化",
+        "当前行动",
+        "执行",
+        "方向"
+      ],
+      "context": "作者个人经验与价值主张；应用步骤为编辑推演，不是确定因果或成功保证。"
+    },
+    {
+      "id": "sivers-e-concrete-milestones",
+      "source_id": "sivers-specific",
+      "speaker": "德里克·西弗斯",
+      "excerpt": "milestones",
+      "summary": "他建议先写下已知细节，再将愿望拆到可以行动的层级。",
+      "locator": {
+        "type": "heading",
+        "value": "第1部分；写清已知细节"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "目标拆解",
+        "里程碑",
+        "任务",
+        "具体化"
+      ],
+      "context": "作者个人经验与价值主张；应用步骤为编辑推演，不是确定因果或成功保证。"
+    },
+    {
+      "id": "sivers-e-research-next-step",
+      "source_id": "sivers-specific",
+      "speaker": "德里克·西弗斯",
+      "excerpt": "Research",
+      "summary": "他用寻找演出经纪人的例子说明，研究能把模糊愿望变成可联系对象和动作。",
+      "locator": {
+        "type": "heading",
+        "value": "第2部分；研究不知道的事情"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "信息检索",
+        "求助",
+        "下一步",
+        "行动障碍"
+      ],
+      "context": "作者个人经验与价值主张；应用步骤为编辑推演，不是确定因果或成功保证。"
+    },
+    {
+      "id": "sivers-e-small-action-identity",
+      "source_id": "sivers-action-identity",
+      "speaker": "德里克·西弗斯",
+      "excerpt": "small action",
+      "summary": "他描述小行动与自我认识相互影响的个人观察。",
+      "locator": {
+        "type": "heading",
+        "value": "正文；行动与self-identity"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "自我认识",
+        "小行动",
+        "实践",
+        "开始"
+      ],
+      "context": "作者个人经验与价值主张；应用步骤为编辑推演，不是确定因果或成功保证。"
+    },
+    {
+      "id": "sivers-e-help-before-grand-vision",
+      "source_id": "sivers-no-plan",
+      "speaker": "德里克·西弗斯",
+      "excerpt": "helping people",
+      "summary": "他回忆CD Baby起步时没有宏大长期计划，先解决音乐人的现实需求。",
+      "locator": {
+        "type": "heading",
+        "value": "结尾；服务今天的需求"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "创业准备",
+        "现实需求",
+        "探索",
+        "愿景"
+      ],
+      "context": "作者个人经验与价值主张；应用步骤为编辑推演，不是确定因果或成功保证。"
+    },
+    {
+      "id": "sivers-e-execution-evidence",
+      "source_id": "sivers-multiply",
+      "speaker": "德里克·西弗斯",
+      "excerpt": "execution",
+      "summary": "他用乘法比喻强调，只有点子而没有执行不足以形成生意。",
+      "locator": {
+        "type": "heading",
+        "value": "正文；ideas与execution"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "创意",
+        "交付",
+        "实践",
+        "商业验证"
+      ],
+      "context": "作者个人经验与价值主张；应用步骤为编辑推演，不是确定因果或成功保证。"
+    },
+    {
+      "id": "sivers-e-founder-bottleneck",
+      "source_id": "sivers-delegate",
+      "speaker": "德里克·西弗斯",
+      "excerpt": "questions",
+      "summary": "他回忆同事不断请示让自己无法推进更重要的工作。",
+      "locator": {
+        "type": "heading",
+        "value": "开头；持续请示与工作受阻"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "创始人瓶颈",
+        "授权",
+        "工作负荷",
+        "组织"
+      ],
+      "context": "作者个人经验与价值主张；应用步骤为编辑推演，不是确定因果或成功保证。"
+    },
+    {
+      "id": "sivers-e-explain-decision-principles",
+      "source_id": "sivers-delegate",
+      "speaker": "德里克·西弗斯",
+      "excerpt": "philosophy",
+      "summary": "他不仅给出问题答案，也说明背后的想法并明确下次可以自行决定。",
+      "locator": {
+        "type": "heading",
+        "value": "关于共同解释并授权的过程"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "授权边界",
+        "决策原则",
+        "团队",
+        "职责"
+      ],
+      "context": "作者个人经验与价值主张；应用步骤为编辑推演，不是确定因果或成功保证。"
+    },
+    {
+      "id": "sivers-e-living-operating-guide",
+      "source_id": "sivers-delegate",
+      "speaker": "德里克·西弗斯",
+      "excerpt": "manual",
+      "summary": "他让团队记录案例、原则，并通过教学继续传递。",
+      "locator": {
+        "type": "heading",
+        "value": "记录判断与learn by teaching"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "操作指南",
+        "知识传承",
+        "团队培训",
+        "流程"
+      ],
+      "context": "作者个人经验与价值主张；应用步骤为编辑推演，不是确定因果或成功保证。"
+    },
+    {
+      "id": "sivers-e-effort-and-marginal-result",
+      "source_id": "sivers-relax",
+      "speaker": "德里克·西弗斯",
+      "excerpt": "stress",
+      "summary": "他用两次骑行的个人体验反思投入感与边际结果的差别。",
+      "locator": {
+        "type": "heading",
+        "value": "骑行对比与结尾反思"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "工作强度",
+        "边际效果",
+        "压力",
+        "节奏"
+      ],
+      "context": "作者个人经验与价值主张；应用步骤为编辑推演，不是确定因果或成功保证。"
+    },
+    {
+      "id": "sivers-e-share-ordinary-work",
+      "source_id": "sivers-obvious",
+      "speaker": "德里克·西弗斯",
+      "excerpt": "share",
+      "summary": "他回顾自己的普通想法对别人可能有不同价值。",
+      "locator": {
+        "type": "heading",
+        "value": "结尾；是否因obvious而不分享"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "创作",
+        "发布",
+        "反馈",
+        "自我评价"
+      ],
+      "context": "作者个人经验与价值主张；应用步骤为编辑推演，不是确定因果或成功保证。"
+    },
+    {
+      "id": "sivers-e-enough-and-needs",
+      "source_id": "sivers-enough",
+      "speaker": "德里克·西弗斯",
+      "excerpt": "want",
+      "summary": "他用不替商品造势的选择表达对知足和消费刺激的反思。",
+      "locator": {
+        "type": "heading",
+        "value": "开头；不增加商品欲望的噪声"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "消费选择",
+        "需要",
+        "满足",
+        "资源"
+      ],
+      "context": "作者个人经验与价值主张；应用步骤为编辑推演，不是确定因果或成功保证。"
+    },
+    {
+      "id": "sivers-e-reachable-service",
+      "source_id": "sivers-customers",
+      "speaker": "德里克·西弗斯",
+      "excerpt": "real person",
+      "summary": "他回顾客户重视能联系到实际的人，而非自己原先猜测的功能重点。",
+      "locator": {
+        "type": "heading",
+        "value": "开头；询问客户选择理由"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "客户服务",
+        "用户研究",
+        "联系渠道",
+        "实际价值"
+      ],
+      "context": "作者个人经验与价值主张；应用步骤为编辑推演，不是确定因果或成功保证。"
+    },
+    {
+      "id": "sivers-e-customer-concentration",
+      "source_id": "sivers-many-customers",
+      "speaker": "德里克·西弗斯",
+      "excerpt": "big clients",
+      "summary": "他比较集中取悦少数大客户与服务较多小客户的不同约束。",
+      "locator": {
+        "type": "heading",
+        "value": "正文；大客户与许多小客户的比较"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "客户集中度",
+        "依赖",
+        "经营自主",
+        "风险"
+      ],
+      "context": "作者个人经验与价值主张；应用步骤为编辑推演，不是确定因果或成功保证。"
+    }
+  ],
+  "principles": [
+    {
+      "id": "sivers-p-selective-commitments",
+      "title": "已经过度承诺时提高接受新事项的门槛",
+      "summary": "他将HELL YEAH or no明确用于过度承诺、注意力分散的情形。",
+      "topics": [
+        "承诺管理",
+        "取舍",
+        "过度负荷",
+        "注意力"
+      ],
+      "evidence_ids": [
+        "sivers-e-selective-commitments"
+      ],
+      "application": {
+        "questions": [
+          "你是在寻找必要机会，还是已经答应了太多可选事项？"
+        ],
+        "steps": [
+          "先列出已有责任和可用资源。",
+          "为值得投入的少数事项保留空间。"
+        ],
+        "limits": [
+          "不适合把所有必要责任或初期探索都按兴奋程度一刀切。"
+        ]
+      }
+    },
+    {
+      "id": "sivers-p-goals-change-today",
+      "title": "用目标是否改变当下行动来检验具体程度",
+      "summary": "他建议检查目标是否让人知道现在能做什么。",
+      "topics": [
+        "目标具体化",
+        "当前行动",
+        "执行",
+        "方向"
+      ],
+      "evidence_ids": [
+        "sivers-e-goals-change-today"
+      ],
+      "application": {
+        "questions": [
+          "目标今天能转成哪个现实动作？"
+        ],
+        "steps": [
+          "把远期愿望转为一个明确任务。",
+          "检查时间、资源和前提是否允许开始。"
+        ],
+        "limits": [
+          "推迟可能来自健康、资源和责任限制，不等于目标坏或不够热爱。"
+        ]
+      }
+    },
+    {
+      "id": "sivers-p-concrete-milestones",
+      "title": "把模糊愿望拆成具体组成与里程碑",
+      "summary": "他建议先写下已知细节，再将愿望拆到可以行动的层级。",
+      "topics": [
+        "目标拆解",
+        "里程碑",
+        "任务",
+        "具体化"
+      ],
+      "evidence_ids": [
+        "sivers-e-concrete-milestones"
+      ],
+      "application": {
+        "questions": [
+          "你能否说明完成目标需要哪些具体组成？"
+        ],
+        "steps": [
+          "写下当前知道的要求。",
+          "选一个能开始验证的里程碑。"
+        ],
+        "limits": [
+          "拆解不保证目标可达，金额和创作目标都还需验证现实条件。"
+        ]
+      }
+    },
+    {
+      "id": "sivers-p-research-next-step",
+      "title": "把不知道下一步转成具体的信息问题",
+      "summary": "他用寻找演出经纪人的例子说明，研究能把模糊愿望变成可联系对象和动作。",
+      "topics": [
+        "信息检索",
+        "求助",
+        "下一步",
+        "行动障碍"
+      ],
+      "evidence_ids": [
+        "sivers-e-research-next-step"
+      ],
+      "application": {
+        "questions": [
+          "阻止你行动的是哪个还不知道的具体信息？"
+        ],
+        "steps": [
+          "列出缺失的信息和可信查找入口。",
+          "先确认一项最关键前提。"
+        ],
+        "limits": [
+          "不照搬文中的研究时长，也不把找到联系人当对方愿意合作的保证。"
+        ]
+      }
+    },
+    {
+      "id": "sivers-p-small-action-identity",
+      "title": "用一项小行动检验想成为怎样的人",
+      "summary": "他描述小行动与自我认识相互影响的个人观察。",
+      "topics": [
+        "自我认识",
+        "小行动",
+        "实践",
+        "开始"
+      ],
+      "evidence_ids": [
+        "sivers-e-small-action-identity"
+      ],
+      "application": {
+        "questions": [
+          "有没有一项安全的小行动，可以让你实际体验这个角色？"
+        ],
+        "steps": [
+          "选择一个范围清楚的尝试。",
+          "记录体验和反馈，再决定是否继续。"
+        ],
+        "limits": [
+          "不是人格改变的科学保证，也不认为受他人怎样对待完全由自己决定。"
+        ]
+      }
+    },
+    {
+      "id": "sivers-p-help-before-grand-vision",
+      "title": "可以先帮助眼前的人，再逐步形成方向",
+      "summary": "他回忆CD Baby起步时没有宏大长期计划，先解决音乐人的现实需求。",
+      "topics": [
+        "创业准备",
+        "现实需求",
+        "探索",
+        "愿景"
+      ],
+      "evidence_ids": [
+        "sivers-e-help-before-grand-vision"
+      ],
+      "application": {
+        "questions": [
+          "你现在就能为哪一类人解决哪项具体困难？"
+        ],
+        "steps": [
+          "从可接触的真实需求开始。",
+          "根据交付和反馈逐步调整方向。"
+        ],
+        "limits": [
+          "没有宏大愿景不等于无需规划、资源边界或法律责任。"
+        ]
+      }
+    },
+    {
+      "id": "sivers-p-execution-evidence",
+      "title": "用实际交付补足对点子价值的讨论",
+      "summary": "他用乘法比喻强调，只有点子而没有执行不足以形成生意。",
+      "topics": [
+        "创意",
+        "交付",
+        "实践",
+        "商业验证"
+      ],
+      "evidence_ids": [
+        "sivers-e-execution-evidence"
+      ],
+      "application": {
+        "questions": [
+          "这个点子是否已经形成能被使用或检验的东西？"
+        ],
+        "steps": [
+          "选一个最小可交付样本。",
+          "用实际反馈判断是否继续。"
+        ],
+        "limits": [
+          "文中的价格和乘数是修辞，不是估值公式，也不否认必要保密或权利保护。"
+        ]
+      }
+    },
+    {
+      "id": "sivers-p-founder-bottleneck",
+      "title": "识别所有小决定都绕回自己的瓶颈",
+      "summary": "他回忆同事不断请示让自己无法推进更重要的工作。",
+      "topics": [
+        "创始人瓶颈",
+        "授权",
+        "工作负荷",
+        "组织"
+      ],
+      "evidence_ids": [
+        "sivers-e-founder-bottleneck"
+      ],
+      "application": {
+        "questions": [
+          "哪些重复问题只因职责和判断边界不清才需要你回答？"
+        ],
+        "steps": [
+          "记录反复出现的请示。",
+          "区分需要负责人判断与可以授予权限的事项。"
+        ],
+        "limits": [
+          "授权需匹配能力与风险，不是把责任简单推给别人。"
+        ]
+      }
+    },
+    {
+      "id": "sivers-p-explain-decision-principles",
+      "title": "授权时解释判断原则和适用边界",
+      "summary": "他不仅给出问题答案，也说明背后的想法并明确下次可以自行决定。",
+      "topics": [
+        "授权边界",
+        "决策原则",
+        "团队",
+        "职责"
+      ],
+      "evidence_ids": [
+        "sivers-e-explain-decision-principles"
+      ],
+      "application": {
+        "questions": [
+          "别人知道你的答案，还是也理解为什么这样判断？"
+        ],
+        "steps": [
+          "用具体案例解释判断前提。",
+          "明确可自行决定的范围和需要升级的情况。"
+        ],
+        "limits": [
+          "客户满意不能成为无上限损失或违法操作的授权原则。"
+        ]
+      }
+    },
+    {
+      "id": "sivers-p-living-operating-guide",
+      "title": "把重复经验写成可教会别人的操作指南",
+      "summary": "他让团队记录案例、原则，并通过教学继续传递。",
+      "topics": [
+        "操作指南",
+        "知识传承",
+        "团队培训",
+        "流程"
+      ],
+      "evidence_ids": [
+        "sivers-e-living-operating-guide"
+      ],
+      "application": {
+        "questions": [
+          "新的协作者能否通过文档和示范完成真实任务？"
+        ],
+        "steps": [
+          "记录必要步骤、理由和例外。",
+          "请实际执行者验证并更新说明。"
+        ],
+        "limits": [
+          "文档不能替代练习、真实授权和必要控制；公司增长数字不证明单一因果。"
+        ]
+      }
+    },
+    {
+      "id": "sivers-p-effort-and-marginal-result",
+      "title": "检查额外紧张是否真的增加结果",
+      "summary": "他用两次骑行的个人体验反思投入感与边际结果的差别。",
+      "topics": [
+        "工作强度",
+        "边际效果",
+        "压力",
+        "节奏"
+      ],
+      "evidence_ids": [
+        "sivers-e-effort-and-marginal-result"
+      ],
+      "application": {
+        "questions": [
+          "继续提高强度带来的改善，是否值得当前代价？"
+        ],
+        "steps": [
+          "观察真实结果与负荷。",
+          "在可逆任务中调整强度并比较效果。"
+        ],
+        "limits": [
+          "骑行自述不是通用效率比例、训练建议或临床结论，不能照搬百分比。"
+        ]
+      }
+    },
+    {
+      "id": "sivers-p-share-ordinary-work",
+      "title": "不要只因自己觉得普通就隐藏作品",
+      "summary": "他回顾自己的普通想法对别人可能有不同价值。",
+      "topics": [
+        "创作",
+        "发布",
+        "反馈",
+        "自我评价"
+      ],
+      "evidence_ids": [
+        "sivers-e-share-ordinary-work"
+      ],
+      "application": {
+        "questions": [
+          "你是在基于真实反馈判断价值，还是提前替所有人决定？"
+        ],
+        "steps": [
+          "向合适的小范围受众展示作品。",
+          "根据具体反馈改善，而不只比较别人最好的作品。"
+        ],
+        "limits": [
+          "分享不保证有人喜欢，也不能公开无权披露的内容。"
+        ]
+      }
+    },
+    {
+      "id": "sivers-p-enough-and-needs",
+      "title": "消费前区分实际需要与被制造的欲望",
+      "summary": "他用不替商品造势的选择表达对知足和消费刺激的反思。",
+      "topics": [
+        "消费选择",
+        "需要",
+        "满足",
+        "资源"
+      ],
+      "evidence_ids": [
+        "sivers-e-enough-and-needs"
+      ],
+      "application": {
+        "questions": [
+          "这个购买会解决具体问题，还是暂时回应外部刺激？"
+        ],
+        "steps": [
+          "写清用途与当前替代方案。",
+          "比较总成本和实际改善。"
+        ],
+        "limits": [
+          "不采用把减支等同收入翻倍的说法；资源不足的人不能被假定已经拥有足够。"
+        ]
+      }
+    },
+    {
+      "id": "sivers-p-reachable-service",
+      "title": "询问客户真正重视的服务细节",
+      "summary": "他回顾客户重视能联系到实际的人，而非自己原先猜测的功能重点。",
+      "topics": [
+        "客户服务",
+        "用户研究",
+        "联系渠道",
+        "实际价值"
+      ],
+      "evidence_ids": [
+        "sivers-e-reachable-service"
+      ],
+      "application": {
+        "questions": [
+          "客户选择你的真实原因，与你的内部解释一致吗？"
+        ],
+        "steps": [
+          "向实际客户询问并观察服务过程。",
+          "选择一项重要摩擦做可验证改善。"
+        ],
+        "limits": [
+          "不据此认定所有服务必须人工接听，或用其自述证明唯一成功原因。"
+        ]
+      }
+    },
+    {
+      "id": "sivers-p-customer-concentration",
+      "title": "把单一大客户依赖列入经营判断",
+      "summary": "他比较集中取悦少数大客户与服务较多小客户的不同约束。",
+      "topics": [
+        "客户集中度",
+        "依赖",
+        "经营自主",
+        "风险"
+      ],
+      "evidence_ids": [
+        "sivers-e-customer-concentration"
+      ],
+      "application": {
+        "questions": [
+          "失去最大客户或接受其特殊需求，会怎样改变业务？"
+        ],
+        "steps": [
+          "计算实际依赖与维护成本。",
+          "比较不同客户结构的资源和风险。"
+        ],
+        "limits": [
+          "行业和商业模式不同，大型B2B项目不应直接照搬，也不保证客户越分散越好。"
+        ]
+      }
+    }
+  ]
+}

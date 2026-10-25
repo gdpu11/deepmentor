@@ -1,0 +1,891 @@
+{
+  "schema_version": 1,
+  "person": {
+    "id": "carol-dweck",
+    "name": "卡罗尔·德韦克",
+    "aliases": [
+      "Carol Dweck",
+      "卡罗尔德韦克",
+      "德韦克"
+    ],
+    "description": "依据HBR原采访及本人在Education Week的修正文章，整理学习、挑战、反馈、领导与教育实践；保留环境、实施和测量限制，不用成长心态给人贴固定标签。"
+  },
+  "sources": [
+    {
+      "id": "dweck-hbr-podcast",
+      "title": "The Right Mindset for Success — HBR IdeaCast 283",
+      "url": "https://hbr.org/podcast/2012/01/the-right-mindset-for-success",
+      "publisher": "Harvard Business Review / 原采访文字稿",
+      "kind": "interview",
+      "authority": "publisher",
+      "published_at": "2012-01-12",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "只核对CAROL DWECK回答及上下文，区分主持人推论和问题。文字稿存在听写不确定标记，不引用疑似人名错误；未逐句听辨，也未将研究效果或脑机制的采访自述当独立验证结果。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "e7c2987b10566e7b6fccef71e68c7ce4df3d782ac4a27cd24c5282a218a8fc6f",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "dweck-revisited",
+      "title": "Carol Dweck Revisits the Growth Mindset",
+      "url": "https://www.edweek.org/leadership/opinion-carol-dweck-revisits-the-growth-mindset/2015/09",
+      "publisher": "Education Week / Carol Dweck本人署名文章",
+      "kind": "essay",
+      "authority": "publisher",
+      "published_at": "2015-09-22",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "网页读取工具取得作者正文；本地保留已核对正文摘取，排除穿插的其他文章卡片。此基线不是HTTP整页，采用手动复查。网页标刊载2015-09-22，另注明纸版2015-09-23。重点保留作者对简单化解释的修正。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "7b49e46cbd4445e2160edc2fcb00da8e9bde3808ed5aceeb1fad267a895a99fb",
+      "refresh": {
+        "mode": "manual",
+        "interval_days": 90
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "dweck-e-developable-skills",
+      "source_id": "dweck-hbr-podcast",
+      "speaker": "卡罗尔·德韦克",
+      "excerpt": "mentorship",
+      "summary": "她将成长心态描述为相信能力可以通过经验与指导发展。",
+      "locator": {
+        "type": "heading",
+        "value": "开头；定义成长心态"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "学习",
+        "能力发展",
+        "指导",
+        "成长"
+      ],
+      "context": "核对作者公开表达；实践步骤为编辑推演。未独立复核所提实验，不将相关性或特定研究效果推广成个人保证。"
+    },
+    {
+      "id": "dweck-e-challenge-over-image",
+      "source_id": "dweck-hbr-podcast",
+      "speaker": "卡罗尔·德韦克",
+      "excerpt": "image",
+      "summary": "她提醒成功后的形象负担可能使人回避挑战。",
+      "locator": {
+        "type": "heading",
+        "value": "关于早期成功与形象负担"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "挑战",
+        "学习选择",
+        "自我形象",
+        "舒适区"
+      ],
+      "context": "核对作者公开表达；实践步骤为编辑推演。未独立复核所提实验，不将相关性或特定研究效果推广成个人保证。"
+    },
+    {
+      "id": "dweck-e-promotion-not-omniscience",
+      "source_id": "dweck-hbr-podcast",
+      "speaker": "卡罗尔·德韦克",
+      "excerpt": "answers",
+      "summary": "她谈到晋升者可能误以为自己必须已经知道所有答案。",
+      "locator": {
+        "type": "heading",
+        "value": "关于晋升和CEO的回答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "领导",
+        "未知",
+        "协作",
+        "晋升"
+      ],
+      "context": "核对作者公开表达；实践步骤为编辑推演。未独立复核所提实验，不将相关性或特定研究效果推广成个人保证。"
+    },
+    {
+      "id": "dweck-e-specific-process-praise",
+      "source_id": "dweck-hbr-podcast",
+      "speaker": "卡罗尔·德韦克",
+      "excerpt": "strategies",
+      "summary": "她建议关注努力、策略、坚持与遇阻后怎样调整。",
+      "locator": {
+        "type": "heading",
+        "value": "关于该表扬什么的回答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "反馈",
+        "过程",
+        "学习评价",
+        "表扬"
+      ],
+      "context": "核对作者公开表达；实践步骤为编辑推演。未独立复核所提实验，不将相关性或特定研究效果推广成个人保证。"
+    },
+    {
+      "id": "dweck-e-monitor-and-change",
+      "source_id": "dweck-hbr-podcast",
+      "speaker": "卡罗尔·德韦克",
+      "excerpt": "gauged",
+      "summary": "她在谈负面反馈时，要求检查团队尝试了什么、怎样判断效果和调整。",
+      "locator": {
+        "type": "heading",
+        "value": "关于项目没有达到要求时的反馈"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "项目复盘",
+        "策略调整",
+        "负面反馈",
+        "监测"
+      ],
+      "context": "核对作者公开表达；实践步骤为编辑推演。未独立复核所提实验，不将相关性或特定研究效果推广成个人保证。"
+    },
+    {
+      "id": "dweck-e-share-failure-learning",
+      "source_id": "dweck-hbr-podcast",
+      "speaker": "卡罗尔·德韦克",
+      "excerpt": "communal",
+      "summary": "她区分仅仅失败与从过程中形成对以后有用的学习。",
+      "locator": {
+        "type": "heading",
+        "value": "关于把知识带回公司的回答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "组织学习",
+        "失败复盘",
+        "知识共享",
+        "团队"
+      ],
+      "context": "核对作者公开表达；实践步骤为编辑推演。未独立复核所提实验，不将相关性或特定研究效果推广成个人保证。"
+    },
+    {
+      "id": "dweck-e-reward-learning-behavior",
+      "source_id": "dweck-hbr-podcast",
+      "speaker": "卡罗尔·德韦克",
+      "excerpt": "teamwork",
+      "summary": "她建议组织用信息与奖励支持合理挑战、团队合作和聪明投入。",
+      "locator": {
+        "type": "heading",
+        "value": "关于新员工信息与奖励的回答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "组织激励",
+        "团队合作",
+        "合理挑战",
+        "学习文化"
+      ],
+      "context": "核对作者公开表达；实践步骤为编辑推演。未独立复核所提实验，不将相关性或特定研究效果推广成个人保证。"
+    },
+    {
+      "id": "dweck-e-leaders-keep-learning",
+      "source_id": "dweck-hbr-podcast",
+      "speaker": "卡罗尔·德韦克",
+      "excerpt": "learners",
+      "summary": "她认为带领别人学习的人，也需要承认困惑并知道怎样查信息和协作。",
+      "locator": {
+        "type": "heading",
+        "value": "末段；教师和经理也要学习"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "教学",
+        "领导示范",
+        "持续学习",
+        "求证"
+      ],
+      "context": "核对作者公开表达；实践步骤为编辑推演。未独立复核所提实验，不将相关性或特定研究效果推广成个人保证。"
+    },
+    {
+      "id": "dweck-e-novice-again",
+      "source_id": "dweck-hbr-podcast",
+      "speaker": "卡罗尔·德韦克",
+      "excerpt": "novice",
+      "summary": "她提醒变化意味着人会反复遇到陌生、困难和困惑。",
+      "locator": {
+        "type": "heading",
+        "value": "最后关于时代变化的回答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "职业变化",
+        "新手阶段",
+        "学习困难",
+        "适应"
+      ],
+      "context": "核对作者公开表达；实践步骤为编辑推演。未独立复核所提实验，不将相关性或特定研究效果推广成个人保证。"
+    },
+    {
+      "id": "dweck-e-effort-with-support",
+      "source_id": "dweck-revisited",
+      "speaker": "卡罗尔·德韦克",
+      "excerpt": "input",
+      "summary": "她明确修正把成长心态只理解为更加努力的做法。",
+      "locator": {
+        "type": "heading",
+        "value": "努力不等于全部；文章前半"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "学习策略",
+        "求助",
+        "努力",
+        "卡点"
+      ],
+      "context": "核对作者公开表达；实践步骤为编辑推演。未独立复核所提实验，不将相关性或特定研究效果推广成个人保证。"
+    },
+    {
+      "id": "dweck-e-honest-learning-gaps",
+      "source_id": "dweck-revisited",
+      "speaker": "卡罗尔·德韦克",
+      "excerpt": "truth",
+      "summary": "她反对为了让学生暂时感觉良好而隐藏未学会的事实。",
+      "locator": {
+        "type": "heading",
+        "value": "关闭差距而非隐藏差距的段落"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "学习差距",
+        "真实反馈",
+        "教育",
+        "改进"
+      ],
+      "context": "核对作者公开表达；实践步骤为编辑推演。未独立复核所提实验，不将相关性或特定研究效果推广成个人保证。"
+    },
+    {
+      "id": "dweck-e-no-mindset-blame",
+      "source_id": "dweck-revisited",
+      "speaker": "卡罗尔·德韦克",
+      "excerpt": "blame",
+      "summary": "她担心成长心态被用来把学习困难再次归咎于学生。",
+      "locator": {
+        "type": "heading",
+        "value": "关于学生学不会与固定心态标签"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "标签",
+        "教育支持",
+        "责任边界",
+        "学习条件"
+      ],
+      "context": "核对作者公开表达；实践步骤为编辑推演。未独立复核所提实验，不将相关性或特定研究效果推广成个人保证。"
+    },
+    {
+      "id": "dweck-e-practice-over-proclamation",
+      "source_id": "dweck-revisited",
+      "speaker": "卡罗尔·德韦克",
+      "excerpt": "proclamation",
+      "summary": "她区分口头认可成长心态与课堂或家庭里的实际回应。",
+      "locator": {
+        "type": "heading",
+        "value": "关于false growth mindset的段落"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "实践一致性",
+        "教学",
+        "家庭示范",
+        "组织文化"
+      ],
+      "context": "核对作者公开表达；实践步骤为编辑推演。未独立复核所提实验，不将相关性或特定研究效果推广成个人保证。"
+    },
+    {
+      "id": "dweck-e-mixed-and-contextual",
+      "source_id": "dweck-revisited",
+      "speaker": "卡罗尔·德韦克",
+      "excerpt": "mixture",
+      "summary": "她说明人通常兼有不同心态，成长是一段持续实践。",
+      "locator": {
+        "type": "heading",
+        "value": "关于混合心态与承认固定反应"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "自我观察",
+        "情境",
+        "心态",
+        "持续改进"
+      ],
+      "context": "核对作者公开表达；实践步骤为编辑推演。未独立复核所提实验，不将相关性或特定研究效果推广成个人保证。"
+    },
+    {
+      "id": "dweck-e-feedback-triggers",
+      "source_id": "dweck-revisited",
+      "speaker": "卡罗尔·德韦克",
+      "excerpt": "triggers",
+      "summary": "她建议注意面对挑战、批评和更优秀同行时的反应。",
+      "locator": {
+        "type": "heading",
+        "value": "What are your triggers及末尾"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "批评",
+        "比较",
+        "防御反应",
+        "学习反馈"
+      ],
+      "context": "核对作者公开表达；实践步骤为编辑推演。未独立复核所提实验，不将相关性或特定研究效果推广成个人保证。"
+    },
+    {
+      "id": "dweck-e-measurement-incentives",
+      "source_id": "dweck-revisited",
+      "speaker": "卡罗尔·德韦克",
+      "excerpt": "accountability",
+      "summary": "她担心用心态测量追责会刺激表面表态和失真的标签。",
+      "locator": {
+        "type": "heading",
+        "value": "关于禁止固定心态与测量问责"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "测量",
+        "激励",
+        "问责",
+        "教育评价"
+      ],
+      "context": "核对作者公开表达；实践步骤为编辑推演。未独立复核所提实验，不将相关性或特定研究效果推广成个人保证。"
+    }
+  ],
+  "principles": [
+    {
+      "id": "dweck-p-developable-skills",
+      "title": "把能力看作可以继续发展的对象",
+      "summary": "她将成长心态描述为相信能力可以通过经验与指导发展。",
+      "topics": [
+        "学习",
+        "能力发展",
+        "指导",
+        "成长"
+      ],
+      "evidence_ids": [
+        "dweck-e-developable-skills"
+      ],
+      "application": {
+        "questions": [
+          "当前能力的哪些部分可以通过练习、反馈和支持改善？"
+        ],
+        "steps": [
+          "明确具体能力缺口。",
+          "用实际练习与结果检查进步。"
+        ],
+        "limits": [
+          "不是说人人都能达到任何目标，也不否认先天、资源和机会差异。"
+        ]
+      }
+    },
+    {
+      "id": "dweck-p-challenge-over-image",
+      "title": "检查维护聪明形象是否阻碍学习",
+      "summary": "她提醒成功后的形象负担可能使人回避挑战。",
+      "topics": [
+        "挑战",
+        "学习选择",
+        "自我形象",
+        "舒适区"
+      ],
+      "evidence_ids": [
+        "dweck-e-challenge-over-image"
+      ],
+      "application": {
+        "questions": [
+          "你在回避的是现实风险，还是害怕暂时表现不够好？"
+        ],
+        "steps": [
+          "区分必要风险与形象顾虑。",
+          "选择一个有支持且可承受的学习挑战。"
+        ],
+        "limits": [
+          "不能把合理谨慎一概解释为固定心态。"
+        ]
+      }
+    },
+    {
+      "id": "dweck-p-promotion-not-omniscience",
+      "title": "承担领导职责也可以承认未知",
+      "summary": "她谈到晋升者可能误以为自己必须已经知道所有答案。",
+      "topics": [
+        "领导",
+        "未知",
+        "协作",
+        "晋升"
+      ],
+      "evidence_ids": [
+        "dweck-e-promotion-not-omniscience"
+      ],
+      "application": {
+        "questions": [
+          "这个未知需要你亲自懂，还是组织合适的人一起弄清楚？"
+        ],
+        "steps": [
+          "说明已知与未知。",
+          "组织求证与讨论，并承担最终职责。"
+        ],
+        "limits": [
+          "承认未知不免除必要能力、专业标准和决策责任。"
+        ]
+      }
+    },
+    {
+      "id": "dweck-p-specific-process-praise",
+      "title": "反馈说明具体过程，而不只夸天赋",
+      "summary": "她建议关注努力、策略、坚持与遇阻后怎样调整。",
+      "topics": [
+        "反馈",
+        "过程",
+        "学习评价",
+        "表扬"
+      ],
+      "evidence_ids": [
+        "dweck-e-specific-process-praise"
+      ],
+      "application": {
+        "questions": [
+          "对方能否从反馈中知道哪项做法值得保留或改变？"
+        ],
+        "steps": [
+          "说清具体观察到的行为。",
+          "连接到学习结果与下一项可试做法。"
+        ],
+        "limits": [
+          "不把任何努力自动当有效，也不认定每种天赋表扬都会产生同样结果。"
+        ]
+      }
+    },
+    {
+      "id": "dweck-p-monitor-and-change",
+      "title": "项目复盘要检查何时识别到策略失效",
+      "summary": "她在谈负面反馈时，要求检查团队尝试了什么、怎样判断效果和调整。",
+      "topics": [
+        "项目复盘",
+        "策略调整",
+        "负面反馈",
+        "监测"
+      ],
+      "evidence_ids": [
+        "dweck-e-monitor-and-change"
+      ],
+      "application": {
+        "questions": [
+          "哪些信号出现时，本应重新考虑当前方法？"
+        ],
+        "steps": [
+          "回看策略、验证和负反馈出现的时间。",
+          "改变一个有依据的流程或判断规则。"
+        ],
+        "limits": [
+          "不能仅凭结果倒推当时所有决定都错，也不以努力替代交付质量。"
+        ]
+      }
+    },
+    {
+      "id": "dweck-p-share-failure-learning",
+      "title": "把失败项目中的可复用知识带回团队",
+      "summary": "她区分仅仅失败与从过程中形成对以后有用的学习。",
+      "topics": [
+        "组织学习",
+        "失败复盘",
+        "知识共享",
+        "团队"
+      ],
+      "evidence_ids": [
+        "dweck-e-share-failure-learning"
+      ],
+      "application": {
+        "questions": [
+          "这次经历能让后来的人少重复哪种错误？"
+        ],
+        "steps": [
+          "记录问题、前提、证据与调整。",
+          "让相关团队检验是否可复用。"
+        ],
+        "limits": [
+          "不因失败本身发奖，也不能保证某次教训能迁移到所有项目。"
+        ]
+      }
+    },
+    {
+      "id": "dweck-p-reward-learning-behavior",
+      "title": "让组织激励体现学习和协作",
+      "summary": "她建议组织用信息与奖励支持合理挑战、团队合作和聪明投入。",
+      "topics": [
+        "组织激励",
+        "团队合作",
+        "合理挑战",
+        "学习文化"
+      ],
+      "evidence_ids": [
+        "dweck-e-reward-learning-behavior"
+      ],
+      "application": {
+        "questions": [
+          "组织实际奖励的行为，与口头鼓励的学习是否一致？"
+        ],
+        "steps": [
+          "检查晋升、奖励和日常反馈的实际标准。",
+          "给有证据的改进和协作明确认可。"
+        ],
+        "limits": [
+          "不能用学习文化掩盖重复失误或放弃必要结果标准。"
+        ]
+      }
+    },
+    {
+      "id": "dweck-p-leaders-keep-learning",
+      "title": "老师和经理也应展示自己的学习过程",
+      "summary": "她认为带领别人学习的人，也需要承认困惑并知道怎样查信息和协作。",
+      "topics": [
+        "教学",
+        "领导示范",
+        "持续学习",
+        "求证"
+      ],
+      "evidence_ids": [
+        "dweck-e-leaders-keep-learning"
+      ],
+      "application": {
+        "questions": [
+          "你是否允许自己和团队说清不懂之处，并展示求证？"
+        ],
+        "steps": [
+          "说明需要学习的具体问题。",
+          "展示如何取得信息、求助和改进。"
+        ],
+        "limits": [
+          "示范不是把学生或下属变成承担负责人不足的对象。"
+        ]
+      }
+    },
+    {
+      "id": "dweck-p-novice-again",
+      "title": "进入变化中的领域时接受重新做新手",
+      "summary": "她提醒变化意味着人会反复遇到陌生、困难和困惑。",
+      "topics": [
+        "职业变化",
+        "新手阶段",
+        "学习困难",
+        "适应"
+      ],
+      "evidence_ids": [
+        "dweck-e-novice-again"
+      ],
+      "application": {
+        "questions": [
+          "新的困难是能力不行的定论，还是领域变化后的真实学习缺口？"
+        ],
+        "steps": [
+          "重新识别该领域基础要求。",
+          "用小任务和反馈了解当前水平。"
+        ],
+        "limits": [
+          "不把持续困惑本身当进步证明，仍要寻找有效支持与结果。"
+        ]
+      }
+    },
+    {
+      "id": "dweck-p-effort-with-support",
+      "title": "卡住以后需要新策略和帮助",
+      "summary": "她明确修正把成长心态只理解为更加努力的做法。",
+      "topics": [
+        "学习策略",
+        "求助",
+        "努力",
+        "卡点"
+      ],
+      "evidence_ids": [
+        "dweck-e-effort-with-support"
+      ],
+      "application": {
+        "questions": [
+          "继续增加投入之外，是否需要换方法或获得指导？"
+        ],
+        "steps": [
+          "说明已试过什么以及卡在哪里。",
+          "补充策略或帮助，再检查实际效果。"
+        ],
+        "limits": [
+          "不能用再努力一点替代资源、合理教学或必要支持。"
+        ]
+      }
+    },
+    {
+      "id": "dweck-p-honest-learning-gaps",
+      "title": "如实说明学习差距，再共同改善",
+      "summary": "她反对为了让学生暂时感觉良好而隐藏未学会的事实。",
+      "topics": [
+        "学习差距",
+        "真实反馈",
+        "教育",
+        "改进"
+      ],
+      "evidence_ids": [
+        "dweck-e-honest-learning-gaps"
+      ],
+      "application": {
+        "questions": [
+          "你是否清楚知道已学会什么、还没学会什么？"
+        ],
+        "steps": [
+          "用具体任务了解真实表现。",
+          "在尊重人的前提下安排下一项支持。"
+        ],
+        "limits": [
+          "不能借诚实反馈羞辱或把当前表现当终身能力。"
+        ]
+      }
+    },
+    {
+      "id": "dweck-p-no-mindset-blame",
+      "title": "不用心态标签解释别人为什么学不会",
+      "summary": "她担心成长心态被用来把学习困难再次归咎于学生。",
+      "topics": [
+        "标签",
+        "教育支持",
+        "责任边界",
+        "学习条件"
+      ],
+      "evidence_ids": [
+        "dweck-e-no-mindset-blame"
+      ],
+      "application": {
+        "questions": [
+          "除了个人态度，教学、资源和环境还有什么可改？"
+        ],
+        "steps": [
+          "列出可观察的困难与支持缺口。",
+          "寻找帮助学习的方法而不是固定人格解释。"
+        ],
+        "limits": [
+          "不从一次表现推断人的心态，也不取消学习者合理的参与责任。"
+        ]
+      }
+    },
+    {
+      "id": "dweck-p-practice-over-proclamation",
+      "title": "用实际做法检查宣称的学习文化",
+      "summary": "她区分口头认可成长心态与课堂或家庭里的实际回应。",
+      "topics": [
+        "实践一致性",
+        "教学",
+        "家庭示范",
+        "组织文化"
+      ],
+      "evidence_ids": [
+        "dweck-e-practice-over-proclamation"
+      ],
+      "application": {
+        "questions": [
+          "日常对错误、提问和挑战的反应是否符合你宣称的原则？"
+        ],
+        "steps": [
+          "找一个最近发生的具体情境。",
+          "检查回应是否真的给学习留下空间。"
+        ],
+        "limits": [
+          "原文研究例子未独立回查，不将口号不一致直接等同恶意。"
+        ]
+      }
+    },
+    {
+      "id": "dweck-p-mixed-and-contextual",
+      "title": "把心态作为会变化的反应来观察",
+      "summary": "她说明人通常兼有不同心态，成长是一段持续实践。",
+      "topics": [
+        "自我观察",
+        "情境",
+        "心态",
+        "持续改进"
+      ],
+      "evidence_ids": [
+        "dweck-e-mixed-and-contextual"
+      ],
+      "application": {
+        "questions": [
+          "在什么场合你容易防御，在哪些场合愿意学习？"
+        ],
+        "steps": [
+          "记录具体触发事件和反应。",
+          "选择一项可调整行为并观察后续。"
+        ],
+        "limits": [
+          "这不是给人分类型的诊断工具，也不是要求永远积极。"
+        ]
+      }
+    },
+    {
+      "id": "dweck-p-feedback-triggers",
+      "title": "在批评和比较触发防御时先核对信息",
+      "summary": "她建议注意面对挑战、批评和更优秀同行时的反应。",
+      "topics": [
+        "批评",
+        "比较",
+        "防御反应",
+        "学习反馈"
+      ],
+      "evidence_ids": [
+        "dweck-e-feedback-triggers"
+      ],
+      "application": {
+        "questions": [
+          "当前反应会不会让你忽略一项有价值的反馈？"
+        ],
+        "steps": [
+          "区分评价方式、实际事实和自己的感受。",
+          "选择可核对的部分继续了解。"
+        ],
+        "limits": [
+          "不要求接受羞辱、歧视或无依据批评；有情绪不意味着不能学习。"
+        ]
+      }
+    },
+    {
+      "id": "dweck-p-measurement-incentives",
+      "title": "谨慎把心态测量变成绩效问责",
+      "summary": "她担心用心态测量追责会刺激表面表态和失真的标签。",
+      "topics": [
+        "测量",
+        "激励",
+        "问责",
+        "教育评价"
+      ],
+      "evidence_ids": [
+        "dweck-e-measurement-incentives"
+      ],
+      "application": {
+        "questions": [
+          "把这个指标用于奖惩后，人们是否只会学会作出正确表态？"
+        ],
+        "steps": [
+          "区分发展性反馈与高风险奖惩。",
+          "核对测量有效性、激励和实际行为。"
+        ],
+        "limits": [
+          "这是作者对应用风险的提醒，不能据此认定所有评估都无效。"
+        ]
+      }
+    }
+  ]
+}

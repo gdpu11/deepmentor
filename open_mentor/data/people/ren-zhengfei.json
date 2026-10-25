@@ -1,0 +1,889 @@
+{
+  "schema_version": 1,
+  "person": {
+    "id": "ren-zhengfei",
+    "name": "任正非",
+    "aliases": [
+      "Ren Zhengfei"
+    ],
+    "description": "从华为原发2019年采访实录中，提取本人关于聚焦、基础教育、研究、需求、供应备份、组织与学习的表达；逐条保留采访场次、文件页序和历史限制。"
+  },
+  "sources": [
+    {
+      "id": "ren-public-2019",
+      "title": "任正非采访实录：2019年1月至5月合集",
+      "url": "https://www-file.huawei.com/-/media/corp/facts/pdf/ren_zhengfei_speaks_to_the_public_cn.pdf",
+      "publisher": "华为 / 任正非采访实录",
+      "kind": "interview",
+      "authority": "first_party",
+      "published_at": null,
+      "language": "zh",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_pdf_text_check",
+        "note": "华为正式发布的受访者采访记录合集，核对出版文字而非全量音频。只提取任正非回答，排除记者问题、题词、宣传说明；英文媒体采访的中文表述包含编辑翻译环节。公司数据、技术领先及政治法律断言未独立验证，不作为当前事实。文件常一页含两张印刷页，定位同时说明文件页序。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。原文标示的时期：收录2019年1月至5月采访，发布日期未确认。"
+      },
+      "content_sha256": "e1c3c3c68f5981d369918d2ebd517fcb04475f582d7680fe0f92f711a749c8d9",
+      "refresh": {
+        "mode": "manual",
+        "interval_days": 90
+      }
+    },
+    {
+      "id": "ren-bbc-2019",
+      "title": "任正非采访实录第五卷：2019年7月至8月",
+      "url": "https://www-file.huawei.com/admin/asset/v1/pro/view/096d651dfb4b44d0ac3ef687fd571e56.pdf",
+      "publisher": "华为 / 任正非采访实录第五卷",
+      "kind": "interview",
+      "authority": "first_party",
+      "published_at": null,
+      "language": "zh",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_pdf_text_check",
+        "note": "实际是含雅虎财经、意大利媒体、BBC、天空新闻和美联社的整卷，并非单篇BBC采访。只按具体场次提取任正非回答，不将记者断言或卷首宣传归给他；中文出版与翻译文字核对不等于独立音频或事实验证。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。原文标示的时期：卷内标示2019年7月至8月，发布日期未确认。"
+      },
+      "content_sha256": "28ae3cad006eb98b11fd23cd2a1fda99a0c48cb56ec5c68b2a57945cfe8d3010",
+      "refresh": {
+        "mode": "manual",
+        "interval_days": 90
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ren-e-concentrated-capability",
+      "source_id": "ren-public-2019",
+      "speaker": "任正非",
+      "excerpt": "城墙口",
+      "summary": "他以持续对准同一方向投入研发，解释公司的能力建设方式。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第9页；印刷第10页；2019-01-15国际媒体圆桌本人回答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "聚焦",
+        "能力积累",
+        "研发",
+        "资源分配"
+      ],
+      "context": "本人历史采访的已发表文字；自述不能替代第三方事实与效果验证。应用问题和步骤由编辑推演。"
+    },
+    {
+      "id": "ren-e-education-needs-teachers",
+      "source_id": "ren-public-2019",
+      "speaker": "任正非",
+      "excerpt": "教师",
+      "summary": "他把基础教育和教师的待遇、吸引力作为长期人才条件讨论。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第23页；印刷第38—39页；2019年1月中国媒体圆桌"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "基础教育",
+        "教师支持",
+        "长期能力",
+        "人才"
+      ],
+      "context": "本人历史采访的已发表文字；自述不能替代第三方事实与效果验证。应用问题和步骤由编辑推演。"
+    },
+    {
+      "id": "ren-e-technology-needs-demand",
+      "source_id": "ren-public-2019",
+      "speaker": "任正非",
+      "excerpt": "需求",
+      "summary": "他在谈5G时提醒部分内涵要等待需求，演示不等于大规模商业行为。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第25页；印刷第42—43页；中国媒体圆桌谈5G"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "技术商业化",
+        "需求",
+        "演示",
+        "验证"
+      ],
+      "context": "本人历史采访的已发表文字；自述不能替代第三方事实与效果验证。应用问题和步骤由编辑推演。"
+    },
+    {
+      "id": "ren-e-whole-system-bottleneck",
+      "source_id": "ren-public-2019",
+      "speaker": "任正非",
+      "excerpt": "结构",
+      "summary": "他以基站和网络结构作比喻，说明局部增强不一定解决整体限制。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第25页；印刷第43页；网络结构与嘴巴喉咙比喻"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "系统瓶颈",
+        "整体优化",
+        "网络结构",
+        "技术选择"
+      ],
+      "context": "本人历史采访的已发表文字；自述不能替代第三方事实与效果验证。应用问题和步骤由编辑推演。"
+    },
+    {
+      "id": "ren-e-research-and-application",
+      "source_id": "ren-public-2019",
+      "speaker": "任正非",
+      "excerpt": "知识",
+      "summary": "他用金钱转知识与知识转产品的区别，描述基础研究和应用队伍。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第26页；印刷第44页；中国媒体圆桌谈研究队伍"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "基础研究",
+        "应用研发",
+        "分工",
+        "知识积累"
+      ],
+      "context": "本人历史采访的已发表文字；自述不能替代第三方事实与效果验证。应用问题和步骤由编辑推演。"
+    },
+    {
+      "id": "ren-e-recognize-capability-gaps",
+      "source_id": "ren-public-2019",
+      "speaker": "任正非",
+      "excerpt": "不够满意",
+      "summary": "他在谈基础研究时承认不同学科的积累并不均衡。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第26页；印刷第45页；回答深圳商报关于研究水平的问题"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "能力评估",
+        "知识边界",
+        "基础研究",
+        "差距"
+      ],
+      "context": "本人历史采访的已发表文字；自述不能替代第三方事实与效果验证。应用问题和步骤由编辑推演。"
+    },
+    {
+      "id": "ren-e-advantages-can-change",
+      "source_id": "ren-public-2019",
+      "speaker": "任正非",
+      "excerpt": "优势",
+      "summary": "他担心技术进入不同阶段后，既有优势会缩小、竞争者更容易追上。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第27页；印刷第46页；无人区与技术阶段的回答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "竞争优势",
+        "技术变化",
+        "长期风险",
+        "复查前提"
+      ],
+      "context": "本人历史采访的已发表文字；自述不能替代第三方事实与效果验证。应用问题和步骤由编辑推演。"
+    },
+    {
+      "id": "ren-e-use-domain-expertise",
+      "source_id": "ren-bbc-2019",
+      "speaker": "任正非",
+      "excerpt": "建筑师",
+      "summary": "他解释园区建筑方案由专业设计和顾问评选决定，而不是自己拍板。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第7页；印刷第2页；2019-07-17雅虎财经Akiko Fujita采访"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "专业判断",
+        "授权",
+        "决策",
+        "设计"
+      ],
+      "context": "本人历史采访的已发表文字；自述不能替代第三方事实与效果验证。应用问题和步骤由编辑推演。"
+    },
+    {
+      "id": "ren-e-admit-and-repair-preparedness",
+      "source_id": "ren-bbc-2019",
+      "speaker": "任正非",
+      "excerpt": "准备",
+      "summary": "他回顾2019年供应限制时，承认事先准备不足，并区分不同产品的处境。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第8页；印刷第3页；同场雅虎财经采访"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "应急准备",
+        "承认不足",
+        "风险梳理",
+        "产品取舍"
+      ],
+      "context": "本人历史采访的已发表文字；自述不能替代第三方事实与效果验证。应用问题和步骤由编辑推演。"
+    },
+    {
+      "id": "ren-e-supplier-backups",
+      "source_id": "ren-bbc-2019",
+      "speaker": "任正非",
+      "excerpt": "备份",
+      "summary": "他描述避免唯一渠道，以及在只有一家供应时做备份的采购思路。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第11页；印刷第6页；同场雅虎财经采访"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "供应链",
+        "单一依赖",
+        "备份",
+        "连续性"
+      ],
+      "context": "本人历史采访的已发表文字；自述不能替代第三方事实与效果验证。应用问题和步骤由编辑推演。"
+    },
+    {
+      "id": "ren-e-substitution-has-costs",
+      "source_id": "ren-bbc-2019",
+      "speaker": "任正非",
+      "excerpt": "成本",
+      "summary": "他谈版本替换时，不只涉及研发，还涉及市场、交付、人员和成本。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第12页；印刷第7页；同场雅虎财经采访"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "替代方案",
+        "切换成本",
+        "跨团队",
+        "交付"
+      ],
+      "context": "本人历史采访的已发表文字；自述不能替代第三方事实与效果验证。应用问题和步骤由编辑推演。"
+    },
+    {
+      "id": "ren-e-capability-and-openness",
+      "source_id": "ren-bbc-2019",
+      "speaker": "任正非",
+      "excerpt": "开放",
+      "summary": "他把备份能力与继续合作并置，反对由具备能力直接推导全面封闭。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第13页；印刷第8页；同场雅虎财经采访"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "开放合作",
+        "自身能力",
+        "供应选择",
+        "弹性"
+      ],
+      "context": "本人历史采访的已发表文字；自述不能替代第三方事实与效果验证。应用问题和步骤由编辑推演。"
+    },
+    {
+      "id": "ren-e-check-with-specialists",
+      "source_id": "ren-bbc-2019",
+      "speaker": "任正非",
+      "excerpt": "请教",
+      "summary": "他回顾设计仪器时，曾请数学教授检查推导和可行性，再继续系统设计。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第64页；印刷第59页；2019-07-23 BBC纪录片Nicola Eliot采访"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "技术验证",
+        "专家核对",
+        "推导",
+        "实践"
+      ],
+      "context": "本人历史采访的已发表文字；自述不能替代第三方事实与效果验证。应用问题和步骤由编辑推演。"
+    },
+    {
+      "id": "ren-e-rules-for-growing-organizations",
+      "source_id": "ren-bbc-2019",
+      "speaker": "任正非",
+      "excerpt": "规则",
+      "summary": "他回顾早期工资等由个人决定，规模扩大后需要规范的制度文件。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第74页；印刷第69页；同场BBC采访谈管理咨询"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "组织扩张",
+        "制度",
+        "规范",
+        "管理"
+      ],
+      "context": "本人历史采访的已发表文字；自述不能替代第三方事实与效果验证。应用问题和步骤由编辑推演。"
+    },
+    {
+      "id": "ren-e-learn-external-practice",
+      "source_id": "ren-bbc-2019",
+      "speaker": "任正非",
+      "excerpt": "学习",
+      "summary": "他回顾聘请咨询机构，也指出部分学习中途停止、没有做到底的遗憾。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第75页；印刷第70页；同场BBC采访"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "外部学习",
+        "管理改进",
+        "持续实施",
+        "咨询"
+      ],
+      "context": "本人历史采访的已发表文字；自述不能替代第三方事实与效果验证。应用问题和步骤由编辑推演。"
+    },
+    {
+      "id": "ren-e-customer-physical-constraints",
+      "source_id": "ren-bbc-2019",
+      "speaker": "任正非",
+      "excerpt": "重量",
+      "summary": "他用欧洲建筑承重与设备尺寸解释组合技术的商业价值。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第78页；印刷第73页；同场BBC采访谈SingleRAN"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "客户约束",
+        "技术产品",
+        "现场需求",
+        "交付"
+      ],
+      "context": "本人历史采访的已发表文字；自述不能替代第三方事实与效果验证。应用问题和步骤由编辑推演。"
+    }
+  ],
+  "principles": [
+    {
+      "id": "ren-p-concentrated-capability",
+      "title": "将有限投入围绕清晰的能力方向积累",
+      "summary": "他以持续对准同一方向投入研发，解释公司的能力建设方式。",
+      "topics": [
+        "聚焦",
+        "能力积累",
+        "研发",
+        "资源分配"
+      ],
+      "evidence_ids": [
+        "ren-e-concentrated-capability"
+      ],
+      "application": {
+        "questions": [
+          "你的资源是否在形成同一方向上的能力？"
+        ],
+        "steps": [
+          "明确主要服务的问题和需要的能力。",
+          "比较各项投入是否支持这个方向。"
+        ],
+        "limits": [
+          "不复制研发金额或将集中投入当必然成功；其资本与所有制评论不作普遍因果结论。"
+        ]
+      }
+    },
+    {
+      "id": "ren-p-education-needs-teachers",
+      "title": "长期能力建设要重视基础教育与教师条件",
+      "summary": "他把基础教育和教师的待遇、吸引力作为长期人才条件讨论。",
+      "topics": [
+        "基础教育",
+        "教师支持",
+        "长期能力",
+        "人才"
+      ],
+      "evidence_ids": [
+        "ren-e-education-needs-teachers"
+      ],
+      "application": {
+        "questions": [
+          "你是否只要求更高成果，却忽略了基础培养条件？"
+        ],
+        "steps": [
+          "找出基础学习与教学支持的缺口。",
+          "用实际资源改善持续培养的条件。"
+        ],
+        "limits": [
+          "不采用其宏观预测与历史类比作实证，也不承诺投入教育必然取得特定结果。"
+        ]
+      }
+    },
+    {
+      "id": "ren-p-technology-needs-demand",
+      "title": "技术热度不能替代具体需求与商业条件",
+      "summary": "他在谈5G时提醒部分内涵要等待需求，演示不等于大规模商业行为。",
+      "topics": [
+        "技术商业化",
+        "需求",
+        "演示",
+        "验证"
+      ],
+      "evidence_ids": [
+        "ren-e-technology-needs-demand"
+      ],
+      "application": {
+        "questions": [
+          "演示效果之外，谁在什么条件下真正需要它？"
+        ],
+        "steps": [
+          "核对实际任务和现有替代方案。",
+          "验证付费、交付和使用条件再扩大投入。"
+        ],
+        "limits": [
+          "这是2019年的判断，不当作当前5G需求或投资预测。"
+        ]
+      }
+    },
+    {
+      "id": "ren-p-whole-system-bottleneck",
+      "title": "检查系统瓶颈而不只升级显眼部件",
+      "summary": "他以基站和网络结构作比喻，说明局部增强不一定解决整体限制。",
+      "topics": [
+        "系统瓶颈",
+        "整体优化",
+        "网络结构",
+        "技术选择"
+      ],
+      "evidence_ids": [
+        "ren-e-whole-system-bottleneck"
+      ],
+      "application": {
+        "questions": [
+          "真正限制端到端结果的是哪个环节？"
+        ],
+        "steps": [
+          "测量完整使用过程的限制。",
+          "优先验证改动是否改善整体结果。"
+        ],
+        "limits": [
+          "不沿用当时速率数字，也不将比喻当具体网络诊断结论。"
+        ]
+      }
+    },
+    {
+      "id": "ren-p-research-and-application",
+      "title": "区分知识探索与产品应用的不同任务",
+      "summary": "他用金钱转知识与知识转产品的区别，描述基础研究和应用队伍。",
+      "topics": [
+        "基础研究",
+        "应用研发",
+        "分工",
+        "知识积累"
+      ],
+      "evidence_ids": [
+        "ren-e-research-and-application"
+      ],
+      "application": {
+        "questions": [
+          "你评价探索工作和交付工作时，是否用了同一把尺子？"
+        ],
+        "steps": [
+          "分别说明探索问题与交付目标。",
+          "明确两者如何交流，而非要求所有研究立即变现。"
+        ],
+        "limits": [
+          "人员规模和领先性是公司自述；不保证基础研究自动产生超额利润。"
+        ]
+      }
+    },
+    {
+      "id": "ren-p-recognize-capability-gaps",
+      "title": "评价能力时明确尚未掌握的领域",
+      "summary": "他在谈基础研究时承认不同学科的积累并不均衡。",
+      "topics": [
+        "能力评估",
+        "知识边界",
+        "基础研究",
+        "差距"
+      ],
+      "evidence_ids": [
+        "ren-e-recognize-capability-gaps"
+      ],
+      "application": {
+        "questions": [
+          "整体表现不错时，哪些能力仍明显不足？"
+        ],
+        "steps": [
+          "分领域列出现有证据与缺口。",
+          "为重要缺口安排学习、合作或验证。"
+        ],
+        "limits": [
+          "只记录2019年的自我评价，不据此判断当前公司的技术地位。"
+        ]
+      }
+    },
+    {
+      "id": "ren-p-advantages-can-change",
+      "title": "定期检查现有优势的成立条件",
+      "summary": "他担心技术进入不同阶段后，既有优势会缩小、竞争者更容易追上。",
+      "topics": [
+        "竞争优势",
+        "技术变化",
+        "长期风险",
+        "复查前提"
+      ],
+      "evidence_ids": [
+        "ren-e-advantages-can-change"
+      ],
+      "application": {
+        "questions": [
+          "你的优势依赖哪些可能变化的条件？"
+        ],
+        "steps": [
+          "列出优势来源与失效信号。",
+          "用新事实更新投入方向。"
+        ],
+        "limits": [
+          "不把其半导体和自动驾驶预测当当前事实或确定趋势。"
+        ]
+      }
+    },
+    {
+      "id": "ren-p-use-domain-expertise",
+      "title": "让专业判断在对应领域发挥作用",
+      "summary": "他解释园区建筑方案由专业设计和顾问评选决定，而不是自己拍板。",
+      "topics": [
+        "专业判断",
+        "授权",
+        "决策",
+        "设计"
+      ],
+      "evidence_ids": [
+        "ren-e-use-domain-expertise"
+      ],
+      "application": {
+        "questions": [
+          "这项判断需要什么专业能力，谁更适合负责？"
+        ],
+        "steps": [
+          "明确决策所需知识和评价条件。",
+          "让具备相应能力的人参与，并保留责任与复核。"
+        ],
+        "limits": [
+          "不推导专家永远正确，也不延伸其回答中的国家象征猜测。"
+        ]
+      }
+    },
+    {
+      "id": "ren-p-admit-and-repair-preparedness",
+      "title": "承认准备缺口并梳理具体压力",
+      "summary": "他回顾2019年供应限制时，承认事先准备不足，并区分不同产品的处境。",
+      "topics": [
+        "应急准备",
+        "承认不足",
+        "风险梳理",
+        "产品取舍"
+      ],
+      "evidence_ids": [
+        "ren-e-admit-and-repair-preparedness"
+      ],
+      "application": {
+        "questions": [
+          "压力下哪些部分已经准备好，哪些需要补救？"
+        ],
+        "steps": [
+          "按产品或任务核对关键依赖。",
+          "先处理已暴露的缺口，并重新评估轻重。"
+        ],
+        "limits": [
+          "不以他的自述证明公司实际供应状态，也不将删减次要产品当唯一策略。"
+        ]
+      }
+    },
+    {
+      "id": "ren-p-supplier-backups",
+      "title": "识别单一供应依赖并准备可用替代",
+      "summary": "他描述避免唯一渠道，以及在只有一家供应时做备份的采购思路。",
+      "topics": [
+        "供应链",
+        "单一依赖",
+        "备份",
+        "连续性"
+      ],
+      "evidence_ids": [
+        "ren-e-supplier-backups"
+      ],
+      "application": {
+        "questions": [
+          "关键环节失去一家供应后还能否继续交付？"
+        ],
+        "steps": [
+          "列出不可替代的依赖。",
+          "验证替代方案的能力、成本和切换条件。"
+        ],
+        "limits": [
+          "备份有成本与兼容限制，不能只计算供应商数量或照搬其比例。"
+        ]
+      }
+    },
+    {
+      "id": "ren-p-substitution-has-costs",
+      "title": "替代方案要计入跨团队切换成本",
+      "summary": "他谈版本替换时，不只涉及研发，还涉及市场、交付、人员和成本。",
+      "topics": [
+        "替代方案",
+        "切换成本",
+        "跨团队",
+        "交付"
+      ],
+      "evidence_ids": [
+        "ren-e-substitution-has-costs"
+      ],
+      "application": {
+        "questions": [
+          "技术上可以替换，组织和交付上是否也准备好了？"
+        ],
+        "steps": [
+          "列出受影响系统和工作流程。",
+          "把迁移、验证与人员投入一起纳入计划。"
+        ],
+        "limits": [
+          "当时人员和产品能力为自述；不据此认定某项替代已经成熟。"
+        ]
+      }
+    },
+    {
+      "id": "ren-p-capability-and-openness",
+      "title": "准备自身能力时仍可保留外部合作",
+      "summary": "他把备份能力与继续合作并置，反对由具备能力直接推导全面封闭。",
+      "topics": [
+        "开放合作",
+        "自身能力",
+        "供应选择",
+        "弹性"
+      ],
+      "evidence_ids": [
+        "ren-e-capability-and-openness"
+      ],
+      "application": {
+        "questions": [
+          "增强自主能力是否也能增加合作选择？"
+        ],
+        "steps": [
+          "区分必要备份与适合继续合作的部分。",
+          "比较不同条件下的可行组合。"
+        ],
+        "limits": [
+          "不评价当前贸易政策，不复制公司采购比例或承诺合作一定可得。"
+        ]
+      }
+    },
+    {
+      "id": "ren-p-check-with-specialists",
+      "title": "在不确定的技术推导上寻求专业核对",
+      "summary": "他回顾设计仪器时，曾请数学教授检查推导和可行性，再继续系统设计。",
+      "topics": [
+        "技术验证",
+        "专家核对",
+        "推导",
+        "实践"
+      ],
+      "evidence_ids": [
+        "ren-e-check-with-specialists"
+      ],
+      "application": {
+        "questions": [
+          "关键推导由谁独立检查过，下一步如何验证？"
+        ],
+        "steps": [
+          "明确待检验的假设和推导。",
+          "请相关专业人员核对，再用适当实验检验。"
+        ],
+        "limits": [
+          "个人回忆未独立核实；专家肯定不能替代后续测试。"
+        ]
+      }
+    },
+    {
+      "id": "ren-p-rules-for-growing-organizations",
+      "title": "组织扩大后减少对个人临时决定的依赖",
+      "summary": "他回顾早期工资等由个人决定，规模扩大后需要规范的制度文件。",
+      "topics": [
+        "组织扩张",
+        "制度",
+        "规范",
+        "管理"
+      ],
+      "evidence_ids": [
+        "ren-e-rules-for-growing-organizations"
+      ],
+      "application": {
+        "questions": [
+          "哪些重要安排仍依赖某个人临时拍板？"
+        ],
+        "steps": [
+          "识别重复出现且影响公平或协作的决定。",
+          "明确条件、责任和可复核流程。"
+        ],
+        "limits": [
+          "制度也需要实际执行与复查；公司叙述不是其制度公平性的证明。"
+        ]
+      }
+    },
+    {
+      "id": "ren-p-learn-external-practice",
+      "title": "借助外部经验时要把学习落实到持续工作",
+      "summary": "他回顾聘请咨询机构，也指出部分学习中途停止、没有做到底的遗憾。",
+      "topics": [
+        "外部学习",
+        "管理改进",
+        "持续实施",
+        "咨询"
+      ],
+      "evidence_ids": [
+        "ren-e-learn-external-practice"
+      ],
+      "application": {
+        "questions": [
+          "购买建议之后，谁负责把适用部分落实并复查？"
+        ],
+        "steps": [
+          "明确需要解决的问题和内部负责人。",
+          "持续验证改变的效果，而非只购买报告。"
+        ],
+        "limits": [
+          "不沿用咨询费用和财务领先自评，也不认为外部方案都适用。"
+        ]
+      }
+    },
+    {
+      "id": "ren-p-customer-physical-constraints",
+      "title": "技术方案要回应客户现场的实际限制",
+      "summary": "他用欧洲建筑承重与设备尺寸解释组合技术的商业价值。",
+      "topics": [
+        "客户约束",
+        "技术产品",
+        "现场需求",
+        "交付"
+      ],
+      "evidence_ids": [
+        "ren-e-customer-physical-constraints"
+      ],
+      "application": {
+        "questions": [
+          "客户现场有哪些使现有方案难以使用的限制？"
+        ],
+        "steps": [
+          "核对安装、体积、成本和操作条件。",
+          "围绕真实限制比较方案，并用现场反馈验证。"
+        ],
+        "limits": [
+          "成本下降、盈利与突破归因为本人自述，不视为独立技术或因果审计。"
+        ]
+      }
+    }
+  ]
+}

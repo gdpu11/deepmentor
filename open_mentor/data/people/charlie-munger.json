@@ -1,0 +1,1207 @@
+{
+  "schema_version": 1,
+  "person": {
+    "id": "charlie-munger",
+    "name": "查理·芒格",
+    "aliases": [
+      "Charlie Munger",
+      "芒格",
+      "查理芒格"
+    ],
+    "description": "依据本人 2005 年修订的误判心理学书面稿、USC 原发布演讲记录、Wesco 署名股东信和伯克希尔独立署名文章整理判断、学习、激励与经营；区分个人分类、历史例子和科学结论。"
+  },
+  "sources": [
+    {
+      "id": "munger-stripe-zine",
+      "title": "The Psychology of Human Misjudgment — author-revised 2005 written version",
+      "url": "https://assets.stripeassets.com/fzn2n1nzq965/0RUnI35jpt78x10nvlO2Y/b66a46dba182182a2a0082213eafc634/SP_PCA-ZINE_2023_11_27.pdf",
+      "publisher": "Stripe Press / Charles T. Munger 署名书面稿",
+      "kind": "essay",
+      "authority": "publisher",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_pdf_text_check",
+        "note": "出版方页面直接提供的本人署名书面作品。封面明确说明合并三场讲话、经芒格于 2005 年修订并增补，合成稿从未实际整场讲过。核对的是此作者修订出版文字，不把它声称为某场演讲逐字稿，也不将编者叙述归于芒格。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。原文标示的时期：作者修订年份 2005；本次读取 Stripe Press 提供的版式文件。"
+      },
+      "content_sha256": "47747ad86d8a33b38a0a5efe553e40c9a88a4440b5d72e8b79c6fcc1f0eb658c",
+      "refresh": {
+        "mode": "manual",
+        "interval_days": 90
+      }
+    },
+    {
+      "id": "munger-usc-2007",
+      "title": "300 graduate from USC Law | USC Gould School of Law",
+      "url": "https://gould.usc.edu/news/300-graduate-from-usc-law/",
+      "publisher": "USC Gould School of Law / 原发布现场报道",
+      "kind": "essay",
+      "authority": "publisher",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "学校对本校毕业典礼的原发布报道；只使用明确归于芒格的引语，不把校长、院长或记者文字归于他。文章完整发表日期未确认，演讲日期单独保留。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。原文标示的时期：演讲发生于 2007-05-13。"
+      },
+      "content_sha256": "77047b1346eaaeb556af1ae8d29f63e732ae637cca3832ca6ae45e2c80756bcd",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "munger-berkshire-2014",
+      "title": "Vice Chairman’s Thoughts – Past and Future — Charles T. Munger",
+      "url": "https://www.berkshirehathaway.com/letters/2014ltr.pdf",
+      "publisher": "Berkshire Hathaway / Charles T. Munger 独立署名文章",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_pdf_text_check",
+        "note": "只核对 PDF第38—42页（文件页序）芒格独立署名的正文，开头说明其独立补充巴菲特文章；不从同文件较早的巴菲特篇摘录并归给芒格。正文财务年度与实际撰写年份不混同。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。原文标示的时期：2014 年度报告内的五十周年文章；篇末未单独署日。"
+      },
+      "content_sha256": "ffae760ec53d6fa239bb60ff43de6859384e36548372ee0dce8397554c83904b",
+      "refresh": {
+        "mode": "manual",
+        "interval_days": 90
+      }
+    },
+    {
+      "id": "munger-wesco-2004",
+      "title": "Charles T. Munger — Wesco 2004 Letter to Shareholders",
+      "url": "https://berkshirehathaway.com/wesco/cm2004.pdf",
+      "publisher": "Wesco / Charles T. Munger 署名股东信",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2005-03-09",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_pdf_text_check",
+        "note": "原公司官方档案中的本人署名信，日期取末尾署名。经营行动和数据为管理者历史自述，不作为独立成效验证。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "c0acab3cf917d3398ea4f063b1d02be28c05d7bc1bd029d2c7454f7d1e81fc31",
+      "refresh": {
+        "mode": "manual",
+        "interval_days": 90
+      }
+    },
+    {
+      "id": "munger-wesco-2008",
+      "title": "Charles T. Munger — Wesco 2008 Letter to Shareholders",
+      "url": "https://berkshirehathaway.com/wesco/cm2008.pdf",
+      "publisher": "Wesco / Charles T. Munger 署名股东信",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2009-02-25",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_pdf_text_check",
+        "note": "原公司官方档案中的本人署名信，日期取末尾署名。经营行动和数据为管理者历史自述，不作为独立成效验证。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "bc95bf4cf33b066ee2c8e0d2bbcb66ea6590c8edf0c2c8bbe116feaddb142c03",
+      "refresh": {
+        "mode": "manual",
+        "interval_days": 90
+      }
+    },
+    {
+      "id": "munger-wesco-2009",
+      "title": "Charles T. Munger — Wesco 2009 Letter to Shareholders",
+      "url": "https://berkshirehathaway.com/wesco/cm2009.pdf",
+      "publisher": "Wesco / Charles T. Munger 署名股东信",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": "2010-02-26",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_pdf_text_check",
+        "note": "原公司官方档案中的本人署名信，日期取末尾署名。经营行动和数据为管理者历史自述，不作为独立成效验证。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "3ffbef1f5015d909905a4192a13fe2f5c73c446f4d451035dc705e9314ffdec5",
+      "refresh": {
+        "mode": "manual",
+        "interval_days": 90
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "munger-e-invert-failure",
+      "source_id": "munger-stripe-zine",
+      "speaker": "查理·芒格",
+      "excerpt": "bad judgment",
+      "summary": "他通过收集误判研究如何避免失败。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第6页（文件页序）；导言；受 Jacobi 启发的反向研究方法"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "逆向思考",
+        "失败条件",
+        "决策",
+        "检查清单"
+      ],
+      "context": "作者借鉴前人的逆向思考，非独创或结果保证。"
+    },
+    {
+      "id": "munger-e-incentive-bias",
+      "source_id": "munger-stripe-zine",
+      "speaker": "查理·芒格",
+      "excerpt": "incentives",
+      "summary": "他把激励视为影响判断的重要因素。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第10页（文件页序）；关于奖惩反应的章节"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "激励",
+        "利益冲突",
+        "判断",
+        "组织管理"
+      ],
+      "context": "书面稿中的个人分类，不等于完整科学模型。"
+    },
+    {
+      "id": "munger-e-revise-old-conclusions",
+      "source_id": "munger-stripe-zine",
+      "speaker": "查理·芒格",
+      "excerpt": "reluctant to change",
+      "summary": "他讨论人们对改变既有观念的抗拒。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第18页（文件页序）；关于避免不一致的章节"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "反证",
+        "认知偏差",
+        "纠错",
+        "学习"
+      ],
+      "context": "按作者论述作编辑应用，不诊断个人心理。"
+    },
+    {
+      "id": "munger-e-liking-and-evidence",
+      "source_id": "munger-stripe-zine",
+      "speaker": "查理·芒格",
+      "excerpt": "ignore the faults",
+      "summary": "他提醒喜爱可能让人忽视对象的缺点。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第16页（文件页序）；关于喜爱倾向的章节"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "喜好",
+        "证据",
+        "判断",
+        "声望"
+      ],
+      "context": "作者的倾向分类不是对个体的临床诊断。"
+    },
+    {
+      "id": "munger-e-social-proof",
+      "source_id": "munger-stripe-zine",
+      "speaker": "查理·芒格",
+      "excerpt": "think and act",
+      "summary": "他讨论人们容易模仿周围人的判断。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第35页（文件页序）；关于社会认同的章节"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "从众",
+        "独立判断",
+        "群体",
+        "证据"
+      ],
+      "context": "保留社会学习可能有用的条件，不绝对反从众。"
+    },
+    {
+      "id": "munger-e-authority-check",
+      "source_id": "munger-stripe-zine",
+      "speaker": "查理·芒格",
+      "excerpt": "leader is wrong",
+      "summary": "他提醒跟随领导或权威也可能放大错误。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第41页（文件页序）；关于权威影响的章节"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "权威",
+        "证据质量",
+        "决策",
+        "沟通"
+      ],
+      "context": "归纳作者的判断提醒，不用于心理诊断。"
+    },
+    {
+      "id": "munger-e-availability-checklist",
+      "source_id": "munger-stripe-zine",
+      "speaker": "查理·芒格",
+      "excerpt": "use of checklists",
+      "summary": "他建议以程序减少对现成信息的过度依赖。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第39页（文件页序）；关于可得性误判的章节"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "可得性",
+        "检查清单",
+        "信息完整性",
+        "决策"
+      ],
+      "context": "提取其程序性补救思路，不宣称清单消除偏差。"
+    },
+    {
+      "id": "munger-e-optimism-and-probability",
+      "source_id": "munger-stripe-zine",
+      "speaker": "查理·芒格",
+      "excerpt": "probability math",
+      "summary": "他建议用概率常识约束过度乐观。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第32页（文件页序）；关于过度乐观的章节"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "概率",
+        "过度乐观",
+        "风险",
+        "判断"
+      ],
+      "context": "作者的心理分类不等于可量化预测模型。"
+    },
+    {
+      "id": "munger-e-loss-reaction",
+      "source_id": "munger-stripe-zine",
+      "speaker": "查理·芒格",
+      "excerpt": "misframing his problems",
+      "summary": "他提醒对失去事物的强烈反应可能扭曲问题。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第32页（文件页序）；关于被剥夺后的过度反应的章节"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "损失",
+        "沉没成本",
+        "决策",
+        "情绪"
+      ],
+      "context": "不根据一次情绪反应推断稳定人格。"
+    },
+    {
+      "id": "munger-e-combined-biases",
+      "source_id": "munger-stripe-zine",
+      "speaker": "查理·芒格",
+      "excerpt": "extreme consequences",
+      "summary": "他讨论多种心理倾向同向作用的极端结果。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第44页（文件页序）；关于多种倾向合流的章节"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "多因素",
+        "认知偏差",
+        "系统判断",
+        "风险"
+      ],
+      "context": "这是作者的综合框架，不是完整科学分类。"
+    },
+    {
+      "id": "munger-e-lifelong-learning",
+      "source_id": "munger-usc-2007",
+      "speaker": "查理·芒格",
+      "excerpt": "Wisdom acquisition",
+      "summary": "他在毕业演讲中强调离校后继续学习。",
+      "locator": {
+        "type": "heading",
+        "value": "原发布报道；关于持续学习的直接引语"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "学习",
+        "长期成长",
+        "职业",
+        "阅读"
+      ],
+      "context": "学校现场报道中的芒格引语；不是整场逐字稿。"
+    },
+    {
+      "id": "munger-e-multidisciplinary-models",
+      "source_id": "munger-usc-2007",
+      "speaker": "查理·芒格",
+      "excerpt": "multi-disciplinary approach",
+      "summary": "他描述学习多领域的重要观点并在生活中练习使用。",
+      "locator": {
+        "type": "heading",
+        "value": "原发布报道；关于多学科实践的直接引语"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "多学科",
+        "思维模型",
+        "学习",
+        "判断"
+      ],
+      "context": "保留其个人经历的性质，不把自述成效当独立验证。"
+    },
+    {
+      "id": "munger-e-deserve-trust",
+      "source_id": "munger-usc-2007",
+      "speaker": "查理·芒格",
+      "excerpt": "deserve what you want",
+      "summary": "他把值得获得回报与向别人交付自己愿意购买的东西联系起来。",
+      "locator": {
+        "type": "heading",
+        "value": "原发布报道；关于交付与伦理的直接引语"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "品格",
+        "交付",
+        "信任",
+        "合作"
+      ],
+      "context": "这是演讲中的伦理主张，不是成功或财富的因果定律。"
+    },
+    {
+      "id": "munger-e-autonomy-with-responsibility",
+      "source_id": "munger-berkshire-2014",
+      "speaker": "查理·芒格",
+      "excerpt": "extreme autonomy",
+      "summary": "他把子公司经营者的高度自主列为伯克希尔制度特点。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第38页（文件页序）；独立署名文章；制度第二项"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "授权",
+        "组织管理",
+        "责任",
+        "自主权"
+      ],
+      "context": "取自芒格独立文章，不归并到巴菲特的正文。"
+    },
+    {
+      "id": "munger-e-central-capital-role",
+      "source_id": "munger-berkshire-2014",
+      "speaker": "查理·芒格",
+      "excerpt": "deploy most cash",
+      "summary": "他描述总部保留少数关键职责，包括配置子公司不再需要的现金。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第38页（文件页序）；独立署名文章；制度第六项的现金配置职责"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "资本配置",
+        "总部职责",
+        "组织分工",
+        "现金流"
+      ],
+      "context": "原文有竞争优势投入等前提，不是把所有现金集中回总部。"
+    },
+    {
+      "id": "munger-e-success-replicability",
+      "source_id": "munger-berkshire-2014",
+      "speaker": "查理·芒格",
+      "excerpt": "fail to recreate it",
+      "summary": "他承认伯克希尔的保险成果未必能重新复制。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第41页（文件页序）；独立署名文章；保险成果与可复制性的讨论"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "可复制性",
+        "历史条件",
+        "成功经验",
+        "判断"
+      ],
+      "context": "保留作者对特殊历史机会的承认，不包装成人人适用的致富公式。"
+    },
+    {
+      "id": "munger-e-estimate-uncertainty",
+      "source_id": "munger-wesco-2009",
+      "speaker": "查理·芒格",
+      "excerpt": "best honest guesses",
+      "summary": "他提醒保险报告中的未来成本仍依赖估计。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第3页（文件页序）；Insurance Businesses；未来赔付估计"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "估计",
+        "不确定性",
+        "财务分析",
+        "风险"
+      ],
+      "context": "管理者自述的估计限制，不等于独立审计结论。"
+    },
+    {
+      "id": "munger-e-temporary-funds",
+      "source_id": "munger-wesco-2009",
+      "speaker": "查理·芒格",
+      "excerpt": "money we hold temporarily",
+      "summary": "他说明保险浮存金是暂时持有、对应后续义务的资金。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第3页（文件页序）；Insurance Businesses；float 定义"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "资金口径",
+        "负债",
+        "现金流",
+        "风险"
+      ],
+      "context": "保留原文以承保结果不亏损为条件的说明。"
+    },
+    {
+      "id": "munger-e-exit-changed-risk",
+      "source_id": "munger-wesco-2008",
+      "speaker": "查理·芒格",
+      "excerpt": "exit this line of insurance",
+      "summary": "他报告在失去长期盈利信心后退出一类担保业务。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第4页（文件页序）；Kansas Bankers；存款担保业务调整"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "纠错",
+        "风险变化",
+        "退出",
+        "经营判断"
+      ],
+      "context": "这是公司行动的署名披露，原则和步骤为编辑应用。"
+    },
+    {
+      "id": "munger-e-book-value-quality",
+      "source_id": "munger-wesco-2004",
+      "speaker": "查理·芒格",
+      "excerpt": "much less intrinsic value",
+      "summary": "他提醒相同账面价值在不同公司未必对应相同内在价值。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第7页（文件页序）；Concluding Comments；Wesco 与 Berkshire 的账面价值比较"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "财务口径",
+        "估值",
+        "商业质量",
+        "比较"
+      ],
+      "context": "原文为特定历史公司之间的比较，不把管理者估值视为独立事实。"
+    }
+  ],
+  "principles": [
+    {
+      "id": "munger-p-invert-failure",
+      "title": "从可能出错的地方反查选择",
+      "summary": "他通过收集误判研究如何避免失败。",
+      "topics": [
+        "逆向思考",
+        "失败条件",
+        "决策",
+        "检查清单"
+      ],
+      "evidence_ids": [
+        "munger-e-invert-failure"
+      ],
+      "application": {
+        "questions": [
+          "如果这件事最后失败，最可能因为什么？"
+        ],
+        "steps": [
+          "先列出几个具体失败路径。",
+          "检查哪些可提前避免，哪些损失无法承受。"
+        ],
+        "limits": [
+          "失败清单不可能穷尽风险，也不能证明排除已知错误就必然成功。"
+        ]
+      }
+    },
+    {
+      "id": "munger-p-incentive-bias",
+      "title": "先检查行为背后的激励",
+      "summary": "他把激励视为影响判断的重要因素。",
+      "topics": [
+        "激励",
+        "利益冲突",
+        "判断",
+        "组织管理"
+      ],
+      "evidence_ids": [
+        "munger-e-incentive-bias"
+      ],
+      "application": {
+        "questions": [
+          "提出建议的人会因哪种结果获得好处或承担损失？"
+        ],
+        "steps": [
+          "列出相关方的收益、风险与决策权。",
+          "核对建议内容，而不是仅凭动机猜测真假。"
+        ],
+        "limits": [
+          "存在利益关系不自动证明建议错误；这是自查框架，不是人格判断。"
+        ]
+      }
+    },
+    {
+      "id": "munger-p-revise-old-conclusions",
+      "title": "为修正旧结论保留入口",
+      "summary": "他讨论人们对改变既有观念的抗拒。",
+      "topics": [
+        "反证",
+        "认知偏差",
+        "纠错",
+        "学习"
+      ],
+      "evidence_ids": [
+        "munger-e-revise-old-conclusions"
+      ],
+      "application": {
+        "questions": [
+          "什么新证据足以让你修改当前结论？"
+        ],
+        "steps": [
+          "写下会推翻判断的条件。",
+          "主动找一个反例并记录是否改变结论。"
+        ],
+        "limits": [
+          "不能把所有坚持都视为偏差；需要比较具体证据。"
+        ]
+      }
+    },
+    {
+      "id": "munger-p-liking-and-evidence",
+      "title": "把喜好与事实核对分开",
+      "summary": "他提醒喜爱可能让人忽视对象的缺点。",
+      "topics": [
+        "喜好",
+        "证据",
+        "判断",
+        "声望"
+      ],
+      "evidence_ids": [
+        "munger-e-liking-and-evidence"
+      ],
+      "application": {
+        "questions": [
+          "如果换成自己不喜欢的人提出同一主张，你会怎样核对？"
+        ],
+        "steps": [
+          "对喜欢和不喜欢的对象使用相同核验问题。",
+          "单独检查缺陷和反例。"
+        ],
+        "limits": [
+          "喜好不证明观点错误；更不能从关系推断固定人格。"
+        ]
+      }
+    },
+    {
+      "id": "munger-p-social-proof",
+      "title": "跟随群体前核对独立依据",
+      "summary": "他讨论人们容易模仿周围人的判断。",
+      "topics": [
+        "从众",
+        "独立判断",
+        "群体",
+        "证据"
+      ],
+      "evidence_ids": [
+        "munger-e-social-proof"
+      ],
+      "application": {
+        "questions": [
+          "你依据的是独立事实，还是别人也在这样做？"
+        ],
+        "steps": [
+          "把真实证据与他人态度分开。",
+          "核对参与者是否也只是互相参照。"
+        ],
+        "limits": [
+          "他人的经验可能有价值，不能反向认为多数人一定错。"
+        ]
+      }
+    },
+    {
+      "id": "munger-p-authority-check",
+      "title": "把权威主张还原成可检查的理由",
+      "summary": "他提醒跟随领导或权威也可能放大错误。",
+      "topics": [
+        "权威",
+        "证据质量",
+        "决策",
+        "沟通"
+      ],
+      "evidence_ids": [
+        "munger-e-authority-check"
+      ],
+      "application": {
+        "questions": [
+          "这个结论有哪些事实、推理和适用边界？"
+        ],
+        "steps": [
+          "检查专业范围和实际论据。",
+          "在职责允许范围内提出具体疑问。"
+        ],
+        "limits": [
+          "质疑不能替代专业训练，也不意味着所有权威都不可信。"
+        ]
+      }
+    },
+    {
+      "id": "munger-p-availability-checklist",
+      "title": "用清单补足眼前最容易想到的信息",
+      "summary": "他建议以程序减少对现成信息的过度依赖。",
+      "topics": [
+        "可得性",
+        "检查清单",
+        "信息完整性",
+        "决策"
+      ],
+      "evidence_ids": [
+        "munger-e-availability-checklist"
+      ],
+      "application": {
+        "questions": [
+          "除最近见到的案例，还有哪些重要信息被遗漏？"
+        ],
+        "steps": [
+          "列出决策需要的信息类型。",
+          "补查反例、长期记录和未出现于眼前的条件。"
+        ],
+        "limits": [
+          "清单也需要维护，不能把全部勾选当成结论正确的证明。"
+        ]
+      }
+    },
+    {
+      "id": "munger-p-optimism-and-probability",
+      "title": "用概率和不利情景校正乐观预期",
+      "summary": "他建议用概率常识约束过度乐观。",
+      "topics": [
+        "概率",
+        "过度乐观",
+        "风险",
+        "判断"
+      ],
+      "evidence_ids": [
+        "munger-e-optimism-and-probability"
+      ],
+      "application": {
+        "questions": [
+          "除希望的结果之外，其他结果大致有多可能？"
+        ],
+        "steps": [
+          "查找可比情形及其结果范围。",
+          "写出不利情景，避免只用最顺利的假设。"
+        ],
+        "limits": [
+          "没有可靠数据时应保留未知，不能编造精确概率。"
+        ]
+      }
+    },
+    {
+      "id": "munger-p-loss-reaction",
+      "title": "损失发生后重新框定下一步",
+      "summary": "他提醒对失去事物的强烈反应可能扭曲问题。",
+      "topics": [
+        "损失",
+        "沉没成本",
+        "决策",
+        "情绪"
+      ],
+      "evidence_ids": [
+        "munger-e-loss-reaction"
+      ],
+      "application": {
+        "questions": [
+          "下一步是在改善未来结果，还是只想把已经损失的赢回来？"
+        ],
+        "steps": [
+          "把既有损失与新增投入分开。",
+          "重新比较继续、修改和退出的成本。"
+        ],
+        "limits": [
+          "损失反应并非总是不合理，不把现实权益或必要维权归成心理偏差。"
+        ]
+      }
+    },
+    {
+      "id": "munger-p-combined-biases",
+      "title": "同时检查多个因素如何相互放大",
+      "summary": "他讨论多种心理倾向同向作用的极端结果。",
+      "topics": [
+        "多因素",
+        "认知偏差",
+        "系统判断",
+        "风险"
+      ],
+      "evidence_ids": [
+        "munger-e-combined-biases"
+      ],
+      "application": {
+        "questions": [
+          "激励、群体、权威和损失压力是否正在共同推你作决定？"
+        ],
+        "steps": [
+          "分别列出可能的影响因素。",
+          "减少一个可控制的压力，再核对事实与选项。"
+        ],
+        "limits": [
+          "不能仅凭多个因素同时出现就认定存在操纵或确定因果。"
+        ]
+      }
+    },
+    {
+      "id": "munger-p-lifelong-learning",
+      "title": "把持续学习作为长期责任",
+      "summary": "他在毕业演讲中强调离校后继续学习。",
+      "topics": [
+        "学习",
+        "长期成长",
+        "职业",
+        "阅读"
+      ],
+      "evidence_ids": [
+        "munger-e-lifelong-learning"
+      ],
+      "application": {
+        "questions": [
+          "你怎样持续更新当前工作所依赖的知识？"
+        ],
+        "steps": [
+          "选择一个与实际问题有关的学习方向。",
+          "定期检查能否用所学解释或解决具体问题。"
+        ],
+        "limits": [
+          "读书数量不等于判断质量，也不保证财富或职业结果。"
+        ]
+      }
+    },
+    {
+      "id": "munger-p-multidisciplinary-models",
+      "title": "用多学科角度交叉检查问题",
+      "summary": "他描述学习多领域的重要观点并在生活中练习使用。",
+      "topics": [
+        "多学科",
+        "思维模型",
+        "学习",
+        "判断"
+      ],
+      "evidence_ids": [
+        "munger-e-multidisciplinary-models"
+      ],
+      "application": {
+        "questions": [
+          "这个问题是否还涉及你当前专业以外的关键约束？"
+        ],
+        "steps": [
+          "选一个相关学科补充解释。",
+          "比较不同解释各自能说明什么、遗漏什么。"
+        ],
+        "limits": [
+          "零散术语不等于跨学科能力，需要真正理解模型及适用边界。"
+        ]
+      }
+    },
+    {
+      "id": "munger-p-deserve-trust",
+      "title": "以自己愿意接受的质量对待他人",
+      "summary": "他把值得获得回报与向别人交付自己愿意购买的东西联系起来。",
+      "topics": [
+        "品格",
+        "交付",
+        "信任",
+        "合作"
+      ],
+      "evidence_ids": [
+        "munger-e-deserve-trust"
+      ],
+      "application": {
+        "questions": [
+          "如果自己是对方，是否愿意接受这项承诺和交付？"
+        ],
+        "steps": [
+          "检查质量、真实说明与责任。",
+          "发现无法兑现的部分时及时调整承诺。"
+        ],
+        "limits": [
+          "良好交付不保证获得相应回报，也不代表遭遇不公者不值得帮助。"
+        ]
+      }
+    },
+    {
+      "id": "munger-p-autonomy-with-responsibility",
+      "title": "在清楚职责下保留经营自主权",
+      "summary": "他把子公司经营者的高度自主列为伯克希尔制度特点。",
+      "topics": [
+        "授权",
+        "组织管理",
+        "责任",
+        "自主权"
+      ],
+      "evidence_ids": [
+        "munger-e-autonomy-with-responsibility"
+      ],
+      "application": {
+        "questions": [
+          "哪些决定需要在一线作出，责任与边界是否明确？"
+        ],
+        "steps": [
+          "明确经营责任和少数必须升级的事项。",
+          "检查授权是否具备必要信息与能力支持。"
+        ],
+        "limits": [
+          "这是特定组织的制度，不意味着取消内控、审计或必要协作。"
+        ]
+      }
+    },
+    {
+      "id": "munger-p-central-capital-role",
+      "title": "把经营授权与资本分配职责分清",
+      "summary": "他描述总部保留少数关键职责，包括配置子公司不再需要的现金。",
+      "topics": [
+        "资本配置",
+        "总部职责",
+        "组织分工",
+        "现金流"
+      ],
+      "evidence_ids": [
+        "munger-e-central-capital-role"
+      ],
+      "application": {
+        "questions": [
+          "经营者、资本配置者和监督者各负责什么？"
+        ],
+        "steps": [
+          "区分必要经营资金与可配置资金。",
+          "明确谁根据哪些条件作配置决定。"
+        ],
+        "limits": [
+          "集团内部资金管理不能直接照搬到个人，也不能挤占必要经营与偿债资金。"
+        ]
+      }
+    },
+    {
+      "id": "munger-p-success-replicability",
+      "title": "复用成功经验前检查可复制条件",
+      "summary": "他承认伯克希尔的保险成果未必能重新复制。",
+      "topics": [
+        "可复制性",
+        "历史条件",
+        "成功经验",
+        "判断"
+      ],
+      "evidence_ids": [
+        "munger-e-success-replicability"
+      ],
+      "application": {
+        "questions": [
+          "你想复制的结果依赖哪些时机、资源、规模和特殊条件？"
+        ],
+        "steps": [
+          "把可学习方法与不可复制条件分开。",
+          "用自己的条件验证一小部分方法。"
+        ],
+        "limits": [
+          "既不能照搬成功故事，也不能因为含运气就否定全部经验。"
+        ]
+      }
+    },
+    {
+      "id": "munger-p-estimate-uncertainty",
+      "title": "给长期估计保留明确的不确定性",
+      "summary": "他提醒保险报告中的未来成本仍依赖估计。",
+      "topics": [
+        "估计",
+        "不确定性",
+        "财务分析",
+        "风险"
+      ],
+      "evidence_ids": [
+        "munger-e-estimate-uncertainty"
+      ],
+      "application": {
+        "questions": [
+          "看似精确的数字中，哪些部分仍是对未来的估计？"
+        ],
+        "steps": [
+          "区分已发生事实、模型估计和管理者判断。",
+          "观察假设变化对结论的影响。"
+        ],
+        "limits": [
+          "这是保险会计语境，不意味着所有财务报告都只是猜测。"
+        ]
+      }
+    },
+    {
+      "id": "munger-p-temporary-funds",
+      "title": "把暂时可用资金与自有收益分开",
+      "summary": "他说明保险浮存金是暂时持有、对应后续义务的资金。",
+      "topics": [
+        "资金口径",
+        "负债",
+        "现金流",
+        "风险"
+      ],
+      "evidence_ids": [
+        "munger-e-temporary-funds"
+      ],
+      "application": {
+        "questions": [
+          "手头这笔钱是否仍对应未来交付、赔付、退款或还款义务？"
+        ],
+        "steps": [
+          "标出各笔资金的归属与到期义务。",
+          "将可自由支配部分与暂存部分分别计算。"
+        ],
+        "limits": [
+          "保险浮存金的收益与成本依赖业务条件，不能视为所有人都能获得的无成本资本。"
+        ]
+      }
+    },
+    {
+      "id": "munger-p-exit-changed-risk",
+      "title": "风险基础改变后及时调整业务",
+      "summary": "他报告在失去长期盈利信心后退出一类担保业务。",
+      "topics": [
+        "纠错",
+        "风险变化",
+        "退出",
+        "经营判断"
+      ],
+      "evidence_ids": [
+        "munger-e-exit-changed-risk"
+      ],
+      "application": {
+        "questions": [
+          "原来支持这项业务的风险与回报假设是否已经改变？"
+        ],
+        "steps": [
+          "列出改变的事实和仍存在的义务。",
+          "比较继续、收缩和退出的后果，并安排过渡。"
+        ],
+        "limits": [
+          "一项历史退出案例不证明类似业务都应退出，也不能忽略已有合同义务。"
+        ]
+      }
+    },
+    {
+      "id": "munger-p-book-value-quality",
+      "title": "比较财务数字时同时检查经济质量",
+      "summary": "他提醒相同账面价值在不同公司未必对应相同内在价值。",
+      "topics": [
+        "财务口径",
+        "估值",
+        "商业质量",
+        "比较"
+      ],
+      "evidence_ids": [
+        "munger-e-book-value-quality"
+      ],
+      "application": {
+        "questions": [
+          "两个相同数字背后的资产、税项、盈利能力和增长条件是否可比？"
+        ],
+        "steps": [
+          "拆解数字由哪些项目组成。",
+          "在同一口径下比较经济条件，而不只比较表面倍数。"
+        ],
+        "limits": [
+          "内在价值也依赖估计，不能由本文直接得出当前任何公司的价格结论。"
+        ]
+      }
+    }
+  ]
+}

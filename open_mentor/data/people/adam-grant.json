@@ -1,0 +1,868 @@
+{
+  "schema_version": 1,
+  "person": {
+    "id": "adam-grant",
+    "name": "亚当·格兰特",
+    "aliases": [
+      "Adam Grant",
+      "亚当格兰特",
+      "格兰特"
+    ],
+    "description": "从本人播客问答、署名文章与Wharton自采引语整理重新思考、知识边界、团队复查、志愿协作与创作反馈；不把嘉宾观点或引用研究归为本人原创。"
+  },
+  "sources": [
+    {
+      "id": "grant-own-podcast",
+      "title": "Think Again: JJ Abrams takes Adam’s job – Adam Grant",
+      "url": "https://adamgrant.net/podcast/think-again-jj-abrams-takes-adams-job-2/",
+      "publisher": "Adam Grant / WorkLife本人官网原发布文字",
+      "kind": "interview",
+      "authority": "first_party",
+      "published_at": "2021-01-31",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "JJ Abrams访谈Adam Grant，后半也交换角色；只用ADAM回答和明确自述，JJ的创作经验不归给Grant。原文字有口语重复与异常时码，按具体问题段落定位；未逐句听辨，不使用不明片段。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "3631287b8741ee26c5be82392c85fa0952cce02c1f352daac7dd2a0b42472d29",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "grant-fit-standout",
+      "title": "Fitting In and Standing Out: Shifting Mindsets from Taking to Giving",
+      "url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2013/04/Grant_ChangeThis2013.pdf",
+      "publisher": "Adam Grant / Wharton本人教职页面存档署名文章",
+      "kind": "essay",
+      "authority": "first_party",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_pdf_text_check",
+        "note": "核对署名正文和文件页序，末尾书籍推介与作者简介不当建议。文章引用的Brewer、Ariely等研究注明实际研究者，不声称为Grant独创，也不复述未经回查的实验比例作为保证。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。"
+      },
+      "content_sha256": "05206d65b90b21132b2073de186735f8300df30b9e368ba91192474f5b7ce869",
+      "refresh": {
+        "mode": "manual",
+        "interval_days": 90
+      }
+    },
+    {
+      "id": "grant-originals",
+      "title": "Adam Grant, Original - Wharton Magazine",
+      "url": "https://magazine.wharton.upenn.edu/issues/spring-2016/adam-grant-original/",
+      "publisher": "Wharton Magazine / Richard Rys自采报道",
+      "kind": "interview",
+      "authority": "publisher",
+      "published_at": "2016-04-20",
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "仅用明确归于Grant的直接引语；记者评价、学生赞语、其他人物故事不归为他的话。原文标春季2016，完整日期未确认；不把关于拖延的概括当普遍因果。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "19af6fb9801444946ecf2b3ab6c8721a010b22ef001994f8bb6002e9c3d5c864",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "grant-e-questions-from-friction",
+      "source_id": "grant-own-podcast",
+      "speaker": "亚当·格兰特",
+      "excerpt": "question worth",
+      "summary": "他回顾个人与工作中反复遇到同类问题，促使自己进一步研究。",
+      "locator": {
+        "type": "heading",
+        "value": "开头；为何写Think Again"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "问题发现",
+        "研究选题",
+        "实际困惑",
+        "观察"
+      ],
+      "context": "实际公开表达已定位；研究自述、个案与经验判断未在这里独立验证，应用为编辑推演。"
+    },
+    {
+      "id": "grant-e-leader-models-uncertainty",
+      "source_id": "grant-own-podcast",
+      "speaker": "亚当·格兰特",
+      "excerpt": "model",
+      "summary": "他认为领导者可通过承认不知道，减少别人暴露不确定性的顾虑。",
+      "locator": {
+        "type": "heading",
+        "value": "关于谦逊与权力者示范的回答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "领导示范",
+        "未知",
+        "团队沟通",
+        "学习"
+      ],
+      "context": "实际公开表达已定位；研究自述、个案与经验判断未在这里独立验证，应用为编辑推演。"
+    },
+    {
+      "id": "grant-e-opinions-as-hypotheses",
+      "source_id": "grant-own-podcast",
+      "speaker": "亚当·格兰特",
+      "excerpt": "hypothesis",
+      "summary": "他借鉴Phil Tetlock的思考方式分类，提倡对自己的结论保持求证。",
+      "locator": {
+        "type": "heading",
+        "value": "约16分钟；thinking like a scientist"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "假设",
+        "重新思考",
+        "验证",
+        "判断"
+      ],
+      "context": "实际公开表达已定位；研究自述、个案与经验判断未在这里独立验证，应用为编辑推演。"
+    },
+    {
+      "id": "grant-e-small-personal-experiments",
+      "source_id": "grant-own-podcast",
+      "speaker": "亚当·格兰特",
+      "excerpt": "experiments",
+      "summary": "他描述尝试改变创意时段或会议设置，再检查结果的做法。",
+      "locator": {
+        "type": "heading",
+        "value": "约16—17分钟；日常试验"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "工作习惯",
+        "小试验",
+        "反馈",
+        "可逆调整"
+      ],
+      "context": "实际公开表达已定位；研究自述、个案与经验判断未在这里独立验证，应用为编辑推演。"
+    },
+    {
+      "id": "grant-e-ignorance-inventory",
+      "source_id": "grant-own-podcast",
+      "speaker": "亚当·格兰特",
+      "excerpt": "ignorant",
+      "summary": "他用不知道清单提醒自己保持好奇并向真正懂的人学习。",
+      "locator": {
+        "type": "heading",
+        "value": "约17—18分钟；不知道清单"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "知识边界",
+        "好奇心",
+        "学习清单",
+        "求助"
+      ],
+      "context": "实际公开表达已定位；研究自述、个案与经验判断未在这里独立验证，应用为编辑推演。"
+    },
+    {
+      "id": "grant-e-partnership-rethinking-norms",
+      "source_id": "grant-own-podcast",
+      "speaker": "亚当·格兰特",
+      "excerpt": "norms",
+      "summary": "他认为理想合作应有促使重新思考发生的清楚约定。",
+      "locator": {
+        "type": "heading",
+        "value": "约19—20分钟；理想合作的回答"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "合作",
+        "复查机制",
+        "不同意见",
+        "团队"
+      ],
+      "context": "实际公开表达已定位；研究自述、个案与经验判断未在这里独立验证，应用为编辑推演。"
+    },
+    {
+      "id": "grant-e-rethinking-has-limits",
+      "source_id": "grant-own-podcast",
+      "speaker": "亚当·格兰特",
+      "excerpt": "optimal",
+      "summary": "他承认很难判断复查的最优程度，也会考虑回到原来的答案。",
+      "locator": {
+        "type": "heading",
+        "value": "约24—25分钟；多少重新思考才合适"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "复查边界",
+        "判断",
+        "过度思考",
+        "行动"
+      ],
+      "context": "实际公开表达已定位；研究自述、个案与经验判断未在这里独立验证，应用为编辑推演。"
+    },
+    {
+      "id": "grant-e-contingent-viewpoints",
+      "source_id": "grant-own-podcast",
+      "speaker": "亚当·格兰特",
+      "excerpt": "different city",
+      "summary": "他用球迷经历的研究故事讨论，人可能在不同成长条件下持有不同看法。",
+      "locator": {
+        "type": "heading",
+        "value": "末段；球迷立场来源的讨论"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "观点来源",
+        "身份认同",
+        "分歧",
+        "换位思考"
+      ],
+      "context": "实际公开表达已定位；研究自述、个案与经验判断未在这里独立验证，应用为编辑推演。"
+    },
+    {
+      "id": "grant-e-participation-motives",
+      "source_id": "grant-fit-standout",
+      "speaker": "亚当·格兰特",
+      "excerpt": "fun",
+      "summary": "他讨论志愿参与也可能来自乐趣、共同理念及具体组织情境。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第5页（文件页序）；参与动机"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "志愿参与",
+        "动机",
+        "社群",
+        "共同任务"
+      ],
+      "context": "实际公开表达已定位；研究自述、个案与经验判断未在这里独立验证，应用为编辑推演。"
+    },
+    {
+      "id": "grant-e-belonging-and-distinctiveness",
+      "source_id": "grant-fit-standout",
+      "speaker": "亚当·格兰特",
+      "excerpt": "distinctiveness",
+      "summary": "他引用Marilynn Brewer的研究，讨论人既想归属也想保有独特性。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第7页（文件页序）；optimal distinctiveness"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "归属",
+        "独特贡献",
+        "团队认同",
+        "协作"
+      ],
+      "context": "实际公开表达已定位；研究自述、个案与经验判断未在这里独立验证，应用为编辑推演。"
+    },
+    {
+      "id": "grant-e-meaningful-roles",
+      "source_id": "grant-fit-standout",
+      "speaker": "亚当·格兰特",
+      "excerpt": "roles",
+      "summary": "他以编辑、管理和调解等角色说明贡献不只是一种形式。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第8页（文件页序）；unique roles"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "职责设计",
+        "志愿协作",
+        "角色",
+        "贡献"
+      ],
+      "context": "实际公开表达已定位；研究自述、个案与经验判断未在这里独立验证，应用为编辑推演。"
+    },
+    {
+      "id": "grant-e-recognize-contribution-quality",
+      "source_id": "grant-fit-standout",
+      "speaker": "亚当·格兰特",
+      "excerpt": "high-quality",
+      "summary": "他描述展示编辑、优质条目和帮助社区的贡献。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第9页（文件页序）；recognition"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "贡献认可",
+        "质量",
+        "社区",
+        "激励"
+      ],
+      "context": "实际公开表达已定位；研究自述、个案与经验判断未在这里独立验证，应用为编辑推演。"
+    },
+    {
+      "id": "grant-e-match-expertise-to-gaps",
+      "source_id": "grant-fit-standout",
+      "speaker": "亚当·格兰特",
+      "excerpt": "gaps",
+      "summary": "他讨论人发现错误和遗漏后，如何用已有知识作出独特贡献。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第9页（文件页序）；distinctive expertise"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "知识贡献",
+        "能力匹配",
+        "缺口",
+        "合作"
+      ],
+      "context": "实际公开表达已定位；研究自述、个案与经验判断未在这里独立验证，应用为编辑推演。"
+    },
+    {
+      "id": "grant-e-bounded-incubation",
+      "source_id": "grant-originals",
+      "speaker": "亚当·格兰特",
+      "excerpt": "procrastinate a little bit",
+      "summary": "他在自采引语中回顾少量延迟可能让想法更丰富。",
+      "locator": {
+        "type": "heading",
+        "value": "自采引语；关于progress与delay"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "创作酝酿",
+        "非紧急任务",
+        "创意",
+        "时间安排"
+      ],
+      "context": "实际公开表达已定位；研究自述、个案与经验判断未在这里独立验证，应用为编辑推演。"
+    },
+    {
+      "id": "grant-e-trusted-critical-review",
+      "source_id": "grant-originals",
+      "speaker": "亚当·格兰特",
+      "excerpt": "push you and challenge you",
+      "summary": "他认为愿意提出具体挑战的支持者，可能帮助改善想法。",
+      "locator": {
+        "type": "heading",
+        "value": "自采引语；关于disagreeable colleagues"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "批评",
+        "创意评审",
+        "可信同伴",
+        "改进"
+      ],
+      "context": "实际公开表达已定位；研究自述、个案与经验判断未在这里独立验证，应用为编辑推演。"
+    }
+  ],
+  "principles": [
+    {
+      "id": "grant-p-questions-from-friction",
+      "title": "从反复遇到的实际困惑发现研究问题",
+      "summary": "他回顾个人与工作中反复遇到同类问题，促使自己进一步研究。",
+      "topics": [
+        "问题发现",
+        "研究选题",
+        "实际困惑",
+        "观察"
+      ],
+      "evidence_ids": [
+        "grant-e-questions-from-friction"
+      ],
+      "application": {
+        "questions": [
+          "这项不满背后有没有值得弄清、且能观察的问题？"
+        ],
+        "steps": [
+          "把感受转成具体可检查的问题。",
+          "寻找不同情境的例子与反例。"
+        ],
+        "limits": [
+          "个人烦恼不是普遍问题的证明，也不能仅因反复出现就推断单一原因。"
+        ]
+      }
+    },
+    {
+      "id": "grant-p-leader-models-uncertainty",
+      "title": "由有权力的人示范承认未知",
+      "summary": "他认为领导者可通过承认不知道，减少别人暴露不确定性的顾虑。",
+      "topics": [
+        "领导示范",
+        "未知",
+        "团队沟通",
+        "学习"
+      ],
+      "evidence_ids": [
+        "grant-e-leader-models-uncertainty"
+      ],
+      "application": {
+        "questions": [
+          "负责人是否允许自己和团队明确说出尚不确定之处？"
+        ],
+        "steps": [
+          "说明已知、未知及下一步求证。",
+          "关注是否真的允许提问和纠错。"
+        ],
+        "limits": [
+          "不把承认未知视为充分管理能力，也不保证一句话就改变工作环境。"
+        ]
+      }
+    },
+    {
+      "id": "grant-p-opinions-as-hypotheses",
+      "title": "把当前判断当作可检验的假设",
+      "summary": "他借鉴Phil Tetlock的思考方式分类，提倡对自己的结论保持求证。",
+      "topics": [
+        "假设",
+        "重新思考",
+        "验证",
+        "判断"
+      ],
+      "evidence_ids": [
+        "grant-e-opinions-as-hypotheses"
+      ],
+      "application": {
+        "questions": [
+          "这项主张能否被写成可能被推翻的判断？"
+        ],
+        "steps": [
+          "区分事实、解释与猜测。",
+          "明确需要什么证据来比较解释。"
+        ],
+        "limits": [
+          "分类借鉴Tetlock，不认为任何日常选择都能按实验室条件检验。"
+        ]
+      }
+    },
+    {
+      "id": "grant-p-small-personal-experiments",
+      "title": "用小幅可逆调整检验工作习惯",
+      "summary": "他描述尝试改变创意时段或会议设置，再检查结果的做法。",
+      "topics": [
+        "工作习惯",
+        "小试验",
+        "反馈",
+        "可逆调整"
+      ],
+      "evidence_ids": [
+        "grant-e-small-personal-experiments"
+      ],
+      "application": {
+        "questions": [
+          "你假定有效的安排，有没有低成本比较的方法？"
+        ],
+        "steps": [
+          "一次改变一项可控条件。",
+          "记录与任务有关的结果和不利影响。"
+        ],
+        "limits": [
+          "个人观察不能证明普遍因果；不涉及危险行为、他人隐私或未经同意的实验。"
+        ]
+      }
+    },
+    {
+      "id": "grant-p-ignorance-inventory",
+      "title": "持续记录自己还不了解的领域",
+      "summary": "他用不知道清单提醒自己保持好奇并向真正懂的人学习。",
+      "topics": [
+        "知识边界",
+        "好奇心",
+        "学习清单",
+        "求助"
+      ],
+      "evidence_ids": [
+        "grant-e-ignorance-inventory"
+      ],
+      "application": {
+        "questions": [
+          "哪些问题看似熟悉，其实缺少理解？"
+        ],
+        "steps": [
+          "写下具体未知，而不只列学科名。",
+          "选择与当前任务有关的一项查原始资料或求助。"
+        ],
+        "limits": [
+          "不把不知道的数量当学习成绩，也不以承认无知代替必要能力。"
+        ]
+      }
+    },
+    {
+      "id": "grant-p-partnership-rethinking-norms",
+      "title": "让合作过程明确容纳复查和不同意见",
+      "summary": "他认为理想合作应有促使重新思考发生的清楚约定。",
+      "topics": [
+        "合作",
+        "复查机制",
+        "不同意见",
+        "团队"
+      ],
+      "evidence_ids": [
+        "grant-e-partnership-rethinking-norms"
+      ],
+      "application": {
+        "questions": [
+          "团队在什么时候、由谁对现有方案提出检验？"
+        ],
+        "steps": [
+          "约定复查节点与证据要求。",
+          "让提出想法与检验想法都得到尊重。"
+        ],
+        "limits": [
+          "他明确表示缺少关于最佳分工的数据，不规定必须搭配某两种人格。"
+        ]
+      }
+    },
+    {
+      "id": "grant-p-rethinking-has-limits",
+      "title": "复查不等于每次都必须改变答案",
+      "summary": "他承认很难判断复查的最优程度，也会考虑回到原来的答案。",
+      "topics": [
+        "复查边界",
+        "判断",
+        "过度思考",
+        "行动"
+      ],
+      "evidence_ids": [
+        "grant-e-rethinking-has-limits"
+      ],
+      "application": {
+        "questions": [
+          "现在是否有足以改变选择的新证据？"
+        ],
+        "steps": [
+          "说明复查要回答的具体问题。",
+          "比较新证据后决定保留、调整或继续验证。"
+        ],
+        "limits": [
+          "编辑步骤不是他给出的最优算法；原文没有可普遍照搬的阈值。"
+        ]
+      }
+    },
+    {
+      "id": "grant-p-contingent-viewpoints",
+      "title": "检查观点形成中偶然经历的影响",
+      "summary": "他用球迷经历的研究故事讨论，人可能在不同成长条件下持有不同看法。",
+      "topics": [
+        "观点来源",
+        "身份认同",
+        "分歧",
+        "换位思考"
+      ],
+      "evidence_ids": [
+        "grant-e-contingent-viewpoints"
+      ],
+      "application": {
+        "questions": [
+          "如果成长经历不同，你是否可能持有另一种偏好或解释？"
+        ],
+        "steps": [
+          "回顾观点依据和形成经历。",
+          "在理解对方处境时仍核对事实。"
+        ],
+        "limits": [
+          "研究细节与效果未独立回查；不要求放弃价值判断，也不把差异都归为偶然。"
+        ]
+      }
+    },
+    {
+      "id": "grant-p-participation-motives",
+      "title": "理解参与动机，而不只寻找天生无私的人",
+      "summary": "他讨论志愿参与也可能来自乐趣、共同理念及具体组织情境。",
+      "topics": [
+        "志愿参与",
+        "动机",
+        "社群",
+        "共同任务"
+      ],
+      "evidence_ids": [
+        "grant-e-participation-motives"
+      ],
+      "application": {
+        "questions": [
+          "人们参与这项工作的真实收获和理由是什么？"
+        ],
+        "steps": [
+          "询问参与者的实际动机。",
+          "在共同目标与自愿边界内设计任务。"
+        ],
+        "limits": [
+          "不能因为公益目标就假定别人应该免费工作，也不以研究概括给人分类。"
+        ]
+      }
+    },
+    {
+      "id": "grant-p-belonging-and-distinctiveness",
+      "title": "共同归属与独特贡献可以同时被看见",
+      "summary": "他引用Marilynn Brewer的研究，讨论人既想归属也想保有独特性。",
+      "topics": [
+        "归属",
+        "独特贡献",
+        "团队认同",
+        "协作"
+      ],
+      "evidence_ids": [
+        "grant-e-belonging-and-distinctiveness"
+      ],
+      "application": {
+        "questions": [
+          "团队是否既说明共同目标，也容得下不同能力与视角？"
+        ],
+        "steps": [
+          "讲清共同任务。",
+          "让成员保留有实际价值的不同贡献方式。"
+        ],
+        "limits": [
+          "概念注明借鉴Brewer；不是人格诊断或所有团队都有效的公式。"
+        ]
+      }
+    },
+    {
+      "id": "grant-p-meaningful-roles",
+      "title": "把协作拆成有意义的具体职责",
+      "summary": "他以编辑、管理和调解等角色说明贡献不只是一种形式。",
+      "topics": [
+        "职责设计",
+        "志愿协作",
+        "角色",
+        "贡献"
+      ],
+      "evidence_ids": [
+        "grant-e-meaningful-roles"
+      ],
+      "application": {
+        "questions": [
+          "成员是否知道自己能独立负责什么？"
+        ],
+        "steps": [
+          "明确角色的任务、权限和支持。",
+          "让贡献与整体结果建立清楚联系。"
+        ],
+        "limits": [
+          "角色独特不能成为信息孤岛或不可替代的权力，也不保证角色名称带来投入。"
+        ]
+      }
+    },
+    {
+      "id": "grant-p-recognize-contribution-quality",
+      "title": "认可实际贡献时同时看质量与社区价值",
+      "summary": "他描述展示编辑、优质条目和帮助社区的贡献。",
+      "topics": [
+        "贡献认可",
+        "质量",
+        "社区",
+        "激励"
+      ],
+      "evidence_ids": [
+        "grant-e-recognize-contribution-quality"
+      ],
+      "application": {
+        "questions": [
+          "被认可的是实际改善，还是容易刷高的数量？"
+        ],
+        "steps": [
+          "明确何种产出对共同任务有用。",
+          "让具体贡献得到适当、不过度的反馈。"
+        ],
+        "limits": [
+          "原文例子不证明排行总是有效；需要防止刷量、排挤和不公平比较。"
+        ]
+      }
+    },
+    {
+      "id": "grant-p-match-expertise-to-gaps",
+      "title": "让成员看见自己能补足的真实缺口",
+      "summary": "他讨论人发现错误和遗漏后，如何用已有知识作出独特贡献。",
+      "topics": [
+        "知识贡献",
+        "能力匹配",
+        "缺口",
+        "合作"
+      ],
+      "evidence_ids": [
+        "grant-e-match-expertise-to-gaps"
+      ],
+      "application": {
+        "questions": [
+          "你已有的知识能解决共同作品里的哪项具体不足？"
+        ],
+        "steps": [
+          "公开清楚的问题和待补证据。",
+          "让合适的人从小贡献开始并取得反馈。"
+        ],
+        "limits": [
+          "不把熟悉某事当资格充分证明；贡献仍要核对来源和质量。"
+        ]
+      }
+    },
+    {
+      "id": "grant-p-bounded-incubation",
+      "title": "非紧急创作可以给想法保留酝酿时间",
+      "summary": "他在自采引语中回顾少量延迟可能让想法更丰富。",
+      "topics": [
+        "创作酝酿",
+        "非紧急任务",
+        "创意",
+        "时间安排"
+      ],
+      "evidence_ids": [
+        "grant-e-bounded-incubation"
+      ],
+      "application": {
+        "questions": [
+          "这项任务需要立即执行，还是值得留出比较想法的时间？"
+        ],
+        "steps": [
+          "明确截止时间和最低交付。",
+          "在边界内短暂转换活动，再检验新想法。"
+        ],
+        "limits": [
+          "不把拖延当普遍生产力方法，不能忽略合作承诺、焦虑或交付风险。"
+        ]
+      }
+    },
+    {
+      "id": "grant-p-trusted-critical-review",
+      "title": "让值得信任的人认真挑战想法",
+      "summary": "他认为愿意提出具体挑战的支持者，可能帮助改善想法。",
+      "topics": [
+        "批评",
+        "创意评审",
+        "可信同伴",
+        "改进"
+      ],
+      "evidence_ids": [
+        "grant-e-trusted-critical-review"
+      ],
+      "application": {
+        "questions": [
+          "谁会指出具体问题，同时愿意帮助把事情做好？"
+        ],
+        "steps": [
+          "围绕作品和证据请求反馈。",
+          "区分有用挑战与羞辱或人身攻击。"
+        ],
+        "limits": [
+          "不把难相处等同高质量，也不要求忍受伤害来换成长。"
+        ]
+      }
+    }
+  ]
+}

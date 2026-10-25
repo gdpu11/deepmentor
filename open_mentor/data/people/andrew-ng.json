@@ -1,0 +1,1066 @@
+{
+  "schema_version": 1,
+  "person": {
+    "id": "andrew-ng",
+    "name": "吴恩达",
+    "aliases": [
+      "Andrew Ng",
+      "吳恩達"
+    ],
+    "description": "依据本人机构出版的AI职业指南，整理基础学习、项目选择、作品集、转行、求职、社群与时间选择；技术清单和岗位描述保留版本语境。"
+  },
+  "sources": [
+    {
+      "id": "ng-career-book",
+      "title": "How to Build Your Career in AI — Collected Insights from Andrew Ng",
+      "url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2022/10/eBook-How-to-Build-a-Career-in-AI.pdf",
+      "publisher": "DeepLearning.AI / Andrew Ng署名职业指南",
+      "kind": "book",
+      "authority": "publisher",
+      "published_at": null,
+      "language": "en",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_pdf_text_check",
+        "note": "已核对封面作者与所引章节、文件页序。机构直接发布的作者书面作品，不使用搜索到的第三方翻译；未将引用的他人方法或未经回查的心理数据作为本人原创或确定事实。技术与岗位描述属于该版本，不保证适用当前所有工具和雇主。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。 未确认完整发布日期，published_at 留空。"
+      },
+      "content_sha256": "5a352fa1a4e90b7a669913ec0d84ab2c01c09372adc4d2c67021ea301a0928e1",
+      "refresh": {
+        "mode": "manual",
+        "interval_days": 90
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ng-e-career-stages",
+      "source_id": "ng-career-book",
+      "speaker": "吴恩达",
+      "excerpt": "foundational",
+      "summary": "他把基础技能、真实项目与找工作列为相互衔接的职业步骤。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第6页（文件页序）；Chapter 1"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "职业规划",
+        "人工智能",
+        "基础能力",
+        "项目"
+      ],
+      "context": "作者职业经验框架；应用为编辑推演，不承诺获得岗位或具体收入。"
+    },
+    {
+      "id": "ng-e-coherent-learning",
+      "source_id": "ng-career-book",
+      "speaker": "吴恩达",
+      "excerpt": "coherent",
+      "summary": "他比较成体系课程与零散网页，认为连贯结构通常更适合初步掌握一类知识。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第10页（文件页序）；Chapter 2"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "学习路径",
+        "课程",
+        "知识结构",
+        "学习效率"
+      ],
+      "context": "作者职业经验框架；应用为编辑推演，不承诺获得岗位或具体收入。"
+    },
+    {
+      "id": "ng-e-math-for-decisions",
+      "source_id": "ng-career-book",
+      "speaker": "吴恩达",
+      "excerpt": "decisions",
+      "summary": "他建议用完成目标需要作出的决定，来安排数学学习的优先级。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第13页（文件页序）；Chapter 3"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "数学学习",
+        "能力缺口",
+        "技术基础",
+        "职业"
+      ],
+      "context": "作者职业经验框架；应用为编辑推演，不承诺获得岗位或具体收入。"
+    },
+    {
+      "id": "ng-e-stakeholder-expectations",
+      "source_id": "ng-career-book",
+      "speaker": "吴恩达",
+      "excerpt": "stakeholders",
+      "summary": "他提醒AI项目常需与不了解技术的利益相关方协作，并面对结果与周期的不确定性。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第7页（文件页序）；Chapter 1；项目管理"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "沟通",
+        "项目周期",
+        "利益相关方",
+        "技术迭代"
+      ],
+      "context": "作者职业经验框架；应用为编辑推演，不承诺获得岗位或具体收入。"
+    },
+    {
+      "id": "ng-e-business-problem-first",
+      "source_id": "ng-career-book",
+      "speaker": "吴恩达",
+      "excerpt": "business problem",
+      "summary": "他建议向领域专家了解真正需要改善的事情，而不是从技术标签出发找问题。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第15页（文件页序）；Chapter 4；第一步"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "业务问题",
+        "人工智能",
+        "需求",
+        "项目选择"
+      ],
+      "context": "作者职业经验框架；应用为编辑推演，不承诺获得岗位或具体收入。"
+    },
+    {
+      "id": "ng-e-compare-solutions",
+      "source_id": "ng-career-book",
+      "speaker": "吴恩达",
+      "excerpt": "Brainstorm",
+      "summary": "他回忆过早执行第一个兴奋的点子，可能错过同样成本下更好的路径。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第15页（文件页序）；Chapter 4；第二步"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "方案比较",
+        "项目设计",
+        "取舍",
+        "验证"
+      ],
+      "context": "作者职业经验框架；应用为编辑推演，不承诺获得岗位或具体收入。"
+    },
+    {
+      "id": "ng-e-feasibility-value",
+      "source_id": "ng-career-book",
+      "speaker": "吴恩达",
+      "excerpt": "feasible",
+      "summary": "他把已有工作、快速概念验证和领域专家反馈用于评估方案。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第16页（文件页序）；Chapter 4；Assess feasibility and value"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "技术可行性",
+        "概念验证",
+        "项目价值",
+        "领域知识"
+      ],
+      "context": "作者职业经验框架；应用为编辑推演，不承诺获得岗位或具体收入。"
+    },
+    {
+      "id": "ng-e-two-types-of-milestones",
+      "source_id": "ng-career-book",
+      "speaker": "吴恩达",
+      "excerpt": "milestones",
+      "summary": "他提醒测试集准确率不能涵盖全部业务目标。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第16页（文件页序）；Chapter 4；Determine milestones"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "项目里程碑",
+        "指标",
+        "业务效果",
+        "准确率"
+      ],
+      "context": "作者职业经验框架；应用为编辑推演，不承诺获得岗位或具体收入。"
+    },
+    {
+      "id": "ng-e-resource-budget",
+      "source_id": "ng-career-book",
+      "speaker": "吴恩达",
+      "excerpt": "Budget",
+      "summary": "他把数据、人员、时间及其他团队支持都列为需要的资源。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第16页（文件页序）；Chapter 4；Budget for resources"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "项目预算",
+        "数据",
+        "集成",
+        "资源"
+      ],
+      "context": "作者职业经验框架；应用为编辑推演，不承诺获得岗位或具体收入。"
+    },
+    {
+      "id": "ng-e-responsible-projects",
+      "source_id": "ng-career-book",
+      "speaker": "吴恩达",
+      "excerpt": "ethical",
+      "summary": "他将负责任、符合伦理且有益于人作为项目选择的边界。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第18页（文件页序）；Chapter 5开头"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "责任",
+        "项目选择",
+        "伦理",
+        "受益者"
+      ],
+      "context": "作者职业经验框架；应用为编辑推演，不承诺获得岗位或具体收入。"
+    },
+    {
+      "id": "ng-e-manageable-project-challenge",
+      "source_id": "ng-career-book",
+      "speaker": "吴恩达",
+      "excerpt": "challenging",
+      "summary": "他建议项目应有足够挑战，同时保留现实的完成可能。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第19页（文件页序）；Chapter 5；选择项目的问题"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "项目难度",
+        "技能成长",
+        "能力边界",
+        "实践"
+      ],
+      "context": "作者职业经验框架；应用为编辑推演，不承诺获得岗位或具体收入。"
+    },
+    {
+      "id": "ng-e-portfolio-progression",
+      "source_id": "ng-career-book",
+      "speaker": "吴恩达",
+      "excerpt": "complexity",
+      "summary": "他描述从课堂、个人练习到为他人创造价值的项目 progression。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第22页（文件页序）；Chapter 6"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "作品集",
+        "技能证明",
+        "项目经历",
+        "交付"
+      ],
+      "context": "作者职业经验框架；应用为编辑推演，不承诺获得岗位或具体收入。"
+    },
+    {
+      "id": "ng-e-staged-career-switch",
+      "source_id": "ng-career-book",
+      "speaker": "吴恩达",
+      "excerpt": "roles",
+      "summary": "他建议跨入AI时，可以考虑分阶段改变岗位或行业。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第25页（文件页序）；Chapter 7"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "转行",
+        "岗位",
+        "行业经验",
+        "职业选择"
+      ],
+      "context": "作者职业经验框架；应用为编辑推演，不承诺获得岗位或具体收入。"
+    },
+    {
+      "id": "ng-e-informational-interviews",
+      "source_id": "ng-career-book",
+      "speaker": "吴恩达",
+      "excerpt": "interviewing",
+      "summary": "他将非求职面试的信息访谈用于澄清公司与角色的实际要求。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第29页（文件页序）；Chapter 8"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "信息访谈",
+        "求职",
+        "岗位信息",
+        "职业探索"
+      ],
+      "context": "作者职业经验框架；应用为编辑推演，不承诺获得岗位或具体收入。"
+    },
+    {
+      "id": "ng-e-relevant-job-evidence",
+      "source_id": "ng-career-book",
+      "speaker": "吴恩达",
+      "excerpt": "Customize",
+      "summary": "他提醒简历、项目和面试表现仍是被了解的主要入口。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第32页（文件页序）；Chapter 9"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "简历",
+        "岗位匹配",
+        "项目证据",
+        "求职"
+      ],
+      "context": "作者职业经验框架；应用为编辑推演，不承诺获得岗位或具体收入。"
+    },
+    {
+      "id": "ng-e-choose-teammates",
+      "source_id": "ng-career-book",
+      "speaker": "吴恩达",
+      "excerpt": "teammates",
+      "summary": "他提醒同事和负责人对个人成长同样重要。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第33页（文件页序）；Chapter 9"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "团队选择",
+        "经理",
+        "同事",
+        "职业成长"
+      ],
+      "context": "作者职业经验框架；应用为编辑推演，不承诺获得岗位或具体收入。"
+    },
+    {
+      "id": "ng-e-build-community",
+      "source_id": "ng-career-book",
+      "speaker": "吴恩达",
+      "excerpt": "community",
+      "summary": "他将参与社群和相互帮助作为比交换名片更适合自己的方式。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第35页（文件页序）；Chapter 10"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "社群",
+        "互助",
+        "职业联系",
+        "合作"
+      ],
+      "context": "作者职业经验框架；应用为编辑推演，不承诺获得岗位或具体收入。"
+    },
+    {
+      "id": "ng-e-recognize-real-progress",
+      "source_id": "ng-career-book",
+      "speaker": "吴恩达",
+      "excerpt": "Recognize",
+      "summary": "他鼓励新人看见已能理解和帮助他人的部分，寻找支持成长的同伴。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第39页（文件页序）；Chapter 11"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "能力怀疑",
+        "学习反馈",
+        "同伴支持",
+        "成长"
+      ],
+      "context": "作者职业经验框架；应用为编辑推演，不承诺获得岗位或具体收入。"
+    },
+    {
+      "id": "ng-e-scenario-planning",
+      "source_id": "ng-career-book",
+      "speaker": "吴恩达",
+      "excerpt": "scenarios",
+      "summary": "他通过情景规划安排在多种未来结果下的行动。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第27页（文件页序）；Overcoming Uncertainty"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "情景规划",
+        "不确定性",
+        "职业选择",
+        "准备"
+      ],
+      "context": "作者职业经验框架；应用为编辑推演，不承诺获得岗位或具体收入。"
+    },
+    {
+      "id": "ng-e-finite-time",
+      "source_id": "ng-career-book",
+      "speaker": "吴恩达",
+      "excerpt": "loved ones",
+      "summary": "他以自己对寿命天数的思考反问什么值得占用一天。",
+      "locator": {
+        "type": "heading",
+        "value": "PDF第40页（文件页序）；Final Thoughts"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "时间选择",
+        "学习",
+        "亲密关系",
+        "意义"
+      ],
+      "context": "作者职业经验框架；应用为编辑推演，不承诺获得岗位或具体收入。"
+    }
+  ],
+  "principles": [
+    {
+      "id": "ng-p-career-stages",
+      "title": "让学习、项目和岗位形成连续路径",
+      "summary": "他把基础技能、真实项目与找工作列为相互衔接的职业步骤。",
+      "topics": [
+        "职业规划",
+        "人工智能",
+        "基础能力",
+        "项目"
+      ],
+      "evidence_ids": [
+        "ng-e-career-stages"
+      ],
+      "application": {
+        "questions": [
+          "当前阻碍转行的是基础、交付证据还是岗位信息？"
+        ],
+        "steps": [
+          "列出已掌握的基础与实际完成的项目。",
+          "找到当前最缺的一环再安排投入。"
+        ],
+        "limits": [
+          "这不是必须完成固定课程才可求职的门槛。"
+        ]
+      }
+    },
+    {
+      "id": "ng-p-coherent-learning",
+      "title": "先用连贯材料建立基础知识结构",
+      "summary": "他比较成体系课程与零散网页，认为连贯结构通常更适合初步掌握一类知识。",
+      "topics": [
+        "学习路径",
+        "课程",
+        "知识结构",
+        "学习效率"
+      ],
+      "evidence_ids": [
+        "ng-e-coherent-learning"
+      ],
+      "application": {
+        "questions": [
+          "目前是缺完整基础，还是在解决一个具体未知问题？"
+        ],
+        "steps": [
+          "先选一套质量可核对的基础材料。",
+          "达到基础后带着问题读论文和原始文档。"
+        ],
+        "limits": [
+          "课程并非唯一学习方式；不能以看完课程替代能力验证。"
+        ]
+      }
+    },
+    {
+      "id": "ng-p-math-for-decisions",
+      "title": "按实际工作决策确定数学学习深度",
+      "summary": "他建议用完成目标需要作出的决定，来安排数学学习的优先级。",
+      "topics": [
+        "数学学习",
+        "能力缺口",
+        "技术基础",
+        "职业"
+      ],
+      "evidence_ids": [
+        "ng-e-math-for-decisions"
+      ],
+      "application": {
+        "questions": [
+          "目标任务的哪些决定需要你理解背后的数学？"
+        ],
+        "steps": [
+          "挑出当前无法解释或调试的环节。",
+          "补足所需基础并在实际任务中验证。"
+        ],
+        "limits": [
+          "不据此主张数学无用，也不沿用旧版本的工具成熟度判断。"
+        ]
+      }
+    },
+    {
+      "id": "ng-p-stakeholder-expectations",
+      "title": "把技术迭代的不确定性向协作方讲清楚",
+      "summary": "他提醒AI项目常需与不了解技术的利益相关方协作，并面对结果与周期的不确定性。",
+      "topics": [
+        "沟通",
+        "项目周期",
+        "利益相关方",
+        "技术迭代"
+      ],
+      "evidence_ids": [
+        "ng-e-stakeholder-expectations"
+      ],
+      "application": {
+        "questions": [
+          "对方是否理解结果、时间和部署后变化有哪些不确定性？"
+        ],
+        "steps": [
+          "区分已知交付与待验证效果。",
+          "设置阶段评估及重新约定范围的节点。"
+        ],
+        "limits": [
+          "不能把技术不确定性作为无限延期或不承担交付责任的理由。"
+        ]
+      }
+    },
+    {
+      "id": "ng-p-business-problem-first",
+      "title": "先识别业务问题，再选择AI方案",
+      "summary": "他建议向领域专家了解真正需要改善的事情，而不是从技术标签出发找问题。",
+      "topics": [
+        "业务问题",
+        "人工智能",
+        "需求",
+        "项目选择"
+      ],
+      "evidence_ids": [
+        "ng-e-business-problem-first"
+      ],
+      "application": {
+        "questions": [
+          "如果不用AI描述，这个问题是什么？"
+        ],
+        "steps": [
+          "向实际使用者或领域专家询问当前困难。",
+          "写清现有流程、损失和期待改善。"
+        ],
+        "limits": [
+          "领域专家意见仍需结合用户与数据验证，不能将宣传目标当真实需求。"
+        ]
+      }
+    },
+    {
+      "id": "ng-p-compare-solutions",
+      "title": "在投入前比较多个可能方案",
+      "summary": "他回忆过早执行第一个兴奋的点子，可能错过同样成本下更好的路径。",
+      "topics": [
+        "方案比较",
+        "项目设计",
+        "取舍",
+        "验证"
+      ],
+      "evidence_ids": [
+        "ng-e-compare-solutions"
+      ],
+      "application": {
+        "questions": [
+          "当前方案之外，有没有更简单或效果更可核对的选择？"
+        ],
+        "steps": [
+          "至少列出一个替代方案。",
+          "比较数据、成本与预期效果再决定试验。"
+        ],
+        "limits": [
+          "并非为了形式必须凑出固定数量，也不要求无限分析。"
+        ]
+      }
+    },
+    {
+      "id": "ng-p-feasibility-value",
+      "title": "分别核对技术可行性与实际价值",
+      "summary": "他把已有工作、快速概念验证和领域专家反馈用于评估方案。",
+      "topics": [
+        "技术可行性",
+        "概念验证",
+        "项目价值",
+        "领域知识"
+      ],
+      "evidence_ids": [
+        "ng-e-feasibility-value"
+      ],
+      "application": {
+        "questions": [
+          "技术能够做出来，是否也值得解决这个任务？"
+        ],
+        "steps": [
+          "用最小验证检查关键技术前提。",
+          "请实际相关方检查结果是否有用。"
+        ],
+        "limits": [
+          "概念验证不是生产可靠性、安全或商业成效的充分证明。"
+        ]
+      }
+    },
+    {
+      "id": "ng-p-two-types-of-milestones",
+      "title": "同时写清技术指标和业务里程碑",
+      "summary": "他提醒测试集准确率不能涵盖全部业务目标。",
+      "topics": [
+        "项目里程碑",
+        "指标",
+        "业务效果",
+        "准确率"
+      ],
+      "evidence_ids": [
+        "ng-e-two-types-of-milestones"
+      ],
+      "application": {
+        "questions": [
+          "离线指标改善后，真实使用中的什么会变好？"
+        ],
+        "steps": [
+          "分别列出技术与业务评价方式。",
+          "若无法定义合理里程碑，先补充问题理解。"
+        ],
+        "limits": [
+          "不能为了业务指标忽略可靠性、公平性或必要专业标准。"
+        ]
+      }
+    },
+    {
+      "id": "ng-p-resource-budget",
+      "title": "项目预算包含数据、协作和集成成本",
+      "summary": "他把数据、人员、时间及其他团队支持都列为需要的资源。",
+      "topics": [
+        "项目预算",
+        "数据",
+        "集成",
+        "资源"
+      ],
+      "evidence_ids": [
+        "ng-e-resource-budget"
+      ],
+      "application": {
+        "questions": [
+          "除了模型训练，项目还依赖哪些资源和承诺？"
+        ],
+        "steps": [
+          "列出数据取得、人员、维护和集成需求。",
+          "在投入前确认关键依赖可获得。"
+        ],
+        "limits": [
+          "预算是估计，需随新信息更新；不涉及具体采购或投资建议。"
+        ]
+      }
+    },
+    {
+      "id": "ng-p-responsible-projects",
+      "title": "把责任和受益者列入选题前提",
+      "summary": "他将负责任、符合伦理且有益于人作为项目选择的边界。",
+      "topics": [
+        "责任",
+        "项目选择",
+        "伦理",
+        "受益者"
+      ],
+      "evidence_ids": [
+        "ng-e-responsible-projects"
+      ],
+      "application": {
+        "questions": [
+          "这个项目由谁受益，可能把代价转给谁？"
+        ],
+        "steps": [
+          "明确利益相关者与可能影响。",
+          "对高风险部分寻求适当专业审查。"
+        ],
+        "limits": [
+          "原则表达不证明任何具体项目已经安全、有效或合规。"
+        ]
+      }
+    },
+    {
+      "id": "ng-p-manageable-project-challenge",
+      "title": "选择能扩展技能但仍可完成的项目",
+      "summary": "他建议项目应有足够挑战，同时保留现实的完成可能。",
+      "topics": [
+        "项目难度",
+        "技能成长",
+        "能力边界",
+        "实践"
+      ],
+      "evidence_ids": [
+        "ng-e-manageable-project-challenge"
+      ],
+      "application": {
+        "questions": [
+          "这项挑战超过当前能力的部分，是否有可行的补足方法？"
+        ],
+        "steps": [
+          "列出未知环节及可获得帮助。",
+          "先做能检验关键难点的小范围版本。"
+        ],
+        "limits": [
+          "适当难度依个人与资源而异，不设统一比例或周期。"
+        ]
+      }
+    },
+    {
+      "id": "ng-p-portfolio-progression",
+      "title": "用作品集展示逐步增加的责任和复杂度",
+      "summary": "他描述从课堂、个人练习到为他人创造价值的项目 progression。",
+      "topics": [
+        "作品集",
+        "技能证明",
+        "项目经历",
+        "交付"
+      ],
+      "evidence_ids": [
+        "ng-e-portfolio-progression"
+      ],
+      "application": {
+        "questions": [
+          "作品能否说明你解决过什么问题以及自己负责什么？"
+        ],
+        "steps": [
+          "为每项项目记录问题、贡献、验证及限制。",
+          "逐步承担更大责任，而不只堆项目数量。"
+        ],
+        "limits": [
+          "比赛或个人项目不自动等同生产经验，也不能夸大共同作品中的个人贡献。"
+        ]
+      }
+    },
+    {
+      "id": "ng-p-staged-career-switch",
+      "title": "区分换岗位与换行业的不同难度",
+      "summary": "他建议跨入AI时，可以考虑分阶段改变岗位或行业。",
+      "topics": [
+        "转行",
+        "岗位",
+        "行业经验",
+        "职业选择"
+      ],
+      "evidence_ids": [
+        "ng-e-staged-career-switch"
+      ],
+      "application": {
+        "questions": [
+          "这次变化同时更换了哪些技能和行业前提？"
+        ],
+        "steps": [
+          "分别列出可复用经验与陌生要求。",
+          "比较一步或分阶段转换的可行性。"
+        ],
+        "limits": [
+          "不是所有人都应分两步；原文注明感谢Salwa Nur Muhammad提供部分思路。"
+        ]
+      }
+    },
+    {
+      "id": "ng-p-informational-interviews",
+      "title": "用信息访谈了解岗位真实工作",
+      "summary": "他将非求职面试的信息访谈用于澄清公司与角色的实际要求。",
+      "topics": [
+        "信息访谈",
+        "求职",
+        "岗位信息",
+        "职业探索"
+      ],
+      "evidence_ids": [
+        "ng-e-informational-interviews"
+      ],
+      "application": {
+        "questions": [
+          "岗位名称背后的日常任务、评价和协作到底是什么？"
+        ],
+        "steps": [
+          "事先研究对方并准备具体问题。",
+          "礼貌询问工作事实，区分交流与索取内推。"
+        ],
+        "limits": [
+          "对方经验是特定组织的样本，不能代表所有雇主。"
+        ]
+      }
+    },
+    {
+      "id": "ng-p-relevant-job-evidence",
+      "title": "针对岗位呈现真实的能力证据",
+      "summary": "他提醒简历、项目和面试表现仍是被了解的主要入口。",
+      "topics": [
+        "简历",
+        "岗位匹配",
+        "项目证据",
+        "求职"
+      ],
+      "evidence_ids": [
+        "ng-e-relevant-job-evidence"
+      ],
+      "application": {
+        "questions": [
+          "对方能否从材料中找到与你申请职责相关的实际经历？"
+        ],
+        "steps": [
+          "突出真实相关的项目与承担的责任。",
+          "按岗位说明调整表达并保留可核对依据。"
+        ],
+        "limits": [
+          "不编造经验，不保证内推或材料优化会带来录用。"
+        ]
+      }
+    },
+    {
+      "id": "ng-p-choose-teammates",
+      "title": "把共事的人纳入岗位选择",
+      "summary": "他提醒同事和负责人对个人成长同样重要。",
+      "topics": [
+        "团队选择",
+        "经理",
+        "同事",
+        "职业成长"
+      ],
+      "evidence_ids": [
+        "ng-e-choose-teammates"
+      ],
+      "application": {
+        "questions": [
+          "除了项目名气，你了解未来团队怎样工作和支持成长吗？"
+        ],
+        "steps": [
+          "尽可能与实际协作者交流。",
+          "核对工作方式、反馈与学习条件。"
+        ],
+        "limits": [
+          "作者对团队影响的部分解释是个人判断，不能当已验证的确定因果。"
+        ]
+      }
+    },
+    {
+      "id": "ng-p-build-community",
+      "title": "把建立联系转为参与有互助的社群",
+      "summary": "他将参与社群和相互帮助作为比交换名片更适合自己的方式。",
+      "topics": [
+        "社群",
+        "互助",
+        "职业联系",
+        "合作"
+      ],
+      "evidence_ids": [
+        "ng-e-build-community"
+      ],
+      "application": {
+        "questions": [
+          "你能在哪个具体共同任务中认识并帮助别人？"
+        ],
+        "steps": [
+          "参与有实际讨论或交付的活动。",
+          "在能力范围内提供真实帮助并持续学习。"
+        ],
+        "limits": [
+          "互助不应成为变相索取，也不保证社群带来岗位。"
+        ]
+      }
+    },
+    {
+      "id": "ng-p-recognize-real-progress",
+      "title": "用已掌握的部分校准能力怀疑",
+      "summary": "他鼓励新人看见已能理解和帮助他人的部分，寻找支持成长的同伴。",
+      "topics": [
+        "能力怀疑",
+        "学习反馈",
+        "同伴支持",
+        "成长"
+      ],
+      "evidence_ids": [
+        "ng-e-recognize-real-progress"
+      ],
+      "application": {
+        "questions": [
+          "你已经能够完成什么，下一项具体能力缺口是什么？"
+        ],
+        "steps": [
+          "列出可核对的已有进步。",
+          "找合适同伴反馈并选择下一项练习。"
+        ],
+        "limits": [
+          "这是职业鼓励，不诊断或治疗心理疾病；未沿用书中未经回查的发生率数字。"
+        ]
+      }
+    },
+    {
+      "id": "ng-p-scenario-planning",
+      "title": "面对未知结果时预先写出不同应对方案",
+      "summary": "他通过情景规划安排在多种未来结果下的行动。",
+      "topics": [
+        "情景规划",
+        "不确定性",
+        "职业选择",
+        "准备"
+      ],
+      "evidence_ids": [
+        "ng-e-scenario-planning"
+      ],
+      "application": {
+        "questions": [
+          "如果结果较快、较慢或不如预期，你各准备怎样应对？"
+        ],
+        "steps": [
+          "列出少量合理情景及触发信号。",
+          "先做多个情景下都值得做的准备。"
+        ],
+        "limits": [
+          "规划不是预测；不能把个人疫情回顾当当前事实或专业预报。"
+        ]
+      }
+    },
+    {
+      "id": "ng-p-finite-time",
+      "title": "用时间有限的视角重查日常投入",
+      "summary": "他以自己对寿命天数的思考反问什么值得占用一天。",
+      "topics": [
+        "时间选择",
+        "学习",
+        "亲密关系",
+        "意义"
+      ],
+      "evidence_ids": [
+        "ng-e-finite-time"
+      ],
+      "application": {
+        "questions": [
+          "今天的安排是否给重要的人、学习和长期贡献留了位置？"
+        ],
+        "steps": [
+          "明确当前最在意的两三类投入。",
+          "调整一项与这些目标明显不符的日常安排。"
+        ],
+        "limits": [
+          "个人寿命估算不适用于别人；不把每一天都要求高产出。"
+        ]
+      }
+    }
+  ]
+}

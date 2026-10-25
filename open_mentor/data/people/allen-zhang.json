@@ -1,0 +1,1152 @@
+{
+  "schema_version": 1,
+  "person": {
+    "id": "allen-zhang",
+    "name": "张小龙",
+    "aliases": [
+      "Allen Zhang",
+      "Zhang Xiaolong",
+      "微信张小龙",
+      "張小龍"
+    ],
+    "description": "从2016、2018、2019和2021年公开课原发布讲话文本整理用户价值、工具、平台、设计、增长、推荐、表达与复杂度；区分媒体导语、本人发言和历史产品承诺。"
+  },
+  "sources": [
+    {
+      "id": "zhang-2016-tencent",
+      "title": "张小龙首次公开演讲（官方无删减版）-腾讯云开发者社区-腾讯云",
+      "url": "https://developer.cloud.tencent.com/article/1042628",
+      "publisher": "腾讯大讲堂 / 腾讯云开发者社区同步刊载",
+      "kind": "essay",
+      "authority": "publisher",
+      "published_at": "2018-02-12",
+      "language": "zh",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "腾讯大讲堂署名的公开课讲话文字，同步页注明原始发表2016-01-19。published_at 是本页刊载日；讲话为2016年公开课，不将2018年同步刊载误作新观点。核对正文，未逐句听辨原片；历史平台规则不当作当前规则。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "ec06ad02b2eb3567e343d1b40569b73dba4e15adc767593ee56c6e3fa56a25e8",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "zhang-2018-geekpark",
+      "title": "七岁的微信向哪儿去？张小龙说了这十句真心话 | 附演讲全文  | 极客公园",
+      "url": "https://www.geekpark.net/news/226011",
+      "publisher": "极客公园 / 微信公开课原发布演讲全文",
+      "kind": "essay",
+      "authority": "publisher",
+      "published_at": "2018-01-15",
+      "language": "zh",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "仅取“附上张小龙演讲全文”之后的讲话正文。前面的记者导语和十点概括与原文并非逐字相同，不将其作为本人原话。文本核对不等于逐句音频核对。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "629f8678ed350e7e7e7660f2ad94bee9a232b8520e10977b5a5f28a30d43eae6",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "zhang-2019-geekpark",
+      "title": "张小龙4小时演讲实录 | 极客公园",
+      "url": "https://www.geekpark.net/news/237288",
+      "publisher": "极客公园 / 微信之夜原发布演讲速记",
+      "kind": "essay",
+      "authority": "publisher",
+      "published_at": "2019-01-10",
+      "language": "zh",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "原发布演讲速记，保留口语记录属性。设计原则注明借鉴Rams；不把其对算法和技术的判断当科学结论，也不收录未经支持的AI医疗预测作为指导。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "4d5db3d109d7e0841162bcf3f0e838c8f535ed0d85990fcee1d4336491c20df9",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    },
+    {
+      "id": "zhang-2021-geekpark",
+      "title": "张小龙：我只为微信 10 年依旧简单而骄傲 | 极客公园",
+      "url": "https://www.geekpark.net/news/272872",
+      "publisher": "极客公园 / 微信十年原发布讲话整理",
+      "kind": "essay",
+      "authority": "publisher",
+      "published_at": "2021-01-19",
+      "language": "zh",
+      "origin_url": null,
+      "rights": {
+        "license": "not_granted",
+        "redistribution": "metadata_and_short_excerpts",
+        "note": "第三方原文保留原权利；仅分发来源元数据、有限短摘录和原创中文归纳，完整资料保留在本地。"
+      },
+      "review": {
+        "status": "reviewed",
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "method": "original_publisher_web_text_check",
+        "note": "原发布全文经编辑整理，页面列有校对者。只核对本人讲话正文；公司数据、隐私陈述与对产品成功的解释仍为当时管理者自述，未独立审计，也不代表当前政策。 原发布文字已读取并逐条定位；核对表达不等于独立验证其事实或方法有效性。"
+      },
+      "content_sha256": "0239f4b328845aa64731ce1a07425fc9661566b57f0b5c133ad28bc514306897",
+      "refresh": {
+        "mode": "http",
+        "interval_days": 30
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "zhang-e-user-value-first",
+      "source_id": "zhang-2016-tencent",
+      "speaker": "张小龙",
+      "excerpt": "用户价值",
+      "summary": "他以平台消息和推广需求为例，要求先检查事情对用户是否有价值。",
+      "locator": {
+        "type": "heading",
+        "value": "平台接口与用户价值的讨论"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "用户价值",
+        "产品取舍",
+        "商业需求",
+        "体验"
+      ],
+      "context": "不是所有商业化都应取消，而是检查它是否损害用户任务。"
+    },
+    {
+      "id": "zhang-e-enable-creation",
+      "source_id": "zhang-2016-tencent",
+      "speaker": "张小龙",
+      "excerpt": "让创造发挥价值",
+      "summary": "他把支持创造者与有价值服务的形成联系起来。",
+      "locator": {
+        "type": "heading",
+        "value": "第二个价值观；创造与平台"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "创造",
+        "平台",
+        "内容",
+        "价值交换"
+      ],
+      "context": "这是平台建设主张，不是靠注册账号即可赚钱的承诺。"
+    },
+    {
+      "id": "zhang-e-complete-and-leave",
+      "source_id": "zhang-2016-tencent",
+      "speaker": "张小龙",
+      "excerpt": "用完即走",
+      "summary": "他用用完即走说明工具的目标不应只是延长停留时间。",
+      "locator": {
+        "type": "heading",
+        "value": "第三个价值观；产品与效率"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "工具产品",
+        "任务完成",
+        "留存",
+        "效率"
+      ],
+      "context": "不是要求用户不再返回，也不把停留越短越好当唯一指标。"
+    },
+    {
+      "id": "zhang-e-commercial-mutual-value",
+      "source_id": "zhang-2016-tencent",
+      "speaker": "张小龙",
+      "excerpt": "共赢",
+      "summary": "他用朋友转赠优惠券的案例说明商业化可以建立在用户价值之上。",
+      "locator": {
+        "type": "heading",
+        "value": "卡券核销与好友分享的例子"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "商业模式",
+        "商业化",
+        "用户利益",
+        "合作"
+      ],
+      "context": "编辑应用不包含诱导分享或隐瞒广告关系；历史案例不等于当前规则。"
+    },
+    {
+      "id": "zhang-e-platform-capabilities",
+      "source_id": "zhang-2016-tencent",
+      "speaker": "张小龙",
+      "excerpt": "无限种可能性",
+      "summary": "他比较开放能力与逐个谈合作，强调第三方可形成更多可能。",
+      "locator": {
+        "type": "heading",
+        "value": "平台接口、合作与体验的段落"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "开放平台",
+        "第三方",
+        "接口",
+        "生态"
+      ],
+      "context": "不把他当时所述白名单或好友数量限制沿用为当前制度。"
+    },
+    {
+      "id": "zhang-e-subscription-control",
+      "source_id": "zhang-2018-geekpark",
+      "speaker": "张小龙",
+      "excerpt": "选择",
+      "summary": "他区分订阅内容的阅读效率与不受用户掌控的信息流。",
+      "locator": {
+        "type": "heading",
+        "value": "关于去中心化；选择权与公众号阅读效率"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "订阅",
+        "用户控制",
+        "信息流",
+        "阅读效率"
+      ],
+      "context": "引用后附讲话正文，不使用导语中“自己个人订阅”等记者概括。"
+    },
+    {
+      "id": "zhang-e-authentic-metrics",
+      "source_id": "zhang-2018-geekpark",
+      "speaker": "张小龙",
+      "excerpt": "外挂",
+      "summary": "他用小游戏外挂说明作弊会使排行榜和规则失去意义。",
+      "locator": {
+        "type": "heading",
+        "value": "跳一跳；成长曲线、作弊与线下验证"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "数据质量",
+        "作弊",
+        "指标",
+        "产品验证"
+      ],
+      "context": "不照搬某个游戏的反作弊阈值，也不把他的判断方法当完整检测算法。"
+    },
+    {
+      "id": "zhang-e-communicate-in-product",
+      "source_id": "zhang-2018-geekpark",
+      "speaker": "张小龙",
+      "excerpt": "自己会说话",
+      "summary": "他以版本启动页和实际功能说明产品也能表达理念。",
+      "locator": {
+        "type": "heading",
+        "value": "好的产品会自己说话；版本与发布会"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "产品表达",
+        "交付",
+        "发布",
+        "沟通"
+      ],
+      "context": "只引实际讲话中的表述，避免把记者写的“产品本身”当直接引用。"
+    },
+    {
+      "id": "zhang-e-explicit-design-criteria",
+      "source_id": "zhang-2019-geekpark",
+      "speaker": "张小龙",
+      "excerpt": "有用",
+      "summary": "他借鉴Rams的设计原则来检视产品是否有用、诚实、易懂等。",
+      "locator": {
+        "type": "heading",
+        "value": "开篇；借鉴Rams并将设计原则用于产品"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "产品设计",
+        "设计标准",
+        "诚实",
+        "用户体验"
+      ],
+      "context": "原文主动说明将设计标准转换用于产品；应用检查步骤为编辑推演。"
+    },
+    {
+      "id": "zhang-e-monetization-and-trust",
+      "source_id": "zhang-2019-geekpark",
+      "speaker": "张小龙",
+      "excerpt": "广告",
+      "summary": "他用启动页和404页面反问是否应把每个流量位置都变成广告位。",
+      "locator": {
+        "type": "heading",
+        "value": "开篇；404页面与微信启动页的反问"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "变现",
+        "广告",
+        "信任",
+        "产品取舍"
+      ],
+      "context": "保留反问的启发性质，不制造永不投广告的当代承诺。"
+    },
+    {
+      "id": "zhang-e-validate-pull-before-scale",
+      "source_id": "zhang-2019-geekpark",
+      "speaker": "张小龙",
+      "excerpt": "自然的增长曲线",
+      "summary": "他回忆微信早期用自然增长检验产品是否值得扩大推广。",
+      "locator": {
+        "type": "heading",
+        "value": "微信早期增长与新产品推广"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "产品验证",
+        "自然增长",
+        "市场需求",
+        "推广"
+      ],
+      "context": "与主动寻找真实用户不冲突；反对的是把推广量当产品价值的替代证明。"
+    },
+    {
+      "id": "zhang-e-recommendation-beyond-kpi",
+      "source_id": "zhang-2019-geekpark",
+      "speaker": "张小龙",
+      "excerpt": "KPI",
+      "summary": "他担心推荐若只迎合点击类目标，会把用户困在有限内容里。",
+      "locator": {
+        "type": "heading",
+        "value": "机器推荐与社交推荐的讨论"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "推荐系统",
+        "内容质量",
+        "指标",
+        "用户自主"
+      ],
+      "context": "应用步骤为编辑建议，不将推荐偏好当成已验证的心理学规律。"
+    },
+    {
+      "id": "zhang-e-expression-before-format",
+      "source_id": "zhang-2019-geekpark",
+      "speaker": "张小龙",
+      "excerpt": "展现自己",
+      "summary": "他从朋友圈与视频动态讨论用户展示自己和记录生活的不同方式。",
+      "locator": {
+        "type": "heading",
+        "value": "朋友圈及视频动态；表达方式的讨论"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "表达需求",
+        "内容形式",
+        "社交",
+        "视频"
+      ],
+      "context": "不把管理者对用户动机的解释当个体心理诊断。"
+    },
+    {
+      "id": "zhang-e-technology-serves-task",
+      "source_id": "zhang-2019-geekpark",
+      "speaker": "张小龙",
+      "excerpt": "为产品服务",
+      "summary": "他以语音识别说明技术需要落到具体功能与使用场景。",
+      "locator": {
+        "type": "heading",
+        "value": "关于AI；技术与实际场景"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "技术选型",
+        "人工智能",
+        "产品价值",
+        "任务效果"
+      ],
+      "context": "只提炼技术服务任务，不采用随后未经支持的AI医生预测。"
+    },
+    {
+      "id": "zhang-e-public-private-identity",
+      "source_id": "zhang-2021-geekpark",
+      "speaker": "张小龙",
+      "excerpt": "私密",
+      "summary": "他解释视频号为什么需要不同于私人社交的公开身份。",
+      "locator": {
+        "type": "heading",
+        "value": "视频号起点；公开身份与微信身份"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "身份体系",
+        "公开表达",
+        "隐私",
+        "社交边界"
+      ],
+      "context": "提炼边界设计，不把当时产品的可见性陈述当当前隐私政策。"
+    },
+    {
+      "id": "zhang-e-representative-pilot",
+      "source_id": "zhang-2021-geekpark",
+      "speaker": "张小龙",
+      "excerpt": "公司的同事",
+      "summary": "他回顾视频号初期灰度用户中大量是同事，内容与创作者供给不足。",
+      "locator": {
+        "type": "heading",
+        "value": "视频号早期灰度；用户构成与内容质量"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "内测",
+        "样本偏差",
+        "用户研究",
+        "内容供给"
+      ],
+      "context": "他的历史复盘是解释线索，不构成单一原因的因果验证。"
+    },
+    {
+      "id": "zhang-e-method-fits-stage",
+      "source_id": "zhang-2021-geekpark",
+      "speaker": "张小龙",
+      "excerpt": "不太全面",
+      "summary": "他回顾内容不足时机器推荐效果有限，调整信息流后才出现新的线索。",
+      "locator": {
+        "type": "heading",
+        "value": "2020年五月改版；内容供给与推荐对比"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "推荐",
+        "冷启动",
+        "内容供给",
+        "技术条件"
+      ],
+      "context": "保留他当时内容供给不足的条件，不将阶段性判断变成永恒规则。"
+    },
+    {
+      "id": "zhang-e-expression-pressure",
+      "source_id": "zhang-2021-geekpark",
+      "speaker": "张小龙",
+      "excerpt": "压力",
+      "summary": "他认为向所有好友发布视频压力较大，并解释了改做轻量状态的尝试。",
+      "locator": {
+        "type": "heading",
+        "value": "关于状态；视频动态的复盘"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "表达压力",
+        "社交产品",
+        "受众",
+        "产品迭代"
+      ],
+      "context": "不把文中自报使用人数当独立验证的成功或失败标准。"
+    },
+    {
+      "id": "zhang-e-stated-data-boundaries",
+      "source_id": "zhang-2021-geekpark",
+      "speaker": "张小龙",
+      "excerpt": "聊天记录",
+      "summary": "他在谈输入法时表示不分析用户聊天记录，将安全作为产品考虑。",
+      "locator": {
+        "type": "heading",
+        "value": "研发中的输入法；用户投诉与数据使用陈述"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "数据边界",
+        "隐私",
+        "输入法",
+        "用户信任"
+      ],
+      "context": "明确区分他当时宣称的做法与已经技术审计的事实。"
+    },
+    {
+      "id": "zhang-e-unnecessary-complexity",
+      "source_id": "zhang-2021-geekpark",
+      "speaker": "张小龙",
+      "excerpt": "简单",
+      "summary": "他区分增加功能与以错误方式加入不必要功能，强调好用的简单。",
+      "locator": {
+        "type": "heading",
+        "value": "末尾；关于产品、连接和简单"
+      },
+      "verification": {
+        "status": "reviewed",
+        "origin_verified": true,
+        "checked_at": "2026-10-25",
+        "reviewer": "Codex-assisted original publication text review",
+        "note": "核对原发布文本、作者归属及对应段落；应用步骤为编辑推演，不是对用户的直接回复。"
+      },
+      "tags": [
+        "产品复杂度",
+        "功能取舍",
+        "简单",
+        "可用性"
+      ],
+      "context": "保留原文的“功能是否必要、加入方式是否合适”两个条件。"
+    }
+  ],
+  "principles": [
+    {
+      "id": "zhang-p-user-value-first",
+      "title": "先问用户价值，再决定是否增加业务需求",
+      "summary": "他以平台消息和推广需求为例，要求先检查事情对用户是否有价值。",
+      "topics": [
+        "用户价值",
+        "产品取舍",
+        "商业需求",
+        "体验"
+      ],
+      "evidence_ids": [
+        "zhang-e-user-value-first"
+      ],
+      "application": {
+        "questions": [
+          "这项需求给使用者带来什么实际改善，代价又由谁承担？"
+        ],
+        "steps": [
+          "描述用户任务及当前困难。",
+          "把业务收益与用户负担一起评估，再决定取舍。"
+        ],
+        "limits": [
+          "管理者自述不是其所有产品行为均符合主张的证明；用户价值需要实际验证。"
+        ]
+      }
+    },
+    {
+      "id": "zhang-p-enable-creation",
+      "title": "让创造者能靠有价值的产出获得回报",
+      "summary": "他把支持创造者与有价值服务的形成联系起来。",
+      "topics": [
+        "创造",
+        "平台",
+        "内容",
+        "价值交换"
+      ],
+      "evidence_ids": [
+        "zhang-e-enable-creation"
+      ],
+      "application": {
+        "questions": [
+          "平台是否让真正提供价值的人获得合理回报？"
+        ],
+        "steps": [
+          "明确谁在创造哪种价值。",
+          "检查规则能否让用户发现、使用并反馈这些产出。"
+        ],
+        "limits": [
+          "平台机会不保证个人收入；流量和实际价值需要分别检验。"
+        ]
+      }
+    },
+    {
+      "id": "zhang-p-complete-and-leave",
+      "title": "工具先帮助用户完成任务",
+      "summary": "他用用完即走说明工具的目标不应只是延长停留时间。",
+      "topics": [
+        "工具产品",
+        "任务完成",
+        "留存",
+        "效率"
+      ],
+      "evidence_ids": [
+        "zhang-e-complete-and-leave"
+      ],
+      "application": {
+        "questions": [
+          "用户能否以较少步骤完成任务并放心离开？"
+        ],
+        "steps": [
+          "定义一次使用的完成条件。",
+          "观察完成时间、失败和重复操作，而不只看停留。"
+        ],
+        "limits": [
+          "适用于工具任务的判断；娱乐、陪伴和沉浸式创作有不同目标。"
+        ]
+      }
+    },
+    {
+      "id": "zhang-p-commercial-mutual-value",
+      "title": "把商业收益与各方实际收益一起设计",
+      "summary": "他用朋友转赠优惠券的案例说明商业化可以建立在用户价值之上。",
+      "topics": [
+        "商业模式",
+        "商业化",
+        "用户利益",
+        "合作"
+      ],
+      "evidence_ids": [
+        "zhang-e-commercial-mutual-value"
+      ],
+      "application": {
+        "questions": [
+          "交易中的用户、商家和平台分别得到什么，付出什么？"
+        ],
+        "steps": [
+          "列出各方利益及潜在负担。",
+          "用真实反馈验证，而不只以曝光或成交量判定。"
+        ],
+        "limits": [
+          "核销改善为其自述，不能证明所有分享营销都有效或自愿。"
+        ]
+      }
+    },
+    {
+      "id": "zhang-p-platform-capabilities",
+      "title": "用可复用的平台能力支持第三方创造",
+      "summary": "他比较开放能力与逐个谈合作，强调第三方可形成更多可能。",
+      "topics": [
+        "开放平台",
+        "第三方",
+        "接口",
+        "生态"
+      ],
+      "evidence_ids": [
+        "zhang-e-platform-capabilities"
+      ],
+      "application": {
+        "questions": [
+          "当前合作是否可以转化成稳定、公平、可复用的能力？"
+        ],
+        "steps": [
+          "识别第三方反复遇到的共同问题。",
+          "明确接口、责任和使用边界，再做小规模验证。"
+        ],
+        "limits": [
+          "开放程度需匹配安全、隐私和运营能力，不是所有内部能力都应开放。"
+        ]
+      }
+    },
+    {
+      "id": "zhang-p-subscription-control",
+      "title": "改善阅读效率时保留用户对订阅的控制",
+      "summary": "他区分订阅内容的阅读效率与不受用户掌控的信息流。",
+      "topics": [
+        "订阅",
+        "用户控制",
+        "信息流",
+        "阅读效率"
+      ],
+      "evidence_ids": [
+        "zhang-e-subscription-control"
+      ],
+      "application": {
+        "questions": [
+          "排序改版是否仍让用户掌握自己选择的内容？"
+        ],
+        "steps": [
+          "区分主动订阅和推荐入口。",
+          "核对排序、取消和恢复操作是否清楚可控。"
+        ],
+        "limits": [
+          "当时关于产品未来的承诺不证明今天仍如此；需另查实际界面与规则。"
+        ]
+      }
+    },
+    {
+      "id": "zhang-p-authentic-metrics",
+      "title": "先核对指标是否反映真实行为",
+      "summary": "他用小游戏外挂说明作弊会使排行榜和规则失去意义。",
+      "topics": [
+        "数据质量",
+        "作弊",
+        "指标",
+        "产品验证"
+      ],
+      "evidence_ids": [
+        "zhang-e-authentic-metrics"
+      ],
+      "application": {
+        "questions": [
+          "漂亮的数字来自真实使用，还是刷量或测量缺陷？"
+        ],
+        "steps": [
+          "检查采样、统计和异常行为。",
+          "对异常做补充验证，再用于产品决定。"
+        ],
+        "limits": [
+          "高分或异常曲线本身不能证明作弊，需要具体证据和申诉机会。"
+        ]
+      }
+    },
+    {
+      "id": "zhang-p-communicate-in-product",
+      "title": "让产品交付体现想表达的理念",
+      "summary": "他以版本启动页和实际功能说明产品也能表达理念。",
+      "topics": [
+        "产品表达",
+        "交付",
+        "发布",
+        "沟通"
+      ],
+      "evidence_ids": [
+        "zhang-e-communicate-in-product"
+      ],
+      "application": {
+        "questions": [
+          "用户能否从实际使用中理解本次改进，而不只听宣传？"
+        ],
+        "steps": [
+          "把承诺对应到可体验的行为。",
+          "用用户是否理解并完成任务来检查表达。"
+        ],
+        "limits": [
+          "原话同时承认需要适时解释理念；不是反对文档、市场沟通或所有发布会。"
+        ]
+      }
+    },
+    {
+      "id": "zhang-p-explicit-design-criteria",
+      "title": "把好设计的判断变成具体检查标准",
+      "summary": "他借鉴Rams的设计原则来检视产品是否有用、诚实、易懂等。",
+      "topics": [
+        "产品设计",
+        "设计标准",
+        "诚实",
+        "用户体验"
+      ],
+      "evidence_ids": [
+        "zhang-e-explicit-design-criteria"
+      ],
+      "application": {
+        "questions": [
+          "所谓设计更好，具体改善了哪项可观察的使用结果？"
+        ],
+        "steps": [
+          "挑选与任务有关的设计标准。",
+          "用实例和用户操作检查，而不只表达个人审美。"
+        ],
+        "limits": [
+          "这套原则有明确借鉴来源，不归为张小龙原创理论，也不是普遍适用的科学定律。"
+        ]
+      }
+    },
+    {
+      "id": "zhang-p-monetization-and-trust",
+      "title": "在高流量位置变现前检查用户信任",
+      "summary": "他用启动页和404页面反问是否应把每个流量位置都变成广告位。",
+      "topics": [
+        "变现",
+        "广告",
+        "信任",
+        "产品取舍"
+      ],
+      "evidence_ids": [
+        "zhang-e-monetization-and-trust"
+      ],
+      "application": {
+        "questions": [
+          "这次变现会不会损害用户正在完成的任务与长期信任？"
+        ],
+        "steps": [
+          "估算短期收益及体验代价。",
+          "通过可撤回的小范围验证和用户反馈决定。"
+        ],
+        "limits": [
+          "例子不证明所有广告都不好，也不是关于微软历史行为的独立事实核查。"
+        ]
+      }
+    },
+    {
+      "id": "zhang-p-validate-pull-before-scale",
+      "title": "大规模推广前验证产品是否形成自发需求",
+      "summary": "他回忆微信早期用自然增长检验产品是否值得扩大推广。",
+      "topics": [
+        "产品验证",
+        "自然增长",
+        "市场需求",
+        "推广"
+      ],
+      "evidence_ids": [
+        "zhang-e-validate-pull-before-scale"
+      ],
+      "application": {
+        "questions": [
+          "扩大投放之前，是否已有真实使用与自发回访的证据？"
+        ],
+        "steps": [
+          "先理解少量目标用户为什么使用和回来。",
+          "确认产品有效后，再评估扩大推广的成本。"
+        ],
+        "limits": [
+          "这是消费与社交产品早期案例；不能推广为所有B2B业务无需主动销售，或禁止手工招募早期用户。"
+        ]
+      }
+    },
+    {
+      "id": "zhang-p-recommendation-beyond-kpi",
+      "title": "推荐系统要同时检查内容价值与用户自主性",
+      "summary": "他担心推荐若只迎合点击类目标，会把用户困在有限内容里。",
+      "topics": [
+        "推荐系统",
+        "内容质量",
+        "指标",
+        "用户自主"
+      ],
+      "evidence_ids": [
+        "zhang-e-recommendation-beyond-kpi"
+      ],
+      "application": {
+        "questions": [
+          "优化这个指标后，用户得到的信息是否更值得花时间？"
+        ],
+        "steps": [
+          "把点击和停留与多样性、反馈、主动控制一起观察。",
+          "检查短期指标上涨时是否有明显体验损失。"
+        ],
+        "limits": [
+          "这是他的产品判断；不证明朋友推荐总比算法准确，也不支持文章中的医疗预测。"
+        ]
+      }
+    },
+    {
+      "id": "zhang-p-expression-before-format",
+      "title": "先理解用户想表达什么，再选择内容形式",
+      "summary": "他从朋友圈与视频动态讨论用户展示自己和记录生活的不同方式。",
+      "topics": [
+        "表达需求",
+        "内容形式",
+        "社交",
+        "视频"
+      ],
+      "evidence_ids": [
+        "zhang-e-expression-before-format"
+      ],
+      "application": {
+        "questions": [
+          "用户是在记录、沟通还是公开展示，哪种形式负担较低？"
+        ],
+        "steps": [
+          "描述具体表达任务及受众。",
+          "比较文字、图片和视频的投入与反馈。"
+        ],
+        "limits": [
+          "不同用户和文化场景有差异，不能把某一表达动机强加给所有人。"
+        ]
+      }
+    },
+    {
+      "id": "zhang-p-technology-serves-task",
+      "title": "用实际任务效果检验技术价值",
+      "summary": "他以语音识别说明技术需要落到具体功能与使用场景。",
+      "topics": [
+        "技术选型",
+        "人工智能",
+        "产品价值",
+        "任务效果"
+      ],
+      "evidence_ids": [
+        "zhang-e-technology-serves-task"
+      ],
+      "application": {
+        "questions": [
+          "加入这项技术后，哪项任务的效果、成本或可达性得到改善？"
+        ],
+        "steps": [
+          "建立不用该技术时的对照方案。",
+          "比较真实任务结果，再决定是否投入。"
+        ],
+        "limits": [
+          "不把“躲在后面”解释为隐瞒AI身份；需要告知的场景仍应清楚说明。"
+        ]
+      }
+    },
+    {
+      "id": "zhang-p-public-private-identity",
+      "title": "区分公开表达与私人关系的身份边界",
+      "summary": "他解释视频号为什么需要不同于私人社交的公开身份。",
+      "topics": [
+        "身份体系",
+        "公开表达",
+        "隐私",
+        "社交边界"
+      ],
+      "evidence_ids": [
+        "zhang-e-public-private-identity"
+      ],
+      "application": {
+        "questions": [
+          "用户能否清楚知道哪些信息会向谁公开？"
+        ],
+        "steps": [
+          "画出身份、可见范围和联系路径。",
+          "核对默认值及切换时的告知是否符合预期。"
+        ],
+        "limits": [
+          "两套身份并非所有产品的必要方案，也不自动保证匿名或隐私。"
+        ]
+      }
+    },
+    {
+      "id": "zhang-p-representative-pilot",
+      "title": "内测要检查样本是否代表目标使用者",
+      "summary": "他回顾视频号初期灰度用户中大量是同事，内容与创作者供给不足。",
+      "topics": [
+        "内测",
+        "样本偏差",
+        "用户研究",
+        "内容供给"
+      ],
+      "evidence_ids": [
+        "zhang-e-representative-pilot"
+      ],
+      "application": {
+        "questions": [
+          "测试中的人和内容，能否代表你真正想服务的人？"
+        ],
+        "steps": [
+          "记录样本来源与缺失群体。",
+          "补充外部真实使用场景，再解释测试结果。"
+        ],
+        "limits": [
+          "同事测试仍可发现基础缺陷；不是任何内部样本都毫无价值。"
+        ]
+      }
+    },
+    {
+      "id": "zhang-p-method-fits-stage",
+      "title": "先检查供给与阶段条件，再判断技术方案",
+      "summary": "他回顾内容不足时机器推荐效果有限，调整信息流后才出现新的线索。",
+      "topics": [
+        "推荐",
+        "冷启动",
+        "内容供给",
+        "技术条件"
+      ],
+      "evidence_ids": [
+        "zhang-e-method-fits-stage"
+      ],
+      "application": {
+        "questions": [
+          "当前方案效果不好，是算法不足，还是输入和供给前提不成立？"
+        ],
+        "steps": [
+          "把输入质量、覆盖和算法能力分开检查。",
+          "在当前条件下比较替代方案，再决定资源投入。"
+        ],
+        "limits": [
+          "不能推出算法推荐普遍无效，或朋友推荐在任何阶段都更好。"
+        ]
+      }
+    },
+    {
+      "id": "zhang-p-expression-pressure",
+      "title": "表达功能要考虑受众带来的心理负担",
+      "summary": "他认为向所有好友发布视频压力较大，并解释了改做轻量状态的尝试。",
+      "topics": [
+        "表达压力",
+        "社交产品",
+        "受众",
+        "产品迭代"
+      ],
+      "evidence_ids": [
+        "zhang-e-expression-pressure"
+      ],
+      "application": {
+        "questions": [
+          "用户不发布，是没需求，还是制作成本和受众压力过高？"
+        ],
+        "steps": [
+          "分别测试形式、可见范围和制作步骤。",
+          "观察自愿表达与反馈，避免用诱导发布替代需求。"
+        ],
+        "limits": [
+          "这是管理者对一款产品的解释，不是人人有相同感受的心理结论。"
+        ]
+      }
+    },
+    {
+      "id": "zhang-p-stated-data-boundaries",
+      "title": "把数据使用边界说清楚并核对实际行为",
+      "summary": "他在谈输入法时表示不分析用户聊天记录，将安全作为产品考虑。",
+      "topics": [
+        "数据边界",
+        "隐私",
+        "输入法",
+        "用户信任"
+      ],
+      "evidence_ids": [
+        "zhang-e-stated-data-boundaries"
+      ],
+      "application": {
+        "questions": [
+          "对外承诺的数据用途，是否和实际实现及当前政策一致？"
+        ],
+        "steps": [
+          "列出收集、处理、共享和保留范围。",
+          "让实现与用户告知保持一致，并检查可验证证据。"
+        ],
+        "limits": [
+          "原文只是其2021年陈述，不能证明当前实现、第三方行为或合规状况；核对步骤为编辑推演。"
+        ]
+      }
+    },
+    {
+      "id": "zhang-p-unnecessary-complexity",
+      "title": "控制功能增加带来的不必要复杂度",
+      "summary": "他区分增加功能与以错误方式加入不必要功能，强调好用的简单。",
+      "topics": [
+        "产品复杂度",
+        "功能取舍",
+        "简单",
+        "可用性"
+      ],
+      "evidence_ids": [
+        "zhang-e-unnecessary-complexity"
+      ],
+      "application": {
+        "questions": [
+          "新功能增加了哪些理解和操作成本，核心任务是否更难完成？"
+        ],
+        "steps": [
+          "识别必要需求及已有路径。",
+          "比较简化路径、渐进展示与新增功能的使用成本。"
+        ],
+        "limits": [
+          "不是所有功能越少越好，也不把他对微信简单程度的自评当所有用户的体验。"
+        ]
+      }
+    }
+  ]
+}
