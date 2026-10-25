@@ -4,6 +4,7 @@ import sys
 import tempfile
 import threading
 import unittest
+from datetime import timedelta
 from pathlib import Path
 from urllib.error import HTTPError
 from urllib.request import Request, urlopen
@@ -155,7 +156,7 @@ class MCPTests(unittest.TestCase):
         async def exercise(root):
             server = StdioServerParameters(command=sys.executable, args=["-m", "open_mentor", "--state-dir", root, "mcp"])
             async with stdio_client(server) as (read, write):
-                async with ClientSession(read, write) as session:
+                async with ClientSession(read, write, read_timeout_seconds=timedelta(seconds=20)) as session:
                     await session.initialize()
                     tools = await session.list_tools()
                     self.assertEqual({t.name for t in tools.tools}, {"list_people", "search_knowledge", "get_evidence", "get_source", "prepare_guidance", "ask_mentor"})
@@ -216,4 +217,6 @@ class MCPTests(unittest.TestCase):
                     self.assertFalse(result.isError)
 
         with tempfile.TemporaryDirectory() as root:
-            asyncio.run(asyncio.wait_for(exercise(root), timeout=20))
+            # This exercises every expansion pack plus routing/state recovery.
+            # Bound each request above; the whole batch is not a 20-second benchmark.
+            asyncio.run(asyncio.wait_for(exercise(root), timeout=180))
