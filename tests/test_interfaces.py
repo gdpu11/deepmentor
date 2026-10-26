@@ -9,7 +9,7 @@ from pathlib import Path
 from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
-from open_mentor.api import make_server
+from deepmentor.api import make_server
 
 EXPANSION_REQUESTS = [
     ("用保罗·格雷厄姆的知识库，怎样招募第一批用户", "paul-graham", "pg-e-manual-recruiting"),
@@ -99,8 +99,8 @@ class HTTPTests(unittest.TestCase):
 
     def test_http_automatic_selection_matches_local_library(self):
         from contextlib import closing
-        from open_mentor.library import Library
-        for text in ["用OpenMentor帮我看看，怎么赚自己的第一个100w", "我做的流程很乱，要不要直接自动化", "如何养成阅读习惯", "用OpenMentor帮我看看", "阅读时突然胸痛，应该吃什么药"]:
+        from deepmentor.library import Library
+        for text in ["用DeepMentor帮我看看，怎么赚自己的第一个100w", "用OpenMentor帮我看看，怎么赚自己的第一个100w", "我做的流程很乱，要不要直接自动化", "如何养成阅读习惯", "用DeepMentor帮我看看", "阅读时突然胸痛，应该吃什么药"]:
             with self.subTest(request=text):
                 request = Request(self.base + "/v1/ask", json.dumps({"request": text}).encode(), {"Content-Type": "application/json"})
                 with urlopen(request, timeout=5) as response:
@@ -111,7 +111,7 @@ class HTTPTests(unittest.TestCase):
 
     def test_http_situation_and_followup_match_library_on_both_endpoints(self):
         from contextlib import closing
-        from open_mentor.library import Library
+        from deepmentor.library import Library
         situation = "原问题是怎么赚第一个100w，我会Python，每周有10小时"
         for endpoint, body in [("ask", {"request": "那我应该先做哪一步", "situation": situation}),
                                ("context", {"person": "naval", "question": "那我应该先做哪一步", "situation": situation})]:
@@ -154,7 +154,7 @@ class MCPTests(unittest.TestCase):
             self.skipTest("Install .[mcp] to run the protocol integration test")
 
         async def exercise(root):
-            server = StdioServerParameters(command=sys.executable, args=["-m", "open_mentor", "--state-dir", root, "mcp"])
+            server = StdioServerParameters(command=sys.executable, args=["-m", "deepmentor", "--state-dir", root, "mcp"])
             async with stdio_client(server) as (read, write):
                 async with ClientSession(read, write, read_timeout_seconds=timedelta(seconds=20)) as session:
                     await session.initialize()
@@ -176,7 +176,7 @@ class MCPTests(unittest.TestCase):
                     payload = json.loads(result.content[0].text)
                     self.assertEqual(payload["status"], "ready")
                     self.assertIn("naval-e-leverage", payload["citations"])
-                    result = await session.call_tool("ask_mentor", {"request": "帮我用OpenMentor问问孙宇晨，怎么赚自己的第一个100w"})
+                    result = await session.call_tool("ask_mentor", {"request": "帮我用DeepMentor问问孙宇晨，怎么赚自己的第一个100w"})
                     self.assertFalse(result.isError)
                     payload = json.loads(result.content[0].text)
                     self.assertEqual(payload["person"]["id"], "justin-sun")
@@ -185,8 +185,8 @@ class MCPTests(unittest.TestCase):
                     self.assertTrue(payload["citations"]["sun-e-customer-value-video"]["citation_url"].endswith("&t=2132"))
                     self.assertTrue(all(e["eligible"] and e["verification"]["origin_verified"] for e in payload["citations"].values()))
                     from contextlib import closing
-                    from open_mentor.library import Library
-                    for text in ["用OpenMentor帮我看看，怎么赚自己的第一个100w", "流程稳定前该不该自动化", "如何养成阅读习惯", "用OpenMentor帮我看看", "我的作品被人抄袭了，要怎么起诉维权"]:
+                    from deepmentor.library import Library
+                    for text in ["用DeepMentor帮我看看，怎么赚自己的第一个100w", "用OpenMentor帮我看看，怎么赚自己的第一个100w", "流程稳定前该不该自动化", "如何养成阅读习惯", "用DeepMentor帮我看看", "我的作品被人抄袭了，要怎么起诉维权"]:
                         result = await session.call_tool("ask_mentor", {"request": text})
                         self.assertFalse(result.isError)
                         actual = json.loads(result.content[0].text)

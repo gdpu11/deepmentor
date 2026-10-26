@@ -13,8 +13,8 @@ import tempfile
 from collections import defaultdict
 from pathlib import Path
 
-from open_mentor.library import Library
-from open_mentor.updates import normalize, sha256
+from deepmentor.library import Library
+from deepmentor.updates import normalize, sha256
 
 
 def audit(library: Library, people: list[str], snapshots: Path) -> dict:

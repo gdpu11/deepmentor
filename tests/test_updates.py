@@ -12,8 +12,8 @@ from unittest.mock import patch
 
 import brotli
 
-from open_mentor.library import Library, StateError
-from open_mentor.updates import Updates, fetch_text, normalize, sha256, visible_text
+from deepmentor.library import Library, StateError
+from deepmentor.updates import Updates, fetch_text, normalize, sha256, visible_text
 
 
 class UpdateTests(unittest.TestCase):
@@ -43,7 +43,7 @@ class UpdateTests(unittest.TestCase):
         html = '<nav>site</nav><p>用户 &amp; creator’s value</p>'.encode()
         for encoding, data in [("identity", html), ("gzip", gzip.compress(html)),
                                ("br", brotli.compress(html)), ("deflate", zlib.compress(html))]:
-            with self.subTest(encoding=encoding), patch("open_mentor.updates.urlopen", return_value=self.response(data, encoding=encoding)):
+            with self.subTest(encoding=encoding), patch("deepmentor.updates.urlopen", return_value=self.response(data, encoding=encoding)):
                 self.assertEqual(fetch_text("https://example.org/original"), "用户 & creator’s value")
 
     def test_legacy_and_declared_html_charsets_remain_readable(self):
@@ -51,32 +51,46 @@ class UpdateTests(unittest.TestCase):
                  ('<meta charset="gbk"><p>用户价值</p>'.encode("gbk"), "text/html", "用户价值"),
                  ("café".encode("latin-1"), "text/plain; charset=iso-8859-1", "café")]
         for data, content_type, expected in cases:
-            with self.subTest(content_type=content_type), patch("open_mentor.updates.urlopen", return_value=self.response(data, content_type)):
+            with self.subTest(content_type=content_type), patch("deepmentor.updates.urlopen", return_value=self.response(data, content_type)):
                 self.assertEqual(fetch_text("https://example.org/original"), expected)
         # A declared charset is a contract, not a reason to silently reinterpret corrupt text.
-        with patch("open_mentor.updates.urlopen", return_value=self.response(b"\xff", "text/html; charset=utf-8")):
+        with patch("deepmentor.updates.urlopen", return_value=self.response(b"\xff", "text/html; charset=utf-8")):
             with self.assertRaises(UnicodeDecodeError):
                 fetch_text("https://example.org/original")
 
     def test_invalid_or_oversized_decoded_source_is_not_accepted(self):
         for data, encoding in [(b"broken", "br"), (b"broken", "deflate"), (b"raw", "unsupported"),
                                (gzip.compress(b"x" * (4 * 1024 * 1024 + 1)), "gzip")]:
-            with self.subTest(encoding=encoding), patch("open_mentor.updates.urlopen", return_value=self.response(data, encoding=encoding)):
+            with self.subTest(encoding=encoding), patch("deepmentor.updates.urlopen", return_value=self.response(data, encoding=encoding)):
                 with self.assertRaises(ValueError):
                     fetch_text("https://example.org/original")
 
     def test_truncated_gzip_marks_source_unavailable_instead_of_leaving_it_accepted(self):
         data = gzip.compress(b"incomplete source response")[:-3]
-        with patch("open_mentor.updates.urlopen", return_value=self.response(data, encoding="gzip")):
+        with patch("deepmentor.updates.urlopen", return_value=self.response(data, encoding="gzip")):
             result = self.updates.check("naval-specific")
         self.assertEqual(result["status"], "unavailable")
         self.assertIn("Invalid gzip", result["error"])
         self.assertFalse(self.library.get_evidence("naval-e-specific")["eligible"])
 
-    def test_interrupted_http_body_also_marks_source_unavailable(self):
+    def test_updates_uses_deepmentor_user_agent(self):
+        calls = []
+
+        def fake_urlopen(req, timeout=20):
+            calls.append(req)
+            resp = BytesIO(b"content")
+            resp.url = "https://example.org/test"
+            resp.headers = Message()
+            resp.headers.add_header("Content-Type", "text/plain")
+            return resp
+
+        with patch("deepmentor.updates.urlopen", side_effect=fake_urlopen):
+            fetch_text("https://example.org/test")
+        self.assertTrue(calls)
+        self.assertIn("DeepMentor/0.1", calls[0].headers.get("User-agent"))
         response = self.response(b"partial")
         with patch.object(response, "read", side_effect=IncompleteRead(b"partial", 12)):
-            with patch("open_mentor.updates.urlopen", return_value=response):
+            with patch("deepmentor.updates.urlopen", return_value=response):
                 result = self.updates.check("naval-specific")
         self.assertEqual(result["status"], "unavailable")
         self.assertFalse(self.library.get_evidence("naval-e-specific")["eligible"])
@@ -110,14 +124,14 @@ class UpdateTests(unittest.TestCase):
     def test_unchanged_source_remains_usable(self):
         text = self.library.evidence["naval-e-specific"]["excerpt"]
         self.library.sources["naval-specific"]["content_sha256"] = sha256(text)
-        with patch("open_mentor.updates.fetch_text", return_value=text):
+        with patch("deepmentor.updates.fetch_text", return_value=text):
             result = self.updates.check("naval-specific")
         self.assertEqual(result["status"], "accepted")
         self.assertTrue(self.library.search("naval", "专长"))
 
     def test_drift_requires_explicit_acceptance_even_if_quote_survives(self):
         text = "New context. " + self.library.evidence["naval-e-specific"]["excerpt"]
-        with patch("open_mentor.updates.fetch_text", return_value=text):
+        with patch("deepmentor.updates.fetch_text", return_value=text):
             result = self.updates.check("naval-specific")
         self.assertEqual(result["status"], "changed")
         self.assertEqual(self.library.search("naval", "专长"), [])
@@ -126,7 +140,7 @@ class UpdateTests(unittest.TestCase):
         self.assertTrue(self.library.search("naval", "专长"))
 
     def test_acceptance_rejects_missing_excerpt(self):
-        with patch("open_mentor.updates.fetch_text", return_value="The old excerpt was removed."):
+        with patch("deepmentor.updates.fetch_text", return_value="The old excerpt was removed."):
             result = self.updates.check("naval-specific")
         self.assertIn("naval-e-specific", result["missing_excerpts"])
         with self.assertRaisesRegex(ValueError, "absent"):
@@ -135,9 +149,9 @@ class UpdateTests(unittest.TestCase):
     def test_fetch_failure_preserves_last_accepted_version_but_blocks_guidance(self):
         text = self.library.evidence["naval-e-specific"]["excerpt"]
         self.library.sources["naval-specific"]["content_sha256"] = sha256(text)
-        with patch("open_mentor.updates.fetch_text", return_value=text):
+        with patch("deepmentor.updates.fetch_text", return_value=text):
             self.updates.check("naval-specific")
-        with patch("open_mentor.updates.fetch_text", side_effect=OSError("offline")):
+        with patch("deepmentor.updates.fetch_text", side_effect=OSError("offline")):
             result = self.updates.check("naval-specific")
         self.assertEqual(result["status"], "unavailable")
         self.assertEqual(result["accepted_sha256"], sha256(text))

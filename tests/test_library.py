@@ -3,10 +3,11 @@ import shutil
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 from jsonschema.exceptions import ValidationError
 
-from open_mentor.library import DATA_DIR, Library
+from deepmentor.library import DATA_DIR, Library, StateConflictError, StateError, default_state_dir, resolve_state_dir
 
 
 class LibraryTests(unittest.TestCase):
@@ -110,3 +111,52 @@ class LibraryTests(unittest.TestCase):
                 self.library.search("naval", **kwargs)
         with self.assertRaisesRegex(ValueError, "Unknown person"):
             self.library.person("unknown-person")
+
+    def test_state_dir_resolution_priorities_and_conflict_detection(self):
+        with tempfile.TemporaryDirectory() as temp:
+            temp_path = Path(temp)
+            explicit_dir = temp_path / "explicit"
+            new_dir = temp_path / ".deepmentor"
+            old_dir = temp_path / ".open-mentor"
+
+            # 1. Explicit directory always wins
+            self.assertEqual(resolve_state_dir(explicit_dir, base_dir=temp_path), explicit_dir)
+
+            # 2. Neither exists -> returns new_dir (.deepmentor)
+            self.assertEqual(resolve_state_dir(None, base_dir=temp_path), new_dir)
+
+            # 3. Old exists with content, new does not -> returns old_dir (protects legacy data!)
+            old_dir.mkdir()
+            (old_dir / "state.json").write_text('{"naval-specific": {"status": "changed"}}')
+            self.assertEqual(resolve_state_dir(None, base_dir=temp_path), old_dir)
+
+            # 4. Migrated: new exists with content, old is removed -> returns new_dir
+            new_dir.mkdir()
+            (new_dir / "state.json").write_text('{"naval-specific": {"status": "changed"}}')
+            shutil.rmtree(old_dir)
+            self.assertEqual(resolve_state_dir(None, base_dir=temp_path), new_dir)
+
+            # 5. Conflict: both exist with files -> raises StateConflictError!
+            old_dir.mkdir()
+            (old_dir / "state.json").write_text('{"naval-specific": {"status": "accepted"}}')
+            with self.assertRaises(StateConflictError) as ctx:
+                resolve_state_dir(None, base_dir=temp_path)
+            self.assertIn("State directory conflict", str(ctx.exception))
+            self.assertIn("DeepMentor will not silently merge", str(ctx.exception))
+
+            # 6. If both exist but new is empty, falls back to legacy
+            shutil.rmtree(new_dir)
+            new_dir.mkdir()
+            self.assertEqual(resolve_state_dir(None, base_dir=temp_path), old_dir)
+
+    def test_legacy_open_mentor_compatibility_module(self):
+        import warnings
+        with warnings.catch_warnings(record=True) as recorded:
+            warnings.simplefilter("always")
+            import open_mentor
+            from open_mentor.library import Library as LegacyLibrary
+            from open_mentor.cli import main as legacy_cli
+            self.assertTrue(any(issubclass(w.category, DeprecationWarning) for w in recorded))
+            self.assertEqual(open_mentor.__version__, "0.1.0")
+            self.assertIs(LegacyLibrary, Library)
+            self.assertTrue(callable(legacy_cli))

@@ -14,6 +14,7 @@ jobs:
         with:
           python-version: ${{ matrix.python }}
       - run: pip install -e '.[mcp]'
+      - run: python -m deepmentor validate
+      - run: python -m deepmentor doctor --mcp
       - run: python -m open_mentor validate
-      - run: python -m open_mentor doctor --mcp
       - run: python -m unittest discover -s tests -v

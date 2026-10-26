@@ -5,8 +5,8 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from open_mentor.library import Library
-from open_mentor.rendering import render_guidance
+from deepmentor.library import Library
+from deepmentor.rendering import render_guidance
 
 
 class GuidanceContextTests(unittest.TestCase):
@@ -18,7 +18,7 @@ class GuidanceContextTests(unittest.TestCase):
         self.addCleanup(self.library.close)
 
     def test_followup_requires_actual_context_even_with_a_named_mentor(self):
-        for question in ["那我应该先做哪一步", "OpenMentor，接下来怎么办？", "What should I do next?", "用纳瓦尔的知识库分析一下，接下来怎么办", "接下来呢", "那我下一步该干啥"]:
+        for question in ["那我应该先做哪一步", "DeepMentor，接下来怎么办？", "OpenMentor，接下来怎么办？", "What should I do next?", "用纳瓦尔的知识库分析一下，接下来怎么办", "接下来呢", "那我下一步该干啥"]:
             with self.subTest(question=question):
                 result = self.library.ask(question)
                 self.assertEqual(result["status"], "needs_context")
@@ -88,7 +88,7 @@ class GuidanceContextTests(unittest.TestCase):
         self.assertIn("目标金额或达成期限", render_guidance(self.library.ask("怎么赚第一个100w")))
 
     def test_cli_supports_contextual_followup_and_preserves_explicit_mentor(self):
-        command = [sys.executable, "-m", "open_mentor", "--state-dir", self.temp.name]
+        command = [sys.executable, "-m", "deepmentor", "--state-dir", self.temp.name]
         situation = "原问题是怎么赚第一个100w，我有后端开发经验"
         result = subprocess.run(command + ["ask", "那我应该先做哪一步", "--situation", situation, "--format", "json"], capture_output=True, text=True, check=True)
         payload = json.loads(result.stdout)

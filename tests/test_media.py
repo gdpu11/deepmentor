@@ -6,9 +6,9 @@ import wave
 from pathlib import Path
 from unittest.mock import patch
 
-from open_mentor.library import Library
-from open_mentor.media import Media, parse_captions
-from open_mentor.updates import fetch_text
+from deepmentor.library import Library
+from deepmentor.media import Media, parse_captions
+from deepmentor.updates import fetch_text
 
 
 class MediaTests(unittest.TestCase):
@@ -45,7 +45,7 @@ class MediaTests(unittest.TestCase):
         caption = root / "fixture.zh.vtt"
         caption.write_text("WEBVTT\n\n00:01.000 --> 00:02.000\n测试字幕\n")
         info = {"id": "fixture", "title": "Test fixture", "requested_subtitles": {"zh": {"filepath": str(caption)}}, "subtitles": {}}
-        with patch("open_mentor.media._yt_dlp") as cls:
+        with patch("deepmentor.media._yt_dlp") as cls:
             cls.return_value.return_value.__enter__.return_value.extract_info.return_value = info
             result = Media(self.library).fetch_subtitles("sun-alan-video")
         self.assertEqual(result["status"], "downloaded_pending_review")
@@ -55,7 +55,7 @@ class MediaTests(unittest.TestCase):
         self.assertEqual(self.library.source("sun-alan-video")["review"]["status"], "pending")
 
     def test_empty_subtitles_is_reported_as_empty(self):
-        with patch("open_mentor.media._yt_dlp") as cls:
+        with patch("deepmentor.media._yt_dlp") as cls:
             cls.return_value.return_value.__enter__.return_value.extract_info.return_value = {"id": "fixture"}
             result = Media(self.library).fetch_subtitles("sun-alan-video")
         self.assertEqual(result["status"], "no_subtitles")
@@ -73,14 +73,14 @@ class MediaTests(unittest.TestCase):
         root.mkdir(parents=True)
         empty = root / "empty.vtt"
         empty.write_text("WEBVTT\n")
-        with patch("open_mentor.media._yt_dlp") as cls:
+        with patch("deepmentor.media._yt_dlp") as cls:
             cls.return_value.return_value.__enter__.return_value.extract_info.return_value = {"id": "fixture", "requested_subtitles": {"en": {"filepath": str(empty)}}}
             with self.assertRaisesRegex(ValueError, "no timed text"):
                 Media(self.library).fetch_subtitles("sun-alan-video")
 
     def test_x_embed_response_requires_matching_post_and_author(self):
         response = {"id_str": "123", "user": {"screen_name": "naval"}, "text": "test fixture"}
-        with patch("open_mentor.updates.urlopen") as opening:
+        with patch("deepmentor.updates.urlopen") as opening:
             opening.return_value.__enter__.return_value.read.side_effect = [json.dumps(response).encode(), json.dumps({**response, "user": {"screen_name": "different"}}).encode()]
             self.assertEqual(fetch_text("https://x.com/naval/status/123"), "test fixture")
             with self.assertRaisesRegex(ValueError, "expected author"):
@@ -99,7 +99,7 @@ class MediaTests(unittest.TestCase):
             output.writeframes(b"\0\0" * (16000 * 61))
         def fake_recognize(data, language):
             return [{"start": 0, "end": len(data) / 16000, "text": "fixture"}]
-        with patch("open_mentor.media._recognizer", return_value=fake_recognize) as model:
+        with patch("deepmentor.media._recognizer", return_value=fake_recognize) as model:
             result = Media(self.library).transcribe("sun-alan-video", audio, chunk_seconds=30, source_offset=42)
             document = json.loads(Path(result["path"]).read_text())
             self.assertEqual(len(document["chunks"]), 3)
@@ -109,10 +109,10 @@ class MediaTests(unittest.TestCase):
             self.assertEqual(document["segments"][-1]["end"], 103)
             self.assertTrue(all(s["verification"] == "pending" and s["speaker"] is None for s in document["segments"]))
             model.assert_called_once()
-        with patch("open_mentor.media._recognizer", side_effect=AssertionError("must resume completed chunks")):
+        with patch("deepmentor.media._recognizer", side_effect=AssertionError("must resume completed chunks")):
             resumed = Media(self.library).transcribe("sun-alan-video", audio, chunk_seconds=30, source_offset=42)
             self.assertEqual(result["path"], resumed["path"])
         self.assertEqual(self.library.source("sun-alan-video")["review"]["status"], "pending")
-        with patch("open_mentor.media._audio_duration", return_value=90), patch("open_mentor.media._recognizer", return_value=fake_recognize):
+        with patch("deepmentor.media._audio_duration", return_value=90), patch("deepmentor.media._recognizer", return_value=fake_recognize):
             with self.assertRaisesRegex(ValueError, "duration differs"):
                 Media(self.library).transcribe("sun-alan-video", audio, chunk_seconds=60)

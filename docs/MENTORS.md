@@ -6,42 +6,42 @@
 
 | 人物 | 原则 / 来源记录 |
 | --- | --- |
-| [亚当·格兰特](../open_mentor/data/people/adam-grant.json) | 15 / 3 |
-| [张小龙](../open_mentor/data/people/allen-zhang.json) | 20 / 4 |
-| [吴恩达](../open_mentor/data/people/andrew-ng.json) | 20 / 1 |
-| [安吉拉·达克沃思](../open_mentor/data/people/angela-duckworth.json) | 15 / 2 |
-| [比尔·盖茨](../open_mentor/data/people/bill-gates.json) | 16 / 2 |
-| [布琳·布朗](../open_mentor/data/people/brene-brown.json) | 18 / 2 |
-| [卡罗尔·德韦克](../open_mentor/data/people/carol-dweck.json) | 16 / 2 |
-| [查理·芒格](../open_mentor/data/people/charlie-munger.json) | 20 / 6 |
-| [德里克·西弗斯](../open_mentor/data/people/derek-sivers.json) | 15 / 12 |
-| [段永平](../open_mentor/data/people/duan-yongping.json) | 8 / 2 |
-| [埃隆·马斯克](../open_mentor/data/people/elon-musk.json) | 8 / 3 |
-| [李飞飞](../open_mentor/data/people/fei-fei-li.json) | 16 / 2 |
-| [詹姆斯·克利尔](../open_mentor/data/people/james-clear.json) | 20 / 12 |
-| [周杰伦](../open_mentor/data/people/jay-chou.json) | 4 / 2 |
-| [杰夫·贝索斯](../open_mentor/data/people/jeff-bezos.json) | 23 / 6 |
-| [黄仁勋](../open_mentor/data/people/jensen-huang.json) | 15 / 1 |
-| [景甜](../open_mentor/data/people/jing-tian.json) | 4 / 2 |
-| [孙宇晨](../open_mentor/data/people/justin-sun.json) | 11 / 6 |
-| [科比·布莱恩特](../open_mentor/data/people/kobe-bryant.json) | 4 / 2 |
-| [雷军](../open_mentor/data/people/lei-jun.json) | 20 / 5 |
-| [摩根·豪泽尔](../open_mentor/data/people/morgan-housel.json) | 18 / 4 |
-| [纳瓦尔·拉维坎特](../open_mentor/data/people/naval.json) | 9 / 10 |
-| [保罗·格雷厄姆](../open_mentor/data/people/paul-graham.json) | 22 / 12 |
-| [任正非](../open_mentor/data/people/ren-zhengfei.json) | 16 / 2 |
-| [理查德·费曼](../open_mentor/data/people/richard-feynman.json) | 16 / 2 |
-| [萨姆·奥特曼](../open_mentor/data/people/sam-altman.json) | 20 / 4 |
-| [萨提亚·纳德拉](../open_mentor/data/people/satya-nadella.json) | 18 / 4 |
-| [史蒂夫·乔布斯](../open_mentor/data/people/steve-jobs.json) | 15 / 2 |
-| [沃伦·巴菲特](../open_mentor/data/people/warren-buffett.json) | 23 / 10 |
-| [张一鸣](../open_mentor/data/people/zhang-yiming.json) | 15 / 3 |
+| [亚当·格兰特](../deepmentor/data/people/adam-grant.json) | 15 / 3 |
+| [张小龙](../deepmentor/data/people/allen-zhang.json) | 20 / 4 |
+| [吴恩达](../deepmentor/data/people/andrew-ng.json) | 20 / 1 |
+| [安吉拉·达克沃思](../deepmentor/data/people/angela-duckworth.json) | 15 / 2 |
+| [比尔·盖茨](../deepmentor/data/people/bill-gates.json) | 16 / 2 |
+| [布琳·布朗](../deepmentor/data/people/brene-brown.json) | 18 / 2 |
+| [卡罗尔·德韦克](../deepmentor/data/people/carol-dweck.json) | 16 / 2 |
+| [查理·芒格](../deepmentor/data/people/charlie-munger.json) | 20 / 6 |
+| [德里克·西弗斯](../deepmentor/data/people/derek-sivers.json) | 15 / 12 |
+| [段永平](../deepmentor/data/people/duan-yongping.json) | 8 / 2 |
+| [埃隆·马斯克](../deepmentor/data/people/elon-musk.json) | 8 / 3 |
+| [李飞飞](../deepmentor/data/people/fei-fei-li.json) | 16 / 2 |
+| [詹姆斯·克利尔](../deepmentor/data/people/james-clear.json) | 20 / 12 |
+| [周杰伦](../deepmentor/data/people/jay-chou.json) | 4 / 2 |
+| [杰夫·贝索斯](../deepmentor/data/people/jeff-bezos.json) | 23 / 6 |
+| [黄仁勋](../deepmentor/data/people/jensen-huang.json) | 15 / 1 |
+| [景甜](../deepmentor/data/people/jing-tian.json) | 4 / 2 |
+| [孙宇晨](../deepmentor/data/people/justin-sun.json) | 11 / 6 |
+| [科比·布莱恩特](../deepmentor/data/people/kobe-bryant.json) | 4 / 2 |
+| [雷军](../deepmentor/data/people/lei-jun.json) | 20 / 5 |
+| [摩根·豪泽尔](../deepmentor/data/people/morgan-housel.json) | 18 / 4 |
+| [纳瓦尔·拉维坎特](../deepmentor/data/people/naval.json) | 9 / 10 |
+| [保罗·格雷厄姆](../deepmentor/data/people/paul-graham.json) | 22 / 12 |
+| [任正非](../deepmentor/data/people/ren-zhengfei.json) | 16 / 2 |
+| [理查德·费曼](../deepmentor/data/people/richard-feynman.json) | 16 / 2 |
+| [萨姆·奥特曼](../deepmentor/data/people/sam-altman.json) | 20 / 4 |
+| [萨提亚·纳德拉](../deepmentor/data/people/satya-nadella.json) | 18 / 4 |
+| [史蒂夫·乔布斯](../deepmentor/data/people/steve-jobs.json) | 15 / 2 |
+| [沃伦·巴菲特](../deepmentor/data/people/warren-buffett.json) | 23 / 10 |
+| [张一鸣](../deepmentor/data/people/zhang-yiming.json) | 15 / 3 |
 
 ## 亚当·格兰特
 
 从本人播客问答、署名文章与Wharton自采引语整理重新思考、知识边界、团队复查、志愿协作与创作反馈；不把嘉宾观点或引用研究归为本人原创。
 
-知识包：[adam-grant.json](../open_mentor/data/people/adam-grant.json)，15条原则。
+知识包：[adam-grant.json](../deepmentor/data/people/adam-grant.json)，15条原则。
 
 | 条目 | 编辑归纳 | 来源、定位与核验范围 |
 | --- | --- | --- |
@@ -65,7 +65,7 @@
 
 从2016、2018、2019和2021年公开课原发布讲话文本整理用户价值、工具、平台、设计、增长、推荐、表达与复杂度；区分媒体导语、本人发言和历史产品承诺。
 
-知识包：[allen-zhang.json](../open_mentor/data/people/allen-zhang.json)，20条原则。
+知识包：[allen-zhang.json](../deepmentor/data/people/allen-zhang.json)，20条原则。
 
 | 条目 | 编辑归纳 | 来源、定位与核验范围 |
 | --- | --- | --- |
@@ -94,7 +94,7 @@
 
 依据本人机构出版的AI职业指南，整理基础学习、项目选择、作品集、转行、求职、社群与时间选择；技术清单和岗位描述保留版本语境。
 
-知识包：[andrew-ng.json](../open_mentor/data/people/andrew-ng.json)，20条原则。
+知识包：[andrew-ng.json](../deepmentor/data/people/andrew-ng.json)，20条原则。
 
 | 条目 | 编辑归纳 | 来源、定位与核验范围 |
 | --- | --- | --- |
@@ -123,7 +123,7 @@
 
 从原发布采访整理兴趣、持续投入、灵活坚持、求助、教育支持与测量边界；保留机会和环境条件，不把grit当作解释一切的个人标签。
 
-知识包：[angela-duckworth.json](../open_mentor/data/people/angela-duckworth.json)，15条原则。
+知识包：[angela-duckworth.json](../deepmentor/data/people/angela-duckworth.json)，15条原则。
 
 | 条目 | 编辑归纳 | 来源、定位与核验范围 |
 | --- | --- | --- |
@@ -147,7 +147,7 @@
 
 依据本人哈佛演讲原发文字与2011年年度信，整理问题选择、资源、行动路径、衡量效果、教学反馈、学习条件和公共参与；历史项目不冒作当前效果。
 
-知识包：[bill-gates.json](../open_mentor/data/people/bill-gates.json)，16条原则。
+知识包：[bill-gates.json](../deepmentor/data/people/bill-gates.json)，16条原则。
 
 | 条目 | 编辑归纳 | 来源、定位与核验范围 |
 | --- | --- | --- |
@@ -172,7 +172,7 @@
 
 依据作者官网的BRAVING工具与Dare to Lead术语表，整理信任、边界、责任、反馈、团队讨论、价值行动与有分寸的开放；不作为心理诊断或治疗。
 
-知识包：[brene-brown.json](../open_mentor/data/people/brene-brown.json)，18条原则。
+知识包：[brene-brown.json](../deepmentor/data/people/brene-brown.json)，18条原则。
 
 | 条目 | 编辑归纳 | 来源、定位与核验范围 |
 | --- | --- | --- |
@@ -199,7 +199,7 @@
 
 依据HBR原采访及本人在Education Week的修正文章，整理学习、挑战、反馈、领导与教育实践；保留环境、实施和测量限制，不用成长心态给人贴固定标签。
 
-知识包：[carol-dweck.json](../open_mentor/data/people/carol-dweck.json)，16条原则。
+知识包：[carol-dweck.json](../deepmentor/data/people/carol-dweck.json)，16条原则。
 
 | 条目 | 编辑归纳 | 来源、定位与核验范围 |
 | --- | --- | --- |
@@ -224,7 +224,7 @@
 
 依据本人 2005 年修订的误判心理学书面稿、USC 原发布演讲记录、Wesco 署名股东信和伯克希尔独立署名文章整理判断、学习、激励与经营；区分个人分类、历史例子和科学结论。
 
-知识包：[charlie-munger.json](../open_mentor/data/people/charlie-munger.json)，20条原则。
+知识包：[charlie-munger.json](../deepmentor/data/people/charlie-munger.json)，20条原则。
 
 | 条目 | 编辑归纳 | 来源、定位与核验范围 |
 | --- | --- | --- |
@@ -253,7 +253,7 @@
 
 从本人官网文章整理选择、创作、行动、具体化、授权、工作强度、消费及客户关系；只使用作者正文，区分读者留言与自述案例。
 
-知识包：[derek-sivers.json](../open_mentor/data/people/derek-sivers.json)，15条原则。
+知识包：[derek-sivers.json](../deepmentor/data/people/derek-sivers.json)，15条原则。
 
 | 条目 | 编辑归纳 | 来源、定位与核验范围 |
 | --- | --- | --- |
@@ -277,7 +277,7 @@
 
 从浙江大学现场报道和澎湃原报道提取本分、纠错和风险边界；未核实其 X 账号，不填造 X 语料。
 
-知识包：[duan-yongping.json](../open_mentor/data/people/duan-yongping.json)，8条原则。
+知识包：[duan-yongping.json](../deepmentor/data/people/duan-yongping.json)，8条原则。
 
 | 条目 | 编辑归纳 | 来源、定位与核验范围 |
 | --- | --- | --- |
@@ -294,7 +294,7 @@
 
 从原播客发布者的时间戳文字稿和本人 X 原帖提炼工程决策方法；不预设其预测正确。
 
-知识包：[elon-musk.json](../open_mentor/data/people/elon-musk.json)，8条原则。
+知识包：[elon-musk.json](../deepmentor/data/people/elon-musk.json)，8条原则。
 
 | 条目 | 编辑归纳 | 来源、定位与核验范围 |
 | --- | --- | --- |
@@ -311,7 +311,7 @@
 
 依据Stanford HAI原采访与本人2023年参议院书面陈述，整理方向、个人经验、导师、研究与公共利益、技术自主、跨学科、数据与评价；不提供医学或法律结论。
 
-知识包：[fei-fei-li.json](../open_mentor/data/people/fei-fei-li.json)，16条原则。
+知识包：[fei-fei-li.json](../deepmentor/data/people/fei-fei-li.json)，16条原则。
 
 | 条目 | 编辑归纳 | 来源、定位与核验范围 |
 | --- | --- | --- |
@@ -336,7 +336,7 @@
 
 从作者官网文章、书摘和早期自出版手册整理身份、系统、提示、吸引力、行动门槛、反馈和恢复；保留版本差异，不把行为建议当临床疗效。
 
-知识包：[james-clear.json](../open_mentor/data/people/james-clear.json)，20条原则。
+知识包：[james-clear.json](../deepmentor/data/people/james-clear.json)，20条原则。
 
 | 条目 | 编辑归纳 | 来源、定位与核验范围 |
 | --- | --- | --- |
@@ -365,7 +365,7 @@
 
 依据央视面对面原访谈与 Hypebeast 自采专访整理创作、反馈和学习经验，不收录歌词。
 
-知识包：[jay-chou.json](../open_mentor/data/people/jay-chou.json)，4条原则。
+知识包：[jay-chou.json](../deepmentor/data/people/jay-chou.json)，4条原则。
 
 | 条目 | 编辑归纳 | 来源、定位与核验范围 |
 | --- | --- | --- |
@@ -378,7 +378,7 @@
 
 从本人署名的 1997、2016、2017、2018、2020 年度股东信整理客户、实验、决策、标准与组织；信件年度与实际发表时间分开，不收录继任者的信为其观点。
 
-知识包：[jeff-bezos.json](../open_mentor/data/people/jeff-bezos.json)，23条原则。
+知识包：[jeff-bezos.json](../deepmentor/data/people/jeff-bezos.json)，23条原则。
 
 | 条目 | 编辑归纳 | 来源、定位与核验范围 |
 | --- | --- | --- |
@@ -410,7 +410,7 @@
 
 依据Stanford GSB原发布访谈文字整理问题定位、技术与市场、重新设计、学习、授权、管理、信息与安全；保留机辅轻编文字和公司自述的限制。
 
-知识包：[jensen-huang.json](../open_mentor/data/people/jensen-huang.json)，15条原则。
+知识包：[jensen-huang.json](../deepmentor/data/people/jensen-huang.json)，15条原则。
 
 | 条目 | 编辑归纳 | 来源、定位与核验范围 |
 | --- | --- | --- |
@@ -434,7 +434,7 @@
 
 从景甜本人的原发布专访整理准备、反馈和工作节奏；不把他人对她的叙述归成她的观点。
 
-知识包：[jing-tian.json](../open_mentor/data/people/jing-tian.json)，4条原则。
+知识包：[jing-tian.json](../deepmentor/data/people/jing-tian.json)，4条原则。
 
 | 条目 | 编辑归纳 | 来源、定位与核验范围 |
 | --- | --- | --- |
@@ -447,7 +447,7 @@
 
 收录早期原采访及 2026 年 Alan、William 上下集的已复核片段，讨论记录、选择、客户价值与方法迭代；完整机器转写与片段核验分开记录。
 
-知识包：[justin-sun.json](../open_mentor/data/people/justin-sun.json)，11条原则。
+知识包：[justin-sun.json](../deepmentor/data/people/justin-sun.json)，11条原则。
 
 | 条目 | 编辑归纳 | 来源、定位与核验范围 |
 | --- | --- | --- |
@@ -467,7 +467,7 @@
 
 从本人署名文章与原播客文字稿提炼复盘、学习和创作方法，保留竞技运动的语境。
 
-知识包：[kobe-bryant.json](../open_mentor/data/people/kobe-bryant.json)，4条原则。
+知识包：[kobe-bryant.json](../deepmentor/data/people/kobe-bryant.json)，4条原则。
 
 | 条目 | 编辑归纳 | 来源、定位与核验范围 |
 | --- | --- | --- |
@@ -480,7 +480,7 @@
 
 从武汉大学原发讲话与授课记录、2018 年亲署公开信、2020 年原发布演讲实录整理目标、创业准备、用户、效率、质量、技术与责任；保留历史语境和自述边界。
 
-知识包：[lei-jun.json](../open_mentor/data/people/lei-jun.json)，20条原则。
+知识包：[lei-jun.json](../deepmentor/data/people/lei-jun.json)，20条原则。
 
 | 条目 | 编辑归纳 | 来源、定位与核验范围 |
 | --- | --- | --- |
@@ -509,7 +509,7 @@
 
 从本人署名文章整理金钱与行为、风险承受、目标变化、财富表象、预期与不确定性；保留历史语境和经验随笔属性，不预测市场或承诺收益。
 
-知识包：[morgan-housel.json](../open_mentor/data/people/morgan-housel.json)，18条原则。
+知识包：[morgan-housel.json](../deepmentor/data/people/morgan-housel.json)，18条原则。
 
 | 条目 | 编辑归纳 | 来源、定位与核验范围 |
 | --- | --- | --- |
@@ -536,7 +536,7 @@
 
 收录官站文章、原始 X 帖子与书籍官网章节，讨论专长、合作、判断和杠杆；保留历史时间与适用条件。
 
-知识包：[naval.json](../open_mentor/data/people/naval.json)，9条原则。
+知识包：[naval.json](../deepmentor/data/people/naval.json)，9条原则。
 
 | 条目 | 编辑归纳 | 来源、定位与核验范围 |
 | --- | --- | --- |
@@ -554,7 +554,7 @@
 
 依据本人 2009—2023 年文章整理问题发现、早期获客、增长与现金约束、创始人协作、专注和学习；硅谷创业样本不当成普适成功规律。
 
-知识包：[paul-graham.json](../open_mentor/data/people/paul-graham.json)，22条原则。
+知识包：[paul-graham.json](../deepmentor/data/people/paul-graham.json)，22条原则。
 
 | 条目 | 编辑归纳 | 来源、定位与核验范围 |
 | --- | --- | --- |
@@ -585,7 +585,7 @@
 
 从华为原发2019年采访实录中，提取本人关于聚焦、基础教育、研究、需求、供应备份、组织与学习的表达；逐条保留采访场次、文件页序和历史限制。
 
-知识包：[ren-zhengfei.json](../open_mentor/data/people/ren-zhengfei.json)，16条原则。
+知识包：[ren-zhengfei.json](../deepmentor/data/people/ren-zhengfei.json)，16条原则。
 
 | 条目 | 编辑归纳 | 来源、定位与核验范围 |
 | --- | --- | --- |
@@ -610,7 +610,7 @@
 
 依据Caltech原发布的Cargo Cult Science与1955年The Value of Science，整理研究诚实、验证、反例、权威边界、好奇心和不确定性；不附会未经核对的所谓四步学习法。
 
-知识包：[richard-feynman.json](../open_mentor/data/people/richard-feynman.json)，16条原则。
+知识包：[richard-feynman.json](../deepmentor/data/people/richard-feynman.json)，16条原则。
 
 | 条目 | 编辑归纳 | 来源、定位与核验范围 |
 | --- | --- | --- |
@@ -635,7 +635,7 @@
 
 从本人博客整理职业积累、独立判断、沟通、风险边界、工作取舍、招聘与创业验证；保留其偏向高增长创业和非典型成功的样本限制。
 
-知识包：[sam-altman.json](../open_mentor/data/people/sam-altman.json)，20条原则。
+知识包：[sam-altman.json](../deepmentor/data/people/sam-altman.json)，20条原则。
 
 | 条目 | 编辑归纳 | 来源、定位与核验范围 |
 | --- | --- | --- |
@@ -664,7 +664,7 @@
 
 从本人2014、2020和2025年公开员工信整理持续学习、使命、用户价值、组织调整、可靠性、倾听与行动；公开承诺与实际达成分开。
 
-知识包：[satya-nadella.json](../open_mentor/data/people/satya-nadella.json)，18条原则。
+知识包：[satya-nadella.json](../deepmentor/data/people/satya-nadella.json)，18条原则。
 
 | 条目 | 编辑归纳 | 来源、定位与核验范围 |
 | --- | --- | --- |
@@ -691,7 +691,7 @@
 
 依据斯坦福毕业演讲原稿与Steve Jobs Archive授权原始表达，整理探索、重新开始、设计、选人、聚焦与修正判断；明确区分编者、其他通信者和本人。
 
-知识包：[steve-jobs.json](../open_mentor/data/people/steve-jobs.json)，15条原则。
+知识包：[steve-jobs.json](../deepmentor/data/people/steve-jobs.json)，15条原则。
 
 | 条目 | 编辑归纳 | 来源、定位与核验范围 |
 | --- | --- | --- |
@@ -715,7 +715,7 @@
 
 从本人署名的 1996—2024 年度股东信整理能力边界、经营价值、风险、资本配置、管理责任与纠错；区分信件年度和发表日期，不提供当前资产买卖或收益预测。
 
-知识包：[warren-buffett.json](../open_mentor/data/people/warren-buffett.json)，23条原则。
+知识包：[warren-buffett.json](../deepmentor/data/people/warren-buffett.json)，23条原则。
 
 | 条目 | 编辑归纳 | 来源、定位与核验范围 |
 | --- | --- | --- |
@@ -747,7 +747,7 @@
 
 从南开校友原发演讲记录与极客公园现场对谈整理基础、耐心、阅读、独立选择、行业观察、合作与平台；分清张一鸣、王石和张鹏的发言。
 
-知识包：[zhang-yiming.json](../open_mentor/data/people/zhang-yiming.json)，15条原则。
+知识包：[zhang-yiming.json](../deepmentor/data/people/zhang-yiming.json)，15条原则。
 
 | 条目 | 编辑归纳 | 来源、定位与核验范围 |
 | --- | --- | --- |

@@ -1,6 +1,6 @@
 # MCP接入与自检
 
-OpenMentor提供标准MCP服务。默认使用stdio，由客户端启动本地进程；也可在本机启动Streamable HTTP。所有工具只读，返回可引用的资料，由调用方AI结合用户情况回答。无需模型API Key。
+DeepMentor提供标准MCP服务。默认使用stdio，由客户端启动本地进程；也可在本机启动Streamable HTTP。所有工具只读，返回可引用的资料，由调用方AI结合用户情况深入分析并引导行动落地。无需模型API Key。
 
 ## 安装与检查
 
@@ -8,7 +8,7 @@ OpenMentor提供标准MCP服务。默认使用stdio，由客户端启动本地�
 
 ```bash
 python -m pip install -e '.[mcp]'
-python -m open_mentor doctor --mcp
+python -m deepmentor doctor --mcp
 ```
 
 当前使用官方Python SDK `mcp>=1.30,<2`。`doctor`先检查知识包、引用关系、来源状态、可引用证据和逾期来源数；`--mcp`再从另一个临时目录启动实际stdio进程，执行初始化、工具发现、人物列表和一次资料调用。它检查接入与当前可用性，不验证人物观点的事实正确性，也不会自动抓取或接纳来源。全部资料停用或状态损坏时不会报告指导已就绪。失败时输出JSON并返回非零退出码。
@@ -17,9 +17,9 @@ python -m open_mentor doctor --mcp
 
 ```bash
 # 使用mcpServers配置格式的客户端
-python -m open_mentor mcp-config --format json
+python -m deepmentor mcp-config --format json
 # Codex的TOML配置块
-python -m open_mentor mcp-config --format codex
+python -m deepmentor mcp-config --format codex
 ```
 
 命令使用当前Python环境，输出绝对路径、知识目录、状态目录和模块查找路径。Python的虚拟环境路径不会被解析成系统Python，路径中空格、中文和引号按配置格式编码；从其他工作目录启动也能找到同一份资料与来源状态。配置只打印，不覆盖客户端已有设置。
@@ -27,12 +27,29 @@ python -m open_mentor mcp-config --format codex
 若需自定义数据与复核目录，全局参数放在子命令前：
 
 ```bash
-python -m open_mentor --data-dir /absolute/path/data --state-dir /absolute/path/state mcp-config --format codex
+python -m deepmentor --data-dir /absolute/path/data --state-dir /absolute/path/state mcp-config --format codex
 ```
 
-Codex使用`[mcp_servers.openmentor]`配置块，可合并到用户级`~/.codex/config.toml`或受信任项目的`.codex/config.toml`。也可用`codex mcp add openmentor --env PYTHONPATH=/absolute/path/open-mentor -- /absolute/path/open-mentor/.venv/bin/python -m open_mentor --state-dir /absolute/path/open-mentor/.open-mentor mcp`登记stdio命令。登记后重启对应MCP连接以加载服务。配置格式和连接方式依据[OpenAI Docs](https://learn.chatgpt.com/docs/extend/mcp)。
+Codex使用`[mcp_servers.deepmentor]`配置块，可合并到用户级`~/.codex/config.toml`或受信任项目的`.codex/config.toml`。也可用`codex mcp add deepmentor --env PYTHONPATH=/absolute/path/deepmentor -- /absolute/path/deepmentor/.venv/bin/python -m deepmentor mcp`登记stdio命令；这里不强制指定新状态目录，服务会按规则复用旧目录。优先采用生成器输出的实际路径，已有自定义目录则保留原有`--state-dir`。登记后重启对应MCP连接以加载服务。配置格式和连接方式依据[OpenAI Docs](https://learn.chatgpt.com/docs/extend/mcp)。
 
-可以用`codex mcp get openmentor --json`核对登记。配置存在和协议自检通过，不等于当前正在运行的AI会话已刷新工具列表。
+可以用`codex mcp get deepmentor --json`核对登记。配置存在和协议自检通过，不等于当前正在运行的AI会话已刷新工具列表。
+
+## 从旧版 OpenMentor 迁移 MCP 配置
+
+若你此前已在 Codex、Claude Desktop、Cursor 等客户端中登记过 `openmentor`：
+1. **避免双重登记**：不要同时保留 `openmentor` 和 `deepmentor` 两个服务条目，以免六个同名工具在客户端中重复或产生冲突。
+2. **Codex TOML 迁移**：
+   在 `~/.codex/config.toml` 中，将 `[mcp_servers.openmentor]` 重命名为 `[mcp_servers.deepmentor]`，并将命令行参数 `-m open_mentor` 更新为 `-m deepmentor`。
+   保留原有的显式`--state-dir`，并核对`--data-dir`已指向新的`deepmentor/data`。不要直接把旧状态路径替换成不存在的新空目录。
+   若使用 CLI 注册，先生成并核对新配置，再替换旧条目：
+   ```bash
+   python -m deepmentor mcp-config --format codex
+   # 使用输出的实际路径登记 deepmentor 并核对连通性后，再移除旧条目
+   codex mcp remove openmentor
+   ```
+3. **Claude / Cursor JSON 迁移**：
+   将 `mcpServers` 下的 `"openmentor"` 键更名为 `"deepmentor"`，并将 args 中的 `"open_mentor"` 更新为 `"deepmentor"`；显式`--data-dir`更新为新知识包路径，`--state-dir`继续指向原有复核数据。
+4. **工具稳定性**：六个工具的名称、参数、类型与返回结构保持 100% 稳定，下游 AI prompt 和工作流无需做参数重构。
 
 ## 六个工具
 
@@ -55,7 +72,7 @@ Codex使用`[mcp_servers.openmentor]`配置块，可合并到用户级`~/.codex/
 
 ```json
 {
-  "request": "用OpenMentor帮我看看，怎么赚自己的第一个100w",
+  "request": "用DeepMentor帮我看看，怎么赚自己的第一个100w",
   "limit": 3
 }
 ```
@@ -68,22 +85,22 @@ Codex使用`[mcp_servers.openmentor]`配置块，可合并到用户级`~/.codex/
 }
 ```
 
-调用`ask_mentor`后，AI先说明所用导师和选择理由，再引用实际返回的证据ID与`citation_url`分析适用条件。区分原始表达、编辑应用和当前推演；不编造用户经历，不承诺收入，不冒充名人本人。`ready`只是当前有相关资料。
+调用`ask_mentor`后，AI先说明所用导师和选择理由，再引用实际返回的证据ID与`citation_url`分析适用条件。分析按「用户处境 → 关键问题 → 证据与适用性 → 行动建议 → 验证和停止条件」展开，区分原始表达、编辑应用和当前推演；不编造用户经历，不承诺收入，不冒充名人本人。`ready`只是当前有相关资料。
 
 ## Streamable HTTP
 
 ```bash
-python -m open_mentor mcp --transport streamable-http --port 8766
+python -m deepmentor mcp --transport streamable-http --port 8766
 ```
 
 MCP地址为`http://127.0.0.1:8766/mcp`，只监听本机回环地址；使用SDK的来源与Host校验。支持Streamable HTTP的客户端连接该地址。Codex可使用如下配置，选择它时不必同时登记stdio实例：
 
 ```toml
-[mcp_servers.openmentor]
+[mcp_servers.deepmentor]
 url = "http://127.0.0.1:8766/mcp"
 ```
 
-该地址提供MCP协议；已有`open-mentor serve`仍提供`127.0.0.1:8765/v1/...` REST API。两种HTTP入口的协议和端点不同。这里只提供本机服务，不包含公网托管或账户认证部署。
+该地址提供MCP协议；已有`deepmentor serve`仍提供`127.0.0.1:8765/v1/...` REST API。两种HTTP入口的协议和端点不同。这里只提供本机服务，不包含公网托管或账户认证部署。
 
 ## 内容范围
 

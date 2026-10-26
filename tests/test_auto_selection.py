@@ -5,8 +5,8 @@ import subprocess
 import sys
 from pathlib import Path
 
-from open_mentor.library import Library
-from open_mentor.rendering import render_guidance
+from deepmentor.library import Library
+from deepmentor.rendering import render_guidance
 
 SCENARIOS = Path(__file__).parent / "fixtures" / "mentor_scenarios.json"
 
@@ -86,11 +86,12 @@ class AutoSelectionTests(unittest.TestCase):
                     self.assertFalse(r["citations"])
 
     def test_cli_identifies_automatically_selected_mentor_and_reason(self):
-        command = [sys.executable, "-m", "open_mentor", "--state-dir", self.temp.name, "ask", "用OpenMentor帮我看看，怎么赚自己的第一个100w"]
-        r = json.loads(subprocess.run(command + ["--format", "json"], capture_output=True, text=True, check=True).stdout)
-        self.assertEqual(r["person"]["id"], "justin-sun")
-        self.assertEqual(r["request_resolution"]["method"], "automatic_evidence_match")
-        text = subprocess.run(command, capture_output=True, text=True, check=True).stdout
-        self.assertIn("**孙宇晨**（自动匹配）", text)
-        self.assertIn("选择理由", text)
-        self.assertIn("sun-e-customer-value-video", text)
+        for mod in ["deepmentor", "open_mentor"]:
+            command = [sys.executable, "-m", mod, "--state-dir", self.temp.name, "ask", "用DeepMentor帮我看看，怎么赚自己的第一个100w"]
+            r = json.loads(subprocess.run(command + ["--format", "json"], capture_output=True, text=True, check=True).stdout)
+            self.assertEqual(r["person"]["id"], "justin-sun")
+            self.assertEqual(r["request_resolution"]["method"], "automatic_evidence_match")
+            text = subprocess.run(command, capture_output=True, text=True, check=True).stdout
+            self.assertIn("**孙宇晨**（自动匹配）", text)
+            self.assertIn("选择理由", text)
+            self.assertIn("sun-e-customer-value-video", text)

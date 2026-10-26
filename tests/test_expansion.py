@@ -6,7 +6,7 @@ import unittest
 from copy import deepcopy
 from pathlib import Path
 
-from open_mentor.library import Library
+from deepmentor.library import Library
 
 
 NEW_PEOPLE = {'paul-graham', 'warren-buffett', 'charlie-munger', 'jeff-bezos',
@@ -79,7 +79,7 @@ class ExpansionTests(unittest.TestCase):
     def test_each_new_pack_is_usable_from_real_cli(self):
         for case in AUTO_CASES:
             with self.subTest(person=case['person']):
-                result = subprocess.run([sys.executable, '-m', 'open_mentor', '--state-dir', self.temp.name,
+                result = subprocess.run([sys.executable, '-m', 'deepmentor', '--state-dir', self.temp.name,
                                          'ask', case['request'], '--person', case['person'], '--format', 'json'],
                                         capture_output=True, text=True, check=True)
                 payload = json.loads(result.stdout)

@@ -10,22 +10,22 @@
 
 | 人物 | 来源 / 原则 | 本轮原始资料范围 | 不同应用主题 |
 | --- | --- | --- | --- |
-| [史蒂夫·乔布斯](../open_mentor/data/people/steve-jobs.json) | 2 / 15 | 2005斯坦福演讲准备稿；授权文集中1984访谈、1990年代访谈与1995/1997本人邮件、讲话 | 探索学习、重新开始、个人价值、产品设计、招聘、聚焦、修正立场 |
-| [比尔·盖茨](../open_mentor/data/people/bill-gates.json) | 2 / 16 | 基金会发布的2007哈佛演讲文字；本人2011年度信 | 资源、未服务需求、行动路径、技术选择、效果衡量、教学反馈、学习条件、交流 |
-| [萨姆·奥特曼](../open_mentor/data/people/sam-altman.json) | 4 / 20 | 本人博客的成功、生产力、招聘和创业建议四篇署名文章 | 能力积累、独立求证、风险边界、任务与时间、协作、招聘、用户验证、开支 |
-| [吴恩达](../open_mentor/data/people/andrew-ng.json) | 1 / 20 | DeepLearning.AI出版的本人AI职业指南；PDF41页，按所引章节定位 | 基础学习、数学范围、项目选择、业务里程碑、预算、作品集、转行、求职、社群 |
-| [李飞飞](../open_mentor/data/people/fei-fei-li.json) | 2 / 16 | Stanford HAI原访谈；2023-09-14本人参议院书面证词 | 个人方向、经验、导师、跨学科、机会、数据、隐私、参与、评价与透明 |
-| [黄仁勋](../open_mentor/data/people/jensen-huang.json) | 1 / 15 | Stanford GSB于2024-04-25发布的原访谈文字；机辅生成、人工轻编 | 问题与市场、前提、原始材料、实际新用法、判断、责任、信息、授权、安全 |
-| [萨提亚·纳德拉](../open_mentor/data/people/satya-nadella.json) | 4 / 18 | Microsoft原发2014两封、2020、2025本人致员工信 | 学习、用户能力、独特贡献、战略组织、调整沟通、层级、探索、安全、实践 |
-| [张一鸣](../open_mentor/data/people/zhang-yiming.json) | 3 / 15 | 南开2015讲话记录；极客公园2014、2016原发对谈 | 耐心、基础、阅读、长期思考、独立选择、行为观察、同伴、融资目标、平台 |
-| [任正非](../open_mentor/data/people/ren-zhengfei.json) | 2 / 16 | 华为2019年1—5月合集与7—8月第五卷，选本人具体场次回答 | 聚焦、教育、需求、系统瓶颈、研究分工、能力边界、专业判断、供应与组织 |
-| [理查德·费曼](../open_mentor/data/people/richard-feynman.json) | 2 / 16 | Caltech原发1974演讲文字；1955年12月署名文章扫描PDF | 自我欺骗、披露、替代解释、完整报告、实验控制、知识边界、确定程度、批评 |
-| [德里克·西弗斯](../open_mentor/data/people/derek-sivers.json) | 12 / 15 | 本人网站12篇文章；正文范围截止读者评论之前 | 承诺、目标、行动、帮助、交付、授权、指南、作品、消费、服务、客户集中 |
-| [摩根·豪泽尔](../open_mentor/data/people/morgan-housel.json) | 4 / 18 | Collaborative Fund四篇本人署名文章，2018、2019、2020、2025 | 消费与财富、观点激励、时间、缓冲、历史、风险、经历偏差、目标、判断 |
-| [亚当·格兰特](../open_mentor/data/people/adam-grant.json) | 3 / 15 | 本人播客中ADAM回答；署名文章；Wharton自采中明确归属引语 | 研究问题、未知、假设、小试验、知识边界、复查、参与动机、角色、创作评审 |
-| [卡罗尔·德韦克](../open_mentor/data/people/carol-dweck.json) | 2 / 16 | HBR原采访；2015-09-22本人Education Week修正文章 | 能力与挑战、反馈、失败学习、领导示范、策略支持、标签、实践、情境、测量 |
-| [安吉拉·达克沃思](../open_mentor/data/people/angela-duckworth.json) | 2 / 15 | Wharton与Walton原采访中的本人回答；不使用她主持嘉宾的观点 | 兴趣、参与、职业意义、教学、机会、灵活坚持、求助、测量、验证、示范 |
-| [布琳·布朗](../open_mentor/data/people/brene-brown.json) | 2 / 18 | 本人官网BRAVING公开工具及Dare to Lead术语表，逐条PDF定位 | 边界、承诺、修补、保密、价值、倾听、事实与解释、任务权限、讨论、自我价值 |
+| [史蒂夫·乔布斯](../deepmentor/data/people/steve-jobs.json) | 2 / 15 | 2005斯坦福演讲准备稿；授权文集中1984访谈、1990年代访谈与1995/1997本人邮件、讲话 | 探索学习、重新开始、个人价值、产品设计、招聘、聚焦、修正立场 |
+| [比尔·盖茨](../deepmentor/data/people/bill-gates.json) | 2 / 16 | 基金会发布的2007哈佛演讲文字；本人2011年度信 | 资源、未服务需求、行动路径、技术选择、效果衡量、教学反馈、学习条件、交流 |
+| [萨姆·奥特曼](../deepmentor/data/people/sam-altman.json) | 4 / 20 | 本人博客的成功、生产力、招聘和创业建议四篇署名文章 | 能力积累、独立求证、风险边界、任务与时间、协作、招聘、用户验证、开支 |
+| [吴恩达](../deepmentor/data/people/andrew-ng.json) | 1 / 20 | DeepLearning.AI出版的本人AI职业指南；PDF41页，按所引章节定位 | 基础学习、数学范围、项目选择、业务里程碑、预算、作品集、转行、求职、社群 |
+| [李飞飞](../deepmentor/data/people/fei-fei-li.json) | 2 / 16 | Stanford HAI原访谈；2023-09-14本人参议院书面证词 | 个人方向、经验、导师、跨学科、机会、数据、隐私、参与、评价与透明 |
+| [黄仁勋](../deepmentor/data/people/jensen-huang.json) | 1 / 15 | Stanford GSB于2024-04-25发布的原访谈文字；机辅生成、人工轻编 | 问题与市场、前提、原始材料、实际新用法、判断、责任、信息、授权、安全 |
+| [萨提亚·纳德拉](../deepmentor/data/people/satya-nadella.json) | 4 / 18 | Microsoft原发2014两封、2020、2025本人致员工信 | 学习、用户能力、独特贡献、战略组织、调整沟通、层级、探索、安全、实践 |
+| [张一鸣](../deepmentor/data/people/zhang-yiming.json) | 3 / 15 | 南开2015讲话记录；极客公园2014、2016原发对谈 | 耐心、基础、阅读、长期思考、独立选择、行为观察、同伴、融资目标、平台 |
+| [任正非](../deepmentor/data/people/ren-zhengfei.json) | 2 / 16 | 华为2019年1—5月合集与7—8月第五卷，选本人具体场次回答 | 聚焦、教育、需求、系统瓶颈、研究分工、能力边界、专业判断、供应与组织 |
+| [理查德·费曼](../deepmentor/data/people/richard-feynman.json) | 2 / 16 | Caltech原发1974演讲文字；1955年12月署名文章扫描PDF | 自我欺骗、披露、替代解释、完整报告、实验控制、知识边界、确定程度、批评 |
+| [德里克·西弗斯](../deepmentor/data/people/derek-sivers.json) | 12 / 15 | 本人网站12篇文章；正文范围截止读者评论之前 | 承诺、目标、行动、帮助、交付、授权、指南、作品、消费、服务、客户集中 |
+| [摩根·豪泽尔](../deepmentor/data/people/morgan-housel.json) | 4 / 18 | Collaborative Fund四篇本人署名文章，2018、2019、2020、2025 | 消费与财富、观点激励、时间、缓冲、历史、风险、经历偏差、目标、判断 |
+| [亚当·格兰特](../deepmentor/data/people/adam-grant.json) | 3 / 15 | 本人播客中ADAM回答；署名文章；Wharton自采中明确归属引语 | 研究问题、未知、假设、小试验、知识边界、复查、参与动机、角色、创作评审 |
+| [卡罗尔·德韦克](../deepmentor/data/people/carol-dweck.json) | 2 / 16 | HBR原采访；2015-09-22本人Education Week修正文章 | 能力与挑战、反馈、失败学习、领导示范、策略支持、标签、实践、情境、测量 |
+| [安吉拉·达克沃思](../deepmentor/data/people/angela-duckworth.json) | 2 / 15 | Wharton与Walton原采访中的本人回答；不使用她主持嘉宾的观点 | 兴趣、参与、职业意义、教学、机会、灵活坚持、求助、测量、验证、示范 |
+| [布琳·布朗](../deepmentor/data/people/brene-brown.json) | 2 / 18 | 本人官网BRAVING公开工具及Dare to Lead术语表，逐条PDF定位 | 边界、承诺、修补、保密、价值、倾听、事实与解释、任务权限、讨论、自我价值 |
 
 ## 表达、归属与核验范围
 

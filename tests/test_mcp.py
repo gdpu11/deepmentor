@@ -14,31 +14,31 @@ from contextlib import redirect_stderr, redirect_stdout
 from pathlib import Path
 from unittest.mock import patch
 
-from open_mentor.cli import main
-from open_mentor.integration import TOOLS, doctor, render_config, server_config
-from open_mentor.library import DATA_DIR
+from deepmentor.cli import main
+from deepmentor.integration import TOOLS, doctor, render_config, server_config
+from deepmentor.library import DATA_DIR
 
 HAS_MCP = importlib.util.find_spec("mcp") is not None
 
 
 class ConfigurationTests(unittest.TestCase):
     def test_config_keeps_venv_python_and_makes_paths_absolute(self):
-        with tempfile.TemporaryDirectory(prefix="openmentor 路径 ") as directory:
+        with tempfile.TemporaryDirectory(prefix="deepmentor 路径 ") as directory:
             state = Path(directory) / "state with spaces"
             data = Path(directory) / "data 资料"
-            config = json.loads(render_config("json", data, state))["mcpServers"]["openmentor"]
+            config = json.loads(render_config("json", data, state))["mcpServers"]["deepmentor"]
             self.assertEqual(config["command"], os.path.abspath(sys.executable))
-            self.assertEqual(config["args"], ["-m", "open_mentor", "--data-dir", str(data.resolve()), "--state-dir", str(state.resolve()), "mcp"])
+            self.assertEqual(config["args"], ["-m", "deepmentor", "--data-dir", str(data.resolve()), "--state-dir", str(state.resolve()), "mcp"])
             self.assertTrue(Path(config["env"]["PYTHONPATH"]).is_absolute())
             self.assertFalse(state.exists())
 
     @unittest.skipIf(sys.version_info < (3, 11), "tomllib is available on Python 3.11+")
     def test_codex_toml_has_the_same_process_configuration(self):
         import tomllib
-        with tempfile.TemporaryDirectory(prefix='openmentor 路径 " ') as root:
+        with tempfile.TemporaryDirectory(prefix='deepmentor 路径 " ') as root:
             expected = server_config(DATA_DIR, Path(root))
             actual = tomllib.loads(render_config("codex", DATA_DIR, Path(root)))
-            self.assertEqual(actual["mcp_servers"]["openmentor"], expected)
+            self.assertEqual(actual["mcp_servers"]["deepmentor"], expected)
 
     def test_missing_mcp_has_actionable_cli_error_and_no_traceback(self):
         original = builtins.__import__
@@ -80,7 +80,7 @@ class ConfigurationTests(unittest.TestCase):
 
     @unittest.skipUnless(HAS_MCP, "Install .[mcp] for protocol checks")
     def test_doctor_uses_exported_configuration_outside_checkout(self):
-        with tempfile.TemporaryDirectory(prefix="openmentor 资料 ") as root:
+        with tempfile.TemporaryDirectory(prefix="deepmentor 资料 ") as root:
             root = Path(root)
             data, state = root / "data with spaces", root / "状态"
             shutil.copytree(DATA_DIR, data)
@@ -166,7 +166,7 @@ class ProtocolTests(unittest.TestCase):
                 async with ClientSession(read, write) as session:
                     await session.initialize()
                     self.assertEqual({t.name for t in (await session.list_tools()).tools}, TOOLS)
-                    result = await session.call_tool("ask_mentor", {"request": "用OpenMentor帮我看看，怎么赚第一个100w"})
+                    result = await session.call_tool("ask_mentor", {"request": "用DeepMentor帮我看看，怎么赚第一个100w"})
                     self.assertFalse(result.isError)
                     payload = result.structuredContent
                     self.assertEqual(payload["person"]["id"], "justin-sun")

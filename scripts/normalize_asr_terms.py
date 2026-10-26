@@ -14,7 +14,7 @@ import sys
 from bisect import bisect_left, bisect_right
 from pathlib import Path
 
-from open_mentor.media import _cue_time
+from deepmentor.media import _cue_time
 
 PAIRS = [("Cloud", "Claude"), ("搏击", "薄肌"), ("波长", "波场"), ("冰大", "宾大"),
          ("盲格", "芒格"), ("LIN", "Lean"), ("新鲜代谢", "新陈代谢")]

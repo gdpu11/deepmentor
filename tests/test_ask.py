@@ -8,12 +8,13 @@ from contextlib import closing, redirect_stdout
 from pathlib import Path
 from unittest.mock import patch
 
-from open_mentor.cli import main
-from open_mentor.library import Library, default_state_dir
-from open_mentor.rendering import render_guidance
-from open_mentor.retrieval import analyze_query
+from deepmentor.cli import main
+from deepmentor.library import Library, default_state_dir
+from deepmentor.rendering import render_guidance
+from deepmentor.retrieval import analyze_query
 
 REQUEST = "帮我用OpenMentor问问孙宇晨，怎么赚自己的第一个100w"
+DEEP_REQUEST = "帮我用DeepMentor问问孙宇晨，怎么赚自己的第一个100w"
 
 
 class AskTests(unittest.TestCase):
@@ -88,26 +89,35 @@ class AskTests(unittest.TestCase):
         expected = default_state_dir()
         with patch("pathlib.Path.cwd", return_value=Path(self.temp.name)):
             self.assertEqual(default_state_dir(), expected)
-            with patch("open_mentor.library.default_state_dir", return_value=Path(self.temp.name)), closing(Library()) as library:
+            with patch("deepmentor.library.default_state_dir", return_value=Path(self.temp.name)), closing(Library()) as library:
                 self.assertEqual(library.state_dir, Path(self.temp.name))
         # CLI must delegate the default to Library too, rather than supplying cwd/.open-mentor.
         state = {s["id"]: {"status": "changed"} for s in self.library.sources.values() if s["person_id"] == "justin-sun"}
         (Path(self.temp.name) / "state.json").write_text(json.dumps(state))
-        with patch("open_mentor.library.default_state_dir", return_value=Path(self.temp.name)), redirect_stdout(io.StringIO()) as output:
+        with patch("deepmentor.library.default_state_dir", return_value=Path(self.temp.name)), redirect_stdout(io.StringIO()) as output:
             main(["ask", REQUEST, "--format", "json"])
         self.assertEqual(json.loads(output.getvalue())["status"], "insufficient_evidence")
 
     def test_cli_outputs_cited_readable_material_and_machine_context(self):
-        command = [sys.executable, "-m", "open_mentor", "--state-dir", self.temp.name, "ask", REQUEST]
-        result = subprocess.run(command + ["--format", "json"], capture_output=True, text=True, check=True)
-        payload = json.loads(result.stdout)
-        self.assertEqual(payload["status"], "ready")
-        self.assertIn("sun-e-customer-value-video", payload["citations"])
-        result = subprocess.run(command, capture_output=True, text=True, check=True)
-        self.assertIn("编辑整理", result.stdout)
-        self.assertIn("sun-e-small-experiments", result.stdout)
-        self.assertIn("youtube.com/watch?v=0Z-vhBvBmUY&t=2132", result.stdout)
-        self.assertIn("净利润", result.stdout)
-        self.assertNotIn("sun-e-models-william", result.stdout)
+        for mod in ["deepmentor", "open_mentor"]:
+            command = [sys.executable, "-m", mod, "--state-dir", self.temp.name, "ask", DEEP_REQUEST]
+            result = subprocess.run(command + ["--format", "json"], capture_output=True, text=True, check=True)
+            payload = json.loads(result.stdout)
+            self.assertEqual(payload["status"], "ready")
+            self.assertIn("sun-e-customer-value-video", payload["citations"])
+            result = subprocess.run(command, capture_output=True, text=True, check=True)
+            self.assertIn("编辑整理", result.stdout)
+            self.assertIn("sun-e-small-experiments", result.stdout)
+            self.assertIn("youtube.com/watch?v=0Z-vhBvBmUY&t=2132", result.stdout)
+            self.assertIn("净利润", result.stdout)
+            self.assertNotIn("sun-e-models-william", result.stdout)
         blocked = self.library.ask("帮我用孙宇晨知识库解释量子纠缠光子自旋")
         self.assertIn("没有足够", render_guidance(blocked))
+
+    def test_deepmentor_and_openmentor_brand_paraphrases_are_identical(self):
+        open_res = self.library.ask(REQUEST)
+        deep_res = self.library.ask(DEEP_REQUEST)
+        self.assertEqual(open_res["person"]["id"], deep_res["person"]["id"])
+        self.assertEqual(open_res["status"], deep_res["status"])
+        self.assertEqual(list(open_res["citations"].keys()), list(deep_res["citations"].keys()))
+        self.assertEqual([p["id"] for p in open_res["principles"]], [p["id"] for p in deep_res["principles"]])

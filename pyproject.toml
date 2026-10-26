@@ -3,9 +3,9 @@ requires = ["setuptools>=77", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "open-mentor-core"
+name = "deepmentor-core"
 version = "0.1.0"
-description = "Evidence-backed public knowledge for practical guidance"
+description = "Evidence-backed mentors for thoughtful decisions and practical action"
 readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"
@@ -13,8 +13,8 @@ license-files = ["LICENSE", "DATA-LICENSE.md"]
 dependencies = ["jsonschema>=4.20,<5", "brotli>=1.1,<2"]
 
 [project.urls]
-Repository = "https://github.com/gdpu11/open-mentor"
-Issues = "https://github.com/gdpu11/open-mentor/issues"
+Repository = "https://github.com/gdpu11/deepmentor"
+Issues = "https://github.com/gdpu11/deepmentor/issues"
 
 [project.optional-dependencies]
 mcp = ["mcp>=1.30,<2"]
@@ -23,10 +23,11 @@ asr = ["faster-whisper>=1.1,<2"]
 asr-mlx = ["mlx-whisper>=0.4,<1; sys_platform == 'darwin' and platform_machine == 'arm64'"]
 
 [project.scripts]
-open-mentor = "open_mentor.cli:main"
+deepmentor = "deepmentor.cli:main"
+open-mentor = "deepmentor.cli:legacy_main"
 
 [tool.setuptools.packages.find]
-include = ["open_mentor*"]
+include = ["deepmentor*", "open_mentor*"]
 
 [tool.setuptools.package-data]
-open_mentor = ["data/*.json", "data/people/*.json"]
+deepmentor = ["data/*.json", "data/people/*.json"]

@@ -2,7 +2,7 @@
 
 ## 一个条目必须能沿证据回去
 
-知识包位于 `open_mentor/data/people/*.json`，由包内 `data/pack.schema.json` 约束。
+知识包位于 `deepmentor/data/people/*.json`，由包内 `data/pack.schema.json` 约束。
 
 关系为 `person -> principle -> evidence -> source`。ID 在全库唯一，引用不得跨到别的人物。发布者、原始资料地址和实际读取的页面地址分开记录。
 
