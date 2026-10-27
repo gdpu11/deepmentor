@@ -1,6 +1,6 @@
 # MCP接入与自检
 
-DeepMentor提供标准MCP服务。默认使用stdio，由客户端启动本地进程；也可在本机启动Streamable HTTP。所有工具只读，返回可引用的资料，由调用方AI结合用户情况深入分析并引导行动落地。无需模型API Key。
+DeepMentor提供标准MCP服务。默认使用stdio，由客户端启动本地进程；也可在本机启动Streamable HTTP。咨询及读取工具只读；另有两个显式写入私人账本的工具。咨询返回可引用的资料，由调用方AI结合用户情况深入分析并引导行动落地。无需模型API Key。
 
 ## 安装与检查
 
@@ -37,7 +37,7 @@ Codex使用`[mcp_servers.deepmentor]`配置块，可合并到用户级`~/.codex/
 ## 从旧版 OpenMentor 迁移 MCP 配置
 
 若你此前已在 Codex、Claude Desktop、Cursor 等客户端中登记过 `openmentor`：
-1. **避免双重登记**：不要同时保留 `openmentor` 和 `deepmentor` 两个服务条目，以免六个同名工具在客户端中重复或产生冲突。
+1. **避免双重登记**：不要同时保留 `openmentor` 和 `deepmentor` 两个服务条目，以免同名工具在客户端中重复或产生冲突。
 2. **Codex TOML 迁移**：
    在 `~/.codex/config.toml` 中，将 `[mcp_servers.openmentor]` 重命名为 `[mcp_servers.deepmentor]`，并将命令行参数 `-m open_mentor` 更新为 `-m deepmentor`。
    保留原有的显式`--state-dir`，并核对`--data-dir`已指向新的`deepmentor/data`。不要直接把旧状态路径替换成不存在的新空目录。
@@ -49,9 +49,9 @@ Codex使用`[mcp_servers.deepmentor]`配置块，可合并到用户级`~/.codex/
    ```
 3. **Claude / Cursor JSON 迁移**：
    将 `mcpServers` 下的 `"openmentor"` 键更名为 `"deepmentor"`，并将 args 中的 `"open_mentor"` 更新为 `"deepmentor"`；显式`--data-dir`更新为新知识包路径，`--state-dir`继续指向原有复核数据。
-4. **工具稳定性**：六个工具的名称、参数、类型与返回结构保持 100% 稳定，下游 AI prompt 和工作流无需做参数重构。
+4. **工具稳定性**：原有六个工具的名称、参数与核心返回结构保持兼容，下游 AI prompt 和工作流无需做参数重构。
 
-## 六个工具
+## 十二个工具
 
 | 工具 | 用途与主要参数 |
 | --- | --- |
@@ -61,12 +61,18 @@ Codex使用`[mcp_servers.deepmentor]`配置块，可合并到用户级`~/.codex/
 | `get_evidence` | 用`evidence_id`读取短摘录、原始链接、定位、日期与核验状态。 |
 | `get_source` | 用`source_id`读取来源、版权范围、更新状态与下次检查日期。 |
 | `prepare_guidance` | 指定`person`和`question`取得依据包；支持`situation`、`limit`、`allow_secondary`。 |
+| `consult_board` | `question`，可选2-3位`people`、每人`limit`（1-5）、`situation`、`allow_secondary`。 |
+| `stress_test` | `question`，可选`person`、`limit`、`situation`、`allow_secondary`。 |
+| `diagnose` | `question`，可选`answers`（goal/resources/downside）、`person`、`situation`、`allow_secondary`。 |
+| `list_actions` | 读取账本，可选`status`（active/completed/stopped）。 |
+| `add_action` | 写入：`hypothesis`、`probe`、`success_criteria`、`stop_criteria`、`due_date`，可选`evidence_ids`。 |
+| `check_in` | 写入：`action_id`、`observation`，可选`status`。 |
 
-`limit`必须是1—20的整数；布尔选项必须传JSON布尔值。`"true"`、`"false"`、数字代替布尔值以及未知参数都会被拒绝。字符串`"null"`保持字符串含义，只有JSON的`null`才表示空值。请求与背景的总长度最多10000字符。调用方明确允许二手资料时才设置`allow_secondary=true`，仍保留归属和原始表达未核对的标记。
+原有检索工具及压力测试的`limit`必须是1—20的整数，董事会每人的`limit`为1—5；布尔选项必须传JSON布尔值。`"true"`、`"false"`、数字代替布尔值以及未知参数都会被拒绝。字符串`"null"`保持字符串含义，只有JSON的`null`才表示空值。请求与背景的总长度最多10000字符。调用方明确允许二手资料时才设置`allow_secondary=true`，仍保留归属和原始表达未核对的标记。
 
-六个工具均提供输出Schema、`structuredContent`及兼容的文本内容。字典结果直接返回对象；人物和搜索列表的结构化内容位于`result`数组，原有逐项文本块也保留。这符合[MCP工具结果规范](https://modelcontextprotocol.io/specification/2025-11-25/server/tools)。
+所有工具均提供输出Schema、`structuredContent`及兼容的文本内容。字典结果直接返回对象；人物和搜索列表的结构化内容位于`result`数组，原有逐项文本块也保留。这符合[MCP工具结果规范](https://modelcontextprotocol.io/specification/2025-11-25/server/tools)。
 
-正常业务结果包括`ready`、`insufficient_evidence`、`needs_person_selection`和`needs_context`。参数错误、未知ID或状态损坏通过`isError=true`报告；修复后可以继续使用同一连接。不得把失败结果当空证据成功回答。
+正常业务结果包括`ready`、`insufficient_evidence`、`needs_person_selection`、`needs_clarification`和`needs_context`。参数错误、未知ID或状态损坏通过`isError=true`报告；修复后可以继续使用同一连接。不得把失败结果当空证据成功回答。
 
 ## 实际提问
 
@@ -105,3 +111,10 @@ url = "http://127.0.0.1:8766/mcp"
 ## 内容范围
 
 服务当前读取30个人物包。原始来源、待核机器稿、已核证据和编辑应用的范围见[人物目录](MENTORS.md)、[资料规范](SOURCES.md)与[转写记录](TRANSCRIPTS.md)。MCP接通不会提升证据级别；来源变更、不可用、待核、争议或撤回的资料继续受原有规则限制。
+
+
+## 深度咨询与行动工具
+
+新增 `consult_board`、`stress_test`、`diagnose` 与 `list_actions`（只读），以及 `add_action`、`check_in`（写入本地私人账本，非幂等）。完整字段、状态与流程见[咨询指南](CONSULTATION.md)。普通咨询不自动保存历史；只有用户明确要求记录计划或复查结果时调用写入工具。
+
+`consult_board` 返回交叉质询与权衡依据，AI 继续给出有出处的多视角决策备忘录；`diagnose` 在目标、资源与最大损失未明确时先返回三问。检索保持轻量的 SQLite FTS5/BM25，不引入 Embedding 或向量索引。

@@ -18,6 +18,7 @@ Issues = "https://github.com/gdpu11/deepmentor/issues"
 
 [project.optional-dependencies]
 mcp = ["mcp>=1.30,<2"]
+bots = ["lark-oapi>=1.7.5,<2"]
 media = ["yt-dlp[default]>=2025.1.26"]
 asr = ["faster-whisper>=1.1,<2"]
 asr-mlx = ["mlx-whisper>=0.4,<1; sys_platform == 'darwin' and platform_machine == 'arm64'"]

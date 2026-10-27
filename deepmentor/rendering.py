@@ -51,3 +51,33 @@ def render_guidance(result: dict) -> str:
             lines += ["边界：" + "；".join(s.rstrip("。；") for s in p["application"]["limits"]) + "。", ""]
     lines += ["需要确认的条件：", "", *["- " + q for q in result["questions_to_resolve"]]]
     return "\n".join(lines)
+
+
+def render_consultation(result: dict) -> str:
+    kind = result["artifact_type"]
+    if kind == "diagnostic_interview":
+        return "\n".join(["# DeepMentor · 先厘清处境", "", result["question"], "",
+                          *(f"- {q['id']}：{q['question']}" for q in result["questions"])])
+    if kind == "board_context":
+        lines = ["# DeepMentor · 私人董事会", "", result["question"], "",
+                 "状态：" + result["status"], result.get("selection_note", ""), ""]
+        for context in result["perspectives"]:
+            lines += [render_guidance(context), ""]
+        if result.get("tradeoff_matrix"):
+            lines += ["## 权衡矩阵（编辑整理）", "", "| 视角 | 关注点 | 适用边界 |", "| --- | --- | --- |"]
+            for row in result["tradeoff_matrix"]:
+                escape = lambda value: value.replace("|", "\\|").replace("\n", " ")
+                lines += [f"| {escape(row['person_id'])} | {escape(row['focus'])} | {escape('；'.join(row['limits']))} |"]
+        lines += ["", "## 交叉质询（助手推演提示）", ""]
+        lines += ["- " + row["prompt"] for row in result.get("cross_examination", [])]
+        lines += ["", *result.get("questions_to_resolve", []), "", result.get("instructions", "")]
+        return "\n".join(lines)
+    lines = [render_guidance(result), ""]
+    if kind == "stress_test_context":
+        lines += ["## 失败预演（编辑压力测试）", ""]
+        for row in result["failure_modes"]:
+            lines += [row["pre_mortem"], *["- 待证伪：" + q for q in row["assumption_to_challenge"]],
+                      *["- 失败条件：" + q for q in row["failure_conditions"]], row["stop_criteria"], ""]
+    if kind == "decision_memo_context":
+        lines += ["## 决策备忘录待填写", "", *["- " + section for section in result["memo_sections"]]]
+    return "\n".join(lines)

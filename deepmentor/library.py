@@ -108,6 +108,8 @@ def load_state(state_dir: Path) -> dict:
 
 
 class Library:
+    rules = RULES
+
     def __init__(self, data_dir: Path | None = None, state_dir: Path | None = None):
         self.data_dir = Path(data_dir) if data_dir else DATA_DIR
         self.state_dir = Path(state_dir) if state_dir else default_state_dir()
@@ -384,3 +386,16 @@ class Library:
         result["request_resolution"] = {"method": resolution, "person_id": profile["id"],
             "reason": f"按请求使用{profile['name']}的公开资料。"}
         return result
+
+
+    def consult_board(self, question, people=None, limit=3, allow_secondary=False, situation=None):
+        from .consultation import consult_board
+        return consult_board(self, question, people, limit, allow_secondary, situation)
+
+    def stress_test(self, question, person=None, limit=3, allow_secondary=False, situation=None):
+        from .consultation import stress_test
+        return stress_test(self, question, person, limit, allow_secondary, situation)
+
+    def diagnose(self, question, answers=None, person=None, allow_secondary=False, situation=None):
+        from .consultation import diagnose
+        return diagnose(self, question, answers, person, allow_secondary, situation)

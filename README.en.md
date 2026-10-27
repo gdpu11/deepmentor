@@ -6,6 +6,14 @@
 
 DeepMentor is an open-source knowledge library designed to bring verified public expressions, original citations, and review history into your AI assistant. When navigating business strategy, leadership, career transitions, learning, and life choices, it helps you clarify constraints, examine evidence boundaries, and take practical action. Currently features 30 mentors; see the full inventory in the [mentor catalog](docs/MENTORS.md).
 
+## Consultation and action loop
+
+The CLI, HTTP and MCP interfaces now support a multi-mentor board (`board` / `consult_board`), an interview (`interview` / `diagnose`), and a plan stress test (`stress-test` / `stress_test`). Boards return cited perspectives, editorial cross-examination and a tradeoff matrix; the calling AI synthesizes the decision memo without impersonating mentors.
+
+The opt-in local ledger supports `action-add`, `actions`, `check-in` and `action-export`; MCP exposes `add_action`, `list_actions` and `check_in`. Saving and checking in are explicitly annotated as writes. Ordinary consultations do not save chat history.
+
+P2 includes `scaffold mentor` for schema-valid pending drafts, Raycast and Alfred scripts, a local CLI bridge for agents such as OpenClaw, and Docker-ready Slack/Feishu bots. See [consultation guide](docs/CONSULTATION.md) and [integration guide](docs/INTEGRATIONS.md) for commands, boundaries and setup.
+
 ## Core Principles
 
 1. **Grounded in Reality**: Users consult with real problems, concrete goals, and practical constraints.
@@ -96,8 +104,14 @@ Connect to `http://127.0.0.1:8766/mcp`. See [MCP documentation](docs/MCP.md) for
 | `get_evidence` | Read an excerpt, locator, source, and verification state. |
 | `get_source` | Read provenance, redistribution limits, and update status. |
 | `prepare_guidance` | Retrieve guidance context for an explicitly selected person. |
+| `consult_board` | Retrieve 2-3 perspectives with a tradeoff matrix and editorial cross-examination. |
+| `stress_test` | Challenge a plan using cited assumptions, limits and probe candidates. |
+| `diagnose` | Collect goal, resources and downside before preparing decision-memo context. |
+| `list_actions` | Read private saved actions and current evidence eligibility. |
+| `add_action` | Explicitly save an agreed hypothesis, probe, criteria and review date. |
+| `check_in` | Append an observed outcome and update action status. |
 
-Tools are read-only and return structured results plus compatible text. The calling AI evaluates the user's situation, follows the reasoning framework (`Situation → Question → Evidence → Action → Verification`), and cites specific evidence IDs and URLs.
+Ten tools are read-only; `add_action` and `check_in` explicitly write to the private local ledger and are not idempotent. Tools return structured results plus compatible text. The calling AI evaluates the user's situation, follows the reasoning framework (`Situation → Question → Evidence → Action → Verification`), and cites specific evidence IDs and URLs.
 
 ## Backward Compatibility & Migration
 

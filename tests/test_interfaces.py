@@ -10,6 +10,7 @@ from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
 from deepmentor.api import make_server
+from deepmentor.integration import TOOLS
 
 EXPANSION_REQUESTS = [
     ("用保罗·格雷厄姆的知识库，怎样招募第一批用户", "paul-graham", "pg-e-manual-recruiting"),
@@ -159,7 +160,7 @@ class MCPTests(unittest.TestCase):
                 async with ClientSession(read, write, read_timeout_seconds=timedelta(seconds=20)) as session:
                     await session.initialize()
                     tools = await session.list_tools()
-                    self.assertEqual({t.name for t in tools.tools}, {"list_people", "search_knowledge", "get_evidence", "get_source", "prepare_guidance", "ask_mentor"})
+                    self.assertEqual({t.name for t in tools.tools}, TOOLS)
                     self.assertIn("situation", next(t for t in tools.tools if t.name == "ask_mentor").inputSchema["properties"])
                     people = await session.call_tool("list_people", {})
                     self.assertTrue({person for _, person, _ in EXPANSION_REQUESTS} <=

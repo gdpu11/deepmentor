@@ -73,3 +73,10 @@ The [source review guide](docs/SOURCES.md) has more detail (currently Chinese). 
 公开提交只包含元数据、短摘录与原创归纳。完整书籍、长转写、原始音视频、私有导出和本机配置留在 `.deepmentor/`（或历史 `.open-mentor/`）；凭据、Cookie、私人对话和本机个人路径不要入库。网页能读不等于允许全文再分发，授权填写见 [DATA-LICENSE.md](DATA-LICENSE.md)。
 
 有争议的条目标为 `disputed` 并记录原因；不能静默抹去旧观点或关闭证据隔离。更多规则见[资料规范与复核](docs/SOURCES.md)。代码修复保持聚焦，翻译保留引用、限定条件和原文／编辑应用的区别。
+
+
+### Draft scaffolding / 草稿脚手架
+
+Use `deepmentor scaffold mentor --interactive --output .deepmentor/drafts/people/person-id.json` to create a schema-valid pending draft. It does not verify sources, invent hashes or make evidence usable. Review provenance, attribution, rights and context before moving it into the public corpus. See [the guide](docs/CONSULTATION.md).
+
+可用以上交互命令生成最小草稿；来源与证据保持待核，已有文件不会被覆盖。格式通过不代替内容复核。

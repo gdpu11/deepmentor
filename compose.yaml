@@ -1,0 +1,13 @@
+services:
+  slack:
+    build: .
+    ports:
+      - "127.0.0.1:8767:8767"
+    environment:
+      SLACK_SIGNING_SECRET: ${SLACK_SIGNING_SECRET:?Set the Slack signing secret}
+      SLACK_TEAM_ID: ${SLACK_TEAM_ID:?Set the allowed Slack workspace ID}
+    volumes:
+      - mentor-state:/state
+    restart: unless-stopped
+volumes:
+  mentor-state:

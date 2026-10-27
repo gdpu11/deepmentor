@@ -13,7 +13,8 @@ from jsonschema.exceptions import ValidationError
 
 from .library import DATA_DIR, Library, default_state_dir, load_state
 
-TOOLS = {"ask_mentor", "list_people", "search_knowledge", "get_evidence", "get_source", "prepare_guidance"}
+TOOLS = {"ask_mentor", "list_people", "search_knowledge", "get_evidence", "get_source", "prepare_guidance",
+         "consult_board", "stress_test", "diagnose", "list_actions", "add_action", "check_in"}
 
 
 def require_mcp():

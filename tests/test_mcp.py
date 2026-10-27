@@ -105,7 +105,7 @@ class ProtocolTests(unittest.TestCase):
                     tools = (await session.list_tools()).tools
                     self.assertEqual({t.name for t in tools}, TOOLS)
                     for t in tools:
-                        self.assertTrue(t.annotations.readOnlyHint)
+                        self.assertEqual(t.annotations.readOnlyHint, t.name not in {"add_action", "check_in"})
                         self.assertFalse(t.annotations.openWorldHint)
                         self.assertTrue(t.outputSchema)
                         self.assertFalse(t.inputSchema["additionalProperties"])

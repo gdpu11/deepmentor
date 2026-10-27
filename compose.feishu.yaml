@@ -1,0 +1,14 @@
+services:
+  feishu:
+    build: .
+    command: ["bot", "--platform", "feishu"]
+    environment:
+      FEISHU_APP_ID: ${FEISHU_APP_ID:?Set app ID}
+      FEISHU_APP_SECRET: ${FEISHU_APP_SECRET:?Set app secret}
+      FEISHU_BOT_OPEN_ID: ${FEISHU_BOT_OPEN_ID:?Set bot open ID}
+      FEISHU_ALLOWED_CHAT_IDS: ${FEISHU_ALLOWED_CHAT_IDS:?Set allowed chat IDs}
+    volumes:
+      - mentor-state:/state
+    restart: unless-stopped
+volumes:
+  mentor-state:

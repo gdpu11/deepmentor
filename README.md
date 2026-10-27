@@ -21,7 +21,7 @@ DeepMentor 是一个基于公开证据、面向真实处境的人生导师知识
 $$\text{用户处境} \longrightarrow \text{关键问题} \longrightarrow \text{证据与适用性} \longrightarrow \text{行动建议} \longrightarrow \text{验证和停止条件}$$
 
 - **职责边界清晰**：DeepMentor 负责可信检索与证据把关（原文出处、定位、版本一致性与停用隔离），调用方 AI 负责深入推演与情境作答。
-- **不夸大能力**：不新增未经要求的重型模型依赖，不宣传尚未实现的“多导师自主辩论”或“全网实时舆情”。
+- **不夸大能力**：保持轻量的 SQLite FTS5/BM25 检索，无需生成模型或向量依赖。董事会返回带证据的多视角、交叉质询与权衡矩阵，由调用方 AI 推演，不冒充人物对话。
 
 ## 一起完善你的人生导师
 
@@ -53,6 +53,28 @@ DeepMentor 欢迎大家共同补充。你可以添加影响过自己的导师，
 - **视频工作流**：yt-dlp 采集、CPU 或 Apple Silicon GPU 转写、分块恢复、原片字幕 OCR 对照、术语异文记录。机器结果先保持 `pending`，知识证据另行逐片段核验。
 
 当前有 **30 个人物包、130 个来源记录、465 条证据、460 条原则**。保留作者、原链接、短摘录、具体定位、核验范围与应用限制。可浏览[人物知识目录](docs/MENTORS.md)、[30位扩充审计](docs/EXPANSION-30-AUDIT.md)与[转写复核记录](docs/TRANSCRIPTS.md)。检索使用中英文词项匹配和 SQLite FTS5/BM25，没有向量检索、人物全量观点覆盖或自动联网回答。
+
+## 深度咨询：从诊断到行动
+
+P0、P1、P2 已有可运行入口，完整参数与边界见[咨询与行动指南](docs/CONSULTATION.md)。
+
+| 功能 | 本地入口 | MCP 工具 |
+| --- | --- | --- |
+| 多导师董事会与权衡矩阵 | `board` / `ask --mode board` | `consult_board` |
+| 三问诊断与决策备忘录依据 | `interview --interactive` | `diagnose` |
+| 逆向压力测试 | `stress-test` / `roast` | `stress_test` |
+| 私人行动账本与复查 | `action-add`、`actions`、`check-in`、`action-export` | `add_action`、`list_actions`、`check_in` |
+| 待核导师包脚手架 | `scaffold mentor --interactive --output` | 本地贡献工具 |
+| Raycast / Alfred / OpenClaw / 飞书 / Slack | [脚本及 Docker 接入](docs/INTEGRATIONS.md) | 支持 MCP 的宿主可直接连接 |
+
+```bash
+deepmentor board '要不要辞职做AI产品？如何验证需求并控制风险'
+deepmentor interview '我想创业，先做什么' --interactive
+deepmentor stress-test '还没访谈用户就准备全职做产品'
+deepmentor check-in
+```
+
+董事会与压力测试保留证据ID、原链接和适用边界；CLI 展示资料和编辑问题，最终咨询由接入的 AI 结合你的事实推演。行动账本仅在明确调用保存时写入本机，不自动保存提问。
 
 ## 直接问 DeepMentor
 
@@ -134,9 +156,9 @@ python3 -m venv .venv
 
 配置使用当前Python环境和绝对路径，从其他工作目录启动也能读取同一份资料与复核状态；命令只输出配置，不覆盖已有设置。默认启动命令为`python -m deepmentor mcp`。还可用`python -m deepmentor mcp --transport streamable-http --port 8766`启动本机`http://127.0.0.1:8766/mcp`。两种方式均已通过实际协议调用验证，接入步骤、旧配置迁移与返回格式见[MCP说明](docs/MCP.md)。
 
-提供六个工具：`ask_mentor`、`list_people`、`search_knowledge`、`get_evidence`、`get_source`、`prepare_guidance`。
+提供12个工具：`ask_mentor`、`list_people`、`search_knowledge`、`get_evidence`、`get_source`、`prepare_guidance`、`consult_board`、`stress_test`、`diagnose`、`list_actions`、`add_action`、`check_in`。
 
-工具声明只读，均返回结构化结果与兼容文本；原始参数严格校验，未知字段与字符串布尔值被拒绝。`search_knowledge`也支持明确允许二手资料的开关；待核或已停用证据继续隔离。
+咨询及读取工具声明只读；`add_action` 与 `check_in` 明确声明写入且非幂等，仅在有保存意图时调用。各工具均返回结构化结果与兼容文本；原始参数严格校验，未知字段与字符串布尔值被拒绝。`search_knowledge`也支持明确允许二手资料的开关；待核或已停用证据继续隔离。
 
 调用示例：
 
@@ -163,9 +185,9 @@ curl -X POST http://127.0.0.1:8765/v1/ask \
   -d '{"request":"帮我用DeepMentor问问孙宇晨，怎么赚自己的第一个100w"}'
 ```
 
-支持 `POST /v1/ask` 解析完整请求、`POST /v1/context` 显式指定人物，两者均接受可选的 `situation` 字符串。另有 `GET /v1/people`、`GET /v1/evidence/<id>`、`GET /v1/sources/<id>`。服务只监听本机回环地址；HTTP 接口不修改资料，不执行抓取。
+支持 `POST /v1/ask` 解析完整请求、`POST /v1/context` 显式指定人物，两者均接受可选的 `situation` 字符串。另有 `GET /v1/people`、`GET /v1/evidence/<id>`、`GET /v1/sources/<id>`。另有董事会、压力测试、诊断与行动账本接口，见[完整指南](docs/CONSULTATION.md)。服务只监听本机回环地址；咨询不修改资料或执行抓取，行动接口仅按显式请求更新私人账本。
 
-正常业务状态包括 `ready`（有相关可引用资料）、`insufficient_evidence`（资料不足）、`needs_person_selection`（需确认导师）和 `needs_context`（需补原问题）。本地 `state.json` 损坏时，涉及证据的 HTTP 请求返回 `503 review_state_unavailable`；CLI/MCP 同样报错并停止引用，不会将损坏状态重置成已接纳。
+正常业务状态包括 `ready`（有相关可引用资料）、`insufficient_evidence`（资料不足）、`needs_person_selection`（需确认导师）、`needs_clarification`（诊断需补目标/资源/风险）和 `needs_context`（需补原问题）。本地 `state.json` 损坏时，涉及证据的 HTTP 请求返回 `503 review_state_unavailable`；CLI/MCP 同样报错并停止引用，不会将损坏状态重置成已接纳。
 
 ## 视频字幕与本地转写
 
